@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+       <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XII. Endimione</title>
+                <author>Attilio Bertolucci</author>
+                <respStmt>
+                    <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                    <name>Luciano Longo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                    <name>Elena Pierazzo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione editoriale a cura di </resp>
+                    <name>Rosa Casapullo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione critico-letteraria a cura di </resp>
+                    <name>Domenica Perrone.</name>
+                </respStmt>
+                
+                <sponsor>
+                    <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                    <address>
+                        <addrLine>Piazzetta Salerno, 12 </addrLine>
+                    </address> 
+                </sponsor>
+            </titleStmt>
+            
+            <extent>
+                <seg type="size">Filesize: 42 KB.</seg>
+                <seg type="format">XML TEI P5</seg>
+                <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+                <publisher>Luciano Longo</publisher>
+                <distributor>Università degli Studi di Palermo,</distributor>
+                <address>
+                    <addrLine>Piazzetta Salerno- 12, </addrLine>
+                </address>
+                <pubPlace> 
+                    <name>Palermo, </name>
+                </pubPlace>
+                <date>2015-2017</date>
+                
+                <availability status="restricted">
+                    <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                    <p>Le immagini possono essere consultate in modalità off-line. </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="critical" anchored="true">
+                    <p>Il manoscritto (AuIn9) è conservato presso l’Archivio di Stato di Parma, 
+                    "Archivio della Letteratura-Archivio Bertolucci" nella sezione 
+                    «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4. </p>
+                        <p>La poesia "Endimione", datata marzo 1934, è vergata a matita, consta di vv. 8 versi. Il manoscritto è in pulito.</p>
+                    <p> AuIn9 è uno dei tre autografi inediti vergati a matita insieme a AuIn17 e AuIn59; la maggiorparte dei manoscritti è vergata ad inchiostro (nero o blu).</p>
+                    <p>
+                        Un numero cospicuo di autografi inediti sono collocabili tra il 1930 e il 1937. 
+                        All’interno dell’autografo numerato con 9 (AuIn9), le poesie "Madrigale" e "Autunno" 
+                        non esibiscono una indicazione cronologica diretta; le altre invece presentano una data precisa: 
+                        (AuIn9, c. 1r-v ) "Alla luce", datata 20 Marzo 1935; (AuIn9, c. 1v) "Vento invernale", datata febbraio 1934 
+                        ed (AuIn9, c. 2r) "Endimione", datata marzo 1934. Valutando la coerenza del ductus e del mezzo scrittorio dell’intero autografo, 
+                        l’arco temporale febbraio-marzo 1934 può essere esteso anche ai due testi in cui non vi è una attestazione diretta della data. 
+                        L’indicazione cronologica di "Alla luce", 20 Marzo 1935, che amplia l’arco cronologico di AuIn9, dal 1934 al 1935, è frutto di una revisione: 
+                        l’autore sovrascrive a correzione del quattro il cinque. Tale revisione cronologica è coerente con le correzioni in lapis presenti nel testo, 
+                        che possono attestare un intervento successivo a una prima stabilizzazione del testo avvenuta verosimilmente intorno al 1934, 
+                        in cui Bertolucci apporta integrazioni di tipo sostitutivo; quest’ultime sono assimilabili ad altri interventi correttori della stessa tipologia.
+                    </p>
+                    <lb/>
+                </note>
+                <note type="biographical" anchored="true">Negli anni in cui è possibile inserire "Endimione", Bertolucci ha già pubblicato la prima raccolta di poesie, 
+                    "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                    che confluiranno nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+                    Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                    durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                    Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>AuIn9</p>
+                <p>Due fogli sciolti di quaderno a righe, di cm 15x20, vergati in entrambi i lati; 
+                    essi contengono nella c. 1r-v, "Alla luce" (datata 20 Marzo 1935); 
+                    nella c. 1v "Vento invernale" (datata febbraio 1934); 
+                    nella c. 1v e c. 2r "Madrigale" (nessuna data); 
+                    nella c. 2r, "Autunno" (nessuna data) ed "Endimione" (datata marzo 1934). 
+                    L’autografo è vergato a matita e presenta la numerazione 9/1- 9/2. Lo specchio di scrittura consta di vv. 26 per "Alla luce", 
+                    vv. 4 per "Vento invernale", vv. 8 per "Madrigale", vv. 6 per "Autunno", vv. 8 per "Endimione". 
+                    Il manoscritto presenta correzioni nella c. 1r e c. 1v ("Alla luce").</p>
+                <p>
+                    <table>
+                        <head rend="center">Composizione di AuIn9</head>
+                        <row>
+                            <cell role="label">c. 1r - 9/1</cell>
+                            <cell>Alla luce (vv. 1-19)</cell>
+                        </row>
+                        <row>
+                            <cell role="label">c. 1v</cell>
+                            <cell>Alla luce (vv. 20-26)</cell>
+                            <cell>Vento invernale</cell>
+                            <cell>Madrigale (vv. 1-4)</cell>
+                        </row>
+                        <row>
+                            <cell role="label">c. 2r - 9/2</cell>
+                            <cell>Madrigale (vv. 5-8)</cell>
+                            <cell>Autunno</cell>
+                            <cell>Endimione</cell>
+                        </row>
+                        <row>
+                            <cell role="label">c. 2v</cell>
+                            <cell>testo cassato (vv. 1-6)</cell>
+                        </row>
+                    </table>
+                </p>
+                
+                <!-- <sourceDesc>
+               <msDesc xml:lang="ita" xml:id="AuIn9_4">
+                  <msIdentifier>
+                     <country><name type="place">Italia</name></country>
+                     <region><name type="place">Emilia Romagna</name></region>
+                     <settlement><name type="place">Parma</name></settlement>
+                     <institution>Archivio di Stato</institution>
+                     <repository>Archivio della Letteratura</repository>
+                     <collection>Archivio Bertolucci</collection>
+                     <idno>Busta II, fascicolo 4,2</idno>
+                     <msName>Poesie inedite degli anni tra le due guerre e del primo dopoguerra</msName>
+                     <altIdentifier>
+                        <idno>AuIn9</idno>
+                        <note>Sezione: Autografi inediti</note>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents class="#Autunno">
+                     <summary>Due fogli sciolti di carta di quaderno a righe di cm 15x20, vergati in entrambi i lati; 
+                     essi contengono nella c. 1r-v "Alla luce" (datata 20 Marzo 1935); nella c. 1v "Vento invernale" (datata febbraio 1934); 
+                     nella c. 1v e c. 2r "Madrigale" (nessuna data); nella c. 2r "Autunno" (nessuna data) ed "Endimione" (datata marzo 1934). 
+                     L’autografo è vergato a matita e presenta la numerazione 9/1- 9/2. 
+                     La poesia consta di vv. 26 per "Alla luce", vv. 4 per "Vento invernale", vv. 8 per "Madrigale", 
+                     vv. 6 per "Autunno" e di vv. 8 per "Endimione".</summary>
+                     
+                     <msItem n="I" class="#Alla_luce">
+                        <locus>c. 1r-v</locus>
+                        <idno>AuIn9(1r-v)-I</idno>
+                        <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                        <title>Alla luce</title>
+                        <incipit>Luce del giorno, paziente luce</incipit>
+                        <explicit>Nella stretta delle sue braccia</explicit>
+                        <textLang mainLang="ita">Italian</textLang>
+                        <note>L’autografo presenta diverse correzioni a matita, 
+                        interpretabili come interventi successivi (varianti tardive) a una prima redazione stabile del testo. </note>
+                     </msItem>
+                     <msItem n="II" class="#Vento_invernale ">
+                        <locus>c. 1v</locus>
+                        <idno>AuIn9(1v_2)-II</idno>
+                        <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                        <title>Vento invernale </title>
+                        <incipit>I nudi alberi martoria</incipit>
+                        <explicit>Sino a perdere il fiato.</explicit>
+                        <textLang mainLang="ita">Italian</textLang>
+                        <note>Il manoscritto è in pulito tranne una rivergatura nel titolo della -e finale di "invernale" e 
+                        una correzione al v. 2 di "Ride" in luogo di "e in". AuIn9(2) è una variante, cronologicamente successiva, 
+                        di "Rovaio" (AuIn8, vv. 5-8; gennaio 1934). </note>
+                     </msItem>
+                     <msItem n="III" class="#Madrigale">
+                        <locus>c. 1v; c. 2r</locus>
+                        <idno>AuIn9(1v;2r_3)-III</idno>
+                        <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                        <title>Madrigale</title>
+                        <incipit>O bruna violetta</incipit>
+                        <explicit>Che fa, di marzo, la sua camicetta</explicit>
+                        <textLang mainLang="ita">Italian</textLang>
+                        <note>Il manoscritto è in pulito.</note>
+                     </msItem>
+                     <msItem n="VI" class="#Autunno">
+                        <locus>c. 2r</locus>
+                        <idno>AuIn9(2r_4)-IV</idno>
+                        <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                        <title>Autunno</title>
+                        <incipit>Una piccola nuvola passava sulla luna</incipit>
+                        <explicit>Errò irrequieta brucando e scuotendo la testa</explicit>
+                        <textLang mainLang="ita">Italian</textLang>
+                        <note>Il manoscritto è in pulito.</note>
+                     </msItem>
+                     <msItem n="V" class="#Endimione">
+                        <locus>c. 2r</locus>
+                        <idno>AuIn9(2r_5)-V</idno>
+                        <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                        <title>Autunno</title>
+                        <incipit>Dormiva</incipit>
+                        <explicit>Si accumulava la polvere</explicit>
+                        <textLang mainLang="ita">Italian</textLang>
+                        <note>Il manoscritto è in pulito.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="autografo">
+                        <supportDesc material="paper">
+                           <support>
+                              <p>
+                              <material>foglio di carta bianca a righe
+                                 <date n="I">20 Marzo 1935</date>
+                                 <date n="II">febbraio 1934</date>
+                                 <date n="III">nessuna data</date>
+                                 <date n="IV">nessuna data</date>
+                                 <date n="V">marzo 1934</date>
+                              </material>
+                              </p>
+                           </support>
+                           <extent>
+                              <idno>AuIn9</idno>
+                              <dimensions scope="all" type="foglio" unit="cm">
+                                 <height>15</height>
+                                 <width>20</width>
+                              </dimensions>
+                           </extent>
+                           <condition>
+                              <p></p></condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           
+                           <layout columns="1" ruledLines="26">
+                              <idno>AuIn9(1r-v_1)-I</idno>
+                           <p>Testo scritto su una colonna di 26 versi in due carte</p>
+                           </layout>
+                           <layout columns="1" ruledLines="4">
+                              <idno>AuIn9(1v_2)-II</idno>
+                              <p>Testo scritto su una colonna di 4 versi</p>
+                           </layout>
+                           <layout columns="1" ruledLines="8">
+                              <idno>AuIn9(1v;2r_3)-III</idno>
+                              <p>Testo scritto su una colonna di 8 versi</p>
+                              </layout>
+                              <layout columns="1" ruledLines="6">
+                              <idno>AuIn9(2r_4)-IV</idno>
+                              <p>Testo scritto su una colonna di 6 versi</p>
+                              </layout>
+                              <layout columns="1" ruledLines="8">
+                              <idno>AuIn9(2r_5)-V</idno>
+                              <p>Testo scritto su una colonna di 8 versi</p>
+                              </layout>
+                              </layoutDesc> 
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scribe="Attilio_Bertolucci" script="handwritten" medium="pencil" scope="major">
+                        <p>Il testo si presenta con una scrittura calligrafica moderna con un ductus poco disteso.
+                           L’autografo è vergato a matita.</p>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <idno>AuIn9(1r-v_1)-I</idno>
+                        <p>Il testo probabilmente venne scritto intorno al <origDate cert="medium"> al marzo 1934</origDate> e revisionato nel 1935
+                        </p>
+                        <idno>AuIn9(1v_2)-II</idno>
+                        <p>Il testo probabilmente venne scritto intorno al <origDate cert="medium"> al febbraio 1934</origDate>
+                        </p>
+                        <idno>AuIn9(1v;2r_3)-III</idno>
+                        <p>La datazione <origDate cert="medium"> 1934</origDate> assegnata a 
+                        "Vento Invernale" e ad "Edimione" potrebbe essere estesa anche a "Madrigale", 
+                        vista la coerenza grafica del ductus e il mezzo scrittorio.
+                        </p>
+                        <idno>AuIn9(2r_4)-IV</idno>
+                        <p>La datazione <origDate cert="medium"> 1934</origDate> assegnata a 
+                        "Vento Invernale" e ad "Edimione" potrebbe essere estesa anche ad "Autunno", 
+                        vista la coerenza grafica del ductus e il mezzo scrittorio.</p>
+                        <idno>AuIn9(2r_5)-V</idno>
+                        <p>Il testo probabilmente venne scritto intorno al <origDate cert="medium"> al marzo 1934</origDate>
+                        </p>
+                     </origin>
+                  </history>
+                  <additional>
+                     <surrogates>
+                        <p>L'autografo, riprodotto in formato jpeg, è consultabile presso l'Archivio di Stato di Parma.</p>
+                     </surrogates>
+                     <listBibl>
+                        <bibl n="1"></bibl>
+                     </listBibl>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+            -->
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+            <editorialDecl>
+                <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                    la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+                <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                    si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+                <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+                <correction>
+                    <p></p>
+                </correction>
+                <hyphenation>
+                    <p> </p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+                </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="pen1" medium="grey_pencil_1" scribe="Bertolucci"/>
+            </handNotes>
+            <langUsage>
+                <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+                <date>2015</date>.</change>
+            <change>Il file è stato creato nel <date>Marzo del 2015</date> da <name> Luciano Longo.</name>
+                con il software "XML-Copy Editor®" e successivamente trattato con "Oxygen-XML Editor®"</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nell'
+                <list>
+                    <item>Aprile del 2015, la successiva nel</item>
+                    <item>Maggio del 2015 poi nel</item>
+                    <item>Giugno del 2015 poi nel</item>
+                    <item>Luglio del 2015 poi nel</item>
+                    <item>Agosto del 2015 poi nel</item>
+                    <item>Settembre del 2015 poi nel</item>
+                    <item>Giugno del 2016 poi nel</item>
+                    <item>Luglio del 2016 poi nell'</item>
+                    <item>Ottobre del 2016  e infine nel </item>
+                    <item>Novembre del 2016</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="images/AuIn-9_5.jpg" xml:id="i_txt-c"/>
+        <graphic url="images/AuIn-9_5.jpg" xml:id="i_txt-1"/>
+    </facsimile>
+    
+    <text>
+        <front>
+            <div rend="witness">
+                <listWit>
+                    <witness xml:id="txt-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt-1">Tb0, prima stesura del testo</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <pb ed="txt-c" facs="#i_txt-c"/>
+            <pb ed="txt-1" facs="#i_txt-1"/>
+            <div>
+                <head>              
+                    <fw type="sig" place="margin-topright">9/2
+                        <note type="physical">L'autografo riporta l'arabico 9/2 redatto dal curatore dell'Archivio.</note>
+                    </fw>
+                    <lb/>
+                </head>
+            </div>
+            
+            <div>
+                <head rend="center">Endimione
+                    <note type="critical">
+                        <p>Endimione è un personaggio della mitologia greca. Le fonti che lo presentano sono discorsanti fra loro: 
+                        a volte lo caratterizzano come un pastore o un cacciatore della tribù degli Eoli, altre volte come un giovane principe dell'Elide.
+                        Fonti più tarde lo dipingono come astronomo, mentre Plinio il Vecchio lo cita come il primo uomo ad osservare le fasi lunari.</p> 
+                        <p>All'interno degli autografi inediti di Bertolucci, Endimione è presente anche nella poesia "Notte", Au10(2), v. 4 "Il suo pastore Endimione" 
+                        e viene raffigurato come un pastore che osserva il cielo ed è attento alle condizioni atmosferiche. 
+                        In questa poesia, "Endimione", viene rappresentato come dormiente fra le braccie della luna; probabilmente Bertolucci sfrutta una declinazione del mito, 
+                        in cui Endimione è l'amante di Selene, divinità lunare arcaica.</p> 
+                        <p>Le fonti classiche raccontano che Endimione stesse sempre sotto l'occhio vigile della Dea personificazione della Luna.
+                        Probabilmente l'ispirazione e la raffigurazione di Endimione giungono a Bertolucci dalla lettura di Catullo ("La chioma di Berenice") 
+                        o di Properzio ("Elegie", II.15).</p>
+                    </note>
+                    <note>Attestazione di Endimione in
+                        <title>AuIn8; Notte</title>
+                        <l n="1">Una piccola nuvola</l>
+                        <l n="2">Passava sulla luna</l>
+                        <l n="3">Brucando tranquilla.</l>
+                        <l n="4">Il suo pastore <hi rend="underline">Endimione</hi></l>
+                        <l n="5">Non poteva infatti</l>
+                        <l n="6">Essere molto lontano.</l>
+                    </note>
+                </head>
+                <lg n="1" type="stanza">
+                <l n="1">Dormiva<lb/></l>
+                <l n="2">Fra le braccia della luna<lb/></l>
+                <l n="3">E nel sonno udiva<lb/></l>
+                <l n="4">Il cucù.<lb/></l>
+                <l n="5">Così si svegliò<lb/></l>
+                <l n="6">Che l’aria era calda<lb/></l>
+                <l n="7">E nelle strade<lb/></l>
+                <l n="8">Si accumulava la polvere<lb/></l>
+                </lg>
+                <ab>
+                    <date>marzo 1934</date>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>

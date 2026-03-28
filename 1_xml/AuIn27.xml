@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XXIX. Epicedio per il gatto di N.</title>
+                <respStmt>
+                    <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                    <name>Luciano Longo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                    <name>Elena Pierazzo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione editoriale a cura di </resp>
+                    <name>Rosa Casapullo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione critico-letteraria a cura di </resp>
+                    <name>Domenica Perrone.</name>
+                </respStmt>
+                <sponsor>
+                    <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                    <address>
+                        <addrLine>Piazzetta Salerno, 12 </addrLine>
+                    </address> 
+                </sponsor>
+            </titleStmt>
+            <extent>
+                <seg type="size">Filesize: 25 KB.</seg>
+                <seg type="format">XML TEI P5</seg>
+                <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+                <publisher>Luciano Longo</publisher>
+                <distributor>Università degli Studi di Palermo,</distributor>
+                <address>
+                    <addrLine>Piazzetta Salerno- 12, </addrLine>
+                </address>
+                <pubPlace> 
+                    <name>Palermo, </name>
+                </pubPlace>
+                <date>2015-2017</date>
+                <availability status="restricted">
+                    <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                    <p>Le immagini possono essere consultate in modalità off-line. </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="critical" anchored="true">
+                    <p>Il manoscritto (AuIn27) è conservato presso l’Archivio di Stato di Parma, "Archivio della Letteratura-Archivio Bertolucci" 
+                        nella sezione «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4.</p> 
+                    <p>AuIn27 riporta il testo "Epicedio per il gatto di N." (Ninetta). 
+                        Nel testo sono ravvisabili tre interventi scrittori; il primo, rintracciabile al v. 8 è di tipo correttorio-sottrattivo in cui l’autore, 
+                        con lo stesso mezzo scrittorio della stesura base del testo, cassa l’emiverso: "soggiornando su un cuscino"; stessa tipologia di intervento 
+                        si ritrova alla fine del v. 9 con la cassatura di "un po’". La seconda azione scrittoria è di tipo correttivo-tardivo ed avviene a stesura completata; 
+                        infatti, al v. 5 Berolucci cassa con inchiostro nero "è un serio pasticcio… ǀ meditare su queste cose". Il terzo intervento scrittorio è individuabile 
+                        al v. 8 con una aggiunta tardiva e instaurativa, l’autore inserisce a inchiostro nero, con una freccia di richiamo, "come in quell’autunno". 
+                        Problematica è la stabilizzazione dei vv. 9-10. Il secondo emiverso del v. 9, "il paradiso ci deluderebbe", è sottolineato con inchiostro nero; 
+                        la sottolineatura appare come un segno di transposizione dell’emiverso dopo il v. 10. Seguendo questa interpretazione la sezione finale del 
+                        componimento risulterebbe cambiata. </p>
+                    <p>
+                        <l n="9">e credo che anche non poco, per quanto </l>
+                        <l n="10">splendido e magnifico fosse</l>
+                        <l n="11">il paradiso ci deluderebbe .</l>
+                    </p>
+                    <p>La scelta editoriale privilegia la stabilizzazione n. 1 perché più in linea con lo stile di versificazione di A. Bertolucci che in casi 
+                        di revisione testuale tende alla semplificazione o prosaicità del verso. 
+                    </p>
+                </note>
+                <note type="biographical" anchored="true">Negli anni in cui viene datata la poesia A. Bertolucci ha già pubblicato la prima raccolta di poesie, 
+                    "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                    che confluiranno poi nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+                    Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                    durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                    Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+                <note type="context" anchored="true">La raccolta edita nel 1934, "Fuochi in Novembre" (Minardi, Parma, 1934), 
+                    in parte non presenta più il crepuscolarismo epigonale di "Sirio" (Minardi, Parma, 1929). </note>
+                <note type="render" anchored="true">Additions appear in a green, fixed-width
+                    font.</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>AuIn27</p>
+                <p>Foglio di carta libero di cm 15x21, contiene il testo "Epicedio per il gatto di N." (Ninetta) L’autografo, datato 29 dicembre 1937, 
+                    è vergato con inchiostro blu e presenta correzioni con diversa inchiostrazione. 
+                    Il manoscritto è numerato con l’arabico 27. La poesia consta di vv. 10.</p>
+                
+                
+                <!-- <sourceDesc>
+                    <msDesc xml:lang="ita" xml:id="AuIn27">
+                    <msIdentifier>
+                    <country><name type="place">Italia</name></country>
+                    <region><name type="place">Emilia Romagna</name></region>
+                    <settlement><name type="place">Parma</name></settlement>
+                    <institution>Archivio di Stato</institution>
+                    <repository>Fondo Attilio Bertolucci</repository>
+                    <collection>Carte Attilio Bertolucci</collection>
+                    <idno>Busta II, fascicolo 4,1</idno>
+                    <msName>Poesie inedite degli anni tra le due guerre e del primo dopoguerra</msName>
+                    <altIdentifier>
+                    <idno>AuIn27</idno>
+                    <note>Sezione: Autografi inediti</note>
+                    </altIdentifier>
+                    </msIdentifier>
+                    <msContents class="#epicedio">
+                    <summary>Foglio di carta libero di cm 15x21, contiene il testo "Epicedio per il gatto di N." (Ninetta) L’autografo, datato 29 dicembre 1937, 
+                    è vergato con inchiostro blu e presenta correzioni con diversa inchiostrazione. 
+                    Il manoscritto è numerato con l’arabico 27. La poesia consta di vv. 10.</summary>
+                    <msItem n="I" class="#Canzone">
+                    <locus>c. 1r</locus>
+                    <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                    <title><hi rend="underline">Epicedio per il gatto di N.</hi></title>
+                    <incipit>È triste pensare che i gatti</incipit>
+                    <explicit>non poco, per quanto splendido e magnifico fosse.</explicit>
+                    <textLang mainLang="ita">Italian</textLang>
+                    </msItem>
+                    </msContents>
+                    <physDesc>
+                    <objectDesc form="autografo">
+                    <supportDesc material="paper">
+                    <support>
+                    <p><material>foglio di carta bianca
+                    <date>29 dicembre 1937</date>
+                    </material>
+                    </p>
+                    </support>
+                    <extent>
+                    <dimensions scope="all" type="foglio" unit="cm">
+                    <height>15</height>
+                    <width>21</width>
+                    </dimensions>
+                    </extent>
+                    <condition>
+                    <p></p></condition>
+                    </supportDesc>
+                    <layoutDesc>
+                    <layout columns="1" ruledLines="18">
+                    <p>Testo scritto su una colonna di 10 versi</p>
+                    </layout>
+                    </layoutDesc>
+                    </objectDesc>
+                    <handDesc>
+                    <handNote scribe="Attilio_Bertolucci" script="handwritten" medium="blu_ink_pen+black_ink_pen" scope="major">
+                    <p>Il testo si presenta con una scrittura calligrafica moderna con tratti chiari e piccoli. 
+                    L’autografo è vergato a inchiostro blu con correzioni a inchiostro blu e nero; entrambe le stesure sono attribuibili ad 
+                    <persName>Attilio Bertolucci;</persName>.</p>
+                    </handNote>
+                    </handDesc>
+                    </physDesc>
+                    <history>
+                    <origin>
+                    <p>Il testo probabilmente venne scritto nel 1937</origDate>
+                    </p>
+                    </origin>
+                    </history>
+                    <additional>
+                    <surrogates>
+                    <p>L'autografo, riprodotto in formato jpeg, è consultabile presso l'Archivio di Stato di Parma.</p>
+                    </surrogates>
+                    <listBibl>
+                    <bibl></bibl>
+                    </listBibl>
+                    </additional>
+                    </msDesc>
+                    </sourceDesc>
+                -->
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+            <editorialDecl>
+                <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                    la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+                <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                    si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+                <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+                <correction>
+                    <p></p>
+                </correction>
+                <hyphenation>
+                    <p> </p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+                </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="pen1" medium="black_ink_1" scribe="Bertolucci"/>
+                <handNote xml:id="pen2" medium="blu_ink_2" scribe="Bertolucci"/>
+            </handNotes>
+            <langUsage>
+                <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+                <date>2015</date>.</change>
+            <change>Il file è stato creato nel <date>Dicembre del 2016</date> da <name> Luciano Longo.</name>
+                con il software "Oxygen-XML Editor®".</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nel
+                <list>
+                    <item>Dicembre del 2016.</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="images/AuIn-27.jpg" xml:id="i_txt-c"/>
+        <graphic url="images/AuIn-27.jpg" xml:id="i_txt-1"/>
+        <graphic url="images/AuIn-27.jpg" xml:id="i_txt-2"/>
+        <graphic url="images/AuIn-27.jpg" xml:id="i_txt-3"/>
+    </facsimile>
+    
+    <text>
+        
+        <front>
+            <div rend="witness">
+                <listWit>
+                    <witness xml:id="txt-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt-1">Tb0, prima stesura</witness>
+                    <witness xml:id="txt-2">T1, seconda stesura</witness>
+                    <witness xml:id="txt-3">T2, terza stesura</witness>
+                    <witness xml:id="txt-4">T3, quarta stesura</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <pb ed="txt-c" facs="#i_txt-c"/>
+            <pb ed="txt-1" facs="#i_txt-1"/>
+            <pb ed="txt-2" facs="#i_txt-2"/>
+            <pb ed="txt-3" facs="#i_txt-3"/>
+            <div>
+                <head>              
+                    <fw type="sig" place="margin-topright">27
+                        <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 1 dal curatore dell'Archivio Bertolucci.</note>
+                    </fw>
+                    <lb/>
+                </head>
+            </div>
+            
+            <div>
+                <head rend="center">
+                    <app>
+                        <rdg wit="#txt-c">Epicedio per il gatto di N.</rdg>
+                        <rdg wit="#txt-1 #txt-2 #txt-3 #txt-4">
+                            <hi rend="underline">Epicedio per il gatto di N.</hi>
+                        </rdg>
+                        <note type="critical" anchored="true">Il titolo è sottolineato con inchiostro blu.</note>
+                    </app>
+                    <lb/>
+                </head>
+                <lg n="1" type="stanza">
+                    <l n="1">È triste pensare che i gatti<lb/></l>
+                    <l n="2">non hanno un’anima<lb/></l>
+                    <l n="3">ma c’è anche chi pensa<lb/></l>
+                    <l n="4">che neppure gli uomini andranno in paradiso<lb/></l>
+                    <l n="5">
+                        <app>
+                            <rdg wit="#txt-c">o all’inferno...</rdg>
+                            <rdg wit="#txt-1">o all'inferno; è un serio pasticcio</rdg>
+                            <rdg wit="#txt-2">o all'inferno; è un serio pasticcio <add place="margin" type="integration" hand="#pen2">...</add></rdg>
+                            <rdg wit="#txt-3 #txt-4">o all'inferno <del rend="overstrike" hand="#pen2">; è un serio pasticcio</del>...</rdg>
+                        </app>
+                        <note type="critical">Al v. 5 Berolucci cassa con inchiostro nero "è un serio pasticcio…". Sempre ad inchiostro nero inserisce i tre punti sospensivi.
+                            L'azione scrittoria è di tipo correttivo-tardivo ed avviene a stesura completata.
+                            In un prima stesura dopo il v. 5 vi era un verso che funzionava nel seguente modo: "meditare su queste cose". 
+                            Sempre ad inchiostro nero inserisce un punto.
+                            L'azione scrittoria tipo correttivo-tardivo a stesura completata interessa sia il v. 5 che l'originario v. 6.</note>
+                        <lb/>
+                    </l>
+                    <l n="6">
+                        <app>
+                            <rdg wit="#txt-c #txt-4">È certo che se rivivremo dopo morti,</rdg>
+                            <rdg wit="#txt-1">meditare su queste cose</rdg>
+                            <rdg wit="#txt-2">meditare su queste cose<add place="margin" type="integration" hand="#pen2">.</add>
+                                <note type="critical">Il poeta aggiunge in fase di revisione un punto. In un secondo momento casserà l'intero verso.</note></rdg>
+                            <rdg wit="#txt-3"><del rend="overstrike" hand="#pen2">meditare su queste cose</del>
+                                <note type="critical">Al v. 6 Berolucci cassa con inchiostro "meditare su queste cose". Sempre ad inchiostro nero inserisce un punto.
+                                    L'azione scrittoria è di tipo correttivo-tardivo ed avviene a stesura completata.</note>
+                            </rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="7">                          
+                        <app>
+                            <rdg wit="#txt-c #txt-4">sarebbe una bella ingiustizia che tu non fossi</rdg>
+                            <rdg wit="#txt-1 #txt-2 #txt-3">È certo che se rivivremo dopo morti,</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="8">
+                        <app>
+                            <rdg wit="#txt-c #txt-4">ad aspettarci, come in quell’autunno
+                                <note type="critical">Bertolucci cassa l’emiverso: "soggiornando su un cuscino" con lo stesso mezzo scrittorio della stesura base del testo (inchiostro blu). 
+                                    L'intervento autoriale è di tipo correttorio-sottrattivo. Inserisce a sostituzione del verso cancellato "come in quell'autunno".
+                                </note></rdg>
+                            <rdg wit="#txt-1 #txt-2 #txt-3">sarebbe una bella ingiustizia che tu non fossi</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="9">
+                        <app>
+                            <rdg wit="#txt-c">e credo che anche il paradiso ci deluderebbe
+                                <note type="critical">
+                                    Problematica è la stabilizzazione dell'emiverso "il paradiso ci deluderebbe"; 
+                                    esso è sottolineato con inchiostro nero; la sottolineatura appare 
+                                    come un segno di transposizione dell’emiverso dopo il v. 10. 
+                                    Seguendo questa interpretazione la sezione finale del componimento risulterebbe cambiata.
+                                </note>
+                            </rdg>
+                            <rdg wit="#txt-1">ad aspettarci, soggiornando su un cuscino</rdg>
+                            <rdg wit="#txt-2">ad aspettarci, <del rend="overstrike" hand="#pen1">soggiornando su un cuscino</del>
+                                <note type="critical">Bertolucci cassa l’emiverso: "soggiornando su un cuscino" con lo stesso mezzo scrittorio della stesura base del testo (inchiostro blu). 
+                                    L'intervento autoriale è di tipo correttorio-sottrattivo.
+                                </note></rdg>
+                            <rdg wit="#txt-3">ad aspettarci, <add place="margin" type="integration" hand="#pen2">come in quell'autunno</add>
+                                <note type="critical">Bertolucci dopo la cassatura dell’emiverso: "soggiornando su un cuscino" 
+                                    inserisce a sostituzione del verso cancellato "come in quell'autunno".
+                                </note>
+                            </rdg>
+                            <rdg wit="#txt-4">e credo che anche</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="10">
+                        <app>
+                            <rdg wit="#txt-c">non poco, per quanto splendido e magnifico fosse.</rdg>
+                            <rdg wit="#txt-1">e credo che anche il paradiso ci deluderebbe <del instant="true" rend="overstrike" hand="#pen1">un po'</del>
+                                <note type="critical">Bertolucci cassa "un po'" con lo stesso mezzo scrittorio della stesura base del testo (inchiostro blu). 
+                                    L'intervento autoriale è di tipo correttorio-sottrattivo. L'autore cassando "un po'" lo riscrive mutandolo, "non poco", al verso successivo.
+                                </note>
+                            </rdg>
+                            <rdg wit="#txt-2">e credo che anche il paradiso ci deluderebbe </rdg>
+                            <rdg wit="#txt-3">e credo che anche <metamark rend="underline" function="transposition" target="#txt-4" place="inline"> 
+                                <hi rend="underline">il paradiso ci deluderebbe</hi>
+                            </metamark>
+                                <note type="critical">
+                                    Problematica è la stabilizzazione dell'emiverso "il paradiso ci deluderebbe"; esso è sottolineato con inchiostro nero; la sottolineatura appare 
+                                    come un segno di transposizione dell’emiverso dopo il v. 11: "non poco, per quanto splendido e magnifico fosse". 
+                                    Seguendo questa interpretazione la sezione finale del componimento risulterebbe cambiata.
+                                </note>
+                            </rdg>
+                            <rdg wit="#txt-4">non poco, per quanto splendido e magnifico fosse
+                                <note type="critical">Seguendo l'interpretazione della transposizione dell'emiverso "il paradiso ci deluderebbe", 
+                                    il v. 10 non rappresenta il verso di chiusa del componimento.</note>
+                            </rdg>
+                        </app>
+                        <listTranspose>
+                            <transpose>
+                                <ptr target="#txt-3"/>
+                                <ptr target="#txt-4"/>
+                            </transpose>
+                        </listTranspose>
+                        <lb/>
+                    </l>
+                    <l n="11">
+                        <app>
+                            <rdg wit="#txt-1">non poco, per quanto splendido, e magnifico fosse.</rdg>
+                            <rdg wit="#txt-2">non poco, per quanto splendido <del rend="overstrike" hand="#pen2">,</del> e magnifico fosse.
+                                <note type="critical">Al v. 11 Berolucci cassa con inchiostro nero inserisce la virgola. 
+                                    L'azione scrittoria è di tipo correttivo-tardivo ed avviene a stesura completata.</note>
+                            </rdg>
+                            <rdg wit="#txt-3">non poco, per quanto splendido e magnifico fosse.</rdg>
+                            <rdg wit="#txt-4">
+                                <metamark rend="underline" function="transposition" target="#txt-4" place="inline">il paradiso ci deluderebbe</metamark>
+                                <note type="critical">
+                                    L'emiverso "il paradiso ci deluderebbe" è  sottolineato con inchiostro nero; la sottolineatura appare 
+                                    come un segno di transposizione dell’emiverso dopo il v. 11: "non poco, per quanto splendido e magnifico fosse". 
+                                    Seguendo questa interpretazione la sezione finale del componimento risulterebbe diversa.</note>
+                            </rdg>
+                        </app>
+                        <listTranspose>
+                            <transpose>
+                                <ptr target="#txt-3"/>
+                                <ptr target="#txt-4"/>
+                            </transpose>
+                        </listTranspose>
+                        <lb/>
+                    </l>
+                </lg>
+                <ab>
+                    <date>29 dicembre 1937</date>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>

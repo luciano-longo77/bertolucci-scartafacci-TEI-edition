@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+             <title>III. A una ballerina di tango</title>
+             <respStmt>
+                 <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                 <name>Luciano Longo.</name>
+             </respStmt>
+             <respStmt>
+                 <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                 <name>Elena Pierazzo </name>
+             </respStmt>
+             <respStmt>
+                 <resp>Supervisione editoriale a cura di </resp>
+                 <name>Rosa Casapullo.</name>
+             </respStmt>
+             <respStmt>
+                 <resp>Supervisione critico-letteraria a cura di </resp>
+                 <name>Domenica Perrone.</name>
+             </respStmt>
+             <sponsor>
+                 <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                 <address>
+                     <addrLine>Piazzetta Salerno, 12 </addrLine>
+                 </address> 
+             </sponsor>
+         </titleStmt>
+          <extent>
+              <seg type="size">Filesize: 23 KB.</seg>
+              <seg type="format">XML TEI P5</seg>
+              <seg type="location">offline</seg>
+          </extent>
+          <publicationStmt>
+              <publisher>Luciano Longo</publisher>
+              <distributor>Università degli Studi di Palermo,</distributor>
+              <address>
+                  <addrLine>Piazzetta Salerno- 12, </addrLine>
+              </address>
+              <pubPlace> 
+                  <name>Palermo, </name>
+              </pubPlace>
+              <date>2015-2017</date>
+              <availability status="restricted">
+                  <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                  <p>Le immagini possono essere consultate in modalità off-line. </p>
+              </availability>
+          </publicationStmt>
+         <notesStmt>
+            <note type="critical" anchored="true">
+                Il manoscritto (AuIn3) è conservato presso l’Archivio di Stato di Parma, "Archivio della Letteratura-Archivio Bertolucci" 
+                nella sezione «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4.  
+                L’autografo (AuIn3) è caratterizzzato da due fasi scrittorie; gli interventi, in base all’inchiostrazione e alla collocazione topografica, 
+                si possono considerare, in un caso, di tipo “instaurativo e nel secondo caso di tipo “sostitutivo”. 
+                Al v. 7, in una prima stesura (tb0), il poeta scrive "Ti guardi intorno", a una seconda lettura cassa il verso e lo sostituisce nello stesso rigo 
+                con "Volgi gli occhi" (T1); la stessa interpretazione si può estendere al v. 10, in cui Bertolucci dapprima scrive "si siedono intorno", poi cassa 
+                "intorno" e aggiunge nell’interlinea superiore "in giro" (T1). Al v. 18 l’inchiostrazione delle cassature rivela una correzione del testo “in diretta”: 
+                il poeta dopo aver scritto "Li pieghi sugli strumenti", cassa "sugli strumenti", aggiunge "E" e corregge "Li" in "li" (tb1).
+            </note>
+            <note type="biographical" anchored="true">Negli anni in cui viene datata la poesia A. Bertolucci ha già pubblicato la prima raccolta di poesie, 
+               "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+               che confluiranno poi nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+               Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+               durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+               Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+            <note type="context" anchored="true">La raccolta edita nel 1934, "Fuochi in Novembre" (Minardi, Parma, 1934), 
+               in parte non presenta più il crepuscolarismo epigonale di "Sirio" (Minardi, Parma, 1929).</note>
+            <note type="render" anchored="true">Additions appear in a green, fixed-width
+               font.</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>AuIn3</p>
+             <p>Foglio di carta di quaderno di cm 15x20 vergato in entrambi i lati, riporta il testo di "A una ballerina di tango". 
+                 Il manoscritto, datato giugno 1931 (c. 1r), è vergato con inchiostro nero, ed è numerato in alto a destra a matita con l’arabico 3. 
+                 La poesia consta di vv. 20. 
+                 Il manoscritto in corrispondenza dei vv. 1-2 e dei vv. 9-12 reca una biffatura a matita.</p>
+             <!--  
+           <sourceDesc>
+               <msDesc xml:lang="ita" xml:id="AuIn3">
+                  <msIdentifier>
+                     <country><name type="place">Italia</name></country>
+                     <region><name type="place">Emilia Romagna</name></region>
+                     <settlement><name type="place">Parma</name></settlement>
+                     <institution>Archivio di Stato</institution>
+                     <repository>Fondo Attilio Bertolucci</repository>
+                     <collection>Carte Attilio Bertolucci</collection>
+                     <idno>Busta II, fascicolo 4,3</idno>
+                     <msName>Poesie inedite degli anni tra le due guerre e del primo dopoguerra</msName>
+                     <altIdentifier>
+                        <idno>AuIn3</idno>
+                        <note>Sezione: Autografi inediti</note>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents class="#ballerina">
+                     <summary>Foglio di carta di quaderno di cm 15x20 vergato in entrambi i lati, riporta il testo di "A una ballerina di tango". 
+                  Il manoscritto, datato giugno 1931 (c. 1r), è vergato con inchiostro nero, ed è numerato in alto a destra a matita con l’arabico 3. 
+                  Lo specchio di scrittura consta di vv. 20. 
+                  Il manoscritto in corrispondenza del vv. 1-2 e dei vv. 9-12 reca una biffatura a matita.</summary>
+                     <msItem n="I" class="#ballerina">
+                        <locus>c. 1r</locus>
+                        <locus>c. 1v</locus>
+                        <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                        <title>A una ballerina di tango</title>
+                        <incipit>Tu sei una bottiglia dal collo lungo</incipit>
+                        <explicit>Solitaria nel cielo</explicit>
+                        <textLang mainLang="ita">Italian</textLang>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="autografo">
+                        <supportDesc material="paper">
+                           <support>
+                              <p><material>foglio di carta bianca
+                                 <date>1931</date>
+                              </material>
+                              </p>
+                           </support>
+                           <extent>
+                              <dimensions scope="all" type="foglio" unit="cm">
+                                 <height>15</height>
+                                 <width>20</width>
+                              </dimensions>
+                           </extent>
+                           <condition>
+                              <p>L'autografo presenta delle biffature all'altezza dei vv. 1-2 e 9-12.</p></condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" ruledLines="18">
+                           <p>Testo scritto su una colonna di 20 versi</p>
+                        </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scribe="Attilio_Bertolucci" script="handwritten" medium="black_ink_pen" scope="major">
+                        <p>Il testo si presenta con una scrittura calligrafica moderna con tratti chiari e piccoli. 
+                           L’autografo è vergato a inchiostro</p>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <p>Il testo probabilmente venne scritto intorno <origDate cert="medium">al 1931</origDate>
+                        </p>
+                     </origin>
+                  </history>
+                  <additional>
+                     <surrogates>
+                        <p>L'autografo, riprodotto in formato jpeg, è consultabile presso l'Archivio di Stato di Parma.</p>
+                     </surrogates>
+                     <listBibl>
+                        <bibl></bibl>
+                     </listBibl>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+         -->
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p></p>
+         </projectDesc>            
+         <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+         <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+         <refsDecl>
+            <p></p>
+         </refsDecl>
+         <editorialDecl>
+            <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+               la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+            <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+               si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+            <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+            <correction>
+               <p> </p>
+            </correction>
+            <hyphenation>
+               <p> </p>
+            </hyphenation>
+            <normalization>
+               <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+            </normalization>
+         </editorialDecl>
+         <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc>
+      <profileDesc>
+          <handNotes>
+              <handNote xml:id="pen2" medium="black_ink_2" scribe="Bertolucci"/>
+              <handNote xml:id="pen1" medium="black_ink_1" scribe="Bertolucci"/>
+          </handNotes>
+         <langUsage>
+            <language ident="italiano">Lingua: Italiano</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+            <date>2015</date>.</change>
+         <change>Il file è stato creato nel <date>Marzo del 2015</date> da <name> Luciano Longo.</name>
+            con il software "XML-Copy Editor®" e successivamente trattato con "Oxygen-XML Editor®"</change>
+         <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nell'
+            <list>
+               <item>Aprile del 2015, la successiva nel</item>
+               <item>Maggio del 2015 poi nel</item>
+               <item>Giugno del 2015 poi nel</item>
+               <item> Luglio del 2015 poi nel</item>
+               <item>Agosto del 2015 poi nel</item>
+               <item>Settembre del 2015 poi nell'</item>
+               <item>Ottobre del 2015 poi nel</item>
+                <item>Novembre del 2016 e infine nel</item>
+                <item>Dicembre del 2016.</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+      
+   <facsimile>
+      <graphic url="images/AuIn-3.jpg" xml:id="i_txt-1"/>
+      <graphic url="images/AuIn-3.jpg" xml:id="i_txt-2"/>
+      <graphic url="images/AuIn-3.jpg" xml:id="i_txt-3"/>
+      <graphic url="images/AuIn-3.jpg" xml:id="i_txt-c"/>
+       <graphic url="images/AuIn-31.jpg" xml:id="i_txt-1_1"/>
+       <graphic url="images/AuIn-31.jpg" xml:id="i_txt-2_1"/>
+       <graphic url="images/AuIn-31.jpg" xml:id="i_txt-3_1"/>
+       <graphic url="images/AuIn-31.jpg" xml:id="i_txt-c_1"/>
+   </facsimile>
+   
+   <text>
+         
+         <front>
+            <div rend="witness">
+               <listWit>
+                   <witness xml:id="txt-c">Tc, Edizione critica</witness>
+                   <witness xml:id="txt-1">Tb0, prima stesura</witness>
+                   <witness xml:id="txt-2">Tb1, seconda stesura</witness>
+                   <witness xml:id="txt-3">T1, terza stesura</witness>
+               </listWit>
+            </div>
+         </front>
+         <body>
+             <pb ed="txt-c" facs="#i_txt-c"/>
+             <pb ed="txt-1" facs="#i_txt-1"/>
+             <pb ed="txt-2" facs="#i_txt-2"/>
+             <pb ed="txt-3" facs="#i_txt-3"/>
+            <div>
+               <head>              
+                  <fw type="sig" place="margin-topright">3
+                      <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 3 dal curatore dell'Archivio Bertolucci.</note>
+                  </fw>
+                  <lb/>
+               </head>
+            </div>
+               <div>
+               <head rend="center">
+                  <app>
+                      <rdg wit="#txt-c">Una ballerina di tango</rdg>
+                      <rdg wit="#txt-1 #txt-2 #txt-3">
+                        <hi rend="underline">Una ballerina di tango</hi>
+                      </rdg>
+                  </app>
+                   <note type="metrical">La poesia si presenta suddivisa in 5 strofe, con versi di varia misura.</note>
+                  <lb/>
+               </head>
+                   <lg n="1" type="stanza">
+                       <lg type="quatrain">
+                           <l n="1">Tu sei una bottiglia dal collo lungo
+                               <note type="critical">Il v. 1 è presente anche nell’autografo 
+                                   n. 1 della sezione «Verso le sorgenti del Cinghio», Busta II, fascicolo 8, 
+                                   datato 1933-1940; il documento è conservato presso l’Archivio di Parma. 
+                                   Il manoscritto è stato pubblicato con il titolo "Natura morta" 
+                                   nella raccolta "Verso le sorgenti del Cinghio" nel 1993.</note>
+                               <lb/>
+                           </l>
+                           <l n="2">Piena di vino spumante,
+                               <note type="physical">Il manoscritto in corrispondenza dei vv. 1-2 reca una biffatura a matita, 
+                                   come segno di richiamo o di attenzione. </note>
+                               <lb/>
+                           </l>
+                           <l n="3">Le chitarre infiocchettate pendono ai muri,<lb/></l>
+                           <l n="4">L’ombra e il silenzio stanno intorno alle tue mani.<lb/></l>
+                       </lg>
+                   </lg>
+                   
+                   <lg n="2" type="stanza">
+                       <lg type="quatrain">
+                           <l n="5">Un raggio ti sveglia, o il rumore<lb/></l>
+                           <l n="6">Di un’acqua sotterranea?<lb/></l>
+                           <l n="7">
+                               <app>
+                                   <rdg wit="#txt-c">Volgi gli occhi,
+                                       <note type="critical">Al v. 7 il poeta sostituisce con "Volgi gli occhi" (T1) la prima variante (tb0): "Ti guardi intorno".</note></rdg>
+                                   <rdg wit="#txt-1">Ti guardi intorno</rdg>
+                                   <rdg wit="#txt-2">
+                                       <del rend="overstrike" hand="#pen1">Ti guardi intorno</del>
+                                       <add place="inline" type="substition" hand="#pen1">Volgi gli occhi,</add>
+                                       <note type="critical">Al v. 7, in una prima stesura (tb0), 
+                                           il poeta scrive "Ti guardi intorno", ad una seconda lettura cassa il verso e lo sostituisce nello stesso rigo con "Volgi gli occhi" (T1).</note>
+                                   </rdg>
+                                   <rdg wit="#txt-3">
+                                       <add place="inline" type="substition" hand="#pen1">Volgi gli occhi,</add>
+                                       <note type="critical">Al v. 7 il poeta sostituisce con "Volgi gli occhi" (T1) la prima variante (tb0): "Ti guardi intorno".</note>
+                                   </rdg>
+                               </app>
+                               <lb/>
+                           </l>
+                           <l n="8">Le corde delle chitarre splendono come il vino.<lb/></l>
+                       </lg>
+                   </lg>
+                   
+                   <lg n="3" type="stanza">
+                       <lg type="quatrain">
+                           <l n="9">Allora entrano uomini scuri e muti<lb/></l>
+                           <l n="10">Colgono gli strumenti, si siedono 
+                               <app>
+                                   <rdg wit="#txt-c">in giro
+                                       <note type="critical">Al v. 10 Bertolucci aggiunge nell’interlinea superiore "in giro" (T1) 
+                                           in luogo della lezione cassata (tb0): "si siedono intorno".</note></rdg>
+                                   <rdg wit="#txt-1"> intorno</rdg>
+                                   <rdg wit="#txt-2">
+                                       <del rend="overstrike" hand="#pen1">intorno</del>
+                                       <add place="above" type="substition" hand="#pen1">in giro</add>
+                                       <note type="critical">Al v. 10, Bertolucci dapprima scrive "si siedono intorno", poi cassa "intorno" 
+                                           e aggiunge nell’interlinea superiore "in giro" (T1).</note>
+                                   </rdg>
+                                   <rdg wit="#txt-3">
+                                       <add place="above" type="substition" hand="#pen1">in giro</add>
+                                       <note type="critical">Al v. 10 Bertolucci aggiunge nell’interlinea superiore "in giro" (T1) 
+                                           in luogo della lezione cassata (tb0): "si siedono intorno".</note>
+                                   </rdg>
+                               </app>
+                               <lb/>
+                           </l>
+                           <l n="11">Cresce la luce,<lb/></l>
+                           <l n="12">S’odono i primi accordi.
+                               <note type="physical">Il manoscritto in corrispondenza dei vv. 9-12 reca una biffatura a matita, 
+                                   come segno di richiamo o di attenzione. </note>
+                               <lb/>
+                           </l>
+                       </lg>
+                   </lg>
+                   
+                   <lg n="4" type="stanza">
+                       <lg type="quatrain">
+                           <l n="13">Immobile è l’aria.<lb/></l>
+                           <l n="14">Ti alzi come si alza il vento sereno.<lb/></l>
+                           <l n="15">I visi degli uomini scolorano come l’erba<lb/></l>
+                           <l n="16">Al turbine lento dei primi passi di danza.<lb/></l>
+                       </lg>
+                   </lg>
+                   
+                       <pb ed="txt-1" facs="#i_txt-1_1"/>
+                       <pb ed="txt-2" facs="#i_txt-2_1"/>
+                       <pb ed="txt-3" facs="#i_txt-3_1"/>
+                       <pb ed="txt-c" facs="#i_txt-c_1"/>
+                   
+                   <pb n="c. 1v"/>
+                   <lg n="5" type="stanza">
+                       <lg type="quatrain">
+                           <l n="17">
+                               <app>
+                                   <rdg wit="#txt-c">Ora li assordi</rdg>
+                                   <rdg wit="#txt-1">Ora li assordi,</rdg>
+                                   <rdg wit="#txt-2 #txt-3">Ora li assordi<del rend="overstrike" hand="#pen1">,</del>
+                                   </rdg>
+                                   <note type="critical">Al v. 17 Bertolucci cassa la virgola presente nella stesura tb0.</note>
+                               </app>
+                               <lb/>
+                           </l>
+                           <l n="18">
+                               <app>
+                                   <rdg wit="#txt-1">Li pieghi sugli strumenti</rdg>
+                                   <rdg wit="#txt-2">
+                                       <add place="inline" type="substition" hand="#pen1">E</add> 
+                                       <del rend="overwritten" hand="#pen1">L</del>
+                                       <add place="inline" type="substition" hand="#pen1">l</add>i pieghi
+                                       <add>,</add> 
+                                       <del rend="overstrike" hand="#pen2">sugli strumenti</del>
+                                   </rdg>
+                                   <rdg wit="#txt-3 #txt-c">E li pieghi,</rdg>
+                                   <note type="critical">Le diverse inchiostrazioni delle cassature presenti al v. 18 rivelano una correzione del testo “in diretta”: 
+                                       il poeta dopo aver scritto "Li pieghi sugli strumenti", cassa "sugli strumenti", aggiunge "E" e corregge "Li" in "li" (tb1).</note>
+                               </app>
+                               <lb/>
+                           </l>
+                           <l n="19">La tua chioma è una gonfia nuvola<lb/></l>
+                           <l n="20">Solitaria nel cielo.<lb/></l>
+                       </lg>
+                       <lb/>
+                   </lg>
+                   <ab>
+                       <date>giugno 1931</date>
+                   </ab>
+            </div>
+         </body>
+      </text>
+</TEI>
+
+
+

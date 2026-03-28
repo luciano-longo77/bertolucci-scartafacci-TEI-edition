@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XLII. Primi appunti per il figliol prodigo</title>
+                <respStmt>
+                    <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                    <name>Luciano Longo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                    <name>Elena Pierazzo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione editoriale a cura di </resp>
+                    <name>Rosa Casapullo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione critico-letteraria a cura di </resp>
+                    <name>Domenica Perrone.</name>
+                </respStmt>
+                <sponsor>
+                    <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                    <address>
+                        <addrLine>Piazzetta Salerno, 12 </addrLine>
+                    </address> 
+                </sponsor>
+            </titleStmt>
+            <extent>
+                <seg type="size">Filesize: 17 KB.</seg>
+                <seg type="format">XML TEI P5</seg>
+                <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+                <publisher>Luciano Longo</publisher>
+                <distributor>Università degli Studi di Palermo,</distributor>
+                <address>
+                    <addrLine>Piazzetta Salerno- 12, </addrLine>
+                </address>
+                <pubPlace> 
+                    <name>Palermo, </name>
+                </pubPlace>
+                <date>2015-2017</date>
+                <availability status="restricted">
+                    <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                    <p>Le immagini possono essere consultate in modalità off-line. </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="critical" anchored="true">
+                    <p>Il manoscritto AuIn40 è conservato presso l’Archivio di Stato di Parma, "Archivio della Letteratura-Archivio Bertolucci" 
+                        nella sezione «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4.
+                        Il manoscritto è in pulito, tranne la cassatura del titolo riscritto successivamente, 
+                        come si può desumere dall’inchiostrazione della cancellatura e dal ductus del secondo titolo.</p>
+                    <p>Generalmente i manoscritti sono in discreto stato di conservazione, 
+                        tranne alcuni che presentano lembi danneggiati e tracce di umidità. 
+                        L'autografo 41, insieme ad AuIn40 e AuIn42, è deteriorato nel lembo laterale sinistro. 
+                        Gli autografi AuIn2 (c. 1r), AuIn34 e AuIn38 risultano danneggiati nel lembo laterale destro; 
+                        invece AuIn43 nel lembo superiore; il dattiloscritto Ds4 è danneggiato nel lembo inferiore; 
+                        AuIn60 nei lembi laterali; AuIn61 è rovinato nella parte centrale; 
+                        AuIn45 è leso invece nei quattro lembi. </p>
+                </note>
+                <note type="biographical" anchored="true">
+                    Negli anni in cui può essere datata la poesia (1930-1940), A. Bertolucci ha già pubblicato la prima raccolte di poesie, 
+                    "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                    che confluiranno poi nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+                    Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                    durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                    Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+                <note type="contexual" anchored="true">
+                    La raccolta edita nel 1934, "Fuochi in Novembre" (Minardi, Parma, 1934), 
+                    in parte non presenta più il crepuscolarismo epigonale di "Sirio" (Minardi, Parma, 1929).</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>AuIn40</p>
+                <p>Foglio di carta di quaderno a righe di cm 15x20, contiene il testo "Primi appunti per il figliol prodigo". 
+                    L’autografo, danneggiato nel lembo sinistro, è vergato con inchiostro nero ed è numerato con l’arabico 40;
+                    fra parentesi tonde esibisce anche l’arabico 1. 
+                    Il componimento non presenta indicazione cronologica. 
+                    La poesia consta di vv. 15. Il manoscritto è in pulito.</p>
+            </sourceDesc>
+            <!-- 
+               <sourceDesc>
+               <msDesc xml:lang="ita" xml:id="AuIn40">
+                  <msIdentifier>
+                     <country><name type="place">Italia</name></country>
+                     <region><name type="place">Emilia Romagna</name></region>
+                     <settlement><name type="place">Parma</name></settlement>
+                     <institution>Archivio di Stato</institution>
+                     <repository>Fondo Attilio Bertolucci</repository>
+                     <collection>Carte Attilio Bertolucci</collection>
+                     <idno>Busta II, fascicolo 4,7</idno>
+                     <msName>Poesie inedite degli anni tra le due guerre e del primo dopoguerra</msName>
+                     <altIdentifier>
+                        <idno>AuIn40</idno>
+                        <note>Sezione: Autografi inediti</note>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents class="#primanvera_morte">
+                     <summary>Foglio di carta di quaderno a righe di cm 15x20, contiene il testo "Primi appunti per il figliol prodigo". 
+                    L’autografo, danneggiato nel lembo sinistro, è vergato con inchiostro nero ed è numerato con l’arabico 40;
+                    fra parentesi tonde esibisce anche l’arabico 1. 
+                    Il componimento non presenta indicazione cronologica. 
+                    La poesia consta di vv. 15. Il manoscritto è in pulito.</summary>
+                     <msItem n="I" class="#primavera_morte">
+                        <locus>c. 1r</locus>
+                        <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                        <title>Primi appunti per il figliol prodigo</title>
+                        <incipit>Finisce il giorno in un bianco silenzio</incipit>
+                        <explicit>S’ode l’acqua mormorare calma nei fossi.</explicit>
+                        <textLang mainLang="ita">Italian</textLang>
+                        <note>Il componimento presentava un primo titolo, "Il figliol oridigo", poi cassato.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="autografo">
+                        <supportDesc material="paper">
+                           <support>
+                              <p><material>foglio di carta bianca
+                                 <date>senza data</date>
+                              </material>
+                              </p>
+                           </support>
+                           <extent>
+                              <dimensions scope="all" type="foglio" unit="cm">
+                                 <height>15</height>
+                                 <width>20</width>
+                              </dimensions>
+                           </extent>
+                           <condition>
+                              <p>L’autografo è danneggiato nel lembo sinistro.</p>
+                              </condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" ruledLines="15">
+                           <p>Testo scritto su una colonna di 15 versi</p>
+                        </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scribe="Attilio_Bertolucci" script="handwritten" medium="black_ink_pen" scope="major">
+                        <p>Il testo si presenta con una scrittura calligrafica moderna con un ductus tondeggiante e chiaro. 
+                           L’autografo è vergato con inchiostro.</p>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <p></p>
+                     </origin>
+                  </history>
+                  <additional>
+                     <surrogates>
+                        <p>L'autografo, riprodotto in formato jpeg, è consultabile presso l'Archivio di Stato di Parma.</p>
+                     </surrogates>
+                     <listBibl>
+                        <bibl n="6"></bibl>
+                     </listBibl>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+            -->
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+            <editorialDecl>
+                <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                    la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+                <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                    si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+                <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+                <correction>
+                    <p></p>
+                </correction>
+                <hyphenation>
+                    <p> </p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+                </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="pen1" medium="black_ink_1" scribe="Bertolucci"/>
+                <handNote xml:id="pen2" medium="black_ink_2" scribe="Bertolucci"/>
+            </handNotes>
+            <langUsage>
+                <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+                <date>2016</date>.</change>
+            <change>Il file è stato creato nel <date>Dicembre del 2016</date> da <name> Luciano Longo</name>
+                con il software "Oxygen-XML Editor®"</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nel
+                <list>
+                    <item>Dicembre del 2016.</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    
+    <facsimile>
+        <graphic url="images/AuIn-40.jpg" xml:id="i_txt-c"/>
+        <graphic url="images/AuIn-40.jpg" xml:id="i_txt-1"/>
+        <graphic url="images/AuIn-40.jpg" xml:id="i_txt-2"/>
+    </facsimile>
+    <text>
+        <front>
+            <div rend="witness">
+                <listWit>
+                    <witness xml:id="txt-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt-1">Tb0, prima stesura</witness>
+                    <witness xml:id="txt-2">T1, seconda stesura</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <pb ed="txt-c" facs="#i_txt-c"/>
+            <pb ed="txt-1" facs="#i_txt-1"/>
+            <pb ed="txt-2" facs="#i_txt-2"/>
+            <div>
+                <head>
+                    <fw type="sig" place="margin_right">40
+                        <note type="physical">
+                            L'autografo è numerato in alto a destra a matita con l’arabico 40 dal curatore dell'Archivio Bertolucci.</note>
+                    </fw>
+                    <fw type="sig" place="margin_right">1)
+                        <note type="physical">
+                            L'autografo esibisce fra parantesi tonde anche l’arabico 1.</note>
+                    </fw>
+                    <lb/>
+                </head>
+                <note type="metrical">La poesia è suddivisa in tre strofe di quartine e una di terzine.</note>
+            </div>
+            <div>
+                <head rend="center">
+                    <app>
+                        <rdg wit="#txt-c">Primi appunti per il figliol prodigo</rdg>
+                        <rdg wit="#txt-1">Il figliuol prodigo</rdg>
+                        <rdg wit="#txt-2">
+                            <del rend="overstrike" hand="#pen2">Il figliuol prodigo</del>
+                            <add place="above" type="substition" hand="#pen2">Primi appunti per il figliol prodigo</add>
+                        </rdg>
+                        <note type="critical">Il manoscritto è in pulito, tranne la cassatura del titolo riscritto successivamente, 
+                            come si è desumibile dall’inchiostrazione della cancellatura e dal ductus del secondo titolo.</note>
+                    </app>
+                    <lb/>
+                </head>
+                <div>
+                    <lg n="1" type="stanza">
+                        <lg n="1" type="quatrain">
+                            <l n="1">Finisce il giorno in un bianco silenzio<lb/></l>
+                            <l n="2">Mentre le nuvole lentamente se ne vanno,<lb/></l>
+                            <l n="3">E il cielo si fa chiaro ancora per un poco<lb/></l>
+                            <l n="4">Prima che la notte arrivi col lesto piede<lb/></l>
+                        </lg>
+                    </lg>
+                    <lg n="2" type="stanza">
+                        <lg n="2" type="quatrain">
+                            <l n="5">I ragazzi sono già entrati in casa<lb/></l>
+                            <l n="6">I lumi si accendono, prima l’uno e poi l’altro<lb/></l>
+                            <l n="7">Finché davanti a tutte le case<lb/></l>
+                            <l n="8">La neve si è coperta di una dolce ombra d’oro<lb/></l>
+                        </lg>
+                    </lg>
+                    <lg n="3" type="stanza">
+                        <lg n="3" type="quatrain">
+                            <l n="9">Anche il cane è tornato agitando la coda<lb/></l>
+                            <l n="10">Portando l’odore del freddo nella chiusa cucina<lb/></l>
+                            <l n="11">E con un festoso guaire saluta i padroni<lb/></l>
+                            <l n="12">Dal vecchio sino al più giovane che non vuole dormire.<lb/></l>
+                        </lg>
+                    </lg>
+                    <lg n="4" type="stanza">
+                        <lg n="4" type="triplet">
+                            <l n="13">La strade è deserta e nel cielo già scuro<lb/></l>
+                            <l n="14">Brillano serene le prime stelle<lb/></l>
+                            <l n="15">S’ode l’acqua mormorare calma nei fossi.<lb/></l>
+                        </lg>
+                    </lg>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+

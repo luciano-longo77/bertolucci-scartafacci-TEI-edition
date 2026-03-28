@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LI. I due gatti</title>
+                <respStmt>
+                    <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                    <name>Luciano Longo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                    <name>Elena Pierazzo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione editoriale a cura di </resp>
+                    <name>Rosa Casapullo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione critico-letteraria a cura di </resp>
+                    <name>Domenica Perrone.</name>
+                </respStmt>
+                <sponsor>
+                    <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                    <address>
+                        <addrLine>Piazzetta Salerno, 12 </addrLine>
+                    </address> 
+                </sponsor>
+            </titleStmt>
+            <extent>
+                <seg type="size">Filesize: 18 KB.</seg>
+                <seg type="format">XML TEI P5</seg>
+                <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+                <publisher>Luciano Longo</publisher>
+                <distributor>Università degli Studi di Palermo,</distributor>
+                <address>
+                    <addrLine>Piazzetta Salerno- 12, </addrLine>
+                </address>
+                <pubPlace> 
+                    <name>Palermo, </name>
+                </pubPlace>
+                <date>2015-2017</date>
+                <availability status="restricted">
+                    <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                    <p>Le immagini possono essere consultate in modalità off-line. </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="critical" anchored="true">
+                    <p>Il dattiloscritto Ds2 è conservato presso l’Archivio di Stato di Parma, "Archivio della Letteratura-Archivio Bertolucci" 
+                        nella sezione «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4.
+                        Ds2 contiene il testo inedito "I due gatti", e la poesia "È arrivato l’inverno" pubblicata nella silloge "La lucertola di Casarola" del 1997 
+                        (Milano, Garzanti).
+                        Il dattiloscritto è in pulito tranne una correzione a penna al v. 3 per un errore di battitura. </p>
+                </note>
+                <note type="biographical" anchored="true">
+                    Negli anni in cui può essere datata la poesia (1930-1940), A. Bertolucci ha già pubblicato la prima raccolte di poesie, 
+                    "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                    che confluiranno poi nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+                    Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                    durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                    Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+                <note type="contexual" anchored="true">
+                    La raccolta edita nel 1934, "Fuochi in Novembre" (Minardi, Parma, 1934), 
+                    in parte non presenta più il crepuscolarismo epigonale di "Sirio" (Minardi, Parma, 1929).</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Ds2</p>
+                <p>Foglio dattiloscritto di carta libero di cm 20,5x21,5, contiene i testi "I due gatti" e "È arrivato l’inverno". 
+                    Il documento è numerato con l’arabico 57; esso reca al centro il numero sei (6) e non presenta indicazione cronologica. 
+                    La poesia "I due gatti" consta di vv. 11; il testo "È arrivato l’inverno" è formato da vv. 16. Il dattiloscritto è in pulito.</p>
+                <p>
+                    <table>
+                        <head rend="center">Composizione di Ds2</head>
+                        <row>
+                            <cell role="label">c. 1r - 10</cell>
+                            <cell>I due gatti</cell>
+                            <cell>È arrivato l’inverno.</cell>
+                        </row>
+                    </table>
+                </p>
+                
+                <!-- <sourceDesc>
+                    <msDesc xml:lang="ita" xml:id="Ds2">
+                        <msIdentifier>
+                            <country><name type="place">Italia</name></country>
+                            <region><name type="place">Emilia Romagna</name></region>
+                            <settlement><name type="place">Parma</name></settlement>
+                            <institution>Archivio di Stato</institution>
+                            <repository>Fondo Attilio Bertolucci</repository>
+                            <collection>Carte Attilio Bertolucci</collection>
+                            <idno>Busta II, fascicolo 4,2</idno>
+                            <msName>Poesie inedite degli anni tra le due guerre e del primo dopoguerra</msName>
+                            <altIdentifier>
+                                <idno>Ds2</idno>
+                                <note>Sezione: Autografi inediti</note>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents class="#gatti">
+                            <summary>Foglio dattiloscritto di carta libero di cm 20,5x21,5, contiene i testi "I due gatti" e "È arrivato l’inverno". 
+                    Il documento è numerato con l’arabico 57; esso reca al centro il numero sei (6) e non presenta indicazione cronologica. 
+                    La poesia "I due gatti" consta di vv. 11; il testo "È arrivato l’inverno" è formato da vv. 16. Il dattiloscritto è in pulito. </summary>
+                            <msItem n="I" class="#gatti">
+                                <locus>c. 1r</locus>
+                                <idno>Ds2-I</idno>
+                                <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                                <title>I due gatti</title>
+                                <incipit>Giocavano come acrobati</incipit>
+                                <explicit>Con dei dolci occhi ipocriti di donna...</explicit>
+                                <textLang mainLang="ita">Italian</textLang>
+                                <note></note>
+                            </msItem>
+                            <msItem n="II" class="#inverno">
+                                <locus>c. 1r</locus>
+                                <idno>Ds2-II</idno>
+                                <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                                <title>È arrivato l’inverno</title>
+                                <incipit>È arrivato l’inverno</incipit>
+                                <explicit>è fiorita la prima neve</explicit>
+                                <note>La poesia è pubblicata nella silloge "La lucertola di Casarola" del 1997 (Milano, Garzanti).</note>
+                                <textLang mainLang="ita">Italian</textLang>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="autografo">
+                                <supportDesc material="paper">
+                                    <support>
+                                        <p><material>foglio di carta dattiloscritto</material>
+                                        </p>
+                                    </support>
+                                    <extent>
+                                        <idno>Ds2</idno>
+                                        <dimensions scope="all" type="foglio" unit="cm">
+                                            <height>20</height>
+                                            <width>21,5</width>
+                                        </dimensions>
+                                    </extent>
+                                    <condition>
+                                        <p></p></condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1" ruledLines="11">
+                                        <idno>Ds2-I</idno>
+                                        <p>Testo scritto su una colonna di 11 versi</p>
+                                    </layout>
+                                    <layout columns="1" ruledLines="16">
+                                        <idno>Ds2-II</idno>
+                                        <p>Testo scritto su una colonna di 16 versi</p>
+                                    </layout>
+                                </layoutDesc> 
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="Attilio_Bertolucci" script="handwritten" medium="black_ink_pen+pencil" scope="major">
+                                    <p>Il testo si presenta dattiloscritto a inchiostro nero con diversi errori di battitura</p>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                        <history>
+                            <origin></origin>
+                        </history>
+                        <additional>
+                            <surrogates>
+                                <p>L'autografo, riprodotto in formato jpeg, è consultabile presso l'Archivio di Stato di Parma.</p>
+                            </surrogates>
+                            <listBibl>
+                                <bibl></bibl>
+                            </listBibl>
+                        </additional>
+                    </msDesc>
+                </sourceDesc> -->
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+            <editorialDecl>
+                <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                    la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+                <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                    si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+                <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+                <correction>
+                    <p></p>
+                </correction>
+                <hyphenation>
+                    <p> </p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+                </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="pen1" medium="datt_ink_1" scribe="Bertolucci"/>
+                <handNote xml:id="pen2" medium="black_ink_2" scribe="Bertolucci"/>  
+            </handNotes>
+            <langUsage>
+                <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+                <date>2016</date>.</change>
+            <change>Il file è stato creato nel <date>Dicembre del 2016</date> da <name> Luciano Longo</name>
+                con il software "Oxygen-XML Editor®"</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nel
+                <list>
+                    <item>Dicembre del 2016.</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader> 
+    <facsimile>
+        <graphic url="images/Ds-2.jpg" xml:id="i_txt-c"/>
+        <graphic url="images/Ds-2-13_2.jpg" xml:id="i_txt-1"/>
+        <graphic url="images/Ds-2-13_2.jpg" xml:id="i_txt-2"/>
+    </facsimile>
+    
+    <text>
+        <front>
+            <div rend="witness">
+                <listWit>
+                    <witness xml:id="txt-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt-1">tb0 prima stesura del testo</witness>
+                    <witness xml:id="txt-2">Tb0 interv. correttivi su tb0</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <pb ed="txt-c" facs="#i_txt-c"/>
+            <pb ed="txt-1" facs="#i_txt-1"/>
+            <pb ed="txt-2" facs="#i_txt-2"/>
+            <div>
+                <head>
+                    <fw type="sig" place="margin_right">57
+                        <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 56 dal curatore dell'Archivio Bertolucci.</note>
+                    </fw>
+                    <fw type="sig" place="margin_right">6
+                        <note type="physical">L'autografo è numerato in alto a centro con il numero 6 da Bertolucci.</note>
+                    </fw>
+                    <lb/>
+                </head>
+            </div>
+            <div>
+                    <head rend="center">
+                        <app>
+                            <rdg wit="#txt-c">I due gatti</rdg>
+                            <rdg wit="#txt-1 #txt-2"><hi rend="underline">I due gatti</hi></rdg>
+                            <note type=" critical">La poesia è composta da 3 strofe; la I e la III di quartine, la II di terzine.</note>                    
+                        </app>
+                    </head>
+                    <lb/>
+                    <lg n="1" type="stanza">
+                        <lg n="1" type="quatrain">
+                            <l n="1">Giocavano come acrobati,<lb/></l>
+                            <l n="2">Senza guardarsi, nel breve giardinetto,<lb/></l>
+                            <l n="3">Presso le gaggie floride di 
+                                <app>
+                                    <rdg wit="#txt-c">foglie,</rdg>
+                                    <rdg wit="#txt-1">foflie,</rdg>
+                                    <rdg wit="#txt-2">fo<del rend="overstrike" hand="#pen2">f</del>
+                                    <add place="margin_left" type="substition" hand="#pen2">g</add>lie,</rdg>
+                                    <note type="critical">Il dattiloscritto presenta una correzione a inchiostro scuro su "foflie"; la "f-" a inchiostro è posta sul margine sinistro. 
+                                        La correzione è su un errore di battitura.</note>                                    
+                                </app>
+                                <lb/></l>
+                            <l n="4"> Fermandosi, di tanto in tanto, come ad ascoltare.<lb/></l>
+                        </lg>
+                    </lg>
+                    <lg n="2" type="stanza">
+                        <lg n="2" type="tertain">
+                            <l n="5">Poi riprendevano, impennandosi,<lb/></l>
+                            <l n="6">Fiamme silenziose e volubili<lb/></l>
+                            <l n="7">Nel chiarore stanco del pomeriggio…<lb/></l>
+                        </lg>
+                    </lg>
+                    <lg n="3" type="stanza">
+                        <lg n="3" type="quatrain">
+                            <l n="8">Uno si addormentava 
+                                <app>
+                                    <rdg wit="#txt-c">all’improvviso</rdg>
+                                    <rdg wit="#txt-1">lll’improvviso</rdg>
+                                    <rdg wit="#txt-2"><del rend="overstrike" hand="#pen1">l</del>
+                                        <add place="inline" type="substition" hand="#pen1">a</add>ll’improvviso</rdg>
+                                    <note type="critical">Il dattiloscritto presenta una correzione di un errore di battitura: "lll'improvviso" viene corretto in "all'improvviso.</note>                                    
+                                </app>
+                                <lb/></l>
+                            <l n="9">Come un bambino,<lb/></l>
+                            <l n="10">L’altro sbadigliava, e fissava la magnolia<lb/></l>
+                            <l n="11">Con dei dolci occhi ipocriti di donna…<lb/></l>
+                        </lg>
+                    </lg>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+

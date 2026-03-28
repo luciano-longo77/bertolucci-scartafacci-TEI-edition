@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XXXVI. Con ritmo uguale, sempre le stesse parole</title>
+                <respStmt>
+                    <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                    <name>Luciano Longo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                    <name>Elena Pierazzo </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione editoriale a cura di </resp>
+                    <name>Rosa Casapullo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione critico-letteraria a cura di </resp>
+                    <name>Domenica Perrone.</name>
+                </respStmt>
+                <sponsor>
+                    <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                    <address>
+                        <addrLine>Piazzetta Salerno, 12 </addrLine>
+                    </address> 
+                </sponsor>
+            </titleStmt>
+            <extent>
+                <seg type="size">Filesize: 25 KB.</seg>
+                <seg type="format">XML TEI P5</seg>
+                <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+                <publisher>Luciano Longo</publisher>
+                <distributor>Università degli Studi di Palermo,</distributor>
+                <address>
+                    <addrLine>Piazzetta Salerno- 12, </addrLine>
+                </address>
+                <pubPlace> 
+                    <name>Palermo, </name>
+                </pubPlace>
+                <date>2015-2017</date>
+                <availability status="restricted">
+                    <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                    <p>Le immagini possono essere consultate in modalità off-line. </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="critical" anchored="true">
+                    <p>Il manoscritto (AuIn34) è conservato presso l’Archivio di Stato di Parma, "Archivio della Letteratura-Archivio Bertolucci" 
+                        nella sezione «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4.</p> 
+                    <p>Nella poesia "Con ritmo uguale, sempre le stesse parole" si rintracciano due interventi correttivi, uno immediato e un secondo tardivo. 
+                        Alla prima tipologia di intervento si può associare la correzione del v. 11; 
+                        in un primo momento Bertolucci scrive "E le mie labbra", subito dopo cassa la "E" aggiungendo nel rigo di scrittura, "E se"; 
+                        stessa considerazione si può estendere al v. 16, in cui il poeta aggiunge "E se", anteponendo la variante sostitutiva alla prima stesura di "E". 
+                        Anche le correzioni sulla riga di scrittura al v. 13 sono da ascriversi a un movimento correttorio immediato. 
+                        Infatti, lo spazio del manoscritto può fornire informazioni utili sul tempo della scrittura: le correzioni integrative inserite 
+                        nell’interlinea, come sono al v. 8, "mio" al v. 13 e "su una" al v. 14, sono indicazioni della seconda tipologia di intervento correttivo 
+                        (tardivo e integrativo) e di un secondo tempo della scrittura del testo. 
+                        La riduzione del v. 15 da "Le gramigne e le erbacce e l’ortica" a "Le gramigne e l’ortica" 
+                        si inserisce nella prassi bertolucciana di reductio del verso (prassi scrittoria sottrattiva).</p>
+                    <p>L'autografo AuIn34 è danneggiato nel lembo inferiore. Generalmente i manoscritti sono in discreto stato di conservazione, 
+                        tranne alcuni che presentano lembi danneggiati e tracce di umidità. 
+                        Gli autografi AuIn2 (c. 1r), e AuIn38 risultano danneggiati nel lembo laterale destro; AuIn41 e AuIn42 deteriorati nel lembo laterale sinistro, invece AuIn43 nel lembo superiore; 
+                        il dattiloscritto Ds4 è danneggiato nel lembo inferiore; AuIn60 nei lembi laterali; AuIn61 è rovinato nella parte centrale; 
+                        AuIn45 è leso invece nei quattro lembi. </p>
+                </note>
+                <note type="biographical" anchored="true">Negli anni in cui viene datata la poesia A. Bertolucci ha già pubblicato la prima raccolta di poesie, 
+                    "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                    che confluiranno poi nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+                    Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                    durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                    Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+                <note type="context" anchored="true">La raccolta edita nel 1934, "Fuochi in Novembre" (Minardi, Parma, 1934), 
+                    in parte non presenta più il crepuscolarismo epigonale di "Sirio" (Minardi, Parma, 1929).</note>
+                <note type="render" anchored="true">Additions appear in a green, fixed-width
+                    font.</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>AuIn34</p>
+                <p>Foglio di carta di quaderno di cm 15x20,5, contiene il testo "Con ritmo uguale, sempre le stesse parole". L’autografo, danneggiato nel lembo inferiore destro, 
+                    è vergato con inchiostro nero ed è numerato con l’arabico 34. Il manoscritto non esibisce una indicazione cronologica. La poesia consta di vv. 16.</p>
+                <!-- <sourceDesc>
+                    <msDesc xml:lang="ita" xml:id="AuIn34">
+                        <msIdentifier>
+                            <country><name type="place">Italia</name></country>
+                            <region><name type="place">Emilia Romagna</name></region>
+                            <settlement><name type="place">Parma</name></settlement>
+                            <institution>Archivio di Stato</institution>
+                            <repository>Fondo Attilio Bertolucci</repository>
+                            <collection>Carte Attilio Bertolucci</collection>
+                            <idno>Busta II, fascicolo 4,1</idno>
+                            <msName>Poesie inedite degli anni tra le due guerre e del primo dopoguerra</msName>
+                            <altIdentifier>
+                                <idno>AuIn34</idno>
+                                <note>Sezione: Autografi inediti</note>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents class="#Canzone">
+                            <summary>Foglio di carta di quaderno di cm 15x20,5, contiene il testo "Con ritmo uguale, sempre le stesse parole". L’autografo, danneggiato nel lembo inferiore destro, 
+                    è vergato con inchiostro nero ed è numerato con l’arabico 34. Il manoscritto non esibisce una indicazione cronologica. La poesia consta di vv. 16.</p>
+                </summary>
+                            <msItem n="I" class="#Canzone">
+                                <locus>c. 1r</locus>
+                                <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                                <title>Con ritmo uguale, sempre le stesse parole</title>
+                                <incipit>Il figliuolo ritorna, solo, un po’ pauroso</incipit>
+                                <explicit>E se qualche volta, tanto è nascosto, mi pare di non udirlo»</explicit>
+                                <textLang mainLang="ita">Italian</textLang>
+                                <note></note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="autografo">
+                                <supportDesc material="paper">
+                                    <support>
+                                        <p><material>foglio di carta bianca
+                                            <date>senza data</date>
+                                        </material>
+                                        </p>
+                                    </support>
+                                    <extent>
+                                        <dimensions scope="all" type="foglio" unit="cm">
+                                            <height>15</height>
+                                            <width>20,5</width>
+                                        </dimensions>
+                                    </extent>
+                                    <condition>
+                                        <p>L'autografo risulta danneggiato nel lembo inferiore</p></condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1" ruledLines="16">
+                                        <p>Testo scritto su una colonna di 16 versi</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="Attilio_Bertolucci" script="handwritten" medium="black_ink_pen+pencil" scope="major">
+                                    <p>Il testo si presenta con una scrittura calligrafica moderna con tratti chiari e piccoli. 
+                                        L’autografo è vergato a inchiostro nero.</p>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <p></p>
+                            </origin>
+                        </history>
+                        <additional>
+                            <surrogates>
+                                <p>L'autografo, riprodotto in formato jpeg, è consultabile presso l'Archivio di Stato di Parma.</p>
+                            </surrogates>
+                            <listBibl>
+                                <bibl n="1"></bibl>
+                            </listBibl>
+                        </additional>
+                    </msDesc>
+                </sourceDesc> -->
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+            <editorialDecl>
+                <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                    la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+                <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                    si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+                <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+                <correction>
+                    <p></p>
+                </correction>
+                <hyphenation>
+                    <p> </p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+                </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="pen1" medium="black_ink_1" scribe="Bertolucci"/>
+                <handNote xml:id="pen2" medium="black_ink_2" scribe="Bertolucci"/>
+            </handNotes>
+            <langUsage>
+                <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+                <date>2015</date>.</change>
+            <change>Il file è stato creato nel <date>Dicembre del 2016</date> da <name> Luciano Longo.</name>
+                con il software "Oxygen-XML Editor®"</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nel
+                <list>
+                    <item>Dicembre del 2016.</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="images/AuIn-34.jpg" xml:id="i_txt-c"/>
+        <graphic url="images/AuIn-34.jpg" xml:id="i_txt-1"/>
+        <graphic url="images/AuIn-34.jpg" xml:id="i_txt-2"/>
+        <graphic url="images/AuIn-34.jpg" xml:id="i_txt-3"/>
+    </facsimile>
+    
+    <text>
+        
+        <front>
+            <div rend="witness">
+                <listWit>
+                    <witness xml:id="txt-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt-1">Tb0, prima stesura</witness>
+                    <witness xml:id="txt-2">Tb1, seconda stesura</witness>
+                    <witness xml:id="txt-3">T1, terza stesura</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <pb ed="txt-c" facs="#i_txt-c"/>
+            <pb ed="txt-1" facs="#i_txt-1"/>
+            <pb ed="txt-2" facs="#i_txt-2"/>
+            <pb ed="txt-3" facs="#i_txt-3"/>
+            <div>
+                <head>              
+                    <fw type="sig" place="margin-topright">34
+                        <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 34 dal curatore dell'Archivio Bertolucci.</note>
+                    </fw>
+                    <lb/>
+                </head>
+            </div>
+            
+            <div>
+                <head rend="center">Con ritmo uguale, sempre le stesse parole
+                    <note type="metrical">La poesia si presenta suddivisa in 4 strofe di quartine.</note>
+                    <lb/>
+                </head>
+                <lg n="1" type="stanza">
+                    <lg type="quatrain">
+                        <l n="1">Il figliuolo ritorna, solo, un po’ pauroso<lb/></l>
+                        <l n="2">Come quando fanciullo non osava confessare il male<lb/></l>
+                        <l n="3">E non voleva tacerlo…<lb/></l>
+                        <l n="4">Anche allora era sera e lui solo non era tornato<lb/></l>
+                    </lg>
+                </lg>
+                
+                <lg n="2" type="stanza">
+                    <lg type="quatrain">
+                        <l n="5">Dice fra sé : «Quì tutto è uguale<lb/></l>
+                        <l n="6">Come un tempo, come tanto tempo fa.<lb/></l>
+                        <l n="7">Anch’io sono uguale, solo il mio volto<lb/></l>
+                        <l n="8">È più vecchio e più vecchi  
+                            <app>
+                                <rdg wit="#txt-c">sono
+                                    <note type="critical">La correzione integrativa inserita nell’interlinea ("sono") è indicazione di una seconda 
+                                        tipologia di intervento correttivo (tardivo e integrativo) e di un secondo tempo della scrittura del testo.</note></rdg>
+                                <rdg wit="#txt-1 #txt-2"/>
+                                <rdg wit="#txt-3">
+                                    <add place="above" type="integration" hand="#pen2">sono</add>
+                                    <note type="critical">La correzione integrativa inserita nell’interlinea ("sono") è indicazione di una seconda 
+                                        tipologia di intervento correttivo (tardivo e integrativo) e di un secondo tempo della scrittura del testo.</note>
+                                </rdg>
+                            </app>
+                             i miei occhi»<lb/></l>
+                    </lg>
+                </lg>
+                
+                <lg n="3" type="stanza">
+                    <lg type="quatrain">
+                        <l n="9">Queste mie mani sono quelle d’una volta<lb/></l>
+                        <l n="10">Anche tante cose, le più orrende, toccarono.<lb/></l>
+                        <l n="11">
+                            <app>
+                                <rdg wit="#txt-c #txt-3">E se </rdg>
+                                <rdg wit="#txt-1">E </rdg>
+                                <rdg wit="#txt-2">
+                                    <add instant="true" place="inline" type="substition" hand="#pen1">E se</add> 
+                                    <del instant="true" rend="overstrike" hand="#pen1">E</del> 
+                                </rdg>
+                            </app>
+                            le mie labbra altro miele hanno assaggiato
+                            <note type="critical">Al v. 11 il poeta in un primo momento Bertolucci scrive 
+                                "E le mie labbra", subito dopo cassa la "E" aggiungendo nel rigo di scrittura, "E se".
+                            L'intervento correttorio è da considerarsi immediato </note>
+                            <lb/>
+                        </l>
+                        <l n="12">E altro Vino, e i miei capelli sono più radi»<lb/></l>
+                    </lg>
+                </lg>
+                <lg n="4" type="stanza">
+                    <lg type="quatrain">
+                        <l n="13">
+                            <app>
+                                <rdg wit="#txt-c #txt-3">«Ancora
+                                    <note type="critical">Al v. 13 il poeta sovrascrive "A-" su "a-" di "Ancora". 
+                                        L'intervento correttorio è da considerarsi immediato </note>
+                                </rdg>
+                                <rdg wit="#txt-1">«Ma ancora</rdg>
+                                <rdg wit="#txt-2">
+                                    <del instant="true" rend="overstrike" hand="#pen1">Ma</del>
+                                    <add instant="true" place="inline" type="substition" hand="#pen1">
+                                        <del instant="true" rend="overstrike" hand="#pen1">a</del>A</add>ncora 
+                                    <note type="critical">Al v. 13 il poeta sovrascrive "A-" su "a-" di "Ancora". 
+                                        L'intervento correttorio è da considerarsi immediato </note>
+                                </rdg>
+                            </app>
+                             è intatto il 
+                            <app>
+                                <rdg wit="#txt-c">mio 
+                                    <note type="critical">La correzione integrativa inserita nell’interlinea ("mio") è indicazione di una seconda 
+                                        tipologia di intervento correttivo (tardivo e integrativo) e di un secondo tempo della scrittura del testo.</note>
+                                </rdg>
+                                <rdg wit="#txt-1 #txt-2"/>
+                                <rdg wit="#txt-3">
+                                    <add place="above" type="integration" hand="#pen2">mio</add>
+                                    <note type="critical">La correzione integrativa inserita nell’interlinea ("mio") è indicazione di una seconda 
+                                        tipologia di intervento correttivo (tardivo e integrativo) e di un secondo tempo della scrittura del testo.</note>
+                                </rdg>
+                            </app>
+                            cuore
+                            <app>
+                                <rdg wit="#txt-c #txt-3"/>
+                                <rdg wit="#txt-1"> d'una volta</rdg>
+                                <rdg wit="#txt-2"><del rend="overstrike" hand="#pen1">d'una volta</del></rdg>
+                            </app>
+                            <lb/>
+                        </l>
+                        <l n="14">Anche se come 
+                            <app>
+                                <rdg wit="#txt-c">su una
+                                    <note type="critical">La correzione integrativa inserita nell’interlinea ("su una") è indicazione di una seconda 
+                                        tipologia di intervento correttivo (tardivo e integrativo) e di un secondo tempo della scrittura del testo.</note></rdg>
+                                <rdg wit="#txt-1"> una </rdg>
+                                <rdg wit="#txt-2">
+                                    <add place="inline" type="substition" hand="#pen2">s'</add>una
+                                    <note type="critical">La correzione integrativa inserita nell’interlinea ("su una") è indicazione di una seconda 
+                                        tipologia di intervento correttivo (tardivo e integrativo) e di un secondo tempo della scrittura del testo.</note></rdg>
+                                <rdg wit="#txt-3">
+                                    <del rend="overstrike" hand="#pen2">s'una</del> 
+                                    <add place="above" type="substition" hand="#pen2">su una</add>
+                                    <note type="critical">La correzione integrativa inserita nell’interlinea ("su una") è indicazione di una seconda 
+                                        tipologia di intervento correttivo (tardivo e integrativo) e di un secondo tempo della scrittura del testo.</note>
+                                </rdg>
+                            </app>
+                            rovina vi sono cresciute
+                            <lb/>
+                        </l>
+                        <l n="15">Le gramigne 
+                            <app>
+                                <rdg wit="#txt-c #txt-3"/>
+                                <rdg wit="#txt-1"> e le verdure</rdg>
+                                <rdg wit="#txt-2">
+                                    <del rend="overstrike" hand="#pen2"> e le verdure</del></rdg>
+                            </app> e l’ortica
+                            <note type="critical">La riduzione del v. 15 da 
+                                "Le gramigne e le erbacce e l’ortica" a "Le gramigne e l’ortica" si inserisce nella prassi 
+                                bertolucciana di reductio del verso (prassi scrittoria sottrattiva).</note>
+                            <lb/>
+                        </l>
+                        <l n="16">
+                            <app>
+                                <rdg wit="#txt-c #txt-3">E se </rdg>
+                                <rdg wit="#txt-1">E </rdg>
+                                <rdg wit="#txt-2"> 
+                                    <add instant="true" place="inline" type="substition" hand="#pen1">E se</add> 
+                                    <del instant="true" rend="overstrike" hand="#pen1">E</del> 
+                                </rdg>
+                            </app>
+                             qualche volta, tanto è nascosto, mi pare di non udirlo»
+                            <note type="critical">Al v. 16 il poeta aggiunge "E se", anteponendo la variante integrativa alla prima stesura di "E". 
+                                L'intervento correttorio è da considerarsi immediato </note>
+                            <lb/>
+                        </l>
+                    </lg>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>
+

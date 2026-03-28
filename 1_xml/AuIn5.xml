@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>IV. A una nuvola</title>
+               <author>Attilio Bertolucci</author>
+               <respStmt>
+                  <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                  <name>Luciano Longo.</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                  <name>Elena Pierazzo </name>
+                  <name>Tiziana Mancinelli.</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Supervisione editoriale a cura di </resp>
+                  <name>Rosa Casapullo.</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Supervisione critico-letteraria a cura di </resp>
+                  <name>Domenica Perrone.</name>
+               </respStmt>
+               
+               <sponsor>
+                  <name type="institution">Università degli Studi di Palermo</name>
+                  <name type="institution">Dipartimento di Scienze Umanistiche.</name>
+               </sponsor>
+               
+               <funder>
+                  <name type="institution">Università degli Studi di Palermo</name>
+                  <name type="institution">Dipartimento di Scienze Umanistiche.</name>
+                  <address>
+                     <addrLine>Piazzetta Salerno, 12 </addrLine>
+                  </address>
+               </funder>
+               
+            </titleStmt>
+            <extent>
+               <seg type="size">Filesize: 30 KB.</seg>
+               <seg type="format">XML TEI P5</seg>
+               <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+               <publisher>Luciano Longo</publisher>
+               <authority>Università degli Studi di Palermo, </authority>
+               <address>
+                  <addrLine>Piazzetta Salerno- 12, </addrLine>
+               </address>
+               <pubPlace> 
+                  <name type="place">Palermo, </name>
+               </pubPlace>
+               <date>2015.</date>
+               <idno type="digital_edition">Gli "scartafacci" di Attilio Bertolucci. Edizione critica digitale</idno>
+               <availability status="restricted">
+                  <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                  <p>Le immagini degli autografi possono essere consultati in modalità off-line. </p>
+               </availability>
+            </publicationStmt>
+            <notesStmt>
+               <!-- Inserisco questa marcatura perchè è l'unico modo con cui VM 4.0 mi fa visualizzare le immagini; 
+                  è possibile marcare con <facsimile> ma non permette di visualizzare le immagini. -->
+               <note type="image" anchored="true">
+                  <witDetail wit="#txt-1" target="#txt-1" place="apparatus">
+                     <graphic url="images/AuIn-5.jpg"/>
+                  </witDetail>
+                  <witDetail wit="#txt-2" target="#txt-2" place="apparatus">
+                     <graphic url="images/AuIn-5.jpg"/>
+                  </witDetail>
+                  <witDetail wit="#txt-3" target="#txt-3" place="apparatus">
+                     <graphic url="images/AuIn-5.jpg"/>
+                  </witDetail>
+                  <witDetail wit="#txt-4" target="#txt-c" place="apparatus">
+                     <graphic url="images/AuIn-5.jpg"/>
+                  </witDetail>
+                  <witDetail wit="#txt-5" target="#txt-c" place="apparatus">
+                        <graphic url="images/AuIn-5.jpg"/>
+                     </witDetail>
+                  
+                  <witDetail wit="#txt-c" target="#txt-c" place="apparatus">
+                     <graphic url="images/AuIn-5.jpg"/>
+                  </witDetail>
+               </note> 
+               
+               <note type="critical" anchored="true">
+                  <p>Il manoscritto (AuIn1) è conservato presso l’Archivio di Stato di Parma nella sez. 
+                     <title>«Poesie inedite degli anni tra le due guerre e del primo dopoguerra»</title>, <idno>Busta II, fascicolo 4</idno>. 
+                     La poesia A una nuvola, datata 5 aprile 1932, si presenta su un foglio di carta libero di cm 20,5x30; 
+                     il manoscritto presenta in alto a destra il numero 5 scritto a matita. La poesia consta di vv. 28. 
+                     L’autografo è vergato con inchiostro nero tranne due interventi a matita: Corri al v. 6 e con al v. 15. 
+                     Il testo si presenta molto elaborato; infatti, analizzando la collocazione topografica delle varianti, 
+                     i mezzi scrittori e le varianze di inchiostro, è possibile rintracciare all’interno del manoscritto 
+                     una prassi di tipo sottrattivo-correttiva, quasi consueta negli autografi inediti di Bertolucci. 
+                     In relazione a ciò, all’interno di AuIn5 si possono ricostruire, in un caso, cinque fasi elaborative: 
+                     il poeta al v. 6 scrive dapprima Vaghi (fase I) che cassa, e nella stessa riga, con una variante “instaurativa”, 
+                     scrive In tua ingannevole forma (fase II), verso che rimpiazza, dopo averlo cassato con inchiostro, con Percorri, (fase III); 
+                     anche questa variante viene sostituita con una prima scartata (variante ‘riproposizionale’): Vaghi (IV fase); 
+                     il testo trova una stabilizzazione con l’inserimento di Corri in luogo di Vaghi (V fase). 
+                     Al v. 23, sono ricostruibili, invece, quattro momenti compositivi (prima del v. 23 Bertolucci cassa un intero verso 
+                     Il biondo crine […]); il testo pervenuto a una redazione stabile funziona nel seguente modo: (Quale stasera sei, Aerea/ meraviglia). 
+                     Un primo strato di scrittura (I fase) presenta il verso in fieri: (Quale stasera sei, Nell cielo), in cui Bertolucci inserisce una 
+                     variante “instaurativa”: cancella Nel cielo e scrive Sei. L’ultimo inserimento riporta il poeta a un ripensamento: cassa Sei (II fase)
+                     e aggiunge Aerea nerea (III fase) e quasi in “diretta” cassa nerea. Dopo questa operazione il verso giunge alla sua stabilizzazione 
+                     (IV fase). La tipologia elaborativa sottrattivo-correttiva si rintraccia anche ai v. 7, v. 21, v. 22 e v. 24 in cui 
+                     si possono individuare tre fasi redazionali; il v. 7 in una prima stesura era In tua mutevole forma (fase I); verso 
+                     che Bertolucci cassa interamente (fase II) scrivendolo con il solo Vaghi (fase III), monoverso che a sua volta viene 
+                     corretto con l’aggiunta di una variante “ritrattata” dal verso precedente Sempre in mutevol forma (fase IV). Il v. 21 
+                     in una stesura iniziale si presentava nel seguente modo: (I fase) In bianca ninfa d’oro, in cui bianca e d’oro vengono 
+                     cassati a inchiostro; in una secondo momento il poeta aggiunge nell’interlinea superiore strana recuperando dalla linea 
+                     di scrittura d’oro (fase II); in una fase successiva (fase III) Bertolucci elimina strana e aggiunge, sempre nell’interlinea 
+                     superiore, vaga. Il v. 22, che a redazione completata funziona così: Che il vento scompiglia, in una prima fase era nel seguente 
+                     modo: Che il bel vento scompiglia, in cui bel dopo esser cassato a inchiostro, viene recuperato; questa redazione del verso 
+                     subisce una ulteriore variazione: da Che il bel vento scompiglia si trasforma in Che il giovane vento scompiglia, con giovane 
+                     aggiunto nell’interlinea superiore e bel nuovamente cassato. Nella stesura finale del v. 22 Bertolucci preferisce 
+                     non aggettivare il vento, infatti cassa giovane. Anche il v. 24 subisce un processo di riscrittura, infatti in un primo 
+                     momento il poeta scrive: Dall’aria dolce […] meraviglia, verso che cassa e riscrive in Bianca meraviglia; questo stesso 
+                     verso subisce una ulteriore modifica con la sottrazione di Bianca. I v. 16, v. 27, il v. 28 e i versi 18-20 si sono stabilizzati 
+                     dopo un duplice processo di riscrittura. Il v. 16 in una prima fase era Adorni il vasti piano […] […] il monte, il verso 
+                     viene cassato e riscritto in Proteggi dall’estate un picciol fonte (II fase). I vv. 18-20 si presentavano una prima stesura, 
+                     poi cassata a inchiostro, nel seguente modo (Qual’eri questa mane/ Nel fresco e silente tempo/ Ch’è in anni alla levata); 
+                     versi riscritti a latere della cassatura. Il v. 27 E varia di consiglio ha avuto, due momenti compositivi: in un primo momento 
+                     si presentava nel seguente modo: E cambia di consiglio (I fase), in cui E è scritta a correzione immediata di Che; in un secondo 
+                     momento il poeta aggiunge varia nell’interlinea superiore a correzione di cambia: E varia di consiglio (II fase). Il verso finale 
+                     in una prima stesura era Quando tu, di valore, bella nube, di colore, Quando viene corretto in Quanto e di valore cassato. 
+                     Le aggiunte nell’interlinea al v. 3, al v. 17 e al v. 26 sono da considerarsi successive alla prima stesura e lettura del testo, 
+                     quindi sono da valutare come varianti tardive o integrative.</p>
+               </note>
+               <note type="biographical" anchored="true">Negli anni in cui viene datata la poesia A. Bertolucci ha già pubblicato la prima raccolte di poesie, 
+                  <title>"Sirio"</title> (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                  che confluiranno poi nella raccolta <title>"Fuochi in Novembre"</title> (Minardi, Parma, 1934). 
+                  Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                  durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                  Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+               <note type="contexual" anchored="true">La raccolta edita nel 1934, <title>"Fuochi in Novembre"</title> (Minardi, Parma, 1934), 
+                  in parte non presenta più il crepuscolarismo epigonale di <title>"Sirio"</title> (Minardi, Parma, 1929); 
+                  il testo qui edito vive ancora di questa atmosfera.</note>
+               <note type="render" anchored="true">Additions appear in a green, fixed-width
+                  font.</note>
+            </notesStmt>
+            <sourceDesc>
+               <p>AuIn1</p>
+               <p>Foglio di carta libero di cm 20,5x30, contiene il testo de A una nuvola. 
+                  Il manoscritto, datato 5 aprile 1932, è vergato con inchiostro nero tranne due interventi a matita. 
+                  L’autografo è numerato con l’arabico 5. La poesia consta di vv. 28.</p>
+            </sourceDesc>
+            <!-- (INSERISCO una marcatura più completa e valida della descrizione del ms.; 
+               la inserisco in questo modo perchè non è strutturata nell'XSLT di VM4.0. 
+               cf. BIBL.: F. Cusimano, Due esempi di "buone pratiche" nell'uso dei metadati XML. Un'efficace "disseminazione" dei contenuti digitali. MINIMA BIBLIOGRAPHICA, 19, Milano-2014)
+            <sourceDesc>
+               <msDesc xml:lang="ita" xml:id="AuIn1">
+                  <msIdentifier>
+                     <country><name type="place">Italia</name></country>
+                     <region><name type="place">Emilia Romagna</name></region>
+                     <settlement><name type="place">Parma</name></settlement>
+                     <institution>Archivio di Stato</institution>
+                     <repository>Fondo Attilio Bertolucci</repository>
+                     <collection>Carte Attilio Bertolucci</collection>
+                     <idno>Busta II, fascicolo 4,1</idno>
+                     <msName>Poesie inedite degli anni tra le due guerre e del primo dopoguerra</msName>
+                     <altIdentifier>
+                        <idno>AuIn1</idno>
+                        <note>Sezione: Autografi inediti</note>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents class="#Canzone">
+                     <summary>Foglio di carta libero di cm 20,5x19, riporta il testo di "Un triste canto, un dolce e triste". 
+                        Il manoscritto, datato "Casarola 1930- Baccanelli Aprile 1932", è danneggiato nel lembo inferiore; 
+                        esso è vergato con inchiostro nero ed è numerato in alto a destra con l’arabico 1. 
+                        L’autografo è scritto quasi totalmente con inchiostro nero e presenta un solo verso a matita. 
+                        Lo specchio di scrittura consta di vv. 18.</summary>
+                     <msItem n="I" class="#Canzone">
+                        <locus>c. 1r</locus>
+                        <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                        <title>
+                        <del type="overstrike"><hi rend="underline">Canzone incompiuta</hi></del>
+                        </title>
+                        <incipit>Un triste canto, un dolce e triste canto</incipit>
+                        <explicit>O selve, o fonti, o torrenti scroscianti</explicit>
+                        <textLang mainLang="ita">Italian</textLang>
+                        <note>Il titolo originario del componimento è<title> "Canzone incompiuta"</title>, 
+                           esso viene sottolineato e cassato tramite il tracciamento di una barra orizzontale</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="autografo">
+                        <supportDesc material="paper">
+                           <support>
+                              <p><material>foglio di carta bianca
+                                 <date>1930-1932</date>
+                              </material>
+                              </p>
+                           </support>
+                           <extent>
+                              <dimensions scope="all" type="foglio" unit="cm">
+                                 <height>20,5</height>
+                                 <width>19</width>
+                              </dimensions>
+                           </extent>
+                           <condition>
+                              <p>L'autografo risulta danneggiato nel lembo inferiore</p></condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" ruledLines="18">
+                           <p>Testo scritto su una colonna di 18 versi</p>
+                        </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scribe="Attilio_Bertolucci" script="handwritten" medium="black_ink_pen+pencil" scope="major">
+                        <p>Il testo si presenta con una scrittura calligrafica moderna con tratti chiari e piccoli. 
+                           L’autografo è vergato a inchiostro e a matita; entrambe le stesure sono attribuibili ad 
+                           <persName>Attilio Bertolucci;</persName>
+                           la stesura a inchiostro si può considerare la prima (tb0); l'uso della matita si può considerare come 
+                           intervento tardivo e di tipo correttivo (T1)</p>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <p>Il testo probabilmente venne scritto tra<origPlace>Casarola</origPlace> 
+                           e <origPlace>Baccanelli</origPlace><origDate cert="medium">fra il 1930 e il 1932</origDate>
+                        </p>
+                     </origin>
+                  </history>
+                  <additional>
+                     <surrogates>
+                        <p>L'autografo, riprodotto in formato jpeg, è consultabile presso l'Archivio di Stato di Parma.</p>
+                     </surrogates>
+                     <listBibl>
+                        <bibl n="1"></bibl>
+                     </listBibl>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+            -->
+         </fileDesc>
+         <encodingDesc>
+            <projectDesc>
+               <p>"General description of project here?"</p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+               <p></p>
+            </refsDecl>
+            <editorialDecl>
+               <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                  la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+               <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                  si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+               <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+               <correction>
+                  <p>"Description of how and under what circumstances corrections have been made in the
+                     text."</p>
+               </correction>
+               <hyphenation>
+                  <p>"Summary of the way in which hyphenation in a source text has been treated in
+                     editing it." </p>
+               </hyphenation>
+               <normalization>
+                  <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+               </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+         </encodingDesc>
+         <profileDesc>
+            <langUsage>
+               <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+         </profileDesc>
+         <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+               <date>2015</date>.</change>
+            <change>Il file è stato creato nel <date>Dicembre del 2015</date> da <name> Luciano Longo.</name>
+               con il software "XML-Copy Editor®".</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nell'
+               <list>
+                  <item>
+                     <date>Gennaio del 2016,</date> la successiva nel 
+                     <date>Febbraio del 2016</date> poi nel
+                     <date>Marzo del 2016.</date>
+                  </item>
+               </list>
+            </change>
+         </revisionDesc>
+      </teiHeader>
+   <!-- (INSERISCO anche la marcatura con <facsimile><graphic>; VM4.0 non visualizza l'immagine. Come si risolve?) 
+   <facsimile>
+      <graphic url="images/AuIn-1.jpg" xml:id="i_txt-1"/>
+      <graphic url="images/AuIn-1.jpg" xml:id="i_txt-2"/>
+      <graphic url="images/AuIn-1.jpg" xml:id="i_txt-3"/>
+      <graphic url="images/AuIn-1.jpg" xml:id="i_txt-c"/>
+   </facsimile>
+   -->
+      <text>
+         
+         <front>
+            <div rend="witness">
+               <listWit>
+                  <witness xml:id="txt-1">Tb0, versione 1 (prima stesura del testo);</witness>
+                  <witness xml:id="txt-2">Tb1, versione 2 (seconda stesura del testo);</witness>
+                  <witness xml:id="txt-3">T1,  versione 3 (terza stesura del testo);</witness>
+                  <witness xml:id="txt-4">T2,  versione 4 (quarta stesura del testo);</witness>
+                  <witness xml:id="txt-5">T5,  versione 5 (quinta stesura del testo);</witness>
+                  <witness xml:id="txt-c">Tc,  Edizione critica.</witness>
+               </listWit>
+            </div>
+         </front>
+         <body>
+               
+            <div1 type="poem" xml:id="Nuvola">
+               
+               <head rend="center">
+                  <app>
+                     <rdg wit="#txt-1 #txt-2 #txt-3 #txt-4 #txt-5">
+                        <hi rend="underline">A una nuvola</hi>
+                     </rdg>
+                     <rdg wit="#txt-c">A una nuvola</rdg>
+                  </app>
+                  
+                  <note type="physical">
+                     L'autografo è numerato in alto a destra a matita con l’arabico 5, 
+                     con una mano diversa rispetto a quella dell'autografo, probabilmente dagli indicizzatori dell'Archivio</note>
+                  <fw type="sig" place="margin right">c.1r</fw>
+                  <lb/>
+               </head>
+                  
+               <div2>
+                  <note type="metrical">La poesia si presenta suddivisa in 3 strofe, la prima e la terza formata da due quartine, 
+                     la seconda è un'unica stanza di venti versi.</note>
+                 
+                  <lg n="1" type="stanza">
+                     <lg type="quatrain">
+                        <l n="1">Nuvola d’oro<lb/></l>
+                        <l n="2">Che il vento scompiglia,<lb/></l>
+                        <l n="3">Oh come il
+                           <app>
+                              <rdg wit="#txt-1 #txt-2">tuo</rdg>
+                              <rdg wit="#txt-3"><del>tuo</del><add place="above">tuo</add></rdg>
+                              <rdg wit="#txt-4 #txt-5 #txt-c">mio</rdg>
+                           </app>
+                            destino<lb/></l>
+                        <l n="4">Al                            
+                           <app>
+                           <rdg wit="#txt-1 #txt-2">mio</rdg>
+                           <rdg wit="#txt-3"><del>mio</del><add place="above">tuo</add></rdg>
+                           <rdg wit="#txt-4 #txt-5 #txt-c">tuo</rdg>
+                        </app>
+                           somiglia.<lb/></l>
+                     </lg>
+                  </lg>
+                  
+                  <lg n="2" type="stanza">
+                     <lg type="stanza">
+                        <l n="5">Leggera e solitaria<lb/></l>
+                        <l n="6">
+                           <app>
+                              <rdg wit="#txt-1">Vaghi</rdg>
+                              <rdg wit="#txt-2"><del>Vaghi</del><add> In tua ingannevol forma</add></rdg>
+                              <rdg wit="#txt-3"><del>In tua ingannevol forma</del><add> Percorri</add></rdg>
+                              <rdg wit="#txt-4"><del>Percorri</del><add> Vaghi</add></rdg>
+                              <rdg wit="#txt-5"><del>Vaghi</del><add> Corri</add></rdg>
+                              <rdg wit="#txt-c">Corri</rdg>
+                           </app>
+                           <lb/></l>
+                        <l n="7">
+                           <app>
+                              <rdg wit="#txt-1">In tua mutevole forma</rdg>
+                              <rdg wit="#txt-2"><del>In tua mutevole forma </del><add>Vaghi</add></rdg>
+                              <rdg wit="#txt-3"><del>Vaghi</del><add>Sempre in mutevol forma</add></rdg>
+                              <rdg wit="#txt-4 #txt-5 #txt-c">Sempre in mutevol forma</rdg>
+                           </app>
+                           <lb/></l>
+                        <l n="8">Le azzurre vie dell’aria:<lb/></l>
+                        <l n="9">Ora, splendente e bianca<lb/></l>
+                        <l n="10">Quando la notte viene,<lb/></l>
+                        <l n="11">La stanca<lb/></l>
+                        <l n="12">Luna vinci in chiarore,<lb/></l>
+                        <l n="13">Or fosca all’orizzonte<lb/></l>
+                        <l n="14">Porti oscuri presagi,<lb/></l>
+                        <l n="15">Or 
+                           <app>
+                           <rdg wit="#txt-1 #txt-2 #txt-3">di</rdg>
+                           <rdg wit="#txt-4"><del>di</del><add place="above"> co</add></rdg>
+                           <rdg wit="#txt-5 #txt-c">con</rdg>
+                           </app>
+                           tua lieve ombra<lb/></l>
+                        <l n="16">
+                           <app>                              
+                              <rdg wit="#txt-1 #txt-2 #txt-3">Adorni il vasti piano <unclear>???</unclear> <unclear>???</unclear> il monte</rdg>
+                              <rdg wit="#txt-4"><del>Adorni il vasti piano <unclear>???</unclear> <unclear>???</unclear> il monte</del> 
+                                 <add>Proteggi dall’estate un picciol fonte.</add></rdg>
+                              <rdg wit="#txt-5 #txt-c">Proteggi dall’estate un picciol fonte.</rdg>
+                           </app>
+                           <lb/></l>
+                        <l n="17">
+                           <app>
+                              <rdg wit="#txt-1 #txt-2">Ti trasformi di rosata</rdg>
+                              <rdg wit="#txt-3">Ti <del>trasformi</del><add place="above">muti</add>di rosata</rdg>
+                              <rdg wit="#txt-4 #txt-5 #txt-c">Ti muti di rosata</rdg>
+                           </app>
+                           <lb/></l>
+                        <l n="18">                           
+                           <app>                              
+                              <rdg wit="#txt-1 #txt-2">(Qual’era questa mane</rdg>
+                              <rdg wit="#txt-3">(Qual’er<del>a</del><add>i</add> questa mane</rdg>
+                              <rdg wit="#txt-4"><del>(Qual’eri questa mane</del><add>Tale</add> 
+                              <add><del> Tale</del> (Tal eri questa mane</add></rdg>
+                              <rdg wit="#txt-5 #txt-c">(Tal eri questa mane</rdg>
+                        </app>
+                           <lb/></l>
+                        <l n="19">
+                           <app>                              
+                              <rdg wit="#txt-1 #txt-2 #txt-3">Nel fresco e silente tempo</rdg>
+                              <rdg wit="#txt-4"><del>Nel fresco e silente tempo</del>
+                                 <add> In quel silente tempo</add></rdg>
+                              <rdg wit="#txt-5 #txt-c">In quel silente tempo</rdg>
+                           </app>
+                           <lb/></l>
+                        <l n="20">
+                           <app>                              
+                              <rdg wit="#txt-1 #txt-2 #txt-3">Ch’è in anni alla levata</rdg>
+                              <rdg wit="#txt-4"><del>Ch’è in anni alla levata</del>
+                                 <add> Che <del>per</del>precede del sole la levata)</add></rdg>
+                              <rdg wit="#txt-5 #txt-c">Che precede del sole la levata)</rdg>
+                           </app>
+                           <lb/></l>
+                        <l n="21">
+                           <app>
+                              <rdg wit="#txt-1">In bianca ninfa d'oro</rdg>
+                              <rdg wit="#txt-2">In <del>bianca</del> ninfa <del>d'oro</del></rdg>
+                              <rdg wit="#txt-3"> In <add place="above">strana</add> ninfa <add>d'oro</add></rdg>
+                              <rdg wit="#txt-4"> In <del>strana</del> <add place="above">vaga</add> ninfa d'oro</rdg>
+                              <rdg wit="#txt-5 #txt-c">In vaga ninfa d’oro</rdg>
+                           </app>
+                           <lb/></l>
+                        <l n="22">
+                           <app>                              
+                              <rdg wit="#txt-1">Che il bel vento scompiglia,</rdg>
+                              <rdg wit="#txt-2">Che il <del>bel</del> vento scompiglia,</rdg>
+                              <rdg wit="#txt-3"> Che il <add place="above">bel</add> <add place="above">giovane</add> vento scompiglia, </rdg>
+                              <rdg wit="#txt-4"> Che il <del>bel</del> <del>giovane</del> vento scompiglia,</rdg>
+                              <rdg wit="#txt-5 #txt-c">Che il vento scompiglia,</rdg>
+                           </app>
+                           <lb/></l>
+                        <!-- prima del v. 23 Bertolucci cassa un intero verso Il biondo crine.... -->
+                        <l n="23">
+                           <app>
+                              <rdg wit="#txt-1">Quale stasera sei,</rdg>
+                              <rdg wit="#txt-2">Quale stasera sei, <add>Nel cielo</add></rdg>
+                              <rdg wit="#txt-3">Quale stasera sei, <del>Nel cielo</del> <add>Sei</add></rdg>
+                              <rdg wit="#txt-4">Quale stasera sei, <del>Sei</del> <add> Aerea nerea</add></rdg>
+                              <rdg wit="#txt-5">Quale stasera sei, Aerea <del>nerea</del></rdg>
+                              <rdg wit="#txt-c">Quale stasera sei, Aerea</rdg>  
+                           </app> 
+                           <lb/></l>
+                        <l n="24">
+                           <app>                              
+                              <rdg wit="#txt-1 #txt-2">Dall’aria dolce figlia meraviglia</rdg>
+                              <rdg wit="#txt-3"><del>Dall’aria dolce figlia meraviglia</del> <add>Bianca meraviglia)</add></rdg>
+                              <rdg wit="#txt-4"><del>Bianca</del> meraviglia)</rdg>
+                              <rdg wit="#txt-5 #txt-c">meraviglia)</rdg>
+                           </app>
+                           <lb/></l>
+                     </lg>
+                  </lg>
+                  
+                  <lg n="3" type="stanza">
+                     <lg type="quatrain"> 
+                        <l n="25">Così son io;<lb/></l>
+                        <l n="26">
+                           <app>                              
+                              <rdg wit="#txt-1 #txt-2">Sempre</rdg>
+                              <rdg wit="#txt-3"><del>Sempre</del>
+                                 <add place="above">Tanto</add></rdg>
+                              <rdg wit=" #txt-4 #txt-5 #txt-c">Tanto</rdg>
+                           </app>
+                           muta il mio cuore<lb/></l>
+                        <l n="27">
+                           <app>                              
+                              <rdg wit="#txt-1">Che cambia di consiglio </rdg>
+                              <rdg wit="#txt-2 #txt-3"><del>Che</del><add> E</add> cambia di consiglio </rdg>
+                              <rdg wit="#txt-4"> E <del>cambia</del>
+                                 <add place="above">varia</add> di consiglio</rdg>
+                              <rdg wit="#txt-5 #txt-c">E varia di consiglio</rdg>
+                           </app>
+                           <lb/></l>
+                        <l n="28">
+                           <app>                              
+                              <rdg wit="#txt-1 #txt-2 #txt-3">Quando tu, di valore, bella nube, di colore, </rdg>
+                              <rdg wit="#txt-4"> Quan<del>do</del><add place="above">to</add>tu, 
+                                 <del>di valore</del>, bella nube, di colore,</rdg>
+                              <rdg wit="#txt-5 #txt-c">Quanto tu, bella nube, di colore.</rdg>
+                           </app>
+                           <lb/></l>
+                     </lg>
+                  </lg>
+               </div2>
+             
+               <closer>
+                  <time type="month">5 Aprile </time>
+                  <date>1935</date>
+                  <lb/>
+               </closer>
+            </div1>
+         </body>
+      </text>
+   </TEI>

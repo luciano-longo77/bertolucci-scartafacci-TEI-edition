@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XLVIII. Ti ho sognata</title>
+                <author>Attilio Bertolucci</author>
+                <respStmt>
+                    <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                    <name>Luciano Longo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                    <name>Elena Pierazzo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione editoriale a cura di </resp>
+                    <name>Rosa Casapullo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione critico-letteraria a cura di </resp>
+                    <name>Domenica Perrone.</name>
+                </respStmt>
+                <sponsor>
+                    <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                    <address>
+                        <addrLine>Piazzetta Salerno, 12 </addrLine>
+                    </address> 
+                </sponsor>
+            </titleStmt>
+            <extent>
+                <seg type="size">Filesize: 18 KB.</seg>
+                <seg type="format">XML TEI P5</seg>
+                <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+                <publisher>Luciano Longo</publisher>
+                <distributor>Università degli Studi di Palermo,</distributor>
+                <address>
+                    <addrLine>Piazzetta Salerno- 12, </addrLine>
+                </address>
+                <pubPlace> 
+                    <name>Palermo, </name>
+                </pubPlace>
+                <date>2015-2017</date>
+                <availability status="restricted">
+                    <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                    <p>Le immagini possono essere consultate in modalità off-line. </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="critical" anchored="true">
+                    <p>I manoscritti AuIn49 e AuIn50 sono conservati presso l’Archivio di Stato di Parma, 
+                        "Archivio della Letteratura-Archivio Bertolucci" nella sezione 
+                        «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4.</p>
+                    <p>"Ti ho sognata" ha due redazioni autografe con la presenza di alcune varianti.</p>
+                    <p>In AuIn49 si può rintracciare un intervento correttivo tardivo e di tipo sostitutivo, spia di questa operazione è l’inchiostrazione più scura. 
+                        Il poeta al v. 3 in un primo momento scrive "Sola e felice, nel sole d’autunno", al momento della revisione cassa "Sola e", 
+                        facendo iniziare il verso con l’aggettivo "Felice".
+                        AuIn50 invece si presenta in pulito e può considerarsi il testo stabilizzante.</p>
+                    <p></p>
+                    <lb/>
+                </note>
+                <note type="biographical" anchored="true">Negli anni in cui è possibile inserire le attestazioni de "Al pomeriggio radioso", 
+                    Bertolucci ha già pubblicato la prima raccolta di poesie, 
+                    "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                    che confluiranno nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+                    Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                    durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                    Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>AuIn49</p>
+                <p>Foglio di carta libero di cm 22x28, contiene il testo "A Ninetta". 
+                    L’autografo è vergato con inchiostro nero ed è numerato con l’arabico 49; 
+                    il documento non presenta una indicazione cronologica. La poesia consta di vv. 20.</p> 
+                <p>AuIn50</p>
+                <p>Foglio di carta libero di cm 21x30; la c. 1r contiene il testo "Ti ho sognata"; la c. 1r-v, invece, la poesia "Leggendo i sonetti di Shakespeare". 
+                    L’autografo è vergato con inchiostro nero ed è numerato nella c. 1r con l’arabico 50; la c. 1v non reca una indicazione cronologica. 
+                    L’autografo esibisce nella parte inferiore un appunto di poesia redatto a matita e alcuni schizzi raffiguranti un volto umano. 
+                    La poesia "Ti ho sognata" consta di vv. 17 e "Leggendo i sonetti di Shakespeare" di vv. 12. Il manoscritto si presenta in pulito.</p> 
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+            <editorialDecl>
+                <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                    la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+                <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                    si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+                <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+                <correction>
+                    <p></p>
+                </correction>
+                <hyphenation>
+                    <p> </p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+                </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="pen1" medium="black_ink_1" scribe="Bertolucci"/>
+                <handNote xml:id="pen2" medium="black_ink_2" scribe="Bertolucci"/>
+            </handNotes>
+            <langUsage>
+                <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+                <date>2016</date>.</change>
+            <change>Il file è stato creato nel <date>Dicembre del 2016</date> da <name> Luciano Longo</name>
+                con il software "Oxygen-XML Editor®".</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nel
+                <list>
+                    <item>Dicembre del 2016.</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="images/AuIn-49.jpg" xml:id="i_txt-c"/>
+        <graphic url="images/AuIn-49.jpg" xml:id="i_txt-1"/>
+        <graphic url="images/AuIn-49.jpg" xml:id="i_txt-2"/>
+        <graphic url="images/AuIn-50.jpg" xml:id="lff_lln_fy"/>
+        <graphic url="images/AuIn-50.jpg" xml:id="xwl_lln_fy"/>
+    </facsimile>
+    
+    <text>
+        <front>
+            <div rend="witness">
+                <listWit>
+                    <witness xml:id="txt49-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt49-1">Tb0, prima stesura del testo</witness>
+                    <witness xml:id="txt49-2">Tb1, interventi su Tb0</witness>
+                    <witness xml:id="txt50-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt50-1">Tb0, prima stesura del testo</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <pb ed="txt49-c" facs="#i_txt-c"/>
+            <pb ed="txt49-1" facs="#i_txt-1"/>
+            <pb ed="txt49-2" facs="#i_txt-2"/>
+            <pb ed="txt50-c" facs="#lff_lln_fy"/>
+            <pb ed="txt50-1" facs="#xwl_lln_fy"/>
+            <div>
+                <head rend="right">
+                    <app>
+                        <rdg wit="#txt49-c #txt49-1 #txt49-2">
+                            <supplied>c. 1r</supplied>
+                            <fw type="sig" place="margin-topright">49
+                                <note type="physical">L'autografo è numerato (c. 1v) in alto a destra a matita con l’arabico 49 redatto dal curatore dell'Archivio.</note>
+                            </fw>
+                        </rdg>
+                        <rdg wit="#txt50-c #txt50-1">
+                            <fw type="sig" place="margin-topright">50
+                                <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 50 redatto dal curatore dell'Archivio.</note>
+                            </fw>
+                        </rdg>
+                    </app>
+                    <lb/>
+                </head>
+            </div>
+            <div>
+                <head rend="center">
+                    <app>
+                        <rdg wit="#txt49-c #txt49-1 #txt49-2">Ti ho sognata</rdg>
+                        <rdg wit="#txt50-c #txt50-1">A Ninetta</rdg> 
+                    </app>
+                </head>
+                <lb/>
+                <lg n="1" type="stanza">
+                    <l n="1">Ti ho sognata<lb/></l>
+                    <l n="2">Quando nuova sposa<lb/></l>
+                    <l n="3">Uscirai per la città il mattino,<lb/></l>
+                    <l n="4">
+                        <app>
+                            <rdg wit="#txt49-c">Felice, nel sole d’autunno…</rdg>
+                            <rdg wit="#txt49-2"><del rend="overstrike" hand="#pen2">Sola e</del> <del rend="overstrike" hand="#pen2">f</del>
+                                <add place="inline" type="substition" hand="#pen1">F</add>elice, nel sole d’autunno…
+                                <note type="critical">L'intervento correttivo è di tipo tardivo e sostitutivo, spia di questa operazione è l’inchiostrazione più scura.</note>
+                            </rdg>
+                            <rdg wit="#txt50-c #txt50-1 #txt49-1">Sola e felice, nel sole d’autunno…</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                        <app>
+                            <rdg wit="#txt49-c"><l n="5">ti parrà che tutti sappiano</l></rdg>
+                            <rdg wit="#txt49-1"><l n="5"> <gap reason="punched" extent="several_character"/>[...] ti parrà che tutti sappiano
+                                <note type="critical">A inizio del verso è presenta una parola illegibile.</note></l>
+                            </rdg>
+                            <rdg wit="#txt49-2"><l n="5"><del rend="overstrike" hand="#pen2"><gap reason="punched" extent="several_character"/>[...]</del> 
+                                <retrace>ti</retrace> parrà che tutti sappiano <note type="critical">A inizio del verso è presenta una parola illegibile.</note></l></rdg>
+                        </app>
+                        <lb/>
+                        <app>
+                            <rdg wit="#txt49-c #txt49-1 #txt49-2"><l n="6">Che sei una nuova sposa</l></rdg>
+                        </app>
+                        <lb/>
+                        <app>
+                            <rdg wit="#txt49-c #txt49-1 #txt49-2"><l n="7">E ti facciano festa, e in modo speciale</l></rdg>
+                        </app>
+                        <lb/>
+                        <app>
+                            <rdg wit="#txt49-c #txt49-1 #txt49-2"><l n="8">I vecchietti lindi,</l></rdg>
+                        </app>
+                        <lb/>
+                        <app>
+                            <rdg wit="#txt49-c #txt49-1 #txt49-2"><l n="9">Le popolane sulla cinquantina,</l></rdg>
+                        </app>
+                        <lb/>
+                        <app>
+                            <rdg wit="#txt49-c #txt49-1 #txt49-2"><l n="10">Piccole grasse vestite di nero.</l></rdg>
+                        </app>
+                        <lb/>
+                    
+                    
+                        <app>
+                            <rdg wit="#txt49-c #txt49-1 #txt49-2"><l n="11">Ti ho sognata</l></rdg>
+                            <rdg wit="#txt50-c #txt50-1"><l n="5">Ti ho sognata</l></rdg>
+                        </app>
+                        <lb/>
+                    
+                    
+                        <app>
+                            <rdg wit="#txt49-c #txt49-1 #txt49-2"><l n="12">Matura e stanca signora</l></rdg>
+                            <rdg wit="#txt50-c #txt50-1"><l n="6">Matura e stanca signora</l></rdg>
+                        </app>
+                        <lb/>
+                    
+                    
+                        <app>
+                            <rdg wit="#txt49-c #txt49-1 #txt49-2"><l n="13">Un mattino di maggio</l></rdg>
+                            <rdg wit="#txt50-c #txt50-1"><l n="7">Un mattino di maggio</l></rdg>
+                        </app>
+                        <lb/>
+                    
+                    
+                        <app>
+                            <rdg wit="#txt49-c #txt49-1 #txt49-2"><l n="14">In una villetta agiata</l></rdg>
+                            <rdg wit="#txt50-c #txt50-1"><l n="8">In una villetta agiata</l></rdg>
+                        </app>
+                        <lb/>
+                    
+                    
+                        <app>
+                            <rdg wit="#txt49-c"><l n="15">Spalancare finestre.</l></rdg>
+                            <rdg wit="#txt49-1"><l n="15"> <gap reason="punched" extent="several_character"/>[...] Spalancare finestre.</l></rdg>
+                            <rdg wit="#txt49-2"><l n="15"><del rend="overstrike" hand="#pen2"><gap reason="punched" extent="several_character"/>[...]</del> 
+                                Spalancare finestre. <note type="critical">A inizio del verso è presenta una parola illegibile.</note></l></rdg>
+                            
+                        </app>
+                    <app>
+                            <rdg wit="#txt50-c #txt50-1"><l n="9">(Come il caro Lafourge diceva
+                                <note type="critical">I vv. 9-10 sono una aggiunta innovativa rispetto all'autografo 49.</note></l></rdg>
+                        </app>
+                        <lb/>
+                    
+                    
+                        <app>
+                            <rdg wit="#txt49-c #txt49-1 #txt49-2"><l n="16">Godere del sole in vestaglia,</l></rdg>
+                            <rdg wit="#txt50-c #txt50-1"><l n="10">Nella sua giovinezza)
+                                <note type="critical">I vv. 9-10 sono una aggiunta innovativa rispetto all'autografo 49.</note></l></rdg>
+                            
+                        </app>
+                    <app>
+                        <rdg wit="#txt50-c #txt50-1"><l n="11">Spalancare finestre.</l></rdg>
+                    </app>
+                    <app>
+                        <rdg wit="#txt50-c #txt50-1"><l n="12">Godere del sole in vestaglia,</l></rdg>
+                        </app>
+                        <lb/>
+                    
+                    <app>
+                        <rdg wit="#txt49-c #txt49-1 #txt49-2"><l n="17">Trasandata.</l></rdg>
+                        <rdg wit="#txt50-c #txt50-1"><l n="13">Un po' trasandata.</l></rdg>
+                    </app>
+                    <app>
+                        <rdg wit="#txt49-c #txt49-1 #txt49-2"><l n="18">Ma gli occhi eran quelli di una volta</l></rdg>
+                        <rdg wit="#txt50-c #txt50-1"><l n="14">Ma gli occhi eran quelli di una volta</l></rdg>
+                        
+                    </app>
+                    <app>
+                        <rdg wit="#txt49-c #txt49-1 #txt49-2"><l n="19">Piccoli e ridenti.</l></rdg>
+                        <rdg wit="#txt50-c #txt50-1"><l n="15">Piccoli e ridenti.</l></rdg>
+                    </app>
+                    <app>
+                        <rdg wit="#txt49-c #txt49-1 #txt49-2"><l n="20">Di quando eri una ragazza col paltò rosso.</l></rdg>
+                        
+                        <rdg wit="#txt50-c #txt50-1"><l n="16">Di quando eri una ragazza con un corto paltò rosso.</l></rdg>
+                    </app>
+                </lg>
+                <ab>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>
+

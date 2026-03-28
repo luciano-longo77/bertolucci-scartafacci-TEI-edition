@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XVI. Umana vite</title>
+                <author>Attilio Bertolucci</author>
+                <respStmt>
+                    <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                    <name>Luciano Longo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                    <name>Elena Pierazzo </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione editoriale a cura di </resp>
+                    <name>Rosa Casapullo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione critico-letteraria a cura di </resp>
+                    <name>Domenica Perrone.</name>
+                </respStmt>
+                
+                <sponsor>
+                    <name>Dipartimento di Scienze Umanistiche - Università degli Studi di Palermo.</name>
+                    <address>
+                        <addrLine>Piazzetta Salerno, 12 </addrLine>
+                    </address> 
+                </sponsor>
+            </titleStmt>
+            
+            <extent>
+                <seg type="size">Filesize: 28 KB.</seg>
+                <seg type="format">XML TEI P5</seg>
+                <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+                <publisher>Luciano Longo</publisher>
+                <distributor>Università degli Studi di Palermo,</distributor>
+                <address>
+                    <addrLine>Piazzetta Salerno- 12, </addrLine>
+                </address>
+                <pubPlace> 
+                    <name>Palermo, </name>
+                </pubPlace>
+                <date>2015-2017</date>
+                
+                <availability status="restricted">
+                    <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                    <p>Le immagini possono essere consultate in modalità off-line. </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="critical" anchored="true">
+                    <p>Il manoscritto (AuIn12) è conservato presso l’Archivio di Stato di Parma, "Archivio della Letteratura-Archivio Bertolucci" 
+                        nella sezione «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4.</p> 
+                    <p>Nel manoscritto si rintracciano tre interventi correttori di tipo sottrattivi, tutti apportati con inchiostro nero ma con tre cromie diverse. 
+                        Bertolucci, infatti, dopo la prima redazione del testo cassa una serie di versi sfrondando il corpo del poemetto; 
+                        infatti, esso passa dai 20 versi orginari agli 11 versi ricostruibili o definibili come stesura stabile derivanti 
+                        dal processo correttorio. La sottrazione dei versi avviene in momenti differenti; ciò è desumibile dal ductus del 
+                        loro depennamento e dalla colirutura dell’inchiostrazione. In una prima fase di revisione il poeta cassa gli 
+                        originari vv. 8, 13 e 18 non rimpiazzandoli con altri versi; in un secondo momento lo sfrondamento interessa 
+                        i vv. 2; 4; 7 e 11. I vv. 14-17, cassati in una revisione finale del testo, vengono esclusi con una tratteggio 
+                        ondulatorio, a differenza degli altri versi che vengono semplicemente barrati. Gli interventi correttori dei vv. 3 
+                        e 5 , in cui il poeta interviene con delle varianti instaurative, 
+                        sono da imputare alla terza fase di revisione. 
+                        Infatti, al v. 3 nella prima stesura si leggeva "Che maturano al caldo sole domenicale", 
+                        con un’intervento correttorio il poeta cassa "Che maturano al" inserendo "nel" nell’interlinea superiore; 
+                        al v. 5 aggiunge, con una variante integrativa, 
+                        il verso "I neri grappoli nell’interlinea superiore" del v. 5 ("Le tue foglie arrosate, patite"). 
+                    </p>
+                </note>
+                <note type="biographical" anchored="true">Negli anni in cui viene datata la poesia A. Bertolucci ha già pubblicato la prima raccolta di poesie, 
+                    "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                    che confluiranno poi nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+                    Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                    durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                    Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+                <note type="render" anchored="true">Additions appear in a green, fixed-width
+                    font.</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>AuIn12</p>
+                <p>Foglio di carta libero di cm 27,5x21, contiene il testo "Umana vite" (incipit). Il manoscritto, datato 1934 (data cassata), 
+                    è vergato con inchiostro nero ed è numerato con l’arabico 12. La poesia consta di vv. 11.</p>
+                
+                <!-- <sourceDesc>
+                    <msDesc xml:lang="ita" xml:id="AuIn12">
+                    <msIdentifier>
+                    <country><name type="place">Italia</name></country>
+                    <region><name type="place">Emilia Romagna</name></region>
+                    <settlement><name type="place">Parma</name></settlement>
+                    <institution>Archivio di Stato</institution>
+                    <repository>Fondo Attilio Bertolucci</repository>
+                    <collection>Carte Attilio Bertolucci</collection>
+                    <idno>Busta II, fascicolo 4,2</idno>
+                    <msName>Poesie inedite degli anni tra le due guerre e del primo dopoguerra</msName>
+                    <altIdentifier>
+                    <idno>AuIn12</idno>
+                    <note>Sezione: Autografi inediti</note>
+                    </altIdentifier>
+                    </msIdentifier>
+                    <msContents class="#Umana_vite">
+                    <summary>
+                    Foglio di carta libero di cm 27,5x21, contiene il testo "Umana vite" (incipit). Il manoscritto, datato 1934 (data cassata), 
+                    è vergato con inchiostro nero ed è numerato con l’arabico 12. La poesia consta di vv. 11.</summary>
+                    <msItem n="I" class="#Umana_vite">
+                    <locus>c. 1r</locus>
+                    <idno>AuIn2(1r)-I</idno>
+                    <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                    <title>
+                    <del type="overstrike">
+                    <hi rend="overstrike">Traccia per “la vite” poemetto</hi>
+                    </del>
+                    </title>
+                    <incipit>Umana vite</incipit>
+                    <explicit>Umana vite.</explicit>
+                    <textLang mainLang="ita">Italian</textLang>
+                    </msItem>
+                    </msContents>
+                    <physDesc>
+                    <objectDesc form="autografo">
+                    <supportDesc material="paper">
+                    <support>
+                    <p><material>foglio di carta bianca
+                    <date n="I">settembre 1934</date>
+                    <note>Data cassata</note>
+                    </material>
+                    </p>
+                    </support>
+                    <extent>
+                    <idno>AuIn12</idno>
+                    <dimensions scope="all" type="foglio" unit="cm">
+                    <height>27,5</height>
+                    <width>21</width>
+                    </dimensions>
+                    </extent>
+                    <condition>
+                    <p></p></condition>
+                    </supportDesc>
+                    <layoutDesc>
+                    
+                    <layout columns="1" ruledLines="12">
+                    <idno>AuIn12</idno>
+                    <p>Testo scritto su una colonna di 12 versi</p>
+                    </layout>
+                    </layoutDesc> 
+                    </objectDesc>
+                    <handDesc>
+                    <handNote scribe="Attilio_Bertolucci" script="handwritten" medium="black_ink_pen" scope="major">
+                    <p>Il testo si presenta con una scrittura calligrafica moderna con un ductus disteso.
+                    L’autografo è vergato con inchiostro nero a tre gradazioni.</p>
+                    </handNote>
+                    </handDesc>
+                    </physDesc>
+                    <history>
+                    <origin>
+                    <idno>AuIn2(1r)-I</idno>
+                    <p>Il testo è datato <origDate cert="medium">settembre 1934</origDate></p>
+                    </origin>
+                    </history>
+                    <additional>
+                    <surrogates>
+                    <p>L'autografo, riprodotto in formato jpeg, è consultabile presso l'Archivio di Stato di Parma.</p>
+                    </surrogates>
+                    <listBibl>
+                    <bibl n="1"></bibl>
+                    </listBibl>
+                    </additional>
+                    </msDesc>
+                    </sourceDesc> -->
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+            <editorialDecl>
+                <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                    la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+                <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                    si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+                <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+                <correction>
+                    <p></p>
+                </correction>
+                <hyphenation>
+                    <p> </p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+                </normalization>
+            </editorialDecl>
+            
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="pen3" medium="black_ink_3" scribe="Bertolucci"/>
+                <handNote xml:id="pen2" medium="black_ink_2" scribe="Bertolucci"/>
+                <handNote xml:id="pen1" medium="black_ink_1" scribe="Bertolucci"/>
+            </handNotes>
+            <langUsage>
+                <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+                <date>2015</date>.</change>
+            <change>Il file è stato creato nel <date>Novembre del 2016</date> da <name> Luciano Longo.</name>
+                con il software  "Oxygen-XML Editor®"</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nel
+                <list>
+                    <item>Novembre del 2016.</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="images/AuIn-12.jpg" xml:id="i_txt-c"/>
+        <graphic url="images/AuIn-12.jpg" xml:id="i_txt-1"/>
+        <graphic url="images/AuIn-12.jpg" xml:id="i_txt-2"/>
+        <graphic url="images/AuIn-12.jpg" xml:id="i_txt-3"/>
+        <graphic url="images/AuIn-12.jpg" xml:id="i_txt-4"/>
+    </facsimile>
+    
+    <text>
+        <front>
+            <div rend="witness">
+                <listWit>
+                    <witness xml:id="txt-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt-1">tb0 prima stesura del testo</witness>
+                    <witness xml:id="txt-2">T1 interv. su T1</witness>
+                    <witness xml:id="txt-3">T2 interv. su T2</witness>
+                    <witness xml:id="txt-4">T3 interv. su T3</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <pb ed="txt-c" facs="#i_txt-c"/>
+            <pb ed="txt-1" facs="#i_txt-1"/>
+            <pb ed="txt-2" facs="#i_txt-2"/>
+            <pb ed="txt-3" facs="#i_txt-3"/>
+            <pb ed="txt-4" facs="#i_txt-4"/>
+            <div>
+                <head>
+                    <fw type="sig" place="margin_right">12
+                        <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 12 dal curatore dell'Archivio Bertolucci.</note>
+                    </fw>
+                    <lb/>
+                </head>
+            </div>
+            
+            <div>
+                <head rend="center">
+                    <app>
+                        <rdg wit="txt-c #txt-4">
+                            <note type="critical" anchored="true">
+                                La poesia è senza titolo; reca l’indicazione cassata "Traccia per “la vite” poemetto"; con "la vite" sottolineato.
+                            </note>
+                        </rdg>
+                        <rdg wit="txt-1 txt-2">"Traccia per <hi rend="underline">“la vite”</hi> poemetto"
+                            <note type="critical" anchored="true">
+                                Il titolo verrà cassato in fase di revisione.</note></rdg>
+                        <rdg wit="txt-3">
+                            <del rend="overstrike" hand="#pen2">"Traccia per <hi rend="underline">“la vite”</hi> poemetto"</del>
+                        </rdg>
+                    </app>
+                    <lb/>
+                </head>
+                
+                <lg type="stanza">
+                    <l n="1">Umana vit
+                        <app>
+                            <rdg wit="#txt-c #txt-3 #txt-4">e</rdg>
+                            <rdg wit="#txt-1">i</rdg>
+                            <rdg wit="#txt-2"><del rend="overstrike" hand="#pen1">i<add place="inline" type="substition" hand="#pen1">e</add></del>
+                            </rdg>
+                        </app>
+                        <note type="critical" anchored="true"> Nella parola "vite", la –e viene corretta su –i (viti>vite). </note>
+                        <lb/>
+                    </l>
+                    
+                    <l n="2">
+                        <app>
+                            <rdg wit="#txt-c #txt-4">(Dolcemente ti pesano),</rdg>
+                            <rdg wit="#txt-1 #txt-2">Ricca dei neri grappoli</rdg>
+                            <rdg wit="#txt-3">
+                                <del rend="overstrike" hand="#pen2">Ricca dei neri grappoli</del>
+                                <note type="critical">È possibile che il verso come variante riallocata sia confluito nel v. 3 "I neri grappoli" di Tc.</note>
+                            </rdg>
+                        </app>
+                        <lb/></l>
+                    <l n="3">
+                        <app>
+                            <rdg wit="#txt-c #txt-4">nel caldo sole domenicale.
+                                <note type="critical">Dopo la cassatura dell'emistichio "Che maturano al", 
+                                    il poeta inserisce una variante integrativa logica nell'interlinea superiore, "nel", per far funzionare il verso.</note></rdg>
+                            <rdg wit="#txt-1 #txt-2 #txt-3">(Dolcemente ti pesano),</rdg>
+                        </app>
+                        <lb/></l>
+                    <l n="4">
+                        <app>
+                            <rdg wit="#txt-c">I neri grappoli
+                                <note type="critical">Possibile variante riallocativa del verso cassato "Ricca dei neri grappoli".</note></rdg>
+                            <rdg wit="#txt-1 #txt-2">Che maturano al caldo sole domenicale.</rdg>
+                            <rdg wit="#txt-3">
+                                <del rend="overstrike" hand="#pen2">Che maturano al</del> 
+                                <add place="above" type="integration" hand="#pen2">nel</add> caldo sole domenicale.
+                                <note type="critical">Dopo la cassatura dell'emistichio, 
+                                    il poeta inserisce una variante integrativa logica nell'interlinea superiore, "nel", per far funzionare il verso.</note></rdg>
+                            <rdg wit="#txt-4">Le tue foglie arrossate, patite, </rdg>
+                        </app>
+                        <lb/></l>
+                    <l n="5">                        
+                        <app>
+                            <rdg wit="#txt-c #txt-1 #txt-2 #txt-3">Le tue foglie arrossate, patite,</rdg>
+                            <rdg wit="#txt-4">
+                                <add place="above" type="integration" hand="#pen3">I neri grappoli
+                                    <note type="critical">Possibile variante riallocativa del verso cassato "Ricca dei neri grappoli".</note></add>
+                            </rdg>
+                        </app>
+                        <lb/></l>
+                    <l n="6">
+                        <app>
+                            <rdg wit="#txt-c">Testimoniano una feconda maternità.
+                                <note>Il punto fermo è una aggiunta sostitutiva su una precedente virgola.</note>
+                            </rdg>
+                            <rdg wit="#txt-1 #txt-2 #txt-3">Testimoniano una feconda maternità,</rdg>
+                            <rdg wit="#txt-4">Testimoniano una feconda maternità <del rend="overstrike" hand="#pen2">,</del>
+                                <add place="above" type="substition" hand="#pen2">.</add>
+                                <note>Il punto fermo è una aggiunta sostitutiva su una precedente virgola.</note></rdg>
+                        </app>
+                        <lb/></l>
+                    <l n="7">
+                        <app>
+                            <rdg wit="#txt-c #txt-4">Ma verranno con voci e risa</rdg>
+                            <rdg wit="#txt-1 #txt-2">E il felice sforzo</rdg>
+                            <rdg wit="#txt-3">
+                                <del rend="overstrike" hand="#pen2">E il felice sforzo</del></rdg>
+                        </app>
+                        <lb/></l>
+                    <l n="8">
+                        <app>
+                            <rdg wit="#txt-c #txt-4">Nel silenzio autunnale.</rdg>
+                            <rdg wit="#txt-1">E la languida sopportazione.</rdg>
+                            <rdg wit="#txt-2"><del rend="overstrike" hand="#pen1">E la languida sopportazione.</del></rdg>
+                            <rdg wit="#txt-3">Ma verranno con voci e risa</rdg>
+                        </app>
+                        <lb/></l>
+                    <l n="9">
+                        <app>
+                            <rdg wit="#txt-c #txt-4">Verranno con canti e scherzi amorosi.</rdg>
+                            <rdg wit="#txt-1 #txt-2">Ma verranno con voci e risa</rdg>
+                            <rdg wit="#txt-3">Nel silenzio autunnale</rdg>
+                        </app>
+                        <lb/></l>
+                    <l n="10">
+                        <app>
+                            <rdg wit="#txt-c">Godi dunque</rdg>
+                            <rdg wit="#txt-1 #txt-2">Nel silenzio autunnale</rdg>
+                            <rdg wit="#txt-3">
+                                <del rend="overstrike" hand="#pen2">Uomini e donne</del></rdg>
+                            <rdg wit="#txt-4">
+                                <del rend="overstrike-wavy" hand="#pen3">Ti lascieranno sola i cari figli</del>.
+                                <note type="critical">Il ductus della cassatura è ondulato a differenza delle altre cassature che avvengono con il tracciamento di una linea retta.</note>
+                            </rdg>
+                        </app>
+                        <lb/></l>
+                    <l n="11">
+                        <app>
+                            <rdg wit="#txt-c">E del felice sopportare</rdg>
+                            <rdg wit="#txt-1 #txt-2">Uomini e donne</rdg>
+                            <rdg wit="#txt-3">Verranno con canti e scherzi amorosi</rdg>
+                            <rdg wit="#txt-4">
+                                <del rend="overstrike-wavy" hand="#pen3">si dimenticheranno presto di te</del>
+                                <note type="critical">Il ductus della cassatura è ondulato a differenza delle altre cassature che avvengono con il tracciamento di una linea retta.</note>
+                            </rdg>
+                        </app>
+                        <lb/></l>
+                    <l n="12">
+                        <app>
+                            <rdg wit="#txt-c">Umana vite.
+                                <note type="critical">Il corpo del poemetto in una prima redazione constava di vv. 20. Su questi versi Bertolucci opera tre interventi sottrattivi, riducendo il testo a vv. 11.</note></rdg>
+                            <rdg wit="#txt-1 #txt-2">Verranno con canti e scherzi amorosi.</rdg>
+                            <rdg wit="#txt-3">Ti lascieranno sola i cari figli</rdg>
+                            <rdg wit="#txt-4">
+                                <del rend="overstrike-wavy" hand="#pen3">E verranno l’inverno gelido e le nebbie</del>
+                                <note type="critical">Il ductus della cassatura è ondulato a differenza delle altre cassature che avvengono con il tracciamento di una linea retta.</note>
+                            </rdg>
+                        </app>
+                        <lb/></l>
+                    <app>
+                        <rdg wit="#txt-1"><l n="13">I giorni della pena, umana vita</l></rdg>
+                        <rdg wit="#txt-2">
+                            <l n="13">
+                                <del rend="overstrike" hand="#pen1">I giorni della pena, umana vita</del>.
+                            </l>
+                        </rdg>
+                        <rdg wit="#txt-3"><l n="13">si dimenticheranno presto di te</l></rdg>
+                        <rdg wit="#txt-4">
+                            <l n="13">
+                                <del rend="overstrike-wavy" hand="#pen3">I giorni della tua pena</del>.
+                            </l>
+                            <note type="critical">Il ductus della cassatura è ondulato a differenza delle altre cassature che avvengono con il tracciamento di una linea retta.</note></rdg>
+                        <rdg wit="#txt-c"/>
+                    </app>
+                    <lb/>
+                    <app>
+                        <rdg wit="#txt-1 #txt-2"><l n="14">Ti lascieranno sola i cari figli</l></rdg>
+                        <rdg wit="#txt-3"><l n="14">E verranno l’inverno gelido e le nebbie</l></rdg>
+                        <rdg wit="#txt-4"><l n="14">E nel felice sopportare</l></rdg>
+                        <rdg wit="#txt-c"/>
+                    </app>
+                    <lb/> 
+                    <app>
+                        <rdg wit="#txt-1 #txt-2"><l n="15"> si dimenticheranno presto di te</l></rdg>
+                        <rdg wit="#txt-3"><l n="15"> I giorni della tua pena.</l></rdg>
+                        <rdg wit="#txt-4"><l n="15"> Umana vite</l></rdg>
+                        <rdg wit="#txt-c"/>
+                    </app>
+                    <lb/>
+                    <app>
+                        <rdg wit="#txt-1 #txt-2"><l n="16">E verranno l’inverno gelido e le nebbie</l></rdg>
+                        <rdg wit="#txt-3"><l n="16">E <del>n</del><add>n</add>el felice sopportare</l></rdg>
+                        <rdg wit="#txt-4 #txt-c"/>
+                    </app>
+                    <lb/>
+                    <app>
+                        <rdg wit="#txt-1 #txt-2"><l n="17">I giorni della tua pena.</l></rdg>
+                        <rdg wit="#txt-3"><l n="17">Umana vite.</l></rdg>
+                        <rdg wit="#txt-4 #txt-c"/>
+                    </app>
+                    <lb/>
+                    <app>
+                        <rdg wit="#txt-1"><l n="18">Godi dunque del domenicale</l></rdg>
+                        <rdg wit="#txt-2"><l n="18">
+                            <del rend="overstrike" hand="#pen1">Godi dunque del domenicale</del>.
+                        </l>
+                        </rdg>
+                        <rdg wit=" #txt-3 #txt-4 #txt-c"/>
+                    </app>
+                    <lb/>
+                    <app>
+                        <rdg wit="#txt-1 #txt-2"><l n="19">E nel felice sopportare</l></rdg>
+                        <rdg wit=" #txt-3 #txt-4 #txt-c"/>
+                    </app>
+                    <lb/>
+                    <app>
+                        <rdg wit="#txt-1 #txt-2"><l n="20">Umana vite.</l></rdg>
+                        <rdg wit=" #txt-3 #txt-4 #txt-c"/>
+                    </app>
+                    <lb/>
+                </lg>
+                <ab>
+                    <app>
+                        <rdg wit="#txt-c"/>
+                        <rdg wit="#txt-1 #txt-2 #txt-3"><date>settembre 1934</date></rdg>
+                        <rdg wit="#txt-4">
+                            <del rend="overstrike-wavy" hand="#pen3"><date>settembre 1934</date></del>
+                        </rdg>
+                        <note type="critical">L'autografo è datato "settembre 1934"; l'indicazione cronologica è cassata.</note>
+                    </app>
+                    
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+

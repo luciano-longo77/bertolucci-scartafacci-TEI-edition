@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>II. Come una rupe</title>
+                <author>Attilio Bertolucci</author>
+                <respStmt>
+                    <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                    <name>Luciano Longo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                    <name>Elena Pierazzo </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione editoriale a cura di </resp>
+                    <name>Rosa Casapullo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione critico-letteraria a cura di </resp>
+                    <name>Domenica Perrone.</name>
+                </respStmt>
+                
+                <sponsor>
+                    <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                    <address>
+                        <addrLine>Piazzetta Salerno, 12 </addrLine>
+                    </address> 
+                </sponsor>
+            </titleStmt>
+            
+            <extent>
+                <seg type="size">Filesize: 30 KB.</seg>
+                <seg type="format">XML TEI P5</seg>
+                <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+                <publisher>Luciano Longo</publisher>
+                <distributor>Università degli Studi di Palermo,</distributor>
+                <address>
+                    <addrLine>Piazzetta Salerno- 12, </addrLine>
+                </address>
+                <pubPlace> 
+                    <name>Palermo, </name>
+                </pubPlace>
+                <date>2015-2017</date>
+                
+                <availability status="restricted">
+                    <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                    <p>Le immagini possono essere consultate in modalità off-line. </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="critical" anchored="true">
+                    <p>La poesia "Come una rupe" si presenta su un foglio di carta di quaderno a righe di cm 15x20. 
+                        L’autografo è vergato con inchiostro nero e non presenta né una numerazione, né una datazione. 
+                        Il manoscritto è in pulito e risulta danneggiato nei lembi laterali sinistri. La poesia consta di vv. 6.
+                    </p>
+                </note>
+                <note type="biographical" anchored="true">
+                    Negli anni in cui è possibile datare la poesia, A. Bertolucci vive a Parma e frequenta l'Università.</note>
+                <note type="contexual" anchored="true">
+                    I testi confluiti nella prima raccolta di Attilio Bertolucci, "Sirio" (Parma, 1929), 
+                    in parte esibiscono la data dei due mesi prima della stampa della raccolta, e in parte la data del 1928. 
+                    Diversamente, alcuni testi conservati nella Busta II, serie II, fascicolo 1 «Poesie inedite precedenti SIRIO» 
+                    recano la data 1927; essi permettono così di attestare direttamente, e non solo ricavabile da fonti indirette, 
+                    una laboriosità scrittoria fin dal 1927. I testi precedenti la pubblicazione di "Sirio", datati o databili prima del 1928-1929, e non confluiti in una raccolta, 
+                    esibiscono generalmente i temi e le caratteristiche già presenti in Sirio, come l’atmosfera tipicamente crepuscolare (cfr. "Caffè"), 
+                    e la caratterizzazione mitizzante dello spazio intorno a Parma e alla sua campagna (cfr. "Come una rupe"; "Te cerco, silenziosa acqua di Lete").
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Au1- Spre; Poesie precedenti "Sirio" (1929)</p>
+                <p>Foglio di carta libero a righe di cm 15x20, scritto su entrambi i lati. Il manoscritto è vergato con inchiostro nero e riporta abbozzi di figure umane. 
+                    L’autografo nella c. 1r esibisce il testo "Caffè", datato Agosto 1927; nella c. 1v presenta il testo "Come una rupe", datato Marzo 1927, 
+                    "Te cerco silenziosa acqua di Lete" (senza data) e "Nessuna grazia m’offusca", datato Febbraio 1927. L’autografo è in pulito ed esibisce nel lato destro disegni di figure umane.</p>
+                <p>
+                    <table>
+                        <head rend="center">Au1- Spre</head>
+                        <row>
+                            <cell role="label">c. 1r</cell>
+                            <cell>Caffè</cell>
+                        </row>
+                        <row>
+                            <cell role="label">c. 1v</cell>
+                            <cell>Come una rupe</cell>
+                            <cell>Te cerco silenziosa acqua di Lete</cell>
+                            <cell>Nessuna grazia m’offusca</cell>
+                        </row>
+                    </table>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+            <editorialDecl>
+                <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                    la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+                <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                    si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+                <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+                <correction>
+                    <p></p>
+                </correction>
+                <hyphenation>
+                    <p> </p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+                </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="pen1" medium="black_ink_1" scribe="Bertolucci"/>
+            </handNotes>
+            <langUsage>
+                <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>.</change>
+            <change>Il file è stato creato nel <date>Settembre del 2016</date> da <name> Luciano Longo.</name>
+                con il software "Oxygen XML Editor®".</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nel
+                <list>
+                    <item>Settembre del 2016, poi nell'</item>
+                    <item>Ottobre del 2016, poi nel</item>
+                    <item>Novembre del 2016.</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="images/AuIn-2SP.jpg" xml:id="i_txt-c"/>
+        <graphic url="images/AuIn-2SP.jpg" xml:id="i_txt-1"/>
+        <graphic url="images/AuIn-2SP1.jpg" xml:id="i_txt-c_1"/>
+        <graphic url="images/AuIn-2SP1.jpg" xml:id="i_txt-1_1"/>
+    </facsimile>
+    
+    <text>
+        <front>
+            <div rend="witness">
+                <listWit>
+                    <witness xml:id="txt-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt-1">tb0, prima stesura</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <pb ed="txt-c" facs="#i_txt-c"/>
+            <pb ed="txt-1" facs="#i_txt-1"/>
+            
+            <div> 
+                <head>
+                    <supplied>c. 1v</supplied>
+                    <note type="physical">L'autografo non presenta una numerazione.
+                        Il manoscritto è danneggiato nei lembi laterali.</note>
+                    <lb/>
+                </head>
+            </div>
+            <div>
+                <head rend="center">
+                    <app>
+                        <rdg wit="#txt-c">Come una rupe</rdg>
+                        <rdg wit="#txt-1"/>
+                        
+                        <note type="critical" anchored="true">
+                            Il componimento è nella stessa carta con altre due poesie: "Te cerco, silenziosa acqua di Lete" e "Nessuna grazia m'offusca".
+                        </note>
+                    </app>
+                    <lb/>
+                </head>
+            </div>
+            <div>
+                <lg type="stanza">
+                    <l n="1">Come una rupe<lb/></l>
+                    <l n="2">Quattro alberi alti compatti e saldi<lb/></l>
+                    <l n="3">Ch’edera maliosa cinge<lb/></l>
+                    <l n="4">somigliano la mia gioia<lb/></l>
+                    <l n="5">Indecifrabile e strana.<lb/></l>
+                </lg>
+                <ab>
+                    <date>Marzo 1927</date>
+                </ab>
+                <pb ed="txt-c" facs="#i_txt-c_1"/>
+                <pb ed="txt-1" facs="#i_txt-1_1"/>
+                <note> L’autografo è in pulito ed esibisce nel lato destro disegni di figure umane</note>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+

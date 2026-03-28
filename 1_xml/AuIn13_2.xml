@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XVIII. Epigramma</title>
+                <author>Attilio Bertolucci</author>
+                <respStmt>
+                    <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                    <name>Luciano Longo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                    <name>Elena Pierazzo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione editoriale a cura di </resp>
+                    <name>Rosa Casapullo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione critico-letteraria a cura di </resp>
+                    <name>Domenica Perrone.</name>
+                </respStmt>
+                
+                <sponsor>
+                    <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                    <address>
+                        <addrLine>Piazzetta Salerno, 12 </addrLine>
+                    </address> 
+                </sponsor>
+            </titleStmt>
+            
+            <extent>
+                <seg type="size">Filesize: 19 KB.</seg>
+                <seg type="format">XML TEI P5</seg>
+                <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+                <publisher>Luciano Longo</publisher>
+                <distributor>Università degli Studi di Palermo,</distributor>
+                <address>
+                    <addrLine>Piazzetta Salerno- 12, </addrLine>
+                </address>
+                <pubPlace> 
+                    <name>Palermo, </name>
+                </pubPlace>
+                <date>2015-2017</date>
+                
+                <availability status="restricted">
+                    <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                    <p>Le immagini possono essere consultate in modalità off-line. </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="critical" anchored="true">
+                    <p>Il manoscritto (AuIn13) è conservato presso l’Archivio di Stato di Parma, "Archivio della Letteratura-Archivio Bertolucci" 
+                        nella sezione «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4.</p>
+                    <p>L’autografo che contiene il testo di "Epigramma" è vergato a matita ed è in pulito tranne delle minime correzioni. 
+                        La poesia consta di vv. 8. Il <hi rend="italic">ductus</hi> evidenzia la natura occasionale del testo. </p>
+                    <p>Il manoscritto n. 13 riporta nel <hi rend="italic">recto</hi> la poesia "O anni lontani...", mentre nel <hi rend="italic">verso</hi> 
+                        "Epigramma" con l'indicazione cronologica "19-03-1930".
+                        AuIn13 esibisce nel <hi rend="italic">recto</hi> della carta l’indicazione 9-10 gennaio 1935; considerando la natura scrittoria del testo di AuIn13(2) (c. 1v) 
+                        è ragionevole pensare che dopo aver steso il testo poetico di "Epigramma", Bertolucci riutilizzi la carta per scrivere il testo di "O anni lontani…" 
+                    </p>
+                </note>
+                <note type="biographical" anchored="true">Negli anni in cui viene datata la poesia A. Bertolucci ha già pubblicato la prima raccolta di poesie, 
+                    "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                    che confluiranno poi nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+                    Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                    durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                    Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+                <note type="render" anchored="true">Additions appear in a green, fixed-width
+                    font.</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>AuIn13</p>
+                <p>Foglio di carta libero di cm 26x20, contiene nella c. 1r il testo "O anni lontani…" e nella c. 1v "Epigramma". 
+                    Il manoscritto è datato "9-10 gennaio 1935" nella c. 1r, invece nella c. 1v riporta la datazione "19-03-1930". 
+                    L’autografo è vergato con inchiostro nero e presenta nella c. 1r  la numerazione arabica 13. La poesia "O anni lontani…" consta di vv. 13 e 
+                    "Epigramma" di vv. 8.</p>
+                <p>
+                    <table>
+                        <head rend="center">Composizione di AuIn13</head>
+                        <row>
+                            <cell role="label">c. 1r - 13</cell>
+                            <cell>O anni lontani…</cell>
+                        </row>
+                        <row>
+                            <cell role="label">c. 1v</cell>
+                            <cell>Epigramma</cell>
+                        </row>
+                    </table>
+                </p>
+                
+                <!-- <sourceDesc>
+                    <msDesc xml:lang="ita" xml:id="AuIn13">
+                        <msIdentifier>
+                            <country><name type="place">Italia</name></country>
+                            <region><name type="place">Emilia Romagna</name></region>
+                            <settlement><name type="place">Parma</name></settlement>
+                            <institution>Archivio di Stato</institution>
+                            <repository>Fondo Attilio Bertolucci</repository>
+                            <collection>Carte Attilio Bertolucci</collection>
+                            <idno>Busta II, fascicolo 4,2</idno>
+                            <msName>Poesie inedite degli anni tra le due guerre e del primo dopoguerra</msName>
+                            <altIdentifier>
+                                <idno>AuIn13</idno>
+                                <note>Sezione: Autografi inediti</note>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents class="#anni_perduti">
+                            <summary>Foglio di carta libero di cm 26x20, contiene nella c. 1r il testo "O anni lontani…" e nella c. 1v "Epigramma". 
+                            Il manoscritto è datato "9-10 gennaio 1935" nella c. 1r, invece nella c. 1v riporta la datazione "19-03-1930". 
+                            L’autografo è vergato con inchiostro nero e presenta nella c. 1r la numerazione arabica 13. 
+                            La poesia "O anni lontani…" consta di vv. 13 e "Epigramma" di vv. 8. </summary>
+                            <msItem n="I" class="#Amore_Crepuscolo">
+                                <locus>c. 1r</locus>
+                                <idno>AuIn13(1r)-I</idno>
+                                <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                                <title>O anni lontani...</title>
+                                <incipit>O anni lontani, m’assale</incipit>
+                                <explicit>non smetti il tuo lamento.</explicit>
+                                <textLang mainLang="ita">Italian</textLang>
+                                <note>Il componimento orginariamente risultava di vv. 19.</note>
+                            </msItem>
+                            <msItem n="II" class="#Epigramma">
+                                <locus>c. 1v</locus>
+                                <idno>AuIn13(1v)-II</idno>
+                                <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                                <title>Epigramma</title>
+                                <incipit>Come potrei preferire</incipit>
+                                <explicit>Entrare da Pagani e mangiare</explicit>
+                                <textLang mainLang="ita">Italian</textLang>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="autografo">
+                                <supportDesc material="paper">
+                                    <support>
+                                        <p><material>foglio di carta bianca
+                                            <date n="I">9-10 gennaio 1935</date>
+                                            <date n="II">S. Giuseppe 19-3-30</date> 
+                                        </material>
+                                        </p>
+                                    </support>
+                                    <extent>
+                                        <idno>AuIn13</idno>
+                                        <dimensions scope="all" type="foglio" unit="cm">
+                                            <height>26</height>
+                                            <width>20</width>
+                                        </dimensions>
+                                    </extent>
+                                    <condition>
+                                        <p></p></condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    
+                                    <layout columns="1" ruledLines="13">
+                                        <idno>AuIn13(1r)-I</idno>
+                                        <p>Testo scritto su una colonna di 13 versi</p>
+                                    </layout>
+                                    <layout columns="1" ruledLines="8">
+                                        <idno>AuIn13(1v)-II</idno>
+                                        <p>Testo scritto su una colonna di 8 versi</p>
+                                    </layout>
+                                </layoutDesc> 
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="Attilio_Bertolucci" script="handwritten" medium="black_ink_pen+pencil" scope="major">
+                                    <p>Il testo si presenta con una scrittura calligrafica moderna con un ductus poco disteso.
+                                        L’autografo è vergato con inchiostro.</p>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <idno>AuIn13(1r)-I</idno>
+                                <p>Il testo probabilmente venne scritto intorno al <origDate cert="medium">1935</origDate>
+                                </p>
+                                <idno>AuIn2(1v)-II</idno>
+                                <p>Il testo presenta una indicazione cronologica cassata; 
+                                la data inserita è <origDate cert="medium">S. Giuseppe 19-3-30</origDate>.
+                                </p>
+                            </origin>
+                        </history>
+                        <additional>
+                            <surrogates>
+                                <p>L'autografo, riprodotto in formato jpeg, è consultabile presso l'Archivio di Stato di Parma.</p>
+                            </surrogates>
+                            <listBibl>
+                                <bibl n="1"></bibl>
+                            </listBibl>
+                        </additional>
+                    </msDesc>
+                </sourceDesc> -->
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+            <editorialDecl>
+                <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                    la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+                <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                    si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+                <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+                <correction>
+                    <p></p>
+                </correction>
+                <hyphenation>
+                    <p> </p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+                </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="pen1" medium="grey_pencil_1" scribe="Bertolucci"/>
+                <handNote xml:id="pen2" medium="grey_pencil_2" scribe="Bertolucci"/>                
+            </handNotes>
+            <langUsage>
+                <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+                <date>2016</date>.</change>
+            <change>Il file è stato creato nel <date>Novembre del 2016</date> da <name> Luciano Longo</name>
+                con il software "Oxygen-XML Editor®"</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nel
+                <list>
+                    <item>Novembre del 2016 poi nel</item>
+                    <item>Dicembre del 2016.</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="images/AuIn-13_2.jpg" xml:id="i_txt-c"/>
+        <graphic url="images/AuIn-13_2.jpg" xml:id="i_txt-1"/>
+        <graphic url="images/AuIn-13_2.jpg" xml:id="i_txt-2"/>
+    </facsimile>
+    
+    <text>
+        <front>
+            <div rend="witness">
+                <listWit>
+                    <witness xml:id="txt-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt-1">tb0 prima stesura del testo</witness>
+                    <witness xml:id="txt-2">Tb0 interv. correttivi su tb0</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <pb ed="txt-c" facs="#i_txt-c"/>
+            <pb ed="txt-1" facs="#i_txt-1"/>
+            <pb ed="txt-2" facs="#i_txt-2"/>
+            <div>
+                <head>
+                   <!-- <fw type="sig" place="margin_right">13</fw> -->
+                    <supplied>c. 1v                        
+                        <note type="physical">L'autografo nella c. 1r presenta la numerazione 13; assente nel <hi rend="italic">verso</hi> della carta.</note>
+                    </supplied>
+                    <lb/>
+                </head>
+            </div>
+            
+            <div>
+                <head><hi rend="underline">Epigramma</hi><lb/></head>
+                <lg type="stanza">
+                    <l n="1">Come potrei preferire<lb/></l>
+                    <l n="2">la notte<lb/></l>
+                    <l n="3">Se la 
+                        <app>
+                            <rdg wit="#txt-c">n
+                            </rdg>
+                            <rdg wit="#txt-1">N</rdg>
+                            <rdg wit="#txt-2">
+                                <del rend="overstrike" hand="#pen1">N</del>
+                                <add place="superscript" type="substition" hand="#pen1">n</add></rdg>
+                        </app>
+                        otte 
+                        <note type="critical">In "notte" Bertolucci sovr. su "N-" maiuscola la "n-" minuscola.</note>
+                        <app>
+                            <rdg wit="#txt-c #txt-2">N
+                            </rdg>
+                            <rdg wit="#txt-1">
+                                <del rend="overstrike" hand="#pen1">Pag</del>
+                                <add place="superscript" type="substition" hand="#pen1" instant="true">N</add>
+                            </rdg>
+                        </app> 
+                        inetta
+                        <note type="critical">Bertolucci inizia a scrivere "Pag(ani)" ma con una correzione immediata 
+                            sovrascrive su "Pag" la "N" di "Ninetta".</note>
+                        dorme<lb/>
+                    </l>
+                    <l n="4">e Pagani 
+                        <app>
+                            <rdg wit="#txt-c">
+                                <choice>
+                                    <sic>e chiusi</sic>
+                                    <corr resp="#txt-c">è chiuso</corr>
+                                </choice>
+                            </rdg>
+                            <rdg wit="#txt-1 #txt-2">e chiusi</rdg>
+                        </app>
+                        <note type="critical">Il manoscritto riporta "e chiusi"; viene corretto in "è chiuso".</note>
+                        <lb/>
+                    </l>
+                    <l n="5">E il mattino possiamo io<lb/></l>
+                    <l n="6">e Ninetta<lb/></l>
+                    <l n="7">Entrare da Pagani e mangiare<lb/></l>
+                    <l n="8">le millefogliefresche?<lb/></l>
+                </lg>
+                <ab>
+                    <app>
+                        <rdg wit="#txt-c"><hi rend="underline">S. Giuseppe</hi></rdg>
+                        <rdg wit="#txt-1 #txt-2">                    
+                            <date><hi rend="underline">S. Giuseppe <del rend="overstrike" hand="#pen2">19-<retrace>3</retrace>-1930</del></hi></date></rdg>
+                    </app>
+                    <note type="critical">Il manoscritto riporta l'indicazione cronologica, "19-3-1930", cassata.</note>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>
+

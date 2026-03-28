@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XLIV. Come lucciola allor ch’estate volge</title>
+            <author>Attilio Bertolucci</author>
+            <respStmt>
+               <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+               <name>Luciano Longo.</name>
+            </respStmt>
+            <respStmt>
+               <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+               <name>Elena Pierazzo.</name>
+            </respStmt>
+            <respStmt>
+               <resp>Supervisione editoriale a cura di </resp>
+               <name>Rosa Casapullo.</name>
+            </respStmt>
+            <respStmt>
+               <resp>Supervisione critico-letteraria a cura di </resp>
+               <name>Domenica Perrone.</name>
+            </respStmt>
+            <sponsor>
+               <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+               <address>
+                  <addrLine>Piazzetta Salerno, 12 </addrLine>
+               </address> 
+            </sponsor>
+         </titleStmt>
+         
+         <extent>
+            <seg type="size">Filesize: 22 KB.</seg>
+            <seg type="format">XML TEI P5</seg>
+            <seg type="location">offline</seg>
+         </extent>
+         <publicationStmt>
+            <publisher>Luciano Longo</publisher>
+            <distributor>Università degli Studi di Palermo,</distributor>
+            <address>
+               <addrLine>Piazzetta Salerno- 12, </addrLine>
+            </address>
+            <pubPlace> 
+               <name>Palermo, </name>
+            </pubPlace>
+            <date>2015-2017</date>
+            
+            <availability status="restricted">
+               <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+               <p>Le immagini possono essere consultate in modalità off-line. </p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="critical" anchored="true">
+               <p>I manoscritti AuIn43 e AuIn44 sono conservati presso l’Archivio di Stato di Parma, "Archivio della Letteratura-Archivio Bertolucci" 
+                  nella sezione «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4.</p>
+               <p>In AuIn43 si rintraccia un intervento di tipo correttivo e uno di tipo integrativo; correttivo come la cassatura al v. 7 di "pino" dopo "curvo"; 
+                  integrativo o aggiuntivo come l’inserimento a latere del manoscritto di possibili sostituzioni (varianti adiafore). 
+                  I casi di variante adiafora sono presenti al v. 8, in cui Bertolucci isola nel margine destro il lemma "declina" e sottolinea nel corpo del testo "rovina"; 
+                  al v. 9, con l’aggiunta a latere di "allor consoli" come variante alternativa di "ci consoli allora"; 
+                  al v. 10 "tremante" come lemma sostitutivo di "trepida", parola inserita nel corpo del testo e sottolineata. </p>
+               <p>L’autografo AuIn44 non esibisce elementi correttori; il solo v. 9 presenta l'aggiunta di "Una" nel rigo di scrittura.
+                  L'intervento integrativo è da considerarsi tardivo (T1), successivo alla redazione del testo (tb0).
+                  AuIn44 può considerarsi la redazione conclusiva, o comunque successiva, di AuIn43, autografo che presenta una variante di "Come lucciola allor ch’estate volge".
+                  Dalla comparazione dei due manoscritti si rilevano le seguenti variazioni: al v. 7 AuIn44 esibisce "Così" ad apertura di verso; 
+                  al v. 8 AuIn44 muta aspetto in "Giro degli anni a sua fine declina", rispetto a "Giro degli anni torrido declina" di AuIn43; 
+                  al v. 10 di AuIn44 Bertolucci recupera la prima lezione cassata con correzione immediata di AuIn43, ovvero ripresenta "quale" in luogo di "qual è". 
+               </p>
+            </note>
+            <note type="render" anchored="true">Additions appear in a green, fixed-width
+               font.</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>AuIn43</p>
+            <p>Foglio di carta di quaderno a righe di cm 16,5x12, contiene il testo "Come lucciola allor ch’estate volge".
+               L’autografo, danneggiato nel lembo superiore e con macchie di umidità, 
+               è vergato con inchiostro nero ed è numerato con l’arabico 43; 
+               esso non presenta indicazione cronologica. La poesia consta di vv. 12.</p>
+            <p>AuIn44</p>
+            <p>Foglio di carta di quaderno di cm 21x30, contiene il testo "Come lucciola allor ch’estate volge". 
+               L’autografo è vergato con inchiostro nero ed è numerato con l’arabico 44; esso non presenta indicazione cronologica. 
+               Il manoscritto è in pulito. 
+               La poesia consta di vv. 12.</p>
+            <!--  
+               <sourceDesc>
+               <msDesc xml:lang="ita" xml:id="AuIn3">
+               <msIdentifier>
+               <country><name type="place">Italia</name></country>
+               <region><name type="place">Emilia Romagna</name></region>
+               <settlement><name type="place">Parma</name></settlement>
+               <institution>Archivio di Stato</institution>
+               <repository>Fondo Attilio Bertolucci</repository>
+               <collection>Carte Attilio Bertolucci</collection>
+               <idno>Busta II, fascicolo 4,3</idno>
+               <msName>Poesie inedite degli anni tra le due guerre e del primo dopoguerra</msName>
+               <altIdentifier>
+               <idno>AuIn44</idno>
+               <note>Sezione: Autografi inediti</note>
+               </altIdentifier>
+               </msIdentifier>
+               <msContents class="#lucciola">
+               <summary>Foglio di carta di quaderno a righe di cm 21x30, contiene il testo "Come lucciola allor ch’estate volge". 
+               L’autografo è vergato con inchiostro nero ed è numerato con l’arabico 44; esso non presenta indicazione cronologica. 
+               Il manoscritto è in pulito. 
+               La poesia consta di vv. 12.</summary>
+               <msItem n="I" class="#lucciola_1">
+               <locus>c. 1r</locus>
+               <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+               <title></title>
+               <incipit>Come lucciola allor ch’estate volge</incipit>
+               <explicit>Su te, lucciola morente.</explicit>
+               <textLang mainLang="ita">Italian</textLang>
+               </msItem>
+               </msContents>
+               <physDesc>
+               <objectDesc form="autografo">
+               <supportDesc material="paper">
+               <support>
+               <p><material>foglio di carta bianca
+               <date>assente</date>
+               </material>
+               </p>
+               </support>
+               <extent>
+               <dimensions scope="all" type="foglio" unit="cm">
+               <height>21</height>
+               <width>30</width>
+               </dimensions>
+               </extent>
+               <condition>
+               <p></p></condition>
+               </supportDesc>
+               <layoutDesc>
+               <layout columns="1" ruledLines="12">
+               <p>Testo scritto su una colonna di 12 versi</p>
+               </layout>
+               </layoutDesc>
+               </objectDesc>
+               <handDesc>
+               <handNote scribe="Attilio_Bertolucci" script="handwritten" medium="black_ink_pen" scope="major">
+               <p>Il testo si presenta con una scrittura calligrafica moderna con tratti chiari e piccoli. 
+               L’autografo è vergato a inchiostro</p>
+               </handNote>
+               </handDesc>
+               </physDesc>
+               <history>
+               <origin>
+               <p>Il testo probabilmente venne scritto intorno agli anni<origDate cert="medium">al 1930-1940</origDate>
+               </p>
+               </origin>
+               </history>
+               <additional>
+               <surrogates>
+               <p>L'autografo, riprodotto in formato jpeg, è consultabile presso l'Archivio di Stato di Parma.</p>
+               </surrogates>
+               <listBibl>
+               <bibl n="44"></bibl>
+               </listBibl>
+               </additional>
+               </msDesc>
+               </sourceDesc>
+            -->
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p></p>
+         </projectDesc>            
+         <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+         <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+         <refsDecl>
+            <p></p>
+         </refsDecl>
+         <editorialDecl>
+            <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+               la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+            <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+               si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+            <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+            <correction>
+               <p> </p>
+            </correction>
+            <hyphenation>
+               <p> </p>
+            </hyphenation>
+            <normalization>
+               <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+            </normalization>
+         </editorialDecl>
+         <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="pen1" medium="black_ink_1" scribe="Bertolucci"/>
+         </handNotes>
+         <langUsage>
+            <language ident="italiano">Lingua: Italiano</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+            <date>2015-2016</date>.</change>
+         <change>Il file è stato creato nel <date>Marzo del 2016</date> da <name> Luciano Longo.</name>
+            con il software "Oxygen-XML Editor®"</change>
+         <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nell'
+            <list>
+               <item>Aprile del 2016, la successiva nel</item>
+               <item>Maggio del 2016 poi nel</item>
+               <item>Giugno del 2016 poi nel</item>
+               <item> Luglio del 2016 poi nel</item>
+               <item>Agosto del 2016 poi nel</item>
+               <item>Settembre del 2016 e infine nel</item>
+               <item>Dicembre del 2016.</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   
+   
+   <facsimile>
+      <graphic url="images/AuIn-43.jpg" xml:id="ylf_s1l_bx"/>
+      <graphic url="images/AuIn-43.jpg" xml:id="hc1_jkt_3y"/>
+      <graphic url="images/AuIn-43.jpg" xml:id="xn3_jkt_3y"/>
+      <graphic url="images/AuIn-43.jpg" xml:id="n44_jkt_3y"/>
+      <graphic url="images/AuIn-43.jpg" xml:id="hgt_jkt_3y"/>
+      <graphic url="images/AuIn-44.jpg" xml:id="i_txt-1"/>
+      <graphic url="images/AuIn-44.jpg" xml:id="i_txt-2"/>
+      <graphic url="images/AuIn-44.jpg" xml:id="i_txt-c_44"/>
+   </facsimile>
+   
+   <text>
+      <front>
+         <div rend="witness">
+            <listWit>
+               <witness xml:id="txt43-c">Tc, Edizione critica</witness>
+               <witness xml:id="txt43-1">Tb0, prima stesura del testo</witness>
+               <witness xml:id="txt43-2">Tb1, seconda stesura del testo</witness>
+               <witness xml:id="txt43-3">T1, terza stesura del testo</witness>
+               <witness xml:id="txt43-4">T3, vr. adiafore</witness>
+               <witness xml:id="txt44-c">Tc, Edizione critica</witness>
+               <witness xml:id="txt44-1">Tb0, prima stesura del testo</witness>
+               <witness xml:id="txt44-2">Tb1, seconda stesura del testo</witness>
+            </listWit>
+         </div>
+      </front>
+      <body>
+         <pb ed="txt43-c" facs="#ylf_s1l_bx"/>
+         <pb ed="txt43-1" facs="#hc1_jkt_3y"/>
+         <pb ed="txt43-2" facs="#xn3_jkt_3y"/>
+         <pb ed="txt43-3" facs="#n44_jkt_3y"/>
+         <pb ed="txt43-4" facs="#hgt_jkt_3y"/>
+         <pb ed="txt44-c" facs="#i_txt-1"/>
+         <pb ed="txt44-1" facs="#i_txt-2"/>
+         <pb ed="txt44-2" facs="#i_txt-c_44"/>
+         <div>
+            <head rend="right">
+               <app>
+                  <rdg wit="#txt43-c #txt43-1 #txt43-2 #txt43-3 #txt43-4">
+                     <fw type="sig" place="margin-topright">43
+                        <note type="physical">L'autografo AuIn43 è numerato in alto a destra a matita con l’arabico 43 dal curatore dell'Archivio.</note>
+                     </fw>
+                  </rdg>
+                  <rdg wit="#txt44-c #txt44-1 #txt44-2">
+                     <fw type="sig" place="margin-topright">44
+                        <note type="physical">L'autografo AuIn44 è numerato in alto a destra a matita con l’arabico 44 dal curatore dell'Archivio.</note>
+                     </fw>
+                  </rdg>
+               </app>
+               <lb/>
+            </head>
+         </div>
+         
+         <div>
+            <head>
+               <app>
+                  <rdg wit="#txt43-c #txt44-c">Come lucciola allor ch’estate volge</rdg>
+                  <rdg wit="#txt43-1 #txt43-2 #txt43-3 #txt43-4 #txt44-1 #txt44-2"/>
+                  <note type="critical">La poesia è senza titolo</note>
+               </app>
+               <note type="metrical">La poesia si presenta suddivisa in 3 strofe di quartine, con versi di varia misura.</note>
+               <lb/>
+            </head>
+            
+            <lg n="1" type="stanza">
+               <lg type="quatrain">
+                  <l n="1">Come lucciola allor ch’estate volge<lb/></l>
+                  <l n="2">All’ardore di luglio, stanca posa<lb/></l>
+                  <l n="3">Sull’erba che la vide errare quando<lb/></l>
+                  <l n="4">Più temperate sere il cielo invia,<lb/></l>
+               </lg>
+            </lg>
+            
+            <lg n="2" type="stanza">
+               <lg type="quatrain">
+                  <l n="5">Dov’è caduta luce tramortita<lb/></l>
+                  <l n="6">E fioca, e così sola nella notte,<lb/></l>
+                  <l n="7">
+                     <app>
+                        <rdg wit="#txt43-c #txt43-1 #txt43-2 #txt43-3 #txt43-4">L’anima giace</rdg>
+                        <rdg wit="#txt44-c #txt44-1 #txt44-2">Così l’anima giace,</rdg>
+                     </app>
+                     poi che il curvo
+                     <app>
+                        <rdg wit="#txt44-c #txt44-1 #txt44-2"/>
+                        <rdg wit="#txt43-1">pino</rdg>
+                        <rdg wit="#txt43-2">
+                           <del rend="overstrike" hand="black_ink_1">pino</del></rdg>
+                     </app>
+                     <lb/>
+                  </l>
+                  <l n="8">
+                     <app>
+                        <rdg wit="#txt43-c #txt44-c">Giro degli anni torrido declina</rdg>
+                        <rdg wit="#txt44-1 #txt44-2">Giro degli anni a sua fine declina</rdg>
+                        <rdg wit="#txt43-1 #txt43-2">degli anni torrido rovina</rdg>
+                        <rdg wit="#txt43-3">
+                           <add place="margin-left" type="integration" hand="#pen1">Giro</add>
+                           <retrace>d</retrace>egli anni torrido <hi rend="underline">rovina</hi></rdg>
+                        <rdg wit="#txt43-4">Giro degli anni torrido 
+                           <add place="margin-right" type="alternation" hand="#pen1">rovina /</add>
+                           <add place="margin-right" type="alternation" hand="#pen1">declina</add>
+                           <alt target="#txt43-3 #txt43-4" mode="excl" weights="0.1 0.9"/>
+                           <note type="critical">In AuIn43 si rintracciano due interventi di tipo integrativo o aggiuntivo come l’inserimento a latere 
+                              del manoscritto di possibili sostituzioni (varianti adiafore). I casi di variante adiafora sono presenti al v. 8, 
+                              in cui Bertolucci isola nel margine destro il lemma "declina" e sottolinea nel corpo del testo "rovina"; 
+                              al v. 9, con l’aggiunta sempre a latere di "allor consoli" come variante alternativa di "ci consoli allora"; 
+                              al v. 10 "tremante" come lemma sostitutivo di trepida, parola inserita nel corpo del testo e sottolineata.</note>
+                        </rdg>
+                     </app>
+                     <lb/>
+                  </l>
+               </lg>
+            </lg>
+            
+            <lg n="3" type="stanza">
+               <lg type="quatrain">
+                  <l n="9">
+                     <app>
+                        <rdg wit="#txt44-1 #txt4-1 #txt43-2">Stellata</rdg>
+                        <rdg wit="#txt44-2">
+                           <add place="inline_margin" type="integration" hand="#pen1">Una </add> Stellata
+                           <note type="critical">Il v. 9 di AuIn44 presenta l'aggiunta di "Una" nel rigo di scrittura. 
+                              L'intervento è da considerarsi tardivo (T1), successivo alla redazione del testo (tb0).</note>
+                        </rdg>
+                        <rdg wit="#txt44-c #txt43-3 #txt43-4">Una stellata</rdg>
+                        <rdg wit="#txt43-3">
+                           <add place="margin_left" type="integration" hand="#pen1">[Una]</add></rdg>
+                        <rdg wit="#txt43-4">
+                           <add place="margin-right" type="alternation" hand="#pen1">ci consoli</add>
+                           <add place="margin_right" type="alternation" hand="#pen1">[allor consoli]</add>
+                           <alt target="#txt43-3 #txt43-4" mode="excl" weights="0.1 0.9"/>
+                           <note type="critical">
+                              L’aggiunta al v. 9 a latere di "allor consoli" come variante alternativa di "ci consoli allora" 
+                              è uno dei tre casi di adiaforia di AuIn43.
+                           </note>
+                        </rdg>
+                     </app> 
+                     notte 
+                     <app>
+                        <rdg wit="txt44-1 txt44-2 txt44-c">allor consoli</rdg>
+                        <rdg wit="#txt43-1">mi consoli allora</rdg>
+                        <rdg wit="#txt43-2"><add place="inline" type="substition" hand="#pen1" resp="#txt43-2">c</add>
+                           <del type="overwritten" hand="#pen1" resp="#txt43-2">m</del>i consoli allora</rdg>
+                        <rdg wit="#txt43-3">ci sonsoli allora</rdg>
+                        <rdg wit="#txt43-c">notte allor consoli</rdg>
+                     </app>
+                     <lb/>
+                  </l>
+                  <l n="10">Nostra  
+                     <app>
+                        <rdg wit="txt44-1 txt44-2 txt44-c">tremante</rdg>
+                        <rdg wit="#txt43-1 #txt43-2">trepida</rdg>
+                        <rdg wit="#txt43-3"><hi rend="underline">trepid<retrace>a</retrace></hi></rdg>
+                        <rdg wit="#txt43-4">
+                           <add place="margin-right" type="alternation" hand="#pen1" >trepida</add>
+                           <add place="margin_right" type="alternation" hand="black_ink_1" resp="#txt43-4">tremante</add>
+                           <alt target="#txt43-3 #txt43-4" mode="excl" weights="0.1 0.9"/>
+                           <note type="critical">
+                              Il v. 10 a latere esibisce di "tremante" come variante alternativa di "trepida".</note>
+                        </rdg>
+                     </app>
+                     <app>
+                        <rdg wit="txt44-1 txt44-2 txt44-c"> quiete,</rdg>
+                        <rdg wit="#txt43-1 #txt43-2"> quiete,</rdg>
+                        <rdg wit="#txt43-3"> quiet<retrace>e</retrace>,</rdg>
+                        <rdg wit="#txt43-4 #txt43-c"> quiete</rdg>
+                     </app>
+                     <app>
+                        <rdg wit="txt44-1 txt44-2 txt44-c #txt43-1">quale è questa</rdg>
+                        <rdg wit="#txt43-2">qual<del rend="overstrike" hand="#pen1" >e</del>
+                           <add place="above">'</add>è questa</rdg>
+                        <rdg wit="#txt43-3 #txt43-4 #txt43-c"> qual'è questa</rdg>
+                     </app>
+                     <lb/></l>
+                  <l n="11">
+                     <app>
+                        <rdg wit="txt44-1 txt44-2 txt44-c">Che s’apre dolce </rdg>
+                        <rdg wit="#txt43-1">Che apri dolce</rdg>
+                        <rdg wit="#txt43-2">Che 
+                           <add place="inline" type="integration" hand="black_ink_1">s'</add>apr<del type="overstrike">i</del>
+                           <add place="inline" type="integration" hand="black_ink_1">e</add> 
+                           dolc<retrace cause="unclear">e</retrace></rdg>
+                        <rdg wit="#txt43-3 #txt43-4 #txt43-c">Che s'apre dolce</rdg>
+                     </app> 
+                     e silente<lb/>
+                  </l>
+                  <l n="12">Su te, lucciola morente.<lb/></l>
+               </lg>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

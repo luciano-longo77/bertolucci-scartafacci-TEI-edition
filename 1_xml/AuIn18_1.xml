@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+       <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XXIII. Come al mattino</title>
+                <author>Attilio Bertolucci</author>
+                <respStmt>
+                    <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                    <name>Luciano Longo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                    <name>Elena Pierazzo </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione editoriale a cura di </resp>
+                    <name>Rosa Casapullo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione critico-letteraria a cura di </resp>
+                    <name>Domenica Perrone.</name>
+                </respStmt>
+                
+                <sponsor>
+                    <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                    <address>
+                        <addrLine>Piazzetta Salerno, 12 </addrLine>
+                    </address> 
+                </sponsor>
+            </titleStmt>
+            
+            <extent>
+                <seg type="size">Filesize: 17 KB.</seg>
+                <seg type="format">XML TEI P5</seg>
+                <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+                <publisher>Luciano Longo</publisher>
+                <distributor>Università degli Studi di Palermo,</distributor>
+                <address>
+                    <addrLine>Piazzetta Salerno- 12, </addrLine>
+                </address>
+                <pubPlace> 
+                    <name>Palermo, </name>
+                </pubPlace>
+                <date>2015-2017</date>
+                
+                <availability status="restricted">
+                    <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                    <p>Le immagini possono essere consultate in modalità off-line. </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="critical" anchored="true">
+                    <p>Il manoscritto (AuIn18) è conservato presso l’Archivio di Stato di Parma, 
+                    "Archivio della Letteratura-Archivio Bertolucci" nella sezione 
+                    «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4. </p>
+                    <p>L'autografo conserva nella c. 1r "Come al mattino" (vv. 11); nella stessa carta (1v) vi sono i testi "Ore ǀ Dell’amore" e "Una piccola nuvola passava". </p>
+                    <p>Un numero cospicuo di manoscritti riportano una indicazione cronologica precisa. L'autografo AuIn18 è datato 1935 insieme ai manoscritti
+                        AuIn9, AuIn13(1), AuIn14, AuIn16, e AuIn17. </p>
+                    <p>
+                        Il manoscritto presenta degli interventi correttori tardivi come si può desumere da una inchiostrazione più scura rispetto al testo base e dal ductus delle cassature. 
+                        Gli interventi correttivi si possono individuare al v. 5 in cui il poeta dapprima scrive "Per le strade", dopo instaura la variante sovrascritta "i viali"; 
+                        al v. 6 sostituisce "d’olendri" con "son gli oleandri", con "d’-" sovrascritta a "son gli". Il v. 7 in una prima stesura era "Fuggivamo felici e zitti", il poeta 
+                        vi interviene inserendo nella riga "E" e sovrascrivendo "f-" minuscola sulla "F-" maiuscola; il v. 10 in una prima forma del testo funzionava così: 
+                        "Camminando lo aggiustavi", successivamente Bertolucci cassa "lo aggiustavi" inserendo "infilavi". 
+                        Il poeta nel secondo intervento correttorio modifica il sistema interpuntivo: 
+                        al v. 6 dopo "fitti" inserisce una virgola che cassa, così come al v. 7 dopo "rubare cassa" la virgola e inserisce un punto; 
+                        al v. 9 dopo "capelli" e al v. 10 dopo "Camminando" inserisce una virgola.
+                    </p> 
+                    <lb/>
+                </note>
+                <note type="biographical" anchored="true">Negli anni in cui è possibile inserire "Riflessioni su una cartolina illustrata", Bertolucci ha già pubblicato la prima raccolta di poesie, 
+                    "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                    che confluiranno nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+                    Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                    durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                    Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>AuIn18</p>
+                <p>Foglio di carta di quaderno a righe di cm 15x20, contiene i testi "Come al mattino" (c. 1r), "Ore ǀ Dell’amore" e "Una piccola nuvola passava" (c. 1v). 
+                    Il manoscritto è datato 21 agosto 1935 nella c. 1r e 1935 nella c. 1v; esso è vergato con inchiostro nero ed è numerato con l’arabico 18. 
+                    La poesia "Come al mattino" (c. 1r) consta di vv. 16, "Ore ǀ Dell’amore" (c. 1v) di vv. 8 e "Una piccola nuvola passava" (c. 1v) di righe 4.</p> 
+                <!--
+            <sourceDesc>
+               <msDesc xml:lang="ita" xml:id="AuIn10">
+                  <msIdentifier>
+                     <country><name type="place">Italia</name></country>
+                     <region><name type="place">Emilia Romagna</name></region>
+                     <settlement><name type="place">Parma</name></settlement>
+                     <institution>Archivio di Stato</institution>
+                     <repository>Fondo Attilio Bertolucci</repository>
+                     <collection>Carte Attilio Bertolucci</collection>
+                     <idno>Busta II, fascicolo 4,10</idno>
+                     <msName>Poesie inedite degli anni tra le due guerre e del primo dopoguerra</msName>
+                     <altIdentifier>
+                        <idno>AuIn10</idno>
+                        <note>Sezione: Autografi inediti</note>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents class="#Endimione">
+                     <summary>Foglio grande di carta libera di cm 20,5x30; l’autografo conserva nella stessa carta anche il testo di "Notte".
+                  Il manoscritto non reca alcuna datatazione, esibisce la firma dell’autore. 
+                  L’autografo è vergato con inchiostro nero e presenta in alto a destra l’arabico 10. 
+                  La poesia consta di vv. 11.</summary>
+                     
+                     <msItem n="I" class="#Cartolina">
+                        <locus>c. 1r</locus>
+                        <idno>AuIn10-I</idno>
+                        <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                        <title>Riflessioni su una cartolina illustrata</title>
+                        <incipit>Renoir dipinse una bambina</incipit>
+                        <explicit>Gli occhi di una lorette.</explicit>
+                        <textLang mainLang="ita">Italian</textLang>
+                        <textLang mainLang="fre">French</textLang>
+                        <note>L’autografo si presenta in pulito. </note>
+                     </msItem>
+                     <msItem n="II" class="#Notte">
+                        <locus>c. 1r</locus>
+                        <idno>AuIn10-II</idno>
+                        <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                        <title>Notte</title>
+                        <incipit>Una piccola nuvola</incipit>
+                        <explicit>Essere molto lontano.</explicit>
+                        <textLang mainLang="ita">Italian</textLang>
+                        <note>L’autografo si presenta in pulito. </note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="autografo">
+                        <supportDesc material="paper">
+                           <support>
+                              <p>
+                              <material>foglio di carta bianca
+                                 <date n="I">nessuna data</date>
+                                 <date n="II">nessuna data</date>
+                              </material>
+                              </p>
+                           </support>
+                           <extent>
+                              <idno>AuIn10</idno>
+                              <dimensions scope="all" type="foglio" unit="cm">
+                                 <height>20,5</height>
+                                 <width>30</width>
+                              </dimensions>
+                           </extent>
+                           <condition>
+                              <p>Il manoscritto si presenta lacero nelle piegature centrali e con qualche macchia di umidità</p></condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" ruledLines="11">
+                              <idno>AuIn10-I</idno>
+                           <p>Testo scritto su una colonna di 11 versi</p>
+                           </layout>
+                           <layout columns="1" ruledLines="6">
+                              <idno>AuIn10-II</idno>
+                              <p>Testo scritto su una colonna di 6 versi</p>
+                           </layout>
+                              </layoutDesc> 
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scribe="Attilio_Bertolucci" script="handwritten" medium="black_ink_pen" scope="major">
+                        <p>Il testo si presenta con una scrittura calligrafica moderna con un ductus disteso.
+                           L’autografo è vergato con inchiostro nero.</p>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <idno>AuIn10-I</idno>
+                        <p>Il testo non può essere datato con certezza.</p>
+                        <idno>AuIn10-II</idno>
+                        <p>Il testo non può essere datato con certezza.</p>
+                     </origin>
+                  </history>
+                  <additional>
+                     <surrogates>
+                        <p>L'autografo, riprodotto in formato jpeg, è consultabile presso l'Archivio di Stato di Parma.</p>
+                     </surrogates>
+                     <listBibl>
+                        <bibl n="1"></bibl>
+                     </listBibl>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+            -->
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+            <editorialDecl>
+                <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                    la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+                <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                    si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+                <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+                <correction>
+                    <p></p>
+                </correction>
+                <hyphenation>
+                    <p> </p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+                </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="pen2" medium="black_ink_2" scribe="Bertolucci"/>
+                <handNote xml:id="pen1" medium="black_ink_1" scribe="Bertolucci"/>
+            </handNotes>
+            <langUsage>
+                <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+        </profileDesc>
+           <revisionDesc>
+               <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+                   <date>2016</date>.</change>
+               <change>Il file è stato creato nel <date>Dicembre del 2016</date> da <name> Luciano Longo</name>
+                   con il software "Oxygen-XML Editor®"</change>
+               <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nel
+                   <list>
+                       <item>Dicembre del 2016.</item>
+                   </list>
+               </change>
+           </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="images/AuIn-18_1.jpg" xml:id="i_txt-c"/>
+        <graphic url="images/AuIn-18_1.jpg" xml:id="i_txt-1"/>
+        <graphic url="images/AuIn-18_1.jpg" xml:id="i_txt-2"/>
+    </facsimile>
+    
+    <text>
+        <front>
+            <div rend="witness">
+                <listWit>
+                    <witness xml:id="txt-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt-1">Tb0, prima stesura del testo</witness>
+                    <witness xml:id="txt-2">T1, seconda stesura del testo</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <pb ed="txt-c" facs="#i_txt-c"/>
+            <pb ed="txt-1" facs="#i_txt-1"/>
+            <pb ed="txt-2" facs="#i_txt-2"/>
+            <div>
+                <head>              
+                    <fw type="sig" place="margin-topright">18
+                        <note type="physical">
+                            L'autografo è numerato in alto a destra a matita con l’arabico 18 redatto dal curatore dell'Archivio.</note>
+                    </fw>
+                    <lb/>
+                </head>
+            </div>
+            
+            <div>
+                <head rend="center">
+                    <app>
+                        <rdg wit="#txt-c">Come al mattino</rdg>
+                        <rdg wit="#txt-1 #txt-2"/>
+                        <note type=" critical">La poesia è senza titolo. Essa è composta da 4 strofe di quartine con rima alternata.</note>                    
+                    </app>
+                </head>
+                <lb/>
+                <lg n="1" type="stanza">
+                    <lg n="1" type="quatrain">
+                        <l n="1">Come al mattino<lb/></l>
+                        <l n="2">Ci avvicinavamo al mare<lb/></l>
+                        <l n="3">Tu volevi di un fiorellino<lb/></l>
+                        <l n="4">I tuoi capelli adornare.<lb/></l>
+                    </lg>
+                </lg>
+                <lg n="2" type="stanza">
+                    <lg n="2" type="quatrain">
+                        <l n="5">
+                            <app>
+                                <rdg wit="#txt-c">i viali</rdg>
+                                <rdg wit="#txt-1">Per le strade</rdg>
+                                <rdg wit="#txt-2">
+                                    <del rend="overstrike" hand="#pen1">Per le strade</del>
+                                    <add place="above" type="substition" hand="#pen2">i viali</add>
+                                </rdg>
+                                <note type=" critical">
+                                   Il primo intervento correttivo si può individuare al v. 5 in cui il poeta dapprima scrive 
+                                   "Per le strade", dopo instaura la variante sovrascritta "i viali". 
+                                </note>                    
+                            </app>
+                            che vanno al mare,<lb/></l>
+                        <l n="6">
+                            <app>
+                                <rdg wit="#txt-c">Quieti,</rdg>
+                                <rdg wit="#txt-1">Quiete</rdg>
+                                <rdg wit="#txt-2">Quiet
+                                    <del rend="overstrike" hand="#pen1">e</del>
+                                    <add place="inline" type="substition" hand="#pen2">i,</add>
+                                </rdg>
+                                <note type=" critical">Il poeta sostituisce la "-e" finale di "Quieti" con la "-i".
+                                    Inoltre, nel secondo intervento correttorio modifica il sistema interpuntivo: in questo caso aggiunge una virgola.</note>                    
+                            </app>
+                            <app>
+                                <rdg wit="#txt-c">d'oleandri</rdg>
+                                <rdg wit="#txt-1">son gli oleandri</rdg>
+                                <rdg wit="#txt-2">
+                                    <del rend="overstrike" hand="#pen1">son gli</del>
+                                    <add place="above" type="substition" hand="#pen2">d'</add>
+                                    oleandri
+                                </rdg>
+                                <note type=" critical">
+                                    Il secondo intervento correttivo si può individuare al v. 6 in cui il poeta sostituisce  
+                                    "d'oleandri" con "son gli oleandri", con "d’-" sovrascritta "a son gli".
+                                </note>                    
+                            </app>
+                            <app>
+                                <rdg wit="#txt-c">fitti</rdg>
+                                <rdg wit="#txt-1">fitti,</rdg>
+                                <rdg wit="#txt-2">fitti
+                                    <del rend="overstrike" hand="#pen1">,</del>
+                                </rdg>
+                                <note type=" critical">Nel secondo intervento correttorio il poeta modifica il sistema interpuntivo: in questo caso aggiunge una virgola.</note>                    
+                            </app>
+                            <lb/>
+                        </l>
+                        <l n="7">Sempre un fiore dovevo 
+                            <app>
+                                <rdg wit="#txt-c">rubare.</rdg>
+                                <rdg wit="#txt-1">rubare,</rdg>
+                                <rdg wit="#txt-2">rubare
+                                    <del rend="overstrike" hand="#pen1">,</del>
+                                    <add place="inline" type="substition" hand="#pen2">.</add>
+                                </rdg>
+                                <note type=" critical">
+                                    Nel secondo intervento correttorio il poeta modifica il sistema interpuntivo: in questo caso aggiunge un punto sulla cassatura di una virgola.</note>                    
+                            </app>
+                            <lb/>
+                        </l>
+                        <l n="8">
+                            <app>
+                                <rdg wit="#txt-c">E fuggivamo</rdg>
+                                <rdg wit="#txt-1">Fuggivamo</rdg>
+                                <rdg wit="#txt-2">
+                                    <add place="inline" type="integration" hand="#pen2">E</add>
+                                    <del rend="overstrike" hand="#pen1">F</del>
+                                    <add place="inline" type="substition" hand="#pen2">f</add>uggivamo
+                                </rdg>
+                                <note type=" critical">
+                                    Il v. 7 in una prima stesura era "Fuggivamo felici e zitti", il poeta vi interviene inserendo nella riga 
+                                    "E" e sovrascrivendo "f-" minuscola sulla "F-" maiuscola. </note>                    
+                            </app>
+                             felici e zitti. <lb/></l>
+                    </lg>
+                </lg>
+                <lg n="3" type="stanza">
+                    <lg n="3" type="quatrain">
+                        <l n="9">Poi fra i                             
+                            <app>
+                                <rdg wit="#txt-c">capelli,</rdg>
+                                <rdg wit="#txt-1">capelli</rdg>
+                                <rdg wit="#txt-2">capelli
+                                    <add place="inline" type="integration" hand="#pen2">,</add>
+                            </rdg>
+                            <note type=" critical">
+                                Nel secondo intervento correttorio il poeta modifica il sistema interpuntivo: in questo caso aggiunge una virgola. 
+                            </note>                    
+                        </app> 
+                            <app>
+                                <rdg wit="#txt-c">sull’orecchio,</rdg>
+                                <rdg wit="#txt-1">sull’orecchio</rdg>
+                                <rdg wit="#txt-2">sull’orecchio
+                                    <add place="inline" type="integration" hand="#pen2">,</add>
+                                </rdg>
+                                <note type=" critical">Nel secondo intervento correttorio il poeta modifica il sistema interpuntivo: in questo caso aggiunge una virgola.</note>                    
+                            </app>
+                            <lb/></l>
+                        <l n="10">
+                            <app>
+                                <rdg wit="#txt-c">Camminando,</rdg>
+                                <rdg wit="#txt-1">Camminando</rdg>
+                                <rdg wit="#txt-2">Camminando
+                                    <add place="inline" type="integration" hand="#pen2">,</add>
+                                </rdg>
+                                <note type=" critical">
+                                    Nel secondo intervento correttorio il poeta modifica il sistema interpuntivo: in questo caso aggiunge una virgola.
+                                </note>                    
+                            </app> 
+                            <app>
+                                <rdg wit="#txt-c">lo infilavi</rdg>
+                                <rdg wit="#txt-1">l'aggiustavi</rdg>
+                                <rdg wit="#txt-2">l
+                                    <del rend="overstrike" hand="#pen1">'</del>
+                                    <add place="inline" type="substition" hand="#pen2">o</add>
+                                    <del rend="overstrike" hand="#pen2">aggiuistavi</del>
+                                    <add place="inline" type="substition" hand="#pen2">infilavi</add>
+                                </rdg>
+                                <note type=" critical">Il v. 10 in una prima forma del testo funzionava così: 
+                                    "Camminando lo aggiustavi", successivamente Bertolucci cassa "lo aggiustavi" inserendo "infilavi".</note>                    
+                            </app>
+                            <lb/></l>
+                        <l n="11">Senza aiuto di specchio<lb/></l>
+                        <l n="12">Così giusto lo posavi.<lb/></l>
+                    </lg>
+                </lg>
+                <lg n="4" type="stanza">
+                    <lg n="4" type="quatrain">
+                        <l n="13">Preferivi il rosso 
+                            <app>
+                                <rdg wit="#txt-c #txt-1">e il rosa</rdg>
+                                <rdg wit="#txt-2">
+                                    <retrace cause="unclear">e</retrace> il r<retrace cause="unclear">o</retrace>sa
+                                </rdg>
+                                <note type=" critical">La congiunzione e il nome del colore vengono rivergati con lo stesso inchiostro delle correzioni.</note>                    
+                            </app>
+                            <lb/></l>
+                        <l n="14">Che a te, bruna, si conveniva.<lb/></l>
+                        <l n="15">Alla sera una dolce cosa<lb/></l>
+                        <l n="16">Obliata, si gualciva.<lb/></l>
+                    </lg>
+                </lg>
+                <ab>
+                    <date>21 agosto 1935</date>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
+
+

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XXVIII. Felici, rondini portate dal vento</title>
+                <respStmt>
+                    <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                    <name>Luciano Longo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                    <name>Elena Pierazzo. </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione editoriale a cura di </resp>
+                    <name>Rosa Casapullo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione critico-letteraria a cura di </resp>
+                    <name>Domenica Perrone.</name>
+                </respStmt>
+                <sponsor>
+                    <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                    <address>
+                        <addrLine>Piazzetta Salerno, 12.</addrLine>
+                    </address> 
+                </sponsor>
+            </titleStmt>
+            <extent>
+                <seg type="size">Filesize: 14 KB.</seg>
+                <seg type="format">XML TEI P5</seg>
+                <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+                <publisher>Luciano Longo</publisher>
+                <distributor>Università degli Studi di Palermo,</distributor>
+                <address>
+                    <addrLine>Piazzetta Salerno- 12, </addrLine>
+                </address>
+                <pubPlace> 
+                    <name>Palermo, </name>
+                </pubPlace>
+                <date>2015-2017</date>
+                <availability status="restricted">
+                    <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                    <p>Le immagini possono essere consultate in modalità off-line. </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="critical" anchored="true">
+                    <p>I manoscritti AuIn22 e AuIn26 sono conservati presso l’Archivio di Stato di Parma, "Archivio della Letteratura-Archivio Bertolucci" 
+                        nella sezione «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4.</p> 
+                    <p>Verosimilmente la poesia può essere datata intorno al 1936, in riferimento alla datazione presente in AuIn22, 
+                        testimone che rappresenta una variante del testo. 
+                        AuIn26 presenta una cassatura dopo il v. 6 nella sezione finale del componimento da interpretarsi come tentativo di prosecuzione del testo.
+                        Dal confronto dei due testimoni emerge una differenza fondamentale individuabile nell’inversione dei vv. 5-6.</p>
+                </note>
+                <note type="biographical" anchored="true">Negli anni in cui è possibile datare la poesia A. Bertolucci ha già pubblicato la prima raccolta di poesie, 
+                    "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                    che confluiranno poi nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+                    Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                    durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                    Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+                <note type="render" anchored="true">Additions appear in a green, fixed-width font.</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>AuIn22</p>
+                <p>Foglio di carta libera di cm 21x30; la c. 1r contiene i testi "Al pomeriggio radioso" e "Più cara ti ritrovo"; 
+                    la c. 1v il testo "Felici, rondini portate dal vento". Il manoscritto, datato novembre 1936, 
+                    nella c. 1r è vergato con inchiostro nero, tranne una aggiunta ai vv. 11-12 con inchiostro blu; 
+                    il documento è numerato nella c. 1r con l’arabico 22. 
+                    La poesia "Al pomeriggio radioso" consta di vv. 13, "Più cara ti ritrovo" di vv. 12 e "Felici, rondini portate dal vento" di vv. 6.</p>
+                <p>AuIn26</p>
+                <p>Foglio di cartoncino di cm 10,5x35, contiene il testo "Felici, rondini portate da vento". Il manoscritto è vergato con inchiostro nero; 
+                    è numerato con l’arabico e non presenta alcuna datazione. Il cartoncino sul verso contiene disegni a inchiostro nero 
+                    rappresentanti figure umane. La poesia consta di vv. 6. </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+            <editorialDecl>
+                <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                    la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+                <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                    si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+                <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1").</p>
+                <correction>
+                    <p></p>
+                </correction>
+                <hyphenation>
+                    <p> </p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+                </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="pen1" medium="black_ink_1" scribe="Bertolucci"/>
+            </handNotes>
+            <langUsage>
+                <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+                <date>2016</date>.</change>
+            <change>Il file è stato creato nel <date>Dicembre del 2016</date> da <name> Luciano Longo</name>
+                con il software "Oxygen-XML Editor®".</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nel
+                <list>
+                    <item>Dicembre del 2016.</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="images/AuIn-22-2.jpg" xml:id="b15_lln_fy"/>
+        <graphic url="images/AuIn-22-2.jpg" xml:id="fsh_mln_fy"/>
+        <graphic url="images/AuIn-26.jpg" xml:id="i_txt-c"/>
+        <graphic url="images/AuIn-26.jpg" xml:id="i_txt-1"/>
+        <graphic url="images/AuIn-26.jpg" xml:id="i_txt-2"/>
+        <graphic url="images/AuIn-26-f.jpg" xml:id="e3n_tys_3y"/>
+        <graphic url="images/AuIn-26-f.jpg" xml:id="eqv_tys_3y"/>
+        <graphic url="images/AuIn-26-f.jpg" xml:id="jsz_tys_3y"/>
+        
+    </facsimile>
+    
+    <text>
+        
+        <front>
+            <div rend="witness">
+                <listWit>
+                    <witness xml:id="txt22-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt22-1">Tb0, prima stesura del testo</witness>
+                    <witness xml:id="txt26-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt26-1">Tb0, prima stesura del testo</witness>
+                    <witness xml:id="txt26-2">T1, seconda stesura del testo</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <pb ed="txt22-c" facs="#b15_lln_fy"/>
+            <pb ed="txt22-1" facs="#fsh_mln_fy"/>
+            <pb ed="txt26-c" facs="#i_txt-c"/>
+            <pb ed="txt26-1" facs="#i_txt-1"/>
+            <pb ed="txt26-2" facs="#i_txt-2"/>
+            <div>
+                <head rend="right">
+                    <app>
+                        <rdg wit="#txt22-c #txt22-1">                  
+                            <fw type="sig" place="margin-topright">
+                                <supplied>22 (c. 1v )</supplied>
+                                <note type="physical">L'autografo (c. 1r) è numerato in alto a destra a matita con l’arabico 22 dal curatore dell'Archivio Bertolucci.</note>
+                            </fw>
+                        </rdg>
+                        <rdg wit="#txt26-c #txt26-1 #txt26-2">                  
+                            <fw type="sig" place="margin-topright">26
+                                <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 26 dal curatore dell'Archivio Bertolucci.</note>
+                            </fw>
+                        </rdg>
+                    </app>
+                    <lb/>
+                </head>
+            </div>
+            <div>
+                <head rend="center">
+                    <app>
+                        <rdg wit="#txt22-c #txt26-c">Felici, rondini portate dal vento</rdg>
+                        <rdg wit="#txt22-1 #txt26-1 #txt26-2"/>
+                        <note type="critical">La poesia è senza titolo.</note>
+                    </app>
+                    <lb/>
+                </head>
+                <lg n="1" type="stanza">
+                    <l n="1">Felici, rondini portate dal vento<lb/></l>
+                    <l n="2">Caldo di maggio<lb/></l>
+                    <l n="3">In così folle giro<lb/></l>
+                    <l n="4">Dalla terra fiorita al firmamento<lb/></l>
+                    <l n="5">
+                        <app>
+                            <rdg wit="#txt22-c #txt22-1">In un perpetuo viaggio</rdg>
+                            <rdg wit="#txt26-c #txt26-1 #txt26-2">Senza respiro </rdg>
+                            <note type="critical">Dal confronto dei due testimoni (AuIn22 e AuIn26) emerge una differenza fondamentale individuabile nell’inversione dei vv. 5-6.</note>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="6">
+                        <app>
+                            <rdg wit="#txt22-c #txt22-1">Senza respiro</rdg>
+                            <rdg wit="#txt26-c #txt26-1 #txt26-2">In un perpetuo viaggio
+                                <note type="critical">AuIn26 esibisce un tentativo di prosecuzione del testo poi interamente cassato.</note></rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <app>
+                        <rdg wit="#txt26-1">
+                            <l n="7">
+                                <del rend="overstrike" hand="#pen1">Chiara</del> Ch’era tornato fiero ogni <gap reason="punched" extent="several_character"/>[...] gare
+                                <note type="critical">AuIn26 esibisce un tentativo di prosecuzione del testo poi interamente cassato.</note>
+                            </l>
+                           </rdg>
+                        <rdg wit="#txt26-2">
+                            <l n="7">
+                                <del rend="overstrike" hand="#pen1">Ch’era tornato fiero ogni <gap reason="punched" extent="several_character"/>[...] gare</del></l>
+                        </rdg>
+                    </app>
+                    <app>
+                        <rdg wit="#txt26-1">
+                            <l n="8">Ora
+                            <note type="critical">AuIn26 esibisce un tentativo di prosecuzione del testo poi interamente cassato.</note></l>
+                        </rdg>
+                        <rdg wit="#txt26-2">
+                            <l n="7"><del rend="overstrike" hand="#pen1">Ora</del></l>
+                        </rdg>
+                    </app>
+                </lg>
+                <pb ed="txt26-c" facs="#e3n_tys_3y"/>
+                <pb ed="txt26-1" facs="#eqv_tys_3y"/>
+                <pb ed="txt26-2" facs="#jsz_tys_3y"/>
+                <note type="physical">Il manoscritto sul verso contiene disegni a inchiostro nero rappresentanti figure umane.</note>
+            </div>
+        </body>
+    </text>
+</TEI>

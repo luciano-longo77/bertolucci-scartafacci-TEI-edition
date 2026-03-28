@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XXIV. Dodici Maggio</title>
+                <author>Attilio Bertolucci</author>
+                <respStmt>
+                    <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                    <name>Luciano Longo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                    <name>Elena Pierazzo </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione editoriale a cura di </resp>
+                    <name>Rosa Casapullo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione critico-letteraria a cura di </resp>
+                    <name>Domenica Perrone.</name>
+                </respStmt>
+                <sponsor>
+                    <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                    <address>
+                        <addrLine>Piazzetta Salerno, 12 </addrLine>
+                    </address> 
+                </sponsor>
+            </titleStmt>
+            <extent>
+                <seg type="size">Filesize: 24 KB.</seg>
+                <seg type="format">XML TEI P5</seg>
+                <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+                <publisher>Luciano Longo</publisher>
+                <distributor>Università degli Studi di Palermo,</distributor>
+                <address>
+                    <addrLine>Piazzetta Salerno- 12, </addrLine>
+                </address>
+                <pubPlace> 
+                    <name>Palermo, </name>
+                </pubPlace>
+                <date>2015-2017</date>
+                <availability status="restricted">
+                    <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                    <p>Le immagini possono essere consultate in modalità off-line. </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="critical" anchored="true">
+                    <p>I manoscritti (AuIn24, AuIn22 e AuIn23) sono conservati presso l’Archivio di Stato di Parma, 
+                        "Archivio della Letteratura-Archivio Bertolucci" nella sezione 
+                        «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4.</p>
+                    <p>La poesia "Dodici maggio" ha diverse redazioni con la presenza di alcune varianti; i manoscritti che presentano 
+                        tale testo sono AuIn18 (Ore ǀ Dell’Amore), AuIn19 (Ore ǀ D’Amore) e AuIn20 (Ore ǀ D’Amore). 
+                        L’attestazione della data 1935 in AuIn18 potrebbe fornire una indicazione di massima anche sul periodo di scrittura del testo.</p> 
+                    <p>Il primo dei tre testimoni è il manoscritto AuIn18; esso mostra degli interventi correttori immediati alla scrittura del testo.</p> 
+                    <p>Il secondo manoscritto che contiene una variazione della poesia è AuIn19. 
+                        Il manoscritto si presenta in pulito. </p>
+                    <p>Il terzo manoscritto che testimonia il testo "Dodici maggio" è AuIn20. 
+                        L’autografo presenta ai vv. 7-8 delle cassature e una aggiunta nell’interlinea superiore che lasciano 
+                        intendere tre interventi scrittori. I vv. 7-8 in una prima redazione si presentano nel seguente modo: 
+                        "S’udia ǀ Da giovane gaggia"; succesivamente il poeta cassa il v. 7 "S’udia" e riscrive nella riga "E udia"; al v. 8, 
+                        dopo una prima stabilizzazione del testo, cassa "Da giovane gaggia" e inizia a scrivere "D", che elimina, riscrivendo 
+                        nella riga "Fra foglie di gaggia" (variante instaurativa). Alla rilettura del testo, Bertolucci cassa "Fra" inserendo 
+                        una variante sostitutiva nell’interlinea con una penna diversa: "fresche", lasciando inalterata la parte finale del verso.</p> 
+                    <p>Il quarto manoscritto è AuIn21, l'unico testimone che esibisce un titolo. Il manoscritto è in pulito.</p>
+                    <p>Dall’analisi comparativa dei quattro testimoni il testo "Dodici maggio" si può considerare la versione stabilizzante.</p>
+                    <lb/>
+                </note>
+                <note type="biographical" anchored="true">Negli anni in cui è possibile inserire le attestazioni di "Dodici maggio", 
+                    Bertolucci ha già pubblicato la prima raccolta di poesie, 
+                    "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                    che confluiranno nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+                    Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                    durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                    Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>I manoscritti che testimoniano la poesia "Dodici maggio" sono AuIn18, AuIn19, AuIn20 e AuIn21.</p>
+                <p>AuIn18</p>
+                <p>Foglio di carta di quaderno a righe di cm 15x20, contiene i testi "Come al mattino" (c. 1r), "Ore ǀ Dell’amore" e "Una piccola nuvola passava" (c. 1v). 
+                    Il manoscritto è datato 21 agosto 1935 nella c. 1r e 1935 nella c. 1v; l’autografo è vergato con inchiostro nero ed è numerato con l’arabico 18. 
+                    La poesia "Come al mattino" (c. 1r) consta di vv. 16, "Ore ǀ Dell’amore" (c. 1v) di vv. 8 e 
+                    "Una piccola nuvola passava" (c. 1v) di righe 4.</p> 
+                <p>AuIn19</p>
+                <p>Foglio di carta libero di colore rosa di cm 10x11, contiene il testo "Ore ǀ D’Amore". Il manoscritto è vergato con inchiostro 
+                    nero ed è numerato con l’arabico 19. Il manoscritto si presenta in pulito e non esibisce una indicazione cronologica. 
+                    La poesia consta di vv. 12. </p> 
+                <p>AuIn20</p>
+                <p>Foglio di carta libero di cm 15x10,5, contiene il testo "Ore ǀ D’Amore". Il manoscritto è vergato con inchiostro nero; 
+                    al v. 8 è presente una inchiostrazione diversa. Il manoscritto è numerato con l’arabico 20. 
+                    Il documento non esibisce una indicazione cronologica. La poesia consta di vv. 12.</p>
+                <p>AuIn21</p>
+                <p>Porzione di foglio di carta di quaderno a righe di cm 15x21; la c. 1r contiene la poesia "Dodici maggio", 
+                    la c. 1v è occupata da "Luna in autunno". Il manoscritto è vergato con inchiostro nero ed è numerato con l’arabico 21. 
+                    Il manoscritto non esibisce una indicazione cronologica. La poesia "Dodici Maggio" consta di vv. 12, "Luna in autunno" di vv. 6. </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+            <editorialDecl>
+                <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                    la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+                <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                    si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+                <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+                <correction>
+                    <p></p>
+                </correction>
+                <hyphenation>
+                    <p> </p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+                </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="pen3" medium="blue_ink_3" scribe="Bertolucci"/>
+                <handNote xml:id="pen2" medium="black_ink_2" scribe="Bertolucci"/>
+                <handNote xml:id="pen1" medium="black_ink_1" scribe="Bertolucci"/>
+            </handNotes>
+            <langUsage>
+                <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+                <date>2016</date>.</change>
+            <change>Il file è stato creato nel <date>Dicembre del 2016</date> da <name> Luciano Longo</name>
+                con il software "Oxygen-XML Editor®"</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nel
+                <list>
+                    <item>Dicembre del 2016.</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="images/AuIn-18.jpg" xml:id="lff_lln_fy"/>
+        <graphic url="images/AuIn-18.jpg" xml:id="xwl_lln_fy"/>
+        <graphic url="images/AuIn-18.jpg" xml:id="b2q_lln_fy"/>
+        
+        <graphic url="images/AuIn-19.jpg" xml:id="b15_lln_fy"/>
+        <graphic url="images/AuIn-19.jpg" xml:id="fsh_mln_fy"/>
+        
+        <graphic url="images/AuIn-20jpg" xml:id="i_txt-c"/>
+        <graphic url="images/AuIn-20.jpg" xml:id="i_txt-1"/>
+        <graphic url="images/AuIn-20.jpg" xml:id="i_txt-2"/>
+        <graphic url="images/AuIn-20.jpg" xml:id="i_txt-3"/>
+        
+        <graphic url="images/AuIn-21.jpg" xml:id="qmy_gxc_3y"/>
+        <graphic url="images/AuIn-21.jpg" xml:id="qn3_hxc_3y"/>
+    </facsimile>
+    
+    <text>
+        <front>
+            <div rend="witness">
+                <listWit>
+                    <witness xml:id="txt18-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt18-1">Tb0, prima stesura del testo</witness>
+                    <witness xml:id="txt18-2">T1, seconda stesura del testo</witness>
+                    
+                    <witness xml:id="txt19-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt19-1">Tb0, prima stesura del testo</witness>
+                    
+                    <witness xml:id="txt20-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt20-1">Tb0, prima stesura del testo</witness>
+                    <witness xml:id="txt20-2">Tb1, seconda stesura del testo</witness>
+                    <witness xml:id="txt20-3">T1, terza stesura del testo</witness>
+                    
+                    <witness xml:id="txt21-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt21-1">Tb0, prima stesura del testo</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <pb ed="txt18-c" facs="#lff_lln_fy"/>
+            <pb ed="txt18-1" facs="#xwl_lln_fy"/>
+            <pb ed="txt18-2" facs="#b2q_lln_fy"/>
+            
+            <pb ed="txt19-c" facs="#b15_lln_fy"/>
+            <pb ed="txt19-1" facs="#fsh_mln_fy"/>
+            
+            <pb ed="txt20-c" facs="#i_txt-c"/>
+            <pb ed="txt20-1" facs="#i_txt-1"/>
+            <pb ed="txt20-2" facs="#i_txt-2"/>
+            <pb ed="txt20-3" facs="#i_txt-3"/>
+            
+            <pb ed="txt21-c" facs="#qmy_gxc_3y"/>
+            <pb ed="txt21-1" facs="#qn3_hxc_3y"/>
+            <div>
+                <head rend="right">
+                    <app>
+                        <rdg wit="#txt18-c #txt18-1 #txt18-2">
+                            <fw type="sig" place="margin_right">18
+                                <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 18 dal curatore dell'Archivio Bertolucci.</note>
+                            </fw>
+                        </rdg>
+                        <rdg wit="#txt19-c #txt19-1">
+                            <fw type="sig" place="margin_right">19
+                                <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 19 dal curatore dell'Archivio Bertolucci.</note>
+                            </fw>
+                        </rdg>
+                        <rdg wit="#txt20-c #txt20-1 #txt20-2 #txt20-3">
+                            <fw type="sig" place="margin_right">20
+                                <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 20 dal curatore dell'Archivio Bertolucci.</note>
+                            </fw>
+                        </rdg>
+                        <rdg wit="#txt21-c #txt21-1">
+                            <fw type="sig" place="margin_right">21
+                                <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 21 dal curatore dell'Archivio Bertolucci.</note>
+                            </fw>
+                        </rdg>
+                    </app>
+                </head><lb/>
+            </div>
+            
+            <div>
+                <head rend="center">
+                    <app>
+                        <rdg wit="#txt18-c #txt18-1 #txt18-2 #txt19-c #txt19-1 #txt20-c #txt20-1 #txt20-2 #txt20-3"/>
+                        <rdg wit="#txt21-c #txt21-1">Dodici Maggio</rdg>
+                        <note type="critical">Il solo autografo 21 riporta il titolo; gli altri autografi, 18-19-20, sono senza un titolo.</note>
+                    </app>
+                </head>
+                <lb/>
+                <lg n="1" type="stanza">
+                    <lg n="1" type="quatrain">
+                        <l n="1">
+                            <app>
+                                <rdg wit="#txt18-c #txt19-c #txt19-1 #txt20-c #txt20-1 #txt20-2 #txt20-3">Ore</rdg>
+                                <rdg wit="#txt18-1 #txt21-c #txt21-1">Nell'ore</rdg>
+                                <rdg wit="#txt18-2">
+                                    <del rend="overstrike" hand="#pen2">Nell'ore</del>
+                                    <add place="inline" type="substition" hand="#pen2">Ore</add>
+                                </rdg>
+                            </app>
+                            <lb/>
+                        </l>
+                        <l n="2">
+                            <app>
+                                <rdg wit="#txt18-c #txt18-1 #txt18-2 #txt21-c #txt21-1">Dell’amore</rdg>
+                                <rdg wit="#txt19-c #txt19-1 #txt20-c #txt20-1 #txt20-2 #txt20-3">D’amore</rdg>
+                            </app>
+                            <lb/>
+                        </l>
+                        <l n="3">                           
+                            <app>
+                                <rdg wit="#txt18-c #txt18-1 #txt18-2">In quel selvaggio</rdg>
+                                <rdg wit="#txt19-c #txt19-1">Un selvaggio</rdg>
+                                <rdg wit="#txt20-c #txt20-1 #txt20-2 #txt20-3">In un selvaggio</rdg>
+                                <rdg wit="#txt21-c #txt21-1">Ci ospitava un selvaggio</rdg>
+                            </app>
+                            <lb/>
+                        </l>
+                        <l n="4">
+                            <app>
+                                <rdg wit="#txt18-c #txt18-1 #txt18-2 #txt19-c #txt19-1">Tenero maggio … </rdg>
+                                <rdg wit="#txt20-c #txt20-1 #txt20-2 #txt20-3 #txt21-c #txt21-1">Tenero maggio.</rdg>
+                            </app>
+                            <lb/>
+                        </l>
+                    </lg>
+                </lg>
+                <lg n="2" type="stanza">
+                    <lg n="2" type="quatrain">
+                        <l n="5">
+                            <app>
+                                <rdg wit="#txt18-c">Udimmo l’usignolo</rdg>
+                                <rdg wit="#txt18-1">Poi udimmo l'usignolo</rdg>
+                                <rdg wit="#txt18-2">
+                                    <del rend="overstrike" hand="#pen2">Poi</del>
+                                    <add place="inline" type="substition" hand="#pen2">U</add>dimmo
+                                </rdg>
+                                <rdg wit="#txt19-c #txt19-1">L’usignolo</rdg>
+                                <rdg wit="#txt20-c #txt20-1 #txt20-2 #txt20-3">L’usignolo</rdg>
+                                <rdg wit="#txt21-c #txt21-1">Poi udimmo l’usignuolo</rdg>
+                            </app>
+                            <lb/>
+                        </l>
+                        <l n="6">
+                            <app>
+                                <rdg wit="#txt18-c #txt18-1 #txt18-2">Cantare solo</rdg>
+                                <rdg wit="#txt19-c #txt19-1">Cantò solo</rdg>
+                                <rdg wit="#txt20-c #txt20-1 #txt20-2 #txt20-3">Cantar solo</rdg>
+                                <rdg wit="#txt21-c #txt21-1">Cantare solo,</rdg>
+                            </app>
+                            <lb/>
+                        </l>
+                        <l n="7">
+                            <app>
+                                <rdg wit="#txt18-c #txt18-1 #txt18-2">Al tramonto, sul fieno,</rdg>
+                                <rdg wit="#txt19-c #txt19-1">Su una gaggia</rdg>
+                                <rdg wit="#txt20-c #txt20-3">E udia</rdg>
+                                <rdg wit="#txt20-1">S'udia</rdg>
+                                <rdg wit="#txt20-2">
+                                    <del rend="overstrike" hand="#pen1">S'udia</del> 
+                                    <add place="inline" type="substition" hand="#pen1">E udia</add>
+                                    <note type="critical"> </note>
+                                </rdg>
+                                <rdg wit="#txt21-c #txt21-1">Al tramonto, per il fieno</rdg>
+                            </app>
+                            <lb/>
+                        </l>
+                        <l n="8">
+                            <app>
+                                <rdg wit="#txt18-c">Sotto il vasto cielo sereno</rdg>
+                                <rdg wit="#txt18-1">In riva a un viale sereno</rdg>
+                                <rdg wit="#txt18-2">
+                                    <del rend="overstrike" hand="#pen2">In riva a un viale sereno.</del>
+                                </rdg>
+                                <rdg wit="#txt19-c #txt19-1">
+                                    <gap reason="punched" extent="several_character"/>[...]
+                                    <note type="critical">Il verso è illegibile</note>
+                                </rdg>
+                                <rdg wit="#txt20-c">fresche foglie di gaggia</rdg>
+                                <rdg wit="#txt20-1">Da giovane gaggia</rdg>
+                                <rdg wit="#txt20-2">
+                                    <del rend="overstrike" hand="#pen2">Da giovane gaggia</del>
+                                    D
+                                    <del rend="overstrike" hand="#pen2">D</del> 
+                                    <add place="inline" type="substition" hand="#pen2">Fra foglie di gaggia</add>
+                                    <note type="critical">Il poeta al v. 8, dopo una prima stabilizzazione del testo, 
+                                        cassa "Da giovane gaggia" e inizia a scrivere "D", che elimina, riscrivendo nella riga "Fra foglie di gaggia" (variante instaurativa). </note>
+                                </rdg>
+                                <rdg wit="#txt20-3">
+                                    <del rend="overstrike" hand="#pen3">Fra</del>
+                                    <add place="above" type="substition" hand="#pen3"> fresche</add>
+                                    foglie di gaggia
+                                    <note type="critical">Alla rilettura del testo, Bertolucci cassa "Fra" inserendo una variante sostitutiva nell’interlinea 
+                                        con una penna diversa: "fresche", lasciando inalterata la parte finale del verso. </note></rdg>
+                                <rdg wit="#txt21-c #txt21-1">Camminammo a un rio sereno.</rdg>
+                            </app>
+                            <lb/>
+                        </l>
+                    </lg>
+                </lg>
+                <lg n="3" type="stanza">
+                    <lg n="3" type="quatrain">
+                        <l n="9">
+                            <app>
+                                <rdg wit="#txt18-1 #txt18-2">Sotto il vasto cielo sereno</rdg>
+                                <rdg wit="#txt19-c #txt19-1">Tornammo per il fieno</rdg>
+                                <rdg wit="#txt20-c #txt20-1 #txt20-2 #txt20-3">Tornavamo per il fieno</rdg>
+                                <rdg wit="#txt21-c #txt21-1">V’era intorno buio ormai.</rdg>
+                            </app>
+                            <lb/>
+                        </l>
+                        <l n="10">
+                            <app>
+                                <rdg wit="#txt19-c #txt19-1 #txt20-c #txt20-1 #txt20-2 #txt20-3">Sotto il vasto cielo sereno</rdg>
+                                <rdg wit="#txt21-c #txt21-1">Un’altra volta ti abbracciai</rdg>
+                            </app>
+                            <lb/>
+                        </l>
+                        <l n="11">
+                            <app>
+                                <rdg wit="#txt19-c #txt19-1">Nuvola feriva la tua faccia</rdg>
+                                <rdg wit="#txt20-c #txt20-1">Il rosso tramonto feriva la tua faccia</rdg>
+                                <rdg wit="#txt20-2 #txt20-3">Il rosso tramonto f<retrace>e</retrace>riva la tua faccia</rdg>
+                                <rdg wit="#txt21-c #txt21-1">Sul mio petto ti posavi</rdg>
+                            </app>
+                            <lb/>
+                        </l>
+                        <l n="12">
+                            <app>
+                                <rdg wit="#txt19-c #txt19-1 #txt20-c #txt20-1">Scaldava le tue braccia.</rdg>
+                                <rdg wit="#txt20-2 #txt20-3">Scaldava le tu<retrace>e</retrace> braccia.</rdg>
+                                <rdg wit="#txt21-c #txt21-1">Sempre più stretto mi legavi.</rdg>
+                            </app>
+                            <lb/>
+                        </l>
+                    </lg>
+                </lg>
+                <ab>
+                        <app>
+                            <rdg wit="#txt18-c #txt18-1 #txt18-2">1935</rdg>
+                            <note type="critical">L’attestazione della data 1935 in AuIn18, potrebbe fornire una indicazione di massima 
+                                anche sul periodo di scrittura del testo di "Dodici Maggio"</note>
+                        </app>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>
+

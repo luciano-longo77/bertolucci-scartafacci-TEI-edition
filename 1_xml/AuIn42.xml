@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XLIII. La tua dolce pazienza si animava</title>
+                <respStmt>
+                    <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                    <name>Luciano Longo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                    <name>Elena Pierazzo. </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione editoriale a cura di </resp>
+                    <name>Rosa Casapullo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione critico-letteraria a cura di </resp>
+                    <name>Domenica Perrone.</name>
+                </respStmt>
+                <sponsor>
+                    <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                    <address>
+                        <addrLine>Piazzetta Salerno, 12.</addrLine>
+                    </address> 
+                </sponsor>
+            </titleStmt>
+            <extent>
+                <seg type="size">Filesize: 13 KB.</seg>
+                <seg type="format">XML TEI P5</seg>
+                <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+                <publisher>Luciano Longo</publisher>
+                <distributor>Università degli Studi di Palermo,</distributor>
+                <address>
+                    <addrLine>Piazzetta Salerno- 12, </addrLine>
+                </address>
+                <pubPlace> 
+                    <name>Palermo, </name>
+                </pubPlace>
+                <date>2015-2017</date>
+                <availability status="restricted">
+                    <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                    <p>Le immagini possono essere consultate in modalità off-line. </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="critical" anchored="true">
+                    <p>I manoscritti AuIn42 e AuIn41 sono conservati presso l’Archivio di Stato di Parma, "Archivio della Letteratura-Archivio Bertolucci" 
+                        nella sezione «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4.</p>
+                    <p>Il testo di AuIn41 esibisce l’espunzione di alcuni versi, uno tra il v. 5 e il v. 6; gli altri fra il v. 6 e il v. 7.</p>
+                </note>
+                <note type="biographical" anchored="true">Negli anni in cui è possibile datare la poesia A. Bertolucci ha già pubblicato la prima raccolta di poesie, 
+                    "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                    che confluiranno poi nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+                    Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                    durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                    Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+                <note type="render" anchored="true">Additions appear in a green, fixed-width font.</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>AuIn41</p>
+                <p>Foglio di carta di quaderno a righe di cm 16,5x12, contiene il testo "La tua dolce pazienza si anima". L’autografo, 
+                    danneggiato nel lembo sinistro, è vergato con inchiostro nero ed è numerato con l’arabico 41; 
+                    il manoscritto non reca una indicazione cronologica. La poesia consta di vv. 7.</p>
+                <p>AuIn42</p>
+                <p>Foglio di carta di quaderno a righe di cm 16,5x12, contiene il testo "La tua dolce pazienza si anima". L’autografo, 
+                    danneggiato nel lembo sinistro, è vergato con inchiostro nero ed è numerato con l’arabico 42; 
+                    il documento non presenta una indicazione cronologica. La poesia consta di vv. 9.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+            <editorialDecl>
+                <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                    la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+                <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                    si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+                <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1").</p>
+                <correction>
+                    <p></p>
+                </correction>
+                <hyphenation>
+                    <p> </p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+                </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="pen1" medium="black_ink_1" scribe="Bertolucci"/>
+                <handNote xml:id="pen2" medium="black_ink_2" scribe="Bertolucci"/>
+            </handNotes>
+            <langUsage>
+                <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+                <date>2016</date>.</change>
+            <change>Il file è stato creato nel <date>Dicembre del 2016</date> da <name> Luciano Longo</name>
+                con il software "Oxygen-XML Editor®".</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nel
+                <list>
+                    <item>Dicembre del 2016.</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="images/AuIn-41.jpg" xml:id="i_txt-c"/>
+        <graphic url="images/AuIn-41.jpg" xml:id="i_txt-1"/>
+        <graphic url="images/AuIn-41.jpg" xml:id="i_txt-2"/>
+        <graphic url="images/AuIn-42.jpg" xml:id="b15_lln_fy"/>
+        <graphic url="images/AuIn-42.jpg" xml:id="fsh_mln_fy"/>
+    </facsimile>
+    
+    <text>
+        
+        <front>
+            <div rend="witness">
+                <listWit>
+                    <witness xml:id="txt41-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt41-1">Tb0, prima stesura del testo</witness>
+                    <witness xml:id="txt41-2">T1, seconda stesura del testo</witness>
+                    <witness xml:id="txt42-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt42-1">Tb0, prima stesura del testo</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <pb ed="txt41-c" facs="#i_txt-c"/>
+            <pb ed="txt41-1" facs="#i_txt-1"/>
+            <pb ed="txt41-2" facs="#i_txt-2"/>
+            <pb ed="txt42-c" facs="#b15_lln_fy"/>
+            <pb ed="txt42-1" facs="#fsh_mln_fy"/>
+            <div>
+                <head rend="right">
+                    <app>
+                        <rdg wit="#txt41-c #txt41-1 #txt41-2">                  
+                            <fw type="sig" place="margin-topright">41
+                                <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 41 dal curatore dell'Archivio Bertolucci.</note>
+                            </fw>
+                        </rdg>
+                        <rdg wit="#txt42-c #txt42-1">                  
+                            <fw type="sig" place="margin-topright">42
+                                <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 42 dal curatore dell'Archivio Bertolucci.</note>
+                            </fw>
+                        </rdg>
+                    </app>
+                    <lb/>
+                </head>
+            </div>
+            <div>
+                <head rend="center">
+                    <app>
+                        <rdg wit="#txt41-c #txt42-c">La tua dolce pazienza si animava</rdg>
+                        <rdg wit="#txt41-1 #txt41-2 #txt42-1"/>
+                        <note type="critical">La poesia è senza titolo.</note>
+                    </app>
+                    <lb/>
+                </head>
+                <lg n="1" type="stanza">
+                    <l n="1">La tua dolce pazienza s’animava<lb/></l>
+                    <l n="2">Al rosa di un cotone che la sera<lb/></l>
+                    <l n="3">Finge nel cielo al tempo della cara<lb/></l>
+                    <l n="4">
+                        <app>
+                            <rdg wit="#txt41-c #txt41-1 #txt41-2">Primavera ritorna. Abbandonava</rdg>
+                            <rdg wit="#txt42-c #txt42-1">Primavera. Abbandonava</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="5">
+                        <app>
+                            <rdg wit="#txt41-c">La pianura il nascosto cuculo all’aria</rdg>
+                            <rdg wit="#txt41-1">Il cuculo la pianta all'ombra</rdg>
+                            <rdg wit="#txt41-2"><del rend="overstrike" hand="#pen1">Il cuculo la pianta all'ombra</del> La pianura il nascosto cuculo all’aria</rdg>
+                            <rdg wit="#txt42-c #txt42-1">La pianura il nascosto cuculo all’aria</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="6">Della luna sospesa sulle piante,<lb/></l>
+                    <l n="7">
+                        <app>
+                            <rdg wit="#txt41-1">Poi che di lontano l'amante spirito</rdg>
+                            <rdg wit="#txt41-2"><del rend="overstrike" hand="#pen1">Poi che di lontano l'amante spirito</del></rdg>
+                            <rdg wit="#txt41-c">Alla fragrante</rdg>
+                            <rdg wit="#txt42-c #txt42-1">Al silenzio notturno che non varia</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="8">
+                        <app>
+                            <rdg wit="#txt41-1">con <gap reason="punched" extent="several_character"/>[...] mai quel <gap reason="punched" extent="several_character"/>[...]</rdg>
+                            <rdg wit="#txt41-2"><del rend="overstrike" hand="#pen1">con <gap reason="punched" extent="several_character"/>[...] mai quel <gap reason="punched" extent="several_character"/>[...]</del></rdg>
+                            <rdg wit="#txt42-c #txt42-1">Se tu parli ora che cresce</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="9">
+                        <app>
+                            <rdg wit="#txt41-1">Al duolo che<gap reason="punched" extent="several_character"/>[...]</rdg>
+                            <rdg wit="#txt41-2"><del rend="overstrike" hand="#pen1">Al duolo che<gap reason="punched" extent="several_character"/>[...]</del></rdg>
+                            <rdg wit="#txt42-c #txt42-1">L’ombra circostante.</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <app>
+                        <rdg wit="#txt41-1 #txt41-2"><l n="10">Alla fragrante</l></rdg>
+                    </app>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>
+

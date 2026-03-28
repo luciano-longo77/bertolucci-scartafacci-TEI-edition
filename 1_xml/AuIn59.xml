@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LIII. Non è più tempo di violette</title>
+                <respStmt>
+                    <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                    <name>Luciano Longo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                    <name>Elena Pierazzo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione editoriale a cura di </resp>
+                    <name>Rosa Casapullo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione critico-letteraria a cura di </resp>
+                    <name>Domenica Perrone.</name>
+                </respStmt>
+                <sponsor>
+                    <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                    <address>
+                        <addrLine>Piazzetta Salerno, 12 </addrLine>
+                    </address> 
+                </sponsor>
+            </titleStmt>
+            <extent>
+                <seg type="size">Filesize: 17 KB.</seg>
+                <seg type="format">XML TEI P5</seg>
+                <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+                <publisher>Luciano Longo</publisher>
+                <distributor>Università degli Studi di Palermo,</distributor>
+                <address>
+                    <addrLine>Piazzetta Salerno- 12, </addrLine>
+                </address>
+                <pubPlace> 
+                    <name>Palermo, </name>
+                </pubPlace>
+                <date>2015-2017</date>
+                <availability status="restricted">
+                    <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                    <p>Le immagini possono essere consultate in modalità off-line. </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="critical" anchored="true">
+                    <p>Il manoscritto AuIn59 è conservato presso l’Archivio di Stato di Parma, "Archivio della Letteratura-Archivio Bertolucci" 
+                        nella sezione «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4.
+                        Il manoscritto è in pulito con minime correzioni e annotazioni; presenta abbozzi di disegni e calcoli matematici.</p> 
+                    <p>L’autografo esibisce al v. 3 subito dopo "Quelle coglievano ragazzette" una freccia che può essere interpretata come indicazione di dislocamento 
+                        del v. 3 subito dopo "Desio d’avventure". 
+                        Al v. 5 il manoscritto esibisce dopo "Desio" fra parentisi tonde "(fette ǀ )"; da una analisi della modalità di tracciamento delle parentesi tonde entro cui Bertolucci 
+                        spesso inserisce anche interi versi, questa parentesi di chiusura potrebbe essere letta come indicazione di cambio riga (ǀ); tale segno è sovrapponibile con altri segni similari. 
+                        Altra interpretazione possibile è considerare "fette" come variante alternativa di "Desio", lasciata in rigo come possibile lezione stabilizzante del testo.</p>
+                </note>
+                <note type="biographical" anchored="true">
+                    Negli anni in cui può essere datata la poesia (1930-1940), A. Bertolucci ha già pubblicato la prima raccolte di poesie, 
+                    "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                    che confluiranno poi nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+                    Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                    durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                    Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+                <note type="contexual" anchored="true">
+                    La raccolta edita nel 1934, "Fuochi in Novembre" (Minardi, Parma, 1934), 
+                    in parte non presenta più il crepuscolarismo epigonale di "Sirio" (Minardi, Parma, 1929).</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>AuIn59</p>
+                <p>Foglio di carta libero di cm 13,5x19,5, contiene il testo "Non è più tempo di violette". 
+                    L’autografo è vergato a matita ed è numerato con l’arabico 59; il documento non presenta una indicazione cronologica. 
+                    La poesia consta di vv. 5. Il manoscritto esibisce abbozzi di disegni e di calcoli matematici.</p>
+            </sourceDesc>
+            <!-- 
+               <sourceDesc>
+               <msDesc xml:lang="ita" xml:id="AuIn59">
+                  <msIdentifier>
+                     <country><name type="place">Italia</name></country>
+                     <region><name type="place">Emilia Romagna</name></region>
+                     <settlement><name type="place">Parma</name></settlement>
+                     <institution>Archivio di Stato</institution>
+                     <repository>Fondo Attilio Bertolucci</repository>
+                     <collection>Carte Attilio Bertolucci</collection>
+                     <idno>Busta II, fascicolo 4,7</idno>
+                     <msName>Poesie inedite degli anni tra le due guerre e del primo dopoguerra</msName>
+                     <altIdentifier>
+                        <idno>AuIn59</idno>
+                        <note>Sezione: Autografi inediti</note>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents class="#violette">
+                     <summary>Foglio di carta libero di cm 13,5x19,5, contiene il testo "Non è più tempo di violette". 
+                    L’autografo è vergato a matita ed è numerato con l’arabico 59; il documento non presenta una indicazione cronologica. 
+                    La poesia consta di vv. 5. Il manoscritto esibisce abbozzi di disegni e di calcoli matematici.</summary>
+                     <msItem n="I" class="##violette">
+                        <locus>c. 1r</locus>
+                        <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                        <title></title>
+                        <incipit>Non è più tempo di violette</incipit>
+                        <explicit>Desio (fette) d’avventure</explicit>
+                        <textLang mainLang="ita">Italian</textLang>
+                        <note>Il manoscritto presenta abbozzi di disegni e calcoli matematici.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="autografo">
+                        <supportDesc material="paper">
+                           <support>
+                              <p><material>foglio di carta bianca
+                                 <date>senza data</date>
+                              </material>
+                              </p>
+                           </support>
+                           <extent>
+                              <dimensions scope="all" type="foglio" unit="cm">
+                                 <height>13,5</height>
+                                 <width>19,5</width>
+                              </dimensions>
+                           </extent>
+                           <condition>
+                              <p></p></condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" ruledLines="5">
+                           <p>Testo scritto su una colonna di 5 versi</p>
+                        </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scribe="Attilio_Bertolucci" script="handwritten" medium="black_ink_pen" scope="major">
+                        <p>Il testo si presenta con una scrittura calligrafica moderna con un ductus irregolare. 
+                           L’autografo è vergato a matita.</p>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <p></p>
+                     </origin>
+                  </history>
+                  <additional>
+                     <surrogates>
+                        <p>L'autografo, riprodotto in formato jpeg, è consultabile presso l'Archivio di Stato di Parma.</p>
+                     </surrogates>
+                     <listBibl>
+                        <bibl></bibl>
+                     </listBibl>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+            -->
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+            <editorialDecl>
+                <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                    la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+                <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                    si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+                <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+                <correction>
+                    <p></p>
+                </correction>
+                <hyphenation>
+                    <p> </p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+                </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="pen1" medium="grey_pencil_1" scribe="Bertolucci"/>
+            </handNotes>
+            <langUsage>
+                <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+                <date>2016</date>.</change>
+            <change>Il file è stato creato nel <date>Dicembre del 2016</date> da <name> Luciano Longo</name>
+                con il software "Oxygen-XML Editor®".</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nel
+                <list>
+                    <item>Dicembre del 2016.</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    
+    <facsimile>
+        <graphic url="images/AuIn-59.jpg" xml:id="i_txt-c"/>
+        <graphic url="images/AuIn-59.jpg" xml:id="i_txt-1"/>
+        <graphic url="images/AuIn-59_1.jpg" xml:id="qpm_1gz_2y"/>
+        <graphic url="images/AuIn-59_1.jpg" xml:id="ar5_1gz_2y"/>
+    </facsimile>
+    <text>
+        <front>
+            <div rend="witness">
+                <listWit>
+                    <witness xml:id="txt-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt-1">Tb0, prima stesura</witness>
+                    <witness xml:id="txt-2">Tb1, prima stesura con modifiche</witness>
+                    <witness xml:id="txt-3">T1, seconda stesura con corr.</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <pb ed="txt-c" facs="#i_txt-c"/>
+            <pb ed="txt-1" facs="#i_txt-1"/>
+            <div>
+                <head>
+                    <fw type="sig" place="margin_right">59
+                        <note type="physical">
+                            L'autografo è numerato in alto a destra a matita con l’arabico 59 dal curatore dell'Archivio Bertolucci.</note>
+                    </fw>
+                    <lb/>
+                </head>
+            </div>
+            <div>
+                <head rend="center">
+                    <app>
+                        <rdg wit="#txt-c">Non è più tempo di violette</rdg>
+                        <rdg wit="#txt-1 #txt-2"/>
+                        <note type="critical">La poesia è senza titolo.</note>
+                    </app>
+                    <lb/>                    
+                </head>
+                <div>
+                    <lg n="1" type="stanza">
+                        <lg n="1" type="quatrain">
+                            <l n="1">Non è più tempo di violette<lb/></l>
+                            <l n="2">Ma di dolci mori sui gelsi<lb/></l>
+                            <l n="3">Quelle coglievano 
+                                <app>
+                                    <rdg wit="#txt-c">ragazzette</rdg>
+                                    <rdg wit="#txt-1 #txt-2">ragazze e</rdg>
+                                    <rdg wit="#txt-3">
+                                        ragazze <del rend="overstrike" hand="#pen1">e</del>
+                                        <add place="inline" type="integration" hand="#pen1">tte</add>
+                                        <note type="critical">Bertolucci sovrascrive a "ragazze e" "-tte".</note>
+                                    </rdg>
+                                    <note type="critical">L’autografo esibisce al v. 3 subito dopo 
+                                        "Quelle" una freccia che può essere interpretata come indicazione di dislocamento del v. 3 subito dopo <l n="5">Desio d'avventure</l></note>
+                                </app><lb/></l>
+                            <l n="4">Questi ragazzi cui punge il sangue<lb/></l>
+                            <l n="5">
+                                <app>
+                                    <rdg wit="#txt-c #txt-3">Desio</rdg>
+                                    <rdg wit="#txt-1">
+                                        <add place="inline" type="alternation" hand="#pen1">Desio</add>
+                                        <add place="inline" type="alternation" hand="#pen1">(fette)</add>
+                                        <alt target="#add1 #add2" mode="excl" weights="0.9 0.1"/>
+                                    </rdg>
+                                    <rdg wit="#txt-2"><add place="inline" type="alternation" hand="#pen1">(fette)</add>
+                                        <note type="critical">Al v. 5 il manoscritto esibisce dopo "Desio" fra parentisi tonde "(fette ǀ )"; in realtà da una analisi della modalità di 
+                                            tracciamento delle parentesi tonde entro cui Bertolucci spesso inserisce anche interi versi, questa parentesi di chiusura potrebbe essere 
+                                            letta come indicazione di cambio riga (ǀ); tale segno è sovrapponibile con altri segni similari. Altra interpretazione possibile è 
+                                            considerare "fette" come variante alternativa di "Desio", lasciata in rigo come possibile lezione stabilizzante del testo.</note>
+                                    </rdg>
+                                </app>
+                                d’avventure<lb/>
+                            </l>
+                        </lg>
+                        <pb ed="txt-c" facs="#qpm_1gz_2y"/>
+                        <pb ed="txt-1" facs="#ar5_1gz_2y"/>
+                        <note>Il manoscritto presenta abbozzi di disegni e calcoli matematici.</note>
+                    </lg>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+

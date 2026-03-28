@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XVII. O anni lontani…</title>
+                <author>Attilio Bertolucci</author>
+                <respStmt>
+                    <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                    <name>Luciano Longo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                    <name>Elena Pierazzo </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione editoriale a cura di </resp>
+                    <name>Rosa Casapullo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione critico-letteraria a cura di </resp>
+                    <name>Domenica Perrone.</name>
+                </respStmt>
+                
+                <sponsor>
+                    <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                    <address>
+                        <addrLine>Piazzetta Salerno, 12 </addrLine>
+                    </address> 
+                </sponsor>
+            </titleStmt>
+            
+            <extent>
+                <seg type="size">Filesize: 31 KB.</seg>
+                <seg type="format">XML TEI P5</seg>
+                <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+                <publisher>Luciano Longo</publisher>
+                <distributor>Università degli Studi di Palermo,</distributor>
+                <address>
+                    <addrLine>Piazzetta Salerno- 12, </addrLine>
+                </address>
+                <pubPlace> 
+                    <name>Palermo, </name>
+                </pubPlace>
+                <date>2015-2017</date>
+                
+                <availability status="restricted">
+                    <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                    <p>Le immagini possono essere consultate in modalità off-line. </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="critical" anchored="true">
+                    <p>Il manoscritto (AuIn13) è conservato presso l’Archivio di Stato di Parma, "Archivio della Letteratura-Archivio Bertolucci" 
+                        nella sezione «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4.</p> 
+                    <p>AuIn13 esibisce il testo "O anni lonrtani...".</p>
+                    <p>Nel manoscritto si rintracciano tre interventi correttori, uno di natura SOSTITUTIVO, un altro di tipo INSTURATIVO e uno di natura SOTTRATTIVO. 
+                        In realtà le varianti INSTAURATIVE collassano, nel senso che, come è tipico nella scrittura di Bertolucci, esse subiscono un ri-processamento di cassatura, 
+                        rientrando in un procedimento di sottrazione tipico dell’executors. </p>
+                    <p>Il testo viene inizialmente redatto da Bertolucci con inchiostro nero, 
+                        successivamente vi interviene a matita cassando una serie di versi e aggiungendone altri. 
+                        La campagna correttoria si sviluppa dopo il v. 11; infatti, l’autore dopo una prima REDAZIONE STABILE del testo, decide di cassare a matita 
+                        due versi interi scritti a inchiostro:</p> 
+                        <l n="12">son io, non mi riconosci? </l> 
+                        <l n="13">Non corri a me, ma portata</l>  
+                        <p>a latere di questi versi vi aggiunge con il lapis "Perché, non portata", 
+                        verso che cassa nuovamente, mantenendo solo il participio, che collega con una freccia al verso successivo.</p> 
+                    <p>Procedimento simile si riscontra dopo il v. 13; il componimento in una prima 
+                        fase scrittoria constava di altri 4 versi:</p> 
+                        <l n="15">Finché non t’ha il vento portata via.</l>  
+                        <l n="16">Ed io son rimasto sperduto</l> 
+                        <l n="17">sino al cadere del vento</l>  
+                        <l n="18">e al nascere della luna sul borgo</l><lb/>  
+                        <p>dapprima il poeta comincia a cassare a matita "Finché non", sovrascrivendo una "T" maiuscola in "t’(ha)", 
+                        modificando così il movimento temporale del verso. 
+                        La presenza del verso INCLUSO a matita testimonia una seconda REDAZIONE STABILE del testo, nella quale i quattro versi dopo il v. 13 erano parte integrante del componimento. 
+                        In una terza fase Bertolucci cassa la sezione finale del componimento, instaurando un intero verso vergato a matita 
+                        "E muta è la luna sul borgo"; anche questo verso collassa, non realizzandosi in TESTO STABILE. 
+                    </p>
+                    <p>I primi cinque versi di "O anni lontani…" sono riutilizzati da Bertolucci, con la presenza di alcune varianti, in altri due autografi: 
+                        AuIn46 e AuIn47. 
+                        Il componimento presente in AuIn46 esibisce un’ampia porzione testuale cassata che è in parte rielaborazione dei vv. 6-13 
+                        di AuIn13_1. </p>
+                    <p>
+                        <table>
+                            <head rend="center">Comparazione AuIn13_1 vs AuIn47=AuIn46 (vv. 1-6)</head>
+                            <row role="label">
+                                <cell/>
+                                <cell>AuIn13_1 (vv. 1-5) O anni perduti...</cell>
+                                <cell>AuIn46=AuIn47 (vv. 1-6)</cell>
+                            </row>
+                            <row>
+                                <cell role="label">v.1</cell>
+                                <cell>O anni lontani, m’assale</cell>
+                                <cell>O anni lontani m’assale</cell>
+                            </row>
+                            <row>
+                                <cell role="label">v.2</cell>
+                                <cell>il vostro ricordo, come s’alza il vento</cell>
+                                <cell>Improvviso il vostro ricordo</cell>
+                            </row>
+                            <row>
+                                <cell role="label">v. 3</cell>
+                                <cell>all’entrare in un borgo, di sera;</cell>
+                                <cell>All’entrare in un borgo,</cell>
+                            </row>
+                            <row>
+                                <cell role="label">v. 4</cell>
+                                <cell>tentennano le luci nel mezzo,</cell>
+                                <cell>Come si leva il vento, una sera,</cell>
+                            </row>
+                            <row>
+                                <cell role="label">v. 5</cell>
+                                <cell>il cielo sereno si apre. </cell>
+                                <cell>E tentennano le luci</cell>
+                            </row>
+                            <row>
+                                <cell role="label">v. 6</cell>
+                                <cell></cell>
+                                <cell> E il cielo sereno si apre.</cell>
+                            </row>
+                        </table>
+                    </p>
+                    <p>Un numero cospicuo di autografi inediti sono collocabili tra il 1930 e il 1937 ed esibiscono una precisa indicazione cronologica.
+                        Tra questi manoscritti vi è AuIn13 datato 1935 come anche i manoscritti AuIn9, AuIn14, AuIn16, AuIn17 e AuIn18. 
+                        Gli altri manoscritti che presentano una specifica data sono:
+                        AuIn1 e AuIn13(2) sono datati 1930
+                        AuIn2, AuIn3 e AuIn4 1931; 
+                        AuIn5 e AuIn6, 1932; AuIn7 1933; AuIn8, AuIn9, AuIn11 e AuIn12 1934; 
+                       AuIn22 e AuIn23 1936; AuIn27 1937.</p>
+                    <p>L’autografo 13 (AuIn13) esibisce nel recto della carta  l’indicazione 9-10 gennaio 1935; 
+                        invece nel verso della stessa carta l’indicazione 19-03-1930; considerando la natura scrittoria del testo di AuIn13 (c. 1v) 
+                        è ragionevole pensare che dopo aver steso il testo poetico di "Epigramma", Bertolucci riutilizzi la carta per scrivere il testo di "O anni lontani…" 
+                    </p>
+                </note>
+                <note type="biographical" anchored="true">Negli anni in cui viene datata la poesia A. Bertolucci ha già pubblicato la prima raccolta di poesie, 
+                    "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                    che confluiranno poi nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+                    Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                    durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                    Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+                <note type="render" anchored="true">Additions appear in a green, fixed-width
+                    font.</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>AuIn13</p>
+                <p>Foglio di carta libero di cm 26x20, contiene nella c. 1r il testo "O anni lontani…" e nella c. 1v "Epigramma". 
+                    Il manoscritto è datato "9-10 gennaio 1935" nella c. 1r, invece nella c. 1v riporta la datazione "19-03-1930". 
+                    L’autografo è vergato con inchiostro nero e presenta nella c. 1r  la numerazione arabica 13. La poesia "O anni lontani…" consta di vv. 13 e 
+                    "Epigramma" di vv. 8.</p>
+                
+               <!-- <sourceDesc>
+                    <msDesc xml:lang="ita" xml:id="AuIn13">
+                        <msIdentifier>
+                            <country><name type="place">Italia</name></country>
+                            <region><name type="place">Emilia Romagna</name></region>
+                            <settlement><name type="place">Parma</name></settlement>
+                            <institution>Archivio di Stato</institution>
+                            <repository>Fondo Attilio Bertolucci</repository>
+                            <collection>Carte Attilio Bertolucci</collection>
+                            <idno>Busta II, fascicolo 4,2</idno>
+                            <msName>Poesie inedite degli anni tra le due guerre e del primo dopoguerra</msName>
+                            <altIdentifier>
+                                <idno>AuIn13</idno>
+                                <note>Sezione: Autografi inediti</note>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents class="#anni_perduti">
+                            <summary>Foglio di carta libero di cm 26x20, contiene nella c. 1r il testo "O anni lontani…" e nella c. 1v "Epigramma". 
+                            Il manoscritto è datato "9-10 gennaio 1935" nella c. 1r, invece nella c. 1v riporta la datazione "19-03-1930". 
+                            L’autografo è vergato con inchiostro nero e presenta nella c. 1r la numerazione arabica 13. 
+                            La poesia "O anni lontani…" consta di vv. 13 e "Epigramma" di vv. 8. </summary>
+                            <msItem n="I" class="#Amore_Crepuscolo">
+                                <locus>c. 1r</locus>
+                                <idno>AuIn13(1r)-I</idno>
+                                <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                                <title>O anni lontani...</title>
+                                <incipit>O anni lontani, m’assale</incipit>
+                                <explicit>non smetti il tuo lamento.</explicit>
+                                <textLang mainLang="ita">Italian</textLang>
+                                <note>Il componimento orginariamente risultava di vv. 19.</note>
+                            </msItem>
+                            <msItem n="II" class="#Epigramma">
+                                <locus>c. 1v</locus>
+                                <idno>AuIn13(1v)-II</idno>
+                                <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                                <title>Epigramma</title>
+                                <incipit>Come potrei preferire</incipit>
+                                <explicit>Entrare da Pagani e mangiare</explicit>
+                                <textLang mainLang="ita">Italian</textLang>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="autografo">
+                                <supportDesc material="paper">
+                                    <support>
+                                        <p><material>foglio di carta bianca
+                                            <date n="I">9-10 gennaio 1935</date>
+                                            <date n="II">S. Giuseppe 19-3-30</date> 
+                                        </material>
+                                        </p>
+                                    </support>
+                                    <extent>
+                                        <idno>AuIn13</idno>
+                                        <dimensions scope="all" type="foglio" unit="cm">
+                                            <height>26</height>
+                                            <width>20</width>
+                                        </dimensions>
+                                    </extent>
+                                    <condition>
+                                        <p></p></condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    
+                                    <layout columns="1" ruledLines="13">
+                                        <idno>AuIn13(1r)-I</idno>
+                                        <p>Testo scritto su una colonna di 13 versi</p>
+                                    </layout>
+                                    <layout columns="1" ruledLines="8">
+                                        <idno>AuIn13(1v)-II</idno>
+                                        <p>Testo scritto su una colonna di 8 versi</p>
+                                    </layout>
+                                </layoutDesc> 
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="Attilio_Bertolucci" script="handwritten" medium="black_ink_pen+pencil" scope="major">
+                                    <p>Il testo si presenta con una scrittura calligrafica moderna con un ductus poco disteso.
+                                        L’autografo è vergato con inchiostro.</p>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <idno>AuIn13(1r)-I</idno>
+                                <p>Il testo probabilmente venne scritto intorno al <origDate cert="medium">1935</origDate>
+                                </p>
+                                <idno>AuIn2(1v)-II</idno>
+                                <p>Il testo presenta una indicazione cronologica cassata; 
+                                la data inserita è <origDate cert="medium">S. Giuseppe 19-3-30</origDate>.
+                                </p>
+                            </origin>
+                        </history>
+                        <additional>
+                            <surrogates>
+                                <p>L'autografo, riprodotto in formato jpeg, è consultabile presso l'Archivio di Stato di Parma.</p>
+                            </surrogates>
+                            <listBibl>
+                                <bibl n="1"></bibl>
+                            </listBibl>
+                        </additional>
+                    </msDesc>
+                </sourceDesc> -->
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+            <editorialDecl>
+                <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                    la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+                <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                    si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+                <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+                <correction>
+                    <p></p>
+                </correction>
+                <hyphenation>
+                    <p> </p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+                </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="pen2" medium="grey_pencil_1" scribe="Bertolucci"/>
+                <handNote xml:id="pen1" medium="black_ink_1" scribe="Bertolucci"/>                
+            </handNotes>
+            <langUsage>
+                <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+                <date>2015</date>.</change>
+            <change>Il file è stato creato nel <date>Marzo del 2015</date> da <name> Luciano Longo.</name>
+                con il software "XML-Copy Editor®" e successivamente trattato con "Oxygen-XML Editor®"</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nell'
+                <list>
+                    <item>Aprile del 2015, la successiva nel</item>
+                    <item>Maggio del 2015 poi nel</item>
+                    <item>Giugno del 2015 poi nel</item>
+                    <item> Luglio del 2015 poi nel</item>
+                    <item>Agosto del 2015 poi nel</item>
+                    <item>Settembre del 2015 poi nel</item>
+                    <item>Giugno del 2016 poi nel</item>
+                    <item>Luglio del 2016 poi nell'</item>
+                    <item>Ottobre del 2016 infine nel</item>
+                    <item>Novembre del 2016</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="images/AuIn-13_1.jpg" xml:id="i_txt-c"/>
+        <graphic url="images/AuIn-13_1.jpg" xml:id="i_txt-1"/>
+        <graphic url="images/AuIn-13_1.jpg" xml:id="i_txt-2"/>
+        <graphic url="images/AuIn-13_1.jpg" xml:id="i_txt-3"/>
+    </facsimile>
+    
+    <text>
+        <front>
+            <div rend="witness">
+                <listWit>
+                    <witness xml:id="txt-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt-1">tb0 prima stesura del testo</witness>
+                    <witness xml:id="txt-2">T1 interv. instaurativi su tb0; I' testo stabile</witness>
+                    <witness xml:id="txt-3">T2 interv. corr./agg. su T1</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <pb ed="txt-c" facs="#i_txt-c"/>
+            <pb ed="txt-1" facs="#i_txt-1"/>
+            <pb ed="txt-2" facs="#i_txt-2"/>
+            <pb ed="txt-3" facs="#i_txt-3"/>
+            <div>
+                <head>
+                    <fw type="sig" place="margin_right">13
+                        <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 13 dal curatore dell'Archivio Bertolucci. 
+                            Il manoscritto contiene nella c. 1r il testo "O anni lontani…" e nella c. 1v "Epigramma".</note>
+                    </fw>
+                    <lb/>
+                </head>
+            </div>
+            
+            <div>
+                <pb n="1r"/>
+                <head rend="center">O anni lontani...
+                <note type="critical">La poesia nella sua stesura iniziale esibisce vv. 19</note><lb/></head>
+                <lg type="stanza">
+                    <l n="1">O anni lontani, m’assale<lb/></l>
+                    <l n="2">il vostro ricordo, come s’alza il vento<lb/></l>
+                    <l n="3">all’entrare in un borgo, 
+                        <app>
+                            <rdg wit="#txt-c">di sera;
+                            <note type="critical">L'autore interviene con una variante sostitutiva: aggiunge nell'interlinea superiore "di" in luogo di "una".</note>
+                            </rdg>
+                            <rdg wit="#txt-1 #txt-2">una</rdg>
+                            <rdg wit="#txt-3">
+                                <del rend="overstrike" hand="#pen2">una</del>
+                                <add place="above" type="substition" hand="#pen2" resp="#berty">di</add> 
+                                <del rend="overstrike" hand="#pen2">, </del>
+                                <add place="inline" type="integration" hand="#pen2" resp="#berty">;</add>
+                            </rdg>
+                        </app>
+                         sera
+                        <lb/></l>
+                    <l n="4">tentennano le luci nel mezzo,<lb/></l>
+                    <l n="5">il cielo sereno si apre.<lb/></l>
+                    <l n="6">O voce dei quattordici anni,<lb/></l>
+                    <l n="7">prigioniera delle folate, sbattuta<lb/></l>
+                    <l n="8">quà e là fra le alte case<lb/></l>
+                    <l n="9">come un debole uccello nella tempesta,<lb/></l>
+                    <l n="10">come un bruno passero ferito,<lb/></l>
+                    <l n="11">o grossa, buffa voce ricca di sangue,<lb/></l>
+                    <l n="12">
+                        <app>
+                            <rdg wit="#txt-c">portata sempre più lontana dalle raffiche
+                            <note type="critical">Il verso nasce dall'inclusione di una variante aggiuntiva a matita, "Portata", con un verso già esistente.
+                            Il collegamento della lezione è indicato con una freccia vergata a matita.</note>
+                            </rdg>
+                            <rdg wit="#txt-1">son io, non mi riconosci?</rdg>
+                            <rdg wit="#txt-2">
+                                <del rend="overstrike" hand="#pen2">son io, non mi riconosci?</del>
+                                <add place="margin_right" type="integration" hand="#pen2" resp="#berty">Perchè non portata</add>
+                                <note type="critical">Bertolucci, dopo una prima REDAZIONE STABILE del testo, 
+                                    decide di cassare a matita questi due versi interi scritti a inchiostro.
+                                    A latere di questi versi, successivamente,  aggiunge con il lapis "Perché, non portata", 
+                                    verso che cassa nuovamente, mantenendo solo il participio, che collega con una freccia al verso successivo</note>
+                            </rdg>
+                            <rdg wit="#txt-3">
+                                <del rend="overstrike" hand="#pen2">Perché non</del> portata
+                                <note type="critical">Bertolucci aggiunge con il lapis "Perché, non portata", 
+                                    verso che cassa nuovamente, mantenendo solo il participio, che collega con una freccia al verso successivo</note>
+                            </rdg>
+                        </app>
+                        <lb/></l>
+                    <l n="13">
+                        <app>
+                            <rdg wit="#txt-c">non smetti il tuo lamento.
+                                <note type="critical">
+                                    Il componimento in una prima fase scrittoria constava di altri 4 versi.
+                                    La presenza di un verso INCLUSO a matita testimonia una seconda REDAZIONE STABILE del testo, 
+                                    nella quale i quattro versi dopo il v. 13 erano parte integrante del componimento. 
+                                    In una terza fase Bertolucci cassa la sezione finale del componimento, 
+                                    instaurando un intero verso vergato a matita; anche questo verso collassa, non realizzandosi in TESTO STABILE. 
+                                </note></rdg>
+                            <rdg wit="#txt-1 #txt-2">Non corri a me, ma portata</rdg>
+                            <rdg wit="#txt-3">(portata) sempre più lontana dalle raffiche
+                                <note type="critical">Bertolucci aggiunge con il lapis "Perché, non portata", 
+                                    verso che cassa nuovamente, mantenendo solo il participio (portata), che collega con una freccia al verso successivo</note>
+                            </rdg>
+                        </app>
+                        <lb/></l>
+                    
+                        <app>
+                            <rdg wit="#txt-c"/>
+                            <rdg wit="#txt-1 #txt-2"><l n="14">sempre più lontana dalle raffiche</l></rdg>
+                            <rdg wit="#txt-3"><l n="14">non smetti il tuo lamento 
+                                <del rend="overstrike" hand="#pen2">? </del>
+                                <add place="above" type="substition" hand="#pen2" resp="#berty"> .</add>
+                            <note type="critical">Variazione di punteggiatura; in luogo del punto interrogativo inserisce un punto fermo</note></l>
+                            </rdg>
+                        </app>
+                        <lb/>
+                    
+                        <app>
+                            <rdg wit="#txt-c"/>
+                            <rdg wit="#txt-1 #txt-2"><l n="15">non smetti il tuo lamento?</l></rdg>
+                            <rdg wit="#txt-3"><l n="15">
+                                <del rend="overstrike" hand="#pen2">T’ha il vento portata via</del>.</l></rdg>
+                        </app>
+                        <lb/>
+                    
+                        <app>
+                            <rdg wit="#txt-c"/>
+                            <rdg wit="#txt-1"><l n="16">Finchè non t’ha il vento portata via.</l></rdg>
+                            <rdg wit="#txt-2"><l n="16">
+                                <del rend="overstrike" hand="#pen2">Finché non </del>
+                                <add place="above" type="substition" hand="#pen2"> T'</add> 
+                                <del rend="overstrike" hand="#pen2"> t'</del>ha il vento portata via</l>
+                            <note type="critical"> (v. 16 txt2) 
+                                Dapprima il poeta comincia a cassare a matita "Finché non", sovrascrivendo una "T" maiuscola in "t’(ha)", 
+                                modificando così il movimento temporale del verso.
+                            </note>
+                            </rdg>
+                            <rdg wit="#txt-3"><l n="16">
+                                <del rend="overstrike" hand="#pen2">Ed io son rimasto</del>.</l></rdg>
+                        </app>
+                        <lb/>
+                    
+                        <app>
+                            <rdg wit="#txt-c"/>
+                            <rdg wit="#txt-1"><l n="17">Ed io son rimasto sperduto</l></rdg>
+                            <rdg wit="#txt-2"><l n="17">Ed io son rimasto 
+                                <del rend="overstrike" hand="#pen2" resp="#berty">sperduto</del></l></rdg>
+                            <rdg wit="#txt-3">
+                                <l n="17"><del rend="overstrike" hand="#pen2" resp="#berty">sino al cadere del vento</del>
+                                <add place="margin_right" type="integration" hand="#pen2" resp="#berty">
+                                    <del rend="overstrike" hand="#pen2" resp="#berty">E muta è la luna sul borgo</del>
+                                </add>.</l>
+                                <note type="critical"> (v. 17 txt3) Bertolucci dopo aver cassato il verso include la variante "E muta è la luna sul borgo";
+                                in una revisione finale sottrae anche questo verso incluso.</note>
+                            </rdg>
+                        </app>
+                        <lb/>
+                        <app>
+                            <rdg wit="#txt-c"/>
+                            <rdg wit="#txt-1 #txt-2"><l n="18">sino al cadere del vento</l></rdg>
+                            <rdg wit="#txt-3"><l n="18">
+                                <del rend="overstrike-wavy" hand="#pen2" resp="#berty">e al nascere della luna sul borgo</del>.</l></rdg>
+                        </app>
+                        <lb/>
+                    
+                        <app>
+                            <rdg wit="#txt-c #txt-3"/>
+                            <rdg wit="#txt-1 #txt-2"><l n="19">e al nascere della luna sul borgo.</l></rdg>
+                        </app>
+                        <lb/>
+                </lg>
+                <ab>
+                    <date>9-10 gennaio 1935</date>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+

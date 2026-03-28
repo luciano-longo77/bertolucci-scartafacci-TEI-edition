@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XLVI. O anni lontani m’assale</title>
+                <respStmt>
+                    <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                    <name>Luciano Longo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                    <name>Elena Pierazzo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione editoriale a cura di </resp>
+                    <name>Rosa Casapullo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione critico-letteraria a cura di </resp>
+                    <name>Domenica Perrone.</name>
+                </respStmt>
+                <sponsor>
+                    <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                    <address>
+                        <addrLine>Piazzetta Salerno, 12 </addrLine>
+                    </address> 
+                </sponsor>
+            </titleStmt>
+            <extent>
+                <seg type="size">Filesize: 15 KB.</seg>
+                <seg type="format">XML TEI P5</seg>
+                <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+                <publisher>Luciano Longo</publisher>
+                <distributor>Università degli Studi di Palermo,</distributor>
+                <address>
+                    <addrLine>Piazzetta Salerno- 12, </addrLine>
+                </address>
+                <pubPlace> 
+                    <name>Palermo, </name>
+                </pubPlace>
+                <date>2015-2017</date>
+                <availability status="restricted">
+                    <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                    <p>Le immagini possono essere consultate in modalità off-line. </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="critical" anchored="true">
+                    <p>I manoscritti AuIn46 e AuIn47 sono conservati presso l’Archivio di Stato di Parma, "Archivio della Letteratura-Archivio Bertolucci" 
+                        nella sezione «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4.</p> 
+                    <p>Il testo di AuIn47, potrebbe considerarsi il testo stabilizzato di AuIn46; i due manoscritti differiscono per una sola variazione al v. 5: 
+                        AuIn47 non presenta la congiunzione ad inizio del verso (v. 5 "Tentennano le luci", AuIn47; "E tentennano le luci", AuIn46)</p>
+                    <p>I primi cinque versi di "O anni lontani…" sono riutilizzati da Bertolucci, con la presenza di alcune varianti, in AuIn13. 
+                        Il componimento presente in AuIn46 esibisce un’ampia porzione testuale cassata che è in parte rielaborazione dei vv. 6-13 
+                        di AuIn13.</p>
+                    <p>
+                        <table>
+                            <head rend="center">Comparazione AuIn13 vs AuIn47=AuIn46 (vv. 1-6)</head>
+                            <row role="label">
+                                <cell/>
+                                <cell>AuIn13 (vv. 1-5) O anni perduti...</cell>
+                                <cell>AuIn46=AuIn47 (vv. 1-6)</cell>
+                            </row>
+                            <row>
+                                <cell role="label">v.1</cell>
+                                <cell>O anni lontani, m’assale</cell>
+                                <cell>O anni lontani m’assale</cell>
+                            </row>
+                            <row>
+                                <cell role="label">v.2</cell>
+                                <cell>il vostro ricordo, come s’alza il vento</cell>
+                                <cell>Improvviso il vostro ricordo</cell>
+                            </row>
+                            <row>
+                                <cell role="label">v. 3</cell>
+                                <cell>all’entrare in un borgo, di sera;</cell>
+                                <cell>All’entrare in un borgo,</cell>
+                            </row>
+                            <row>
+                                <cell role="label">v. 4</cell>
+                                <cell>tentennano le luci nel mezzo,</cell>
+                                <cell>Come si leva il vento, una sera,</cell>
+                            </row>
+                            <row>
+                                <cell role="label">v. 5</cell>
+                                <cell>il cielo sereno si apre. </cell>
+                                <cell>E tentennano le luci</cell>
+                            </row>
+                            <row>
+                                <cell role="label">v. 6</cell>
+                                <cell></cell>
+                                <cell> E il cielo sereno si apre.</cell>
+                            </row>
+                        </table>
+                    </p>
+                </note>
+                <note type="biographical" anchored="true">Negli anni in cui viene datata la poesia A. Bertolucci ha già pubblicato la prima raccolta di poesie, 
+                    "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                    che confluiranno poi nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+                    Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                    durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                    Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+                <note type="context" anchored="true">La raccolta edita nel 1934, "Fuochi in Novembre" (Minardi, Parma, 1934), 
+                    in parte non presenta più il crepuscolarismo epigonale di "Sirio" (Minardi, Parma, 1929).</note>
+                <note type="render" anchored="true">Additions appear in a green, fixed-width
+                    font.</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>AuIn46</p>
+                <p>Foglio di carta libero di cm 15x28, contiene il testo "O anni lontani m’assale". L’autografo, datato 9 gennaio ma senza l’indicazione dell’anno, 
+                    è vergato con inchiostro nero ed è numerato con l’arabico 46. 
+                    La poesia consta di vv. 6. AuIn46 contiene anche tre appunti per poesie. Il manoscritto è in pulito.</p>
+                <p>AuIn47</p>
+                <p>Foglio di carta libero di cm 15x28, contiene il testo "O anni lontani m’assale". L’autografo, 
+                    datato 9 gennaio ma senza l’indicazione dell’anno, è vergato con inchiostro nero ed è numerato con l’arabico 47. 
+                    La poesia consta di vv. 6. AuIn47 contiene anche due appunti per poesie. Il manoscritto è in pulito.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+            <editorialDecl>
+                <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                    la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+                <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                    si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+                <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+                <correction>
+                    <p></p>
+                </correction>
+                <hyphenation>
+                    <p> </p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+                </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="pen1" medium="black_ink_1" scribe="Bertolucci"/>
+            </handNotes>
+            <langUsage>
+                <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+                <date>2016</date>.</change>
+            <change>Il file è stato creato nel <date>Dicembre del 2016</date> da <name> Luciano Longo</name>
+                con il software "Oxygen-XML Editor®".</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nel
+                <list>
+                    <item>Dicembre del 2016.</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="images/AuIn-46.jpg" xml:id="i_txt-c"/>
+        <graphic url="images/AuIn-46.jpg" xml:id="i_txt-1"/>
+        <graphic url="images/AuIn-46.jpg" xml:id="i_txt-2"/>
+        <graphic url="images/AuIn-47.jpg" xml:id="i3p_flw_3y"/>
+        <graphic url="images/AuIn-47.jpg" xml:id="jfx_flw_3y"/>
+    </facsimile>
+    
+    <text>
+        
+        <front>
+            <div rend="witness">
+                <listWit>
+                    <witness xml:id="txt46-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt46-1">Tb0, prima stesura</witness>
+                    <witness xml:id="txt46-2">T1, seconda stesura</witness>
+                    <witness xml:id="txt47-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt47-1">Tb0, prima stesura del testo</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <pb ed="txt46-c" facs="#i_txt-c"/>
+            <pb ed="txt46-1" facs="#i_txt-1"/>
+            <pb ed="txt46-2" facs="#i_txt-2"/>
+            <pb ed="txt47-c" facs="#i3p_flw_3y"/>
+            <pb ed="txt47-1" facs="#jfx_flw_3y"/>
+            
+            <div>
+                <head rend="right">
+                    <app>
+                        <rdg wit="#txt46-c #txt46-1 #txt46-2">
+                            <fw type="sig" place="margin-topright">46
+                                <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 46 redatto dal curatore dell'Archivio.</note>
+                            </fw>
+                        </rdg>
+                        <rdg wit="#txt47-c #txt47-1">
+                            <fw type="sig" place="margin-topright">47
+                                <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 47 redatto dal curatore dell'Archivio.</note>
+                            </fw>
+                        </rdg>
+                    </app>
+                    <lb/>
+                </head>
+            </div>
+            
+            <div>
+                <head rend="center">
+                    <app>
+                        <rdg wit="#txt46-c #txt47-c">O anni lontani m'assale</rdg>
+                        <rdg wit="#txt46-1 #txt46-2 #txt47-1"/>
+                        <note type=" critical">La poesia è senza titolo.</note>  
+                    </app>
+                </head>
+                <lg n="1" type="stanza">
+                    <l n="1">O anni lontani m’assale<lb/></l>
+                    <l n="2">Improvviso il vostro ricordo<lb/></l>
+                    <l n="3">All’entrare in un borgo,<lb/></l>
+                    <l n="4">Come si leva il vento, una sera,<lb/></l>
+                    <l n="5">
+                        <app>
+                            <rdg wit="#txt46-c #txt46-1 #txt46-2">E tentennano le luci</rdg>
+                            <rdg wit="#txt47-c #txt47-1">Tentennano le luci</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="6">E il cielo sereno si apre.
+                        <note type="critical">AuIn46 dopo il v. 6 esibisce altri sei versi cassati; essi sono in parte rielaborazione 
+                            dei versi contenuti in AuIn13.</note>
+                        <lb/>
+                    </l>
+                    <app>
+                        <rdg wit="#txt46-1"><l n="7">O anni lontani, mi duole</l></rdg>
+                        <rdg wit="#txt46-2"><l n="7"><del rend="overstrike" hand="#pen1">O anni lontani, mi duole</del>,</l></rdg>
+                    </app>
+                    
+                    <app>
+                        <rdg wit="#txt46-1"><l n="8">Sentire la vostra voce nel vento,</l></rdg>
+                        <rdg wit="#txt46-2"><l n="8"><del rend="overstrike" hand="#pen1">Sentire la vostra voce nel vento</del>,</l></rdg>
+                    </app>
+                    <app>
+                        <rdg wit="#txt46-1"><l n="9">Prigioniera, ma come potrà liberarla? </l></rdg>
+                        <rdg wit="#txt46-2"><l n="9"><del rend="overstrike" hand="#pen1">Prigioniera, ma come potrà liberarla</del>?</l></rdg>
+                    </app>
+                    <app>
+                        <rdg wit="#txt46-1"><l n="10">Essa si lamenta fra le alte case </l></rdg>
+                        <rdg wit="#txt46-2"><l n="10"><del rend="overstrike" hand="#pen1">Essa si lamenta fra le alte case</del>.</l></rdg>
+                    </app>
+                    <app>
+                        <rdg wit="#txt46-1"><l n="11">Sbattuta dal vento, e la voce </l></rdg>
+                        <rdg wit="#txt46-2"><l n="11"><del rend="overstrike" hand="#pen1">Sbattuta dal vento, e la voce</del>.</l></rdg>
+                    </app>
+                    <app>
+                        <rdg wit="#txt46-1"><l n="12">Grossa dei quattordici anni.</l></rdg>
+                        <rdg wit="#txt46-2"><l n="12"><del rend="overstrike" hand="#pen1">Grossa dei quattordici anni</del>.</l></rdg>
+                    </app>
+                </lg>
+                
+                <ab></ab>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
+

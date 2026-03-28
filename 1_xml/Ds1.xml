@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXVII. Il passero</title>
+            <respStmt>
+               <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+               <name>Luciano Longo.</name>
+            </respStmt>
+            <respStmt>
+               <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+               <name>Elena Pierazzo.</name>
+            </respStmt>
+            <respStmt>
+               <resp>Supervisione editoriale a cura di </resp>
+               <name>Rosa Casapullo.</name>
+            </respStmt>
+            <respStmt>
+               <resp>Supervisione critico-letteraria a cura di </resp>
+               <name>Domenica Perrone.</name>
+            </respStmt>
+            <sponsor>
+               <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+               <address>
+                  <addrLine>Piazzetta Salerno, 12 </addrLine>
+               </address> 
+            </sponsor>
+         </titleStmt>
+         <extent>
+            <seg type="size">Filesize: 25 KB.</seg>
+            <seg type="format">XML TEI P5</seg>
+            <seg type="location">offline</seg>
+         </extent>
+         <publicationStmt>
+            <publisher>Luciano Longo</publisher>
+            <distributor>Università degli Studi di Palermo,</distributor>
+            <address>
+               <addrLine>Piazzetta Salerno- 12, </addrLine>
+            </address>
+            <pubPlace> 
+               <name>Palermo, </name>
+            </pubPlace>
+            <date>2015-2017</date>
+            <availability status="restricted">
+               <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+               <p>Le immagini possono essere consultate in modalità off-line. </p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="critical" anchored="true">
+               <p>Il dattiloscritto Ds1 e gli autografi AuIn22 e AuIn23 sono conservati presso l’Archivio di Stato di Parma, "Archivio della Letteratura-Archivio Bertolucci" 
+                  nella sezione «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4.</p> 
+               <p> 
+                  La poesia "Il passero" presenta due versioni variate autografe, AuIn22 e AuIn23 e una dattiloscritta Ds1; la successione è AuIn222 → AuIn232 → Ds1.</p> 
+                 <p> In AuIn22 si possono rintracciare due interventi correttori, uno immediato e l’altro tardivo. 
+                  I vv. 7-8 in una prima stesura funzionavano nel seguente modo: "Poi, quando l’acqua del canale ǀ Le prime viole nutre"; in seguito subiscono una riscrittura. 
+                  Situazione simile è la variante rintracciabile al v. 9, in cui dapprima Bertolucci scrive "andare", poi vi ripensa e prosegue, a seguito di una cassatura, 
+                  con "Errare". I casi di interventi correttori variantivo-tardivi si possono rintracciare nelle aggiunte allocate nell’interlinea, come "il passero" in luogo 
+                  di "l’uccellino" al v. 3 o "febbraio" variato da "gennaio" al v. 6.</p> 
+               <p>In AuIn23 si possono rintracciare due interventi correttori, uno immediato, l’altro tardivo e instaurativo. 
+                  Il v. 13 di AuIn23 in una prima stesura funzionava nel seguente modo: "Effonder questa gioia"; 
+                  Bertolucci dopo la prima stesura del testo cassa il verso riscrivendolo nella riga successiva; dapprima scrive "Versare", che cassa, poi continua 
+                  a scrivere "Effonder quieta lode al dolce tempo"; in un secondo momento, a redazione stabile, il poeta ha un ripensamento sull’aggettivo "quieta" che cassa, 
+                  reiserendolo nell’interlinea superiore come lezione stabile. In questo spazio del manoscritto è individuabile il secondo momento correttorio; 
+                  esempio di ciò la "e" scritta nell’interlinea superiore al v. 3 o "voce" al v. 12 che sostituisce "vento" sempre nell’interlinea superiore. 
+                  In questo caso Bertolucci recupera la lezione nel rigo: in un primo momento il poeta scrive "Raggi, sua voce s’udia", in un secondo momento 
+                  (variante tardiva) cassa "voce" e propone "vento" nell’interlinea, cassa nuovamente la lezione inserita e riprende la variante di base, "voce". Anche quieta, 
+                  agginuta nell’interlinea al v. 13, può considerarsi una variante correttivo-tardiva, successiva alla lettura del testo. 
+                  La prassi scrittoria di AuIn23 è di tipo sottrattiva.</p>
+               <p>In Ds1 sono presenti quattro interventi correttori a inchiostro nero di tipo instaurativo successivi alla battitura del testo.</p>
+            </note>
+            <note type="biographical" anchored="true">Negli anni in cui viene datata la poesia A. Bertolucci ha già pubblicato la prima raccolta di poesie, 
+               "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+               che confluiranno poi nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+               Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+               durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+               Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+            <note type="render" anchored="true">Additions appear in a green, fixed-width font.</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>AuIn22</p>
+            <p>Foglio di carta libera di cm 21x30; la c. 1r contiene i testi "Al pomeriggio radioso" e "Più cara ti ritrovo"; 
+               la c. 1v il testo "Felici, rondini portate dal vento". Il manoscritto, datato novembre 1936, nella c. 1r è vergato con inchiostro nero, 
+               tranne una aggiunta ai vv. 11-12 con inchiostro blu; il documento è numerato nella c. 1r con l’arabico 22. 
+               La poesia "Al pomeriggio radioso" consta di vv. 13, "Più cara ti ritrovo" di vv. 12 e "Felici, rondini portate dal vento" di vv. 6.</p>
+            <p>AuIn23</p>
+            <p>Foglio di carta libero di cm 21x30; la c. 1r contiene il testo "Al pomeriggio radioso"; la c. 1v invece il testo "Più cara ti ritrovo", 
+               datato novembre 1936. L’autografo è vergato con inchiostro nero e non presenta alcuna numerazione. 
+               La poesia "Al pomeriggio radioso" consta di vv. 12, "Più cara ti ritrovo" di vv. 13.</p>
+            <p>Ds1 (AuIn25)</p>
+            <p>Foglio dattiloscritto di carta libero di cm 21x30, contiene il testo "Il passero". Il dattiloscritto è numerato con l’arabico 25, 
+               il documento non presenta una indicazione cronologica. La poesia consta di vv. 13.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p></p>
+         </projectDesc>            
+         <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+         <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+         <refsDecl>
+            <p></p>
+         </refsDecl>
+         <editorialDecl>
+            <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+               la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+            <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+               si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+            <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+            <correction>
+               <p></p>
+            </correction>
+            <hyphenation>
+               <p> </p>
+            </hyphenation>
+            <normalization>
+               <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+            </normalization>
+         </editorialDecl>
+         <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="pen1" medium="black_ink_1" scribe="Bertolucci"/>
+            <handNote xml:id="pen2" medium="grey_pencil_1" scribe="Bertolucci"/>
+         </handNotes>
+         <langUsage>
+            <language ident="italiano">Lingua: Italiano</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+            <date>2016</date>.</change>
+         <change>Il file è stato creato nel <date>Dicembre del 2016</date> da <name> Luciano Longo</name>
+            con il software "Oxygen-XML Editor®".</change>
+         <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nel
+            <list>
+               <item>Dicembre del 2016.</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   
+   <facsimile>
+      <graphic url="images/AuIn-222.jpg" xml:id="b15_lln_fy"/>
+      <graphic url="images/AuIn-222.jpg" xml:id="fsh_mln_fy"/>
+      <graphic url="images/AuIn-222.jpg" xml:id="bld_s1l_3y"/>
+      <graphic url="images/AuIn-222.jpg" xml:id="gkn_s1l_3y"/>
+      
+      <graphic url="images/AuIn-23_2.jpg" xml:id="i_txt-c"/>
+      <graphic url="images/AuIn-23_2.jpg" xml:id="i_txt-1"/>
+      <graphic url="images/AuIn-23_2.jpg" xml:id="i_txt-2"/>
+      <graphic url="images/AuIn-23_2.jpg" xml:id="i_txt-3"/>
+      
+      <graphic url="images/AuIn-25.jpg" xml:id="lff_lln_fy"/>
+      <graphic url="images/AuIn-25.jpg" xml:id="xwl_lln_fy"/>
+      <graphic url="images/AuIn-25.jpg" xml:id="b2q_lln_fy"/>
+   </facsimile>
+   
+   <text>
+      
+      <front>
+         <div rend="witness">
+            <listWit>
+               <witness xml:id="txt22-c">Tc, Edizione critica</witness>
+               <witness xml:id="txt22-1">Tb0, prima stesura del testo</witness>
+               <witness xml:id="txt22-2">Tb1, seconda stesura del testo</witness>
+               <witness xml:id="txt22-3">T1, terza stesura del testo</witness>
+               
+               <witness xml:id="txt23-c">Tc, Edizione critica</witness>
+               <witness xml:id="txt23-1">Tb0, prima stesura del testo</witness>
+               <witness xml:id="txt23-2">Tb1, seconda stesura del testo</witness>
+               <witness xml:id="txt23-3">T1, terza stesura del testo</witness>
+               
+               <witness xml:id="txt25-c">Tc, Edizione critica</witness>
+               <witness xml:id="txt25-1">Tb0, prima stesura del testo</witness>
+               <witness xml:id="txt25-2">T1, seconda stesura del testo</witness>
+               
+            </listWit>
+         </div>
+      </front>
+      <body>
+         <pb ed="txt22-c" facs="#b15_lln_fy"/>
+         <pb ed="txt22-1" facs="#fsh_mln_fy"/>
+         <pb ed="txt22-2" facs="#bld_s1l_3y"/>
+         <pb ed="txt22-3" facs="#gkn_s1l_3y"/>
+         
+         <pb ed="txt23-c" facs="#i_txt-c"/>
+         <pb ed="txt23-1" facs="#i_txt-1"/>
+         <pb ed="txt23-2" facs="#i_txt-2"/>
+         <pb ed="txt23-3" facs="#i_txt-3"/>
+         
+         <pb ed="txt25-c" facs="#lff_lln_fy"/>
+         <pb ed="txt25-1" facs="#xwl_lln_fy"/>
+         <pb ed="txt25-2" facs="#b2q_lln_fy"/>
+         <div>
+            <head rend="right">
+               <app>
+                  <rdg wit="#txt22-c #txt22-1 #txt22-2 #txt22-3">                  
+                     <fw type="sig" place="margin-topright">22
+                        <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 22 dal curatore dell'Archivio Bertolucci.</note>
+                     </fw>
+                  </rdg>
+                  <rdg wit="#txt23-c #txt23-1 #txt23-2 #txt23-3">                  
+                     <fw type="sig" place="margin-topright">23
+                        <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 23 dal curatore dell'Archivio Bertolucci.</note>
+                     </fw>
+                  </rdg>
+                  <rdg wit="#txt25-c #txt25-1 #txt25-2">                  
+                     <fw type="sig" place="margin-topright">25
+                        <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 25 dal curatore dell'Archivio Bertolucci.</note>
+                     </fw>
+                  </rdg>
+               </app>
+               <lb/>
+            </head>
+         </div>
+         
+         <div>
+            <head rend="center">
+               <app>
+                  <rdg wit="#txt25-c">Il passero</rdg>
+                  <rdg wit="#txt25-1"/>
+                  <rdg wit="#txt25-2"><hi rend="underline"><add place="inline" type="integration" hand="#pen2">Il passero</add></hi><lb/>
+                     <note type="metrical">La poesia si presenta suddivisa in 3 strofe di quattro quartine con rima di tipo ABBA.</note>
+                  </rdg>
+                  <rdg wit="#txt22-c #txt22-1 #txt22-2 #txt22-3 #txt23-c #txt23-1 #txt23-2 #txt23-3">
+                     <note type="critical">La poesia si presenta senza titolo.</note>
+                  </rdg> 
+               </app>
+               <lb/>
+            </head>
+            <lg n="1" type="stanza">
+               <lg type="quatrain">
+                  <l n="1">Più cara ti ritrovo<lb/></l>
+                  <l n="2">
+                     <app>
+                        <rdg wit="#txt25-c #txt25-1 #txt25-2 #txt23-c #txt23-1 #txt23-2 #txt23-3">Al ricordo,</rdg>
+                        <rdg wit="#txt22-c #txt22-1 #txt22-2 #txt22-3">Nel sogno,</rdg>
+                     </app> 
+                     campagna<lb/>
+                  </l>
+                  <l n="3">
+                     <app>
+                        <rdg wit="#txt25-c #txt25-1 #txt25-2 #txt22-c #txt23-c">Perduta, e il passero </rdg>
+                        <rdg wit="#txt22-1">Perduta, e l'uccellino </rdg>
+                        <rdg wit="#txt22-2">Perduta, e
+                           <del rend="overstrike" hand="#pen2"> l'uccellino</del></rdg>
+                        <rdg wit="#txt22-3">
+                           <add place="above" type="substition" hand="#pen2"> il passero</add></rdg>
+                        <rdg wit="#txt23-1">Perduta, e il passero </rdg>
+                        <rdg wit="#txt23-2">Perduta<del rend="overstrike" hand="#pen2">, e</del> il passero </rdg>
+                        <rdg wit="#txt23-3">Perduta<add place="above" type="substition" hand="#pen2">e</add> il passero  </rdg>
+                     </app>
+                     sul rovo<lb/></l>
+                  <l n="4">Nudo che si lagna<lb/></l>
+               </lg>
+            </lg>
+            
+            <lg n="2" type="stanza">
+               <lg type="quatrain">
+                  <l n="5">
+                     <app>
+                        <rdg wit="#txt25-c #txt25-1 #txt25-2 #txt22-3 #txt22-c #txt23-c #txt23-1 #txt23-2 #txt23-3">Alla prima gelata invernale,</rdg>
+                        <rdg wit="#txt22-1">Alle prime gelate invernali,</rdg>
+                        <rdg wit="#txt22-2">All
+                           <del rend="overstrike" hand="#pen2">e</del><add place="above" type="substition" hand="#pen2">a</add>
+                           prim<del rend="overstrike" hand="#pen2">e</del><add place="above" type="substition" hand="#pen2">a</add> 
+                           gelat<del rend="overstrike" hand="#pen2">e</del><add place="above" type="substition" hand="#pen2">a</add> 
+                           invernal<del rend="overstrike" hand="#pen2">e</del><add place="above" type="substition" hand="#pen2">a</add></rdg>
+                     </app>
+                     <lb/></l>
+                  <l n="6">
+                     <app>
+                        <rdg wit="#txt25-c #txt25-1 #txt25-2 #txt22-3 #txt22-c #txt23-c #txt23-1 #txt23-2 #txt23-3">E</rdg>
+                        <rdg wit="#txt22-1">Che</rdg>
+                        <rdg wit="#txt22-2">
+                           <del rend="overstrike" hand="#pen2">Che</del>
+                           <add place="above" type="substition" hand="#pen2">a</add>
+                           <del rend="overstrike" hand="#pen2">che</del>
+                        </rdg>
+                     </app> 
+                     s’allegra al sole di 
+                     <app>
+                        <rdg wit="#txt25-c #txt22-3 #txt22-c">febbraio</rdg>
+                        <rdg wit="#txt25-1">Febbraio</rdg>
+                        <rdg wit="#txt25-2">
+                           <del rend="overstrike" hand="#pen2">F</del>
+                           <add place="inline" type="substition" hand="#pen2">
+                              f</add>ebbraio</rdg>
+                        <rdg wit="#txt22-1">gennaio</rdg>
+                        <rdg wit="#txt22-2">
+                           <del rend="overstrike" hand="#pen2">gennaio</del>
+                           <add place="above" type="substition" hand="#pen2">febbraio</add>
+                        </rdg>
+                        <rdg wit="#txt23-c #txt23-1 #txt23-2 #txt23-3">febbraio,</rdg>
+                     </app>
+                     <lb/>
+                  </l>
+                  <l n="7">
+                     <app>
+                        <rdg wit="#txt25-c #txt25-1 #txt25-2 #txt22-3 #txt22-c #txt23-c #txt23-1 #txt23-2 #txt23-3">Poi, quando l’acqua del canale</rdg>
+                        <rdg wit="#txt22-1">Poi, quando l’acqua del canale</rdg>
+                        <rdg wit="#txt22-2">
+                           <del rend="overstrike" hand="#pen2">Poi, quando l’acqua del canale</del>
+                           <add place="above" type="substition" hand="#pen2">Poi, quando l’acqua del canale</add>
+                        </rdg>
+                     </app>
+                     <lb/>
+                  </l>
+                  <l n="8"> 
+                     <app>
+                        <rdg wit="#txt25-c #txt25-1 #txt25-2">Le prime viole nutre col suo gaio</rdg>
+                        <rdg wit="#txt22-1">Le prime viole nutre</rdg>
+                        <rdg wit="#txt22-2">
+                           <del rend="overstrike" hand="#pen2">Le prime viole nutre</del>
+                           <add place="inline" type="substition" hand="#pen2">Le prime viole nutre col suo gaio</add>
+                        </rdg>
+                        <rdg wit="#txt22-3">Le prime viole nutre 
+                           <add place="inline" type="substition" hand="#pen2">n</add><del rend="overstrike" hand="#pen2">c</del>
+                           <add place="inline" type="substition" hand="#pen2">e</add><del rend="overstrike" hand="#pen2">o</del>l suo gaio</rdg>
+                        <rdg wit="#txt22-c #txt23-c #txt23-1 #txt23-2 #txt23-3">Le prime viole nutre nel suo gaio</rdg>
+                     </app>
+                     <lb/>
+                  </l>
+               </lg>
+            </lg>
+            
+            <lg n="3" type="stanza">
+               <lg type="quatrain">
+                  <l n="9">
+                     <app>
+                        <rdg wit="#txt25-c #txt25-1 #txt25-2 #txt22-3 #txt22-c #txt23-c #txt23-1 #txt23-2 #txt23-3">Errare;</rdg>
+                        <rdg wit="#txt22-1">Andare;</rdg>
+                        <rdg wit="#txt22-2">
+                           <del rend="overstrike" hand="#pen2">Andare;</del>
+                           <add place="inline" type="substition" hand="#pen2">Errare</add>
+                        </rdg>
+                     </app>
+                     <app>
+                        <rdg wit="#txt25-c"/>
+                        <rdg wit="#txt25-1 #txt22-c #txt22-1 #txt22-2 #txt22-c #txt23-c #txt23-1 #txt23-2 #txt23-3">e</rdg>
+                        <rdg wit="#txt25-2"><del rend="overstrike" hand="#pen2">e</del></rdg>
+                     </app>
+                     in florida gaggia<lb/></l>
+                  <l n="10">
+                     <app>
+                        <rdg wit="#txt25-c #txt22-1 #txt22-2 #txt22-3 #txt22-c #txt23-1">Alfine,</rdg>
+                        <rdg wit="#txt25-1">Al fine</rdg>
+                        <rdg wit="#txt25-2">Alfine<add place="inline" type="integration" hand="#pen2">,</add></rdg>
+                        <rdg wit="#txt23-2"><del rend="overstrike" hand="#pen2">Alfine,</del></rdg>
+                     </app> 
+                     d’un tramonto estivo<lb/></l>
+                  <l n="11">Tiepido e lento nel vivo<lb/></l>
+                  <l n="12">Raggio,  
+                     <app>
+                        <rdg wit="#txt25-c #txt23-1 #txt23-c">sua voce s'udia</rdg>
+                        <rdg wit="#txt25-1">sua voce <gap reason="punched" extent="several_character"/>[...]udia</rdg>
+                        <rdg wit="#txt25-2">sua voce 
+                           <del rend="overstrike" hand="#pen2"><gap reason="punched" extent="several_character"/>[...]</del>
+                           <add place="inline" type="integration" hand="#pen2">s'</add>udia</rdg>
+                        <rdg wit="#txt23-2">su<del rend="overstrike" hand="#pen2">a</del>
+                           <add place="inline" type="substition" hand="#pen2">o</add> 
+                           <add place="above" type="substition" hand="#pen2">vento</add> s'udia</rdg>
+                        <rdg wit="#txt23-3">su<del rend="overstrike" hand="#pen2">o</del><add place="inline" type="substition" hand="#pen2">a</add> 
+                           <del rend="overstrike" hand="#pen2">vento</del> 
+                           <add place="above" type="substition" hand="#pen2">voce</add> s'udia</rdg>
+                        <rdg wit="#txt22-1">effonde come gioia</rdg>
+                        <rdg wit="#txt22-2"><hi rend="underline">effonde <del rend="overstrike" hand="#pen2">come gioia</del></hi></rdg>
+                        <rdg wit="#txt22-3"><hi rend="underline">effonde.</hi></rdg>
+                        <rdg wit="#txt22-c">effonde.</rdg>
+                        
+                     </app>
+                     <lb/>
+                  </l>
+               </lg>
+            </lg>
+            
+            <lg n="4" type="stanza">
+               <lg type="quatrain">
+                  <l n="13">
+                     <app>
+                        <rdg wit="#txt25-c #txt25-1 #txt25-2">Effonder ebbra lode al dolce tempo.</rdg>
+                        <rdg wit="#txt23-1 #txt23-2">Effonder questa gioia</rdg>
+                        <rdg wit="#txt23-3"><del rend="overstrike" hand="#pen2">Effonder questa gioia</del> </rdg>
+                     </app>
+                     <lb/>
+                  </l>
+                  <app>
+                     <rdg wit="#txt23-3">
+                        <l n="14">
+                           <add place="inline" type="integration" hand="#pen2"><del>Versare</del></add>
+                           Effonder <del rend="overstrike" hand="#pen2">quieta</del> <add place="above" type="substition" hand="#pen2">quieta</add> lode al dolce tempo 
+                           <add place="above" hand="#pen2"><del rend="overstrike" hand="#pen2"><gap reason="punched" extent="several_character"/>[...]</del></add>
+                        </l>
+                     </rdg>
+                  </app>
+               </lg>
+            </lg>
+            <ab>
+               <app>
+                  <rdg wit="#txt23-c #txt23-1 #txt23-2 #txt23-3">Novembre 1938</rdg>
+               </app>
+            </ab>
+            <signed>
+               <app>
+                  <rdg wit="#txt25-1"/>                  
+                  <rdg wit="#txt25-c #txt25-2">
+                     <add place="inline" type="integration" hand="#pen2">
+                        <hi rend="underline">Attilio Bertolucci</hi></add>
+                  </rdg>
+               </app> 
+            </signed>
+         </div>
+      </body>
+   </text>
+</TEI>
+

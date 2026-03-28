@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Questo triste crepuscolo</title>
+               <author>Attilio Bertolucci</author>
+               <respStmt>
+                  <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                  <name>Luciano Longo.</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                  <name>Elena Pierazzo.</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Supervisione editoriale a cura di </resp>
+                  <name>Rosa Casapullo.</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Supervisione critico-letteraria a cura di </resp>
+                  <name>Domenica Perrone.</name>
+               </respStmt>
+               
+               <sponsor>
+                  <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                  <address>
+                     <addrLine>Piazzetta Salerno, 12 </addrLine>
+                  </address> 
+               </sponsor>
+            </titleStmt>
+            
+            <extent>
+               <seg type="size">Filesize: 25 KB.</seg>
+               <seg type="format">XML TEI P5</seg>
+               <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+               <publisher>Luciano Longo</publisher>
+               <distributor>Università degli Studi di Palermo,</distributor>
+               <address>
+                  <addrLine>Piazzetta Salerno- 12, </addrLine>
+               </address>
+               <pubPlace> 
+                  <name>Palermo, </name>
+               </pubPlace>
+               <date>2015-2017</date>
+               
+               <availability status="restricted">
+                  <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                  <p>Le immagini possono essere consultate in modalità off-line. </p>
+               </availability>
+            </publicationStmt>
+            <notesStmt>
+               <note type="critical" anchored="true">
+                  <p>Il manoscritto (AuIn2) è conservato presso l’Archivio di Stato di Parma, "Archivio della Letteratura-Archivio Bertolucci" 
+                     nella sezione «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4.</p> 
+                  <p>Il processo compositivo rintracciabile nell'autografo, consiste in due correzioni immediate e “instaurative”, 
+                     come si può rilevare dall’inchiostrazione e dalla collocazione nella linea di scrittura. 
+                     La prima correzione è individuabile al v. 9 "Ora la luna sali", in cui "sali" viene cassato; 
+                     lo stesso verbo all’imperfetto viene riscritto dall’autore nell verso successivo (v. 10 "Saliva"). 
+                     La seconda correzione è al v. 17, "della cane", in cui Bertolucci, in un primo momento, scrive "della cagna*", 
+                     correggendo "cagna*" in "cane", e successivamente sovrascrive la parola su una precedente che risulta illeggibile, 
+                     non modificando l’accordo della preposizione articolata "della".
+                  </p>
+               </note>
+               <note type="biographical" anchored="true">Negli anni in cui viene datata la poesia A. Bertolucci ha già pubblicato la prima raccolta di poesie, 
+                  "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                  che confluiranno poi nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+                  Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                  durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                  Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+               <note type="render" anchored="true">Additions appear in a green, fixed-width
+                  font.</note>
+            </notesStmt>
+            <sourceDesc>
+               <p>AuIn2</p>
+               <p>Tre fogli di carta di quaderno incollati in uno di cm 15x20, riportano il testo di "Amore" (c. 1r) e di "Questo triste crepuscolo" (c. 1v). 
+                  Il manoscritto è datato nella c. 1r, ed esibisce l’indicazione "28 gennaio 1931"; 
+                  esso è vergato con inchiostro nero, ed è numerato in alto a destra a matita con l’arabico 2 (c. 1r). 
+                  La c. 1r non reca alcuna numerazione; essa presenta nella c. 1v sul lato destro un abbozzo redatto a matita raffigurante un volto umano con cravatta; 
+                  inoltre il manoscritto esibisce delle linee traversali a matita a cassatura del testo. 
+                  L’autografo nella c. 1r è danneggiato nel lembo laterale e presenta delle macchie di umidità. 
+                  La poesia consta di vv. 18 per "Amore" e di vv. 22 per "Questo triste crepuscolo".</p>
+               <p>
+                  <table>
+                     <head rend="center">Composizione di AuIn2</head>
+                     <row>
+                        <cell role="label">c. 1r</cell>
+                        <cell>Amore</cell>
+                     </row>
+                     <row>
+                        <cell role="label">c. 1v</cell>
+                        <cell>Questo triste crepuscolo</cell>
+                     </row>
+                  </table>
+               </p>
+               
+               <!-- <sourceDesc>
+                    <msDesc xml:lang="ita" xml:id="AuIn2">
+                        <msIdentifier>
+                            <country><name type="place">Italia</name></country>
+                            <region><name type="place">Emilia Romagna</name></region>
+                            <settlement><name type="place">Parma</name></settlement>
+                            <institution>Archivio di Stato</institution>
+                            <repository>Fondo Attilio Bertolucci</repository>
+                            <collection>Carte Attilio Bertolucci</collection>
+                            <idno>Busta II, fascicolo 4,2</idno>
+                            <msName>Poesie inedite degli anni tra le due guerre e del primo dopoguerra</msName>
+                            <altIdentifier>
+                                <idno>AuIn2</idno>
+                                <note>Sezione: Autografi inediti</note>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents class="#Amore_Crepuscolo">
+                            <summary>Tre fogli di carta di quaderno incollati in uno di cm 15x20, riportano il testo di "Amore" (c. 1r) e di "Questo triste crepuscolo" (c. 1v). 
+                                Il manoscritto è datato nella c. 1r, ed esibisce l’indicazione "28 gennaio 1931"; 
+                                esso è vergato con inchiostro nero, ed è numerato in alto a destra a matita con l’arabico 2 (c. 1r). 
+                                La c. 1r non reca alcuna numerazione; essa presenta sul lato destro un abbozzo redatto a matita raffigurante un volto umano con cravatta; 
+                                inoltre il manoscritto esibisce delle linee traversali a matita a cassatura del testo. 
+                                L’autografo nella c. 1r è danneggiato nel lembo laterale e presenta delle macchie di umidità..</summary>
+                            <msItem n="I" class="#Amore_Crepuscolo">
+                                <locus>c. 1r</locus>
+                                <idno>AuIn2(1r)-I</idno>
+                                <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                                <title>Amore
+                                    <del type="overstrike">
+                                        <hi rend="overstrike-wavy">Amori</hi>
+                                    </del>
+                                </title>
+                                <incipit>Dopo tanto frastuono</incipit>
+                                <explicit>E lo stridulo lamento della civetta.</explicit>
+                                <textLang mainLang="ita">Italian</textLang>
+                                <note>Il componimento presenta un secondo titolo cassato.</note>
+                            </msItem>
+                            <msItem n="II" class="#Amore_Crepuscolo">
+                                <locus>c. 1v</locus>
+                                <idno>AuIn2(1v)-II</idno>
+                                <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                                <title>senza titolo</title>
+                                <incipit>
+                                    <del type="overstrike">Avvoltoio, grigio avvoltoio</del>Questo triste crepuscolo</incipit>
+                                <explicit>Porta il profumo dei fiori selvatici.</explicit>
+                                <textLang mainLang="ita">Italian</textLang>
+                                <note>Il componimento si presenta senza titolo</note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="autografo">
+                                <supportDesc material="paper">
+                                    <support>
+                                        <p><material>foglio di carta bianca
+                                            <date n="I">1931</date>
+                                        </material>
+                                        </p>
+                                    </support>
+                                    <extent>
+                                        <idno>AuIn2(1r)-I</idno>
+                                        <dimensions scope="all" type="foglio" unit="cm">
+                                            <height>155</height>
+                                            <width>20</width>
+                                        </dimensions>
+                                        
+                                        <idno>AuIn2(1v)-II</idno>
+                                        <dimensions scope="all" type="foglio" unit="cm">
+                                            <height>15</height>
+                                            <width>20</width>
+                                        </dimensions>
+                                    </extent>
+                                    <condition>
+                                        <p></p></condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    
+                                    <layout columns="1" ruledLines="18">
+                                        <idno>AuIn2(1r)-I</idno>
+                                        <p>Testo scritto su una colonna di 18 versi</p>
+                                    </layout>
+                                    <layout columns="1" ruledLines="22">
+                                        <idno>AuIn2(1v)-II</idno>
+                                        <p>Testo scritto su una colonna di 22 versi</p>
+                                    </layout>
+                                </layoutDesc> 
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="Attilio_Bertolucci" script="handwritten" medium="black_ink_pen" scope="major">
+                                    <p>Il testo si presenta con una scrittura calligrafica moderna con un ductus poco disteso.
+                                        L’autografo è vergato con inchiostro.</p>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <idno>AuIn2(1r)-I</idno>
+                                <p>Il testo probabilmente venne scritto intorno al <origDate cert="medium">1931</origDate>
+                                </p>
+                                <idno>AuIn2(1v)-II</idno>
+                                <p>Il testo non presenta una indicazione cronologica; la data del <origDate cert="unknown">1931</origDate> non può essere estesa anche alla c. 1v.
+                                </p>
+                            </origin>
+                        </history>
+                        <additional>
+                            <surrogates>
+                                <p>L'autografo, riprodotto in formato jpeg, è consultabile presso l'Archivio di Stato di Parma.</p>
+                            </surrogates>
+                            <listBibl>
+                                <bibl n="1"></bibl>
+                            </listBibl>
+                        </additional>
+                    </msDesc>
+                </sourceDesc> -->
+            </sourceDesc>
+         </fileDesc>
+         
+         <encodingDesc>
+            <projectDesc>
+               <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+               <p></p>
+            </refsDecl>
+            <editorialDecl>
+               <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                  la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+               <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                  si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+               <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+               <correction>
+                  <p></p>
+               </correction>
+               <hyphenation>
+                  <p> </p>
+               </hyphenation>
+               <normalization>
+                  <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+               </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+         </encodingDesc>
+         <profileDesc>
+            <handNotes>
+               <handNote xml:id="pen2" medium="black_ink_2" scribe="Bertolucci"/>
+               <handNote xml:id="pen1" medium="black_ink_1" scribe="Bertolucci"/>
+            </handNotes>
+            <langUsage>
+               <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+         </profileDesc>
+         <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+               <date>2015</date>.</change>
+            <change>Il file è stato creato nel <date>Marzo del 2015</date> da <name> Luciano Longo.</name>
+               con il software "XML-Copy Editor®" e successivamente trattato con "Oxygen-XML Editor®"</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nell'
+               <list>
+                  <item>Aprile del 2015, la successiva nel</item>
+                  <item>Maggio del 2015 poi nel</item>
+                  <item>Giugno del 2015 poi nel</item>
+                  <item> Luglio del 2015 poi nel</item>
+                  <item>Agosto del 2015 poi nel</item>
+                  <item>Settembre del 2015 poi nel</item>
+                  <item>Giugno del 2016 poi nel</item>
+                  <item>Luglio del 2016 poi nell'</item>
+                  <item>Ottobre del 2016 poi nel</item>
+                  <item>Novembre del 2016 e infine nel</item>
+                  <item>Dicembre del 2016.</item>
+               </list>
+            </change>
+         </revisionDesc>
+      </teiHeader>
+   <facsimile>
+      <graphic url="images/AuIn2_2.jpg" xml:id="i_txt-c"/>
+      <graphic url="images/AuIn2_2.jpg" xml:id="i_txt-1"/>
+      <graphic url="images/AuIn2_2.jpg" xml:id="i_txt-2"/>
+   </facsimile>
+      <text>
+         
+         <front>
+            <div rend="witness">
+               <listWit>
+                  <witness xml:id="txt-c">Tc, Edizione critica</witness>
+                  <witness xml:id="txt-1">tb0 prima stesura del testo</witness>
+                  <witness xml:id="txt-2">T1 interv. su tb0</witness>
+               </listWit>
+            </div>
+         </front>
+               
+            <body>
+               <pb ed="txt-c" facs="#i_txt-c"/>
+               <pb ed="txt-1" facs="#i_txt-1"/>
+               <pb ed="txt-2" facs="#i_txt-2"/>
+               <div>
+                  <head>
+                     <fw type="sig" place="margin_right">2
+                        <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 2 dal curatore dell'Archivio Bertolucci.</note>
+                     </fw>
+                     <lb/>
+                  </head>
+               </div>
+               
+               <div>
+                  <head>
+                  <app>
+                     <rdg wit="#txt-c">Questo triste crepuscolo</rdg>
+                     <rdg wit="#txt-1 #txt-2"/>
+                     <note type="critical" anchored="true">La poesia è senza titolo</note>
+                  </app>
+                  <lb/>
+                  </head>
+            
+                        <app>
+                           <rdg wit="#txt-1"><l n="1">Avvoltoio, grigio avvoltoio</l></rdg>
+                           <rdg wit="#txt-2"><l n="1"><del rend="overstrike" hand="#pen2">Avvoltoio, grigio avvoltoio</del>.</l></rdg>
+                        </app>
+                        <note type="critical">Il testo presenta, nella sua redazione "stabile" 22 versi. 
+                           Dopo che il testo pervenne a una prima redazione (tb0: vv. 24), Bertolucci cassa i due versi iniziali con inchiostro nero: 
+                           "Avvoltoio, grigio avvoltoio / Scendi su di me" </note>
+                       <lb/>
+                     
+                    
+                        <app>
+                           <rdg wit="#txt-1"> <l n="2">Scendi su di me</l></rdg>
+                           <rdg wit="#txt-2"> <l n="2"><del rend="overstrike" hand="#pen2">Scendi su di me</del>.</l></rdg>
+                        </app>
+                     
+                           <app>
+                              <rdg wit="#txt-1 #txt-2"><l n="3">Questo triste crepuscolo</l></rdg>
+                              <rdg wit="#txt-c"><l n="1">Questo triste crepuscolo,</l></rdg>
+                              </app>
+                           <lb/>
+                        
+                           
+                        <app>
+                           <rdg wit="#txt-1"><l n="4">La vita ha una vestaglia rosa</l></rdg>
+                           <rdg wit="#txt-2"><l n="4">La vita ha una vestaglia rosa
+                              <add place="inline" type="integration" hand="#pen2">,</add>
+                              <note type="critical">Alla seconda fase redazionale è da assegnare l’inserimento della virgola alla fine del v. 2. 
+                                 con una inchiostrazione più scura. 
+                              </note></l>
+                           </rdg>
+                           <rdg wit="#txt-c"><l n="2">La vita ha una vestaglia rosa,</l></rdg>
+                        </app>
+                        <lb/>
+                     
+                        <app>
+                           <rdg wit="#txt-1"><l n="5">I capelli tinti le cadono sul collo</l></rdg>
+                           <rdg wit="#txt-2"><l n="5">I capelli tinti le cadon
+                              <retrace cause="unclear">o</retrace> 
+                              sul collo
+                              <note type="critical">In "cadono" l'ultima -o- viene rivergata con lo stesso inchiostro del resto del ms. (T2)</note></l></rdg>
+                           <rdg wit="#txt-c"><l n="3">I capelli tinti le cadono sul collo.</l></rdg>
+                        </app>
+                       <lb/>
+                     
+                        <app>
+                           <rdg wit="#txt-1 #txt-2"><l n="6">Le donne sono fiori di carta</l></rdg>
+                           <rdg wit="#txt-c"><l n="4">Le donne sono fiori di carta</l></rdg>
+                        </app>
+                        <lb/>
+
+                        <app>
+                           <rdg wit="#txt-1 #txt-2"><l n="7">Su cui si ferma la rossa polvere degli anni,</l></rdg>
+                           <rdg wit="#txt-c"><l n="5">Su cui si ferma la rossa polvere degli anni</l>
+                           </rdg>
+                        </app>
+                        <lb/>
+                     
+                        <app>
+                           <rdg wit="#txt-1 #txt-2"><l n="8">Fiori spiegazzati dalle passioni</l></rdg>
+                           <rdg wit="#txt-c"><l n="6">Fiori spiegazzati dalle passioni</l></rdg>
+                        </app>
+                        <lb/>
+
+                        <app>
+                           <rdg wit="#txt-1"><l n="9">Scolorite dalle lagrime e dal disio</l>
+                           </rdg>
+                           <rdg wit="#txt-2"><l n="9">Scolorit
+                              <del rend="overwritten" hand="#pen2">i</del>
+                              <add place="inline" type="substition" hand="#pen2">e</add>
+                              <note type="critical">Bertolucci nella fase di revisione del testo  sostituisce la -e di "Scolorite", con -i ("Scoloriti")</note>
+                              dalle lagrime e dal disio</l>
+                           </rdg>
+                           <rdg wit="#txt-c"><l n="7">Scoloriti dalle lagrime e dal disio</l></rdg>
+                        </app>
+                        <lb/>
+                     
+                        <app>
+                           <rdg wit="#txt-1 #txt-2"><l n="10">I treni vanno con le bianche criniere sciolte</l></rdg>
+                           <rdg wit="#txt-c"><l n="8">I treni vanno con le bianche criniere sciolte</l></rdg>
+                           </app>
+                        <lb/>
+                     
+                        <app>
+                           <rdg wit="#txt-1 #txt-2"><l n="11">Nell’aria fredda</l></rdg>
+                           <rdg wit="#txt-c"><l n="9">Nell’aria fredda</l></rdg>
+                        </app>
+                        <lb/>
+
+                        <app>
+                           <rdg wit="#txt-1 #txt-2"><l n="12">Le luci fra gli alberi</l></rdg>
+                           <rdg wit="#txt-c"><l n="10">Le luci fra gli alberi</l></rdg>
+                        </app>
+                     <lb/>
+
+                        <app>
+                           <rdg wit="#txt-1 #txt-2"><l n="13">Sono come fanciulli febbricitanti,</l></rdg>
+                           <rdg wit="#txt-c"><l n="11">Sono come fanciulli febbricitanti,</l></rdg>
+                        </app>
+                        <lb/>
+
+                        <app>
+                           <rdg wit="#txt-1 #txt-2"><l n="14">Non si possono guardare</l></rdg>
+                           <rdg wit="#txt-c"><l n="12">Non si possono guardare</l></rdg>
+                        </app>
+                     <lb/>
+
+                        <app>
+                           <rdg wit="#txt-1"><l n="">Tanto pena vanno</l></rdg>
+                           <rdg wit="#txt-2"><l n="">Tanto pena
+                              <del rend="overwritten" hand="#pen1">v</del>anno
+                              <note type="critical">La correzione di "vanno" in "fanno" è da imputare alla revisione di tb0.</note></l></rdg>
+                           <rdg wit="#txt-c"><l n="13">Tanta pena fanno</l></rdg>
+                        </app>
+                        <lb/>
+                     
+
+                        <app>
+                           <rdg wit="#txt-1 #txt-2"><l n="16">Ardenti nelle chiuse camere di vetro.</l></rdg>
+                           <rdg wit="#txt-c"><l n="14">Ardenti nelle chiuse camere di vetro.</l></rdg>
+                        </app><lb/>
+
+                        <app>
+                           <rdg wit="#txt-1 #txt-2"><l n="17">Avvoltoio, portami</l></rdg>
+                           <rdg wit="#txt-c"><l n="15">Avvoltoio, portami</l></rdg>
+                        </app><lb/>
+
+                        <app>
+                           <rdg wit="#txt-1 #txt-2"><l n="18">Fra le tue grigie rocce</l></rdg>
+                           <rdg wit="#txt-c"><l n="16">Fra le tue grigie rocce</l></rdg></app><lb/>
+
+                        <app>
+                           <rdg wit="#txt-1 #txt-2"><l n="19">Dove scintilla sul capo</l></rdg>
+                           <rdg wit="#txt-c"><l n="17">Dove scintilla sul capo</l></rdg>
+                        </app>
+                        <lb/>
+                     
+
+                        <app>
+                           <rdg wit="#txt-1 #txt-2"><l n="20">Il mistero delle costellazioni</l></rdg>
+                           <rdg wit="#txt-c"><l n="18">Il mistero delle costellazioni</l></rdg>
+                        </app>
+                        <lb/>
+                     
+
+                        <app>
+                           <rdg wit="#txt-1 #txt-2"><l n="21">E il vasto vento</l></rdg>
+                           <rdg wit="#txt-c"><l n="19">E il vasto vento</l></rdg>
+                           </app>
+                        <lb/>
+                     
+                     
+                        <app>
+                           <rdg wit="#txt-1 #txt-2"><l n="22">Porta il profumo dei fiori selvatici.</l></rdg>
+                           <rdg wit="#txt-c"><l n="20">Porta il profumo dei fiori selvatici.</l></rdg>
+                           </app>
+                        <lb/>
+                     
+                     <lb/>
+                     
+                  <ab>
+                     <date>28 gennaio '31</date>
+                  </ab>
+            </div>
+         </body>
+      </text>
+   </TEI>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XXXIV. Monologo di Giovanna</title>
+                <respStmt>
+                    <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                    <name>Luciano Longo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                    <name>Elena Pierazzo. </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione editoriale a cura di </resp>
+                    <name>Rosa Casapullo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione critico-letteraria a cura di </resp>
+                    <name>Domenica Perrone.</name>
+                </respStmt>
+                <sponsor>
+                    <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                    <address>
+                        <addrLine>Piazzetta Salerno, 12.</addrLine>
+                    </address> 
+                </sponsor>
+            </titleStmt>
+            <extent>
+                <seg type="size">Filesize: 18 KB.</seg>
+                <seg type="format">XML TEI P5</seg>
+                <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+                <publisher>Luciano Longo</publisher>
+                <distributor>Università degli Studi di Palermo,</distributor>
+                <address>
+                    <addrLine>Piazzetta Salerno- 12, </addrLine>
+                </address>
+                <pubPlace> 
+                    <name>Palermo, </name>
+                </pubPlace>
+                <date>2015-2017</date>
+                <availability status="restricted">
+                    <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                    <p>Le immagini possono essere consultate in modalità off-line. </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="critical" anchored="true">
+                    <p>I manoscritti AuIn32 e AuIn31 sono conservati presso l’Archivio di Stato di Parma, "Archivio della Letteratura-Archivio Bertolucci" 
+                        nella sezione «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4.</p>
+                    <p>La poesia "Monologo di Giovanna" è testimoniata da due manoscritti AuIn31 e AuIn32. 
+                        Quest'ultimo manoscritto è una variazione progressiva di AuIn31, Monologo, che è da considerare una prima redazione del testo, stando alla presenza di 
+                        un minimo processo variantivo. </p>
+                    <p>AuIn31 presenta al v. 14 e al v. 15 due correzioni da considerarsi come varianti immediate e sostitutive, 
+                        coeve all’atto di scrittura del testo. Dalla comparazione dei due testi si rileva che le varianti di "Monologo di Giovanna" 
+                        rispetto ad AuIn31 sono poche e di carattere aggiuntivo, come il secondo membro del v. 16 "e marroni come i fasc terriers", 
+                        o di carattere narrativo come l’inversione dei membri al v. 12, o di carattere esplicativo-colloquiale come al v. 9, 
+                        in cui "prima elementare" sostituisce la lezione precedente: "prima classe". In AuIn32 muta la caratterizzazione del personaggio amato, 
+                        diciottenne e non più diciassettenne. </p>
+                </note>
+                <note type="biographical" anchored="true">Negli anni in cui è possibile datare la poesia A. Bertolucci ha già pubblicato la prima raccolta di poesie, 
+                    "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                    che confluiranno poi nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+                    Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                    durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                    Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+                <note type="render" anchored="true">Additions appear in a green, fixed-width font.</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>AuIn31</p>
+                <p>Foglio di carta libero di cm 19x14,5, contiene il testo "Monologo". L’autografo è vergato con inchiostro nero ed è numerato con l’arabico 31. 
+                    Il manoscritto non presenta una indicazione cronologica, esibisce, invece, in calce al centro la firma dell’autore. La poesia consta di vv. 17. </p>
+                <p>AuIn32</p>
+                <p>Foglio di carta libero di cm 22x37, contiene i testi "Luna e nuvole" e "Monologo di Giovanna". L’autografo è vergato con inchiostro nero ed è numerato 
+                    con l’arabico 32; il documento non presenta una indicazione cronologica. La poesia "Luna e nuvole" consta di vv. 6 e "Monologo di Giovanna" di vv. 18. 
+                    Il manoscritto è in pulito, ed esibisce in calce al centro la firma dell’autore.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+            <editorialDecl>
+                <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                    la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+                <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                    si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+                <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1").</p>
+                <correction>
+                    <p></p>
+                </correction>
+                <hyphenation>
+                    <p> </p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+                </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="pen1" medium="black_ink_1" scribe="Bertolucci"/>
+                <handNote xml:id="pen2" medium="black_ink_2" scribe="Bertolucci"/>
+            </handNotes>
+            <langUsage>
+                <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+                <date>2016</date>.</change>
+            <change>Il file è stato creato nel <date>Dicembre del 2016</date> da <name> Luciano Longo</name>
+                con il software "Oxygen-XML Editor®".</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nel
+                <list>
+                    <item>Dicembre del 2016.</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="images/AuIn-31m.jpg" xml:id="i_txt-c"/>
+        <graphic url="images/AuIn-31m.jpg" xml:id="i_txt-1"/>
+        <graphic url="images/AuIn-31m.jpg" xml:id="i_txt-2"/>
+        <graphic url="images/AuIn-32.jpg" xml:id="b15_lln_fy"/>
+        <graphic url="images/AuIn-32.jpg" xml:id="fsh_mln_fy"/>
+    </facsimile>
+    
+    <text>
+        
+        <front>
+            <div rend="witness">
+                <listWit>
+                    <witness xml:id="txt31-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt31-1">Tb0, prima stesura del testo</witness>
+                    <witness xml:id="txt31-2">Tb1, seconda stesura del testo</witness>
+                    <witness xml:id="txt32-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt32-1">Tb0, prima stesura del testo</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <pb ed="txt31-c" facs="#i_txt-c"/>
+            <pb ed="txt31-1" facs="#i_txt-1"/>
+            <pb ed="txt31-2" facs="#i_txt-2"/>
+            <pb ed="txt32-c" facs="#b15_lln_fy"/>
+            <pb ed="txt32-1" facs="#fsh_mln_fy"/>
+            <div>
+                <head rend="right">
+                    <app>
+                        <rdg wit="#txt31-c #txt31-1 #txt31-2">                  
+                            <fw type="sig" place="margin-topright">31
+                                <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 31 dal curatore dell'Archivio Bertolucci.</note>
+                            </fw>
+                        </rdg>
+                        <rdg wit="#txt32-c #txt32-1">                  
+                            <fw type="sig" place="margin-topright">32
+                                <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 32 dal curatore dell'Archivio Bertolucci.</note>
+                            </fw>
+                        </rdg>
+                    </app>
+                    <lb/>
+                </head>
+            </div>
+            <div>
+                <head rend="center">
+                    <app>
+                        <rdg wit="#txt31-c">Monologo</rdg>
+                        <rdg wit="#txt31-1">Camminando per una città</rdg>
+                        <rdg wit="#txt31-2"><del rend="overstrike" hand="#pen2">Camminando per una città</del>
+                            <add place="above" type="substition" hand="#pen2">Monologo</add></rdg>
+                        <rdg wit="#txt32-c #txt32-1">Monologo di Giovanna</rdg>
+                    </app>
+                    <lb/>
+                </head>
+                <lg n="1" type="stanza">
+                    <l n="1">Il mio fidanzato è morto.<lb/></l>
+                    <l n="2">Volevamo sposarci,<lb/></l>
+                    <l n="3">Ma lui non aveva che vent’anni<lb/></l>
+                    <l n="4">
+                        <app>
+                            <rdg wit="#txt31-c #txt31-1 #txt31-2">E io diciassette, ed è morto.</rdg>
+                            <rdg wit="#txt32-c #txt32-1">Ed io diciotto.</rdg>
+                            <note type="critical">Dalla scrittura di AuIn31 a quella di AuIn32 muta la caratterizzazione anagrafica del ragazzo amato.</note>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="5">
+                        <app>
+                            <rdg wit="#txt31-c #txt31-1 #txt31-2">Il girdiniere sta intrecciando</rdg>
+                            <rdg wit="#txt32-c #txt32-1">Ed è morto.</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="6">
+                        <app>
+                            <rdg wit="#txt31-c #txt31-1 #txt31-2">Una ghirlanda di fiori bianchi.</rdg>
+                            <rdg wit="#txt32-c #txt32-1">Il girdiniere sta intrecciando</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="7">
+                        <app>
+                            <rdg wit="#txt31-c #txt31-1 #txt31-2">È un uomo di trentacinque anni,</rdg>
+                            <rdg wit="#txt32-c #txt32-1">Una ghirlanda di fiori bianchi.</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="8">
+                        <app>
+                            <rdg wit="#txt31-c #txt31-1 #txt31-2">Vedovo, con un bambino che fa la prima classe.
+                                <note type="critical">Il verso in AuIn32 presenta "prima elementare".</note></rdg>
+                            <rdg wit="#txt32-c #txt32-1">È un uomo di trentacinque anni,</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="9">
+                        <app>
+                            <rdg wit="#txt31-c #txt31-1 #txt31-2">Il bambino torna da scuola, </rdg>
+                            <rdg wit="#txt32-c #txt32-1">Vedovo, con un bambino che fa la prima elementare.
+                                <note type="critical">Il verso in AuIn31 presenta "prima classe".</note></rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="10">
+                        <app>
+                            <rdg wit="#txt31-c #txt31-1 #txt31-2">E si ferma a ragionare col padre.</rdg>
+                            <rdg wit="#txt32-c #txt32-1">Il bambino torna da scuola, </rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="11">
+                        <app>
+                            <rdg wit="#txt31-c #txt31-1 #txt31-2">Il padre gli dice «Dovresti aiutarmi,
+                                <note type="critical">Il verso in AuIn32 si presenta "Gli dice il padre".</note></rdg>
+                            <rdg wit="#txt32-c #txt32-1">E si ferma a ragionare col padre.</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="12">
+                        <app>
+                            <rdg wit="#txt31-c #txt31-1 #txt31-2">Ormai sei grande come una picca»</rdg>
+                            <rdg wit="#txt32-c #txt32-1">Gli dice il padre «Dovresti aiutarmi,
+                                <note type="critical">Il verso in AuIn31 si presenta "Il padre gli dice".</note></rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="13">
+                        <app>
+                            <rdg wit="#txt31-c #txt31-1 #txt31-2">Il giardiniere è bello, ha un viso delicato,</rdg>
+                            <rdg wit="#txt32-c #txt32-1">Ormai sei grande come una picca»</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="14">
+                        <app>
+                            <rdg wit="#txt31-c">I baffi tagliati all’americana,</rdg>
+                            <rdg wit="#txt31-1">con i baffi tagliati all’americana,</rdg>
+                            <rdg wit="#txt31-2"><del rend="overstrike" hand="#pen2">con i</del><add place="inline" type="substition" hand="#pen2">I</add> 
+                                baffi tagliati all’americana,
+                                <note type="critical">La correzione di "con i" in "i" è da considerare una variante immediata e sostitutiva.</note></rdg>
+                            <rdg wit="#txt32-c #txt32-1">Il giardiniere è bello, ha un viso delicato,</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="15">
+                        <app>
+                            <rdg wit="#txt31-c">E gli occhi miti
+                                <note type="critical">Il secondo membro del v. 16 di AuIn32 esbisce una aggiunta innovativa: "e marroni come i fasc terriers".</note></rdg>
+                            <rdg wit="#txt31-1">E gli occhi dolci</rdg>
+                            <rdg wit="#txt31-2">E gli occhi <del rend="overstrike" hand="#pen2">dolci</del> <add place="inline" type="substition" hand="#pen2">miti</add>
+                                <note type="critical">La correzione di "dolci" in "miti" è da considerare una variante immediata e sostitutiva.</note></rdg>
+                            <rdg wit="#txt32-c #txt32-1">I baffi tagliati all’americana,</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="16">
+                        <app>
+                            <rdg wit="#txt31-c #txt31-1 #txt31-2">Vorrei che mi baciasse e mi stringesse</rdg>
+                            <rdg wit="#txt32-c #txt32-1">E gli occhi miti e marroni come i fasc terriers.
+                                <note type="critical">Il secondo membro del v. 16 "e marroni come i fasc terriers" è una aggiunta innovativa rispetto all'autografo 31.</note></rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="17">
+                        <app>
+                            <rdg wit="#txt31-c #txt31-1 #txt31-2">E mi chiamasse per nome.</rdg>
+                            <rdg wit="#txt32-c #txt32-1">Vorrei che mi baciasse e mi stringesse</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                    <l n="18">
+                        <app>
+                            <rdg wit="#txt32-c #txt32-1">E mi chiamasse per nome.</rdg>
+                        </app>
+                        <lb/>
+                    </l>
+                </lg>
+                <signed>
+                    <app>
+                        <rdg wit="#txt31-c #txt31-1 #txt31-2 #txt32-c ">Attilio Bertolucci</rdg>
+                        <rdg wit="#txt32-1"><hi rend="underline">Attilio Bertolucci</hi></rdg>
+                    </app>
+                </signed>
+            </div>
+        </body>
+    </text>
+</TEI>
+

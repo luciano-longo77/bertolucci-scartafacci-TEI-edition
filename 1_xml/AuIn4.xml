@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Il ritorno</title>
+               <respStmt>
+                  <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                  <name>Luciano Longo.</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                  <name>Elena Pierazzo.</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Supervisione editoriale a cura di </resp>
+                  <name>Rosa Casapullo.</name>
+               </respStmt>
+               <respStmt>
+                  <resp>Supervisione critico-letteraria a cura di </resp>
+                  <name>Domenica Perrone.</name>
+               </respStmt>
+               <sponsor>
+                  <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                  <address>
+                     <addrLine>Piazzetta Salerno, 12 </addrLine>
+                  </address> 
+               </sponsor>
+            </titleStmt>
+            <extent>
+               <seg type="size">Filesize: 25 KB.</seg>
+               <seg type="format">XML TEI P5</seg>
+               <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+               <publisher>Luciano Longo</publisher>
+               <distributor>Università degli Studi di Palermo,</distributor>
+               <address>
+                  <addrLine>Piazzetta Salerno- 12, </addrLine>
+               </address>
+               <pubPlace> 
+                  <name>Palermo, </name>
+               </pubPlace>
+               <date>2015-2017</date>
+               <availability status="restricted">
+                  <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                  <p>Le immagini possono essere consultate in modalità off-line. </p>
+               </availability>
+            </publicationStmt>
+            <notesStmt> 
+               <note type="critical" anchored="true">
+                  <p>Il manoscritto (AuIn4) è conservato presso l’Archivio di Stato di Parma nella sez. 
+                     «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4. 
+                     Nel manoscritto si rintracciano tre interventi autoriali: il primo è di tipo correttorio, ed avviene con l’inchiostro nero e 
+                     con l’aggiunta di una variante “sostitutiva” nell’interlinea superiore: v. 5, "fredde" in luogo di "prime"; 
+                     v. 6, "E la luna" in luogo di "Nel freddo azzurro". Le aggiunte nell’interlinea superiore, a integrazione del verso compiuto, 
+                     presenti al v. 8 e al v. 9, sono varianti “integrative”, spie di un intervento redazionale su un testo che ha già assunto 
+                     una prima stabilizzazione. L’intervento correttorio al v. 2, con la cassatura a matita dell’aggettivo 
+                     "bianche" riferito a "betulle", è da ascriversi a un atteggiamento scrittorio di tipo "sottrattivo". L’uso della matita rivela il terzo 
+                     intervento autoriale, dopo i primi due a inchiostro.</p>
+               </note>
+               <note type="biographical" anchored="true">Negli anni in cui viene datata la poesia A. Bertolucci ha già pubblicato la prima raccolte di poesie, 
+                  "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                  che confluiranno poi nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+                  Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                  durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                  Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+               <note type="contexual" anchored="true">La raccolta edita nel 1934, "Fuochi in Novembre" (Minardi, Parma, 1934), 
+                  in parte non presenta più il crepuscolarismo epigonale di "Sirio" (Minardi, Parma, 1929).</note>
+               <note type="render" anchored="true">Additions appear in a green, fixed-width
+                  font.</note>
+            </notesStmt>
+            <sourceDesc>
+               <p>AuIn4</p>
+               <p> Foglio di quaderno a righe cm 15x20, riporta il testo di "Il ritorno". 
+                  Il manoscritto, datato "18 Ottobre 1931", è vergato con inchiostro nero ed è numerato in alto a destra a matita con l’arabico 4. 
+                  La poesia consta di vv. 9. Il manoscritto è cassato con linee traversali a matita. </p>
+            <!--
+            <sourceDesc>
+               <msDesc xml:lang="ita" xml:id="AuIn1">
+                  <msIdentifier>
+                     <country><name type="place">Italia</name></country>
+                     <region><name type="place">Emilia Romagna</name></region>
+                     <settlement><name type="place">Parma</name></settlement>
+                     <institution>Archivio di Stato</institution>
+                     <repository>Fondo Attilio Bertolucci</repository>
+                     <collection>Carte Attilio Bertolucci</collection>
+                     <idno>Busta II, fascicolo 4,4</idno>
+                     <msName>Poesie inedite degli anni tra le due guerre e del primo dopoguerra</msName>
+                     <altIdentifier>
+                        <idno>AuIn4</idno>
+                        <note>Sezione: Autografi inediti</note>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents class="#il_ritorno">
+                     <summary>Foglio di quaderno a righe cm 15x20, riporta il testo di "Il ritorno". 
+                  Il manoscritto, datato "18 Ottobre 1931", è vergato con inchiostro nero ed è numerato in alto a destra a matita con l’arabico 4. 
+                  La poesia consta di vv. 9. Il manoscritto è cassato con linee traversali a matita.</summary>
+                     <msItem n="IV" class="#il_ritorno">
+                        <locus>c. 1r</locus>
+                        <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                        <title>Il ritorno</title>
+                        <incipit>Quando eccheggia il richiamo del corno</incipit>
+                        <explicit>Ed i primi sommessi mormorii…</explicit>
+                        <textLang mainLang="ita">Italian</textLang>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="autografo">
+                        <supportDesc material="paper">
+                           <support>
+                              <p><material>foglio di carta bianca a righe
+                                 <date>18 Ottobre 1931</date>
+                              </material>
+                              </p>
+                           </support>
+                           <extent>
+                              <dimensions scope="all" type="foglio" unit="cm">
+                                 <height>15</height>
+                                 <width>20</width>
+                              </dimensions>
+                           </extent>
+                           <condition>
+                              <p>L'autografo risulta danneggiato nel lembo sinistro</p></condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" ruledLines="9">
+                           <p>Testo scritto su una colonna di 9 versi</p>
+                        </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scribe="Attilio_Bertolucci" script="handwritten" medium="black_ink_pen+pencil" scope="major">
+                        <p>Il testo si presenta con una scrittura calligrafica moderna con tratti chiari. 
+                           L’autografo è vergato a inchiostro e a matita; entrambe le stesure sono attribuibili ad 
+                           <persName>Attilio Bertolucci;</persName>
+                           la stesura a inchiostro si può considerare la prima (tb0); l'uso della matita si può considerare come 
+                           intervento tardivo e di tipo correttivo (T1)</p>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <p>Il testo probabilmente venne scritto tra<origDate cert="medium">fra il 1930 e il 1932</origDate>
+                        </p>
+                     </origin>
+                  </history>
+                  <additional>
+                     <surrogates>
+                        <p>L'autografo, riprodotto in formato jpeg, è consultabile presso l'Archivio di Stato di Parma.</p>
+                     </surrogates>
+                     <listBibl>
+                        <bibl n="4"></bibl>
+                     </listBibl>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+            -->
+            </sourceDesc>
+         </fileDesc>
+         <encodingDesc>
+            <projectDesc>
+               <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+               <p></p>
+            </refsDecl>
+            <editorialDecl>
+               <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                  la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+               <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                  si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+               <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+               <correction>
+                  <p> Per il testo oggetto della presente edizione è stata colmata una lacuna dovuta alla presenza di un buco alla fine del testo (dopo il v. 18). Il tag utilizzato per indicare l'intervento editoriale è "supplied", con gli attributi @resp="txt-3" e @source="other_verse_author"; 
+                     il tag per indicare il buco e la conseguente lacuna è "gap", con gli attributi @reason="punched" e @extent="several_character".</p>
+               </correction>
+               <hyphenation>
+                  <p> </p>
+               </hyphenation>
+               <normalization>
+                  <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+               </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+         </encodingDesc>
+         <profileDesc>
+            <handNotes>
+               <handNote xml:id="pen1" medium="black_ink_1" scribe="Bertolucci"/>
+               <handNote xml:id="pen2" medium="grey_pencil_1" scribe="Bertolucci"/>
+            </handNotes>
+            <langUsage>
+               <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+         </profileDesc>
+         <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+               <date>2015</date>.</change>
+            <change>Il file è stato creato nel <date>Marzo del 2015</date> da <name> Luciano Longo.</name>
+               con il software "XML-Copy Editor®" e successivamente trattato con "Oxygen-XML Editor®"</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nell'
+               <list>
+                  <item>Aprile del 2015, la successiva nel</item>
+                  <item>Maggio del 2015 poi nel</item>
+                  <item>Giugno del 2015 poi nel</item>
+                  <item> Luglio del 2015 poi nel</item>
+                  <item>Agosto del 2015 poi nel</item>
+                  <item>Settembre del 2015 poi nell'</item>
+                  <item>Ottobre del 2015 poi nel </item>
+                  <item>Novembre del 2016 e infine nel</item>
+                  <item>Dicembre del 2016.</item>
+               </list>
+            </change>
+         </revisionDesc>
+      </teiHeader>
+   
+   <facsimile>
+      <graphic url="images/AuIn4_dep.jpg" xml:id="i_txt-c"/>
+      <graphic url="images/AuIn4_dep.jpg" xml:id="i_txt-1"/>
+      <graphic url="images/AuIn4_dep.jpg" xml:id="i_txt-2"/>
+      <graphic url="images/AuIn4_dep.jpg" xml:id="i_txt-3"/>
+   </facsimile>
+   
+   <text>
+      
+      <front>
+         <div rend="witness">
+            <listWit>
+               <witness xml:id="txt-c">Tc, Edizione critica</witness>
+               <witness xml:id="txt-1">Tb0, prima stesura</witness>
+               <witness xml:id="txt-2">Tb1, seconda stesura</witness>
+               <witness xml:id="txt-3">T1, terza stesura</witness>
+            </listWit>
+         </div>
+      </front>
+      <body>
+         <pb ed="txt-c" facs="#i_txt-c"/>
+         <pb ed="txt-1" facs="#i_txt-1"/>
+         <pb ed="txt-2" facs="#i_txt-2"/>
+         <pb ed="txt-3" facs="#i_txt-3"/>
+         <div>
+            <head>              
+               <fw type="sig" place="margin-topright">4
+                  <note type="physical">
+                     L'autografo è numerato in alto a destra a matita con l’arabico 4, 
+                     con una mano diversa rispetto a quella dell'autografo, probabilmente dagli indicizzatori dell'Archivio.
+                     L'intero manoscritto è cassato con linee traversali a matita. </note>
+               </fw>
+               <lb/>
+            </head>
+         </div>
+         
+         <div>
+               <head rend="center"> Il ritorno
+                  <note type="metrical">La poesia si presenta suddivisa in 3 strofe di tre terzione. </note>
+               </head>      
+            <lg n="1" type="stanza">
+                     <lg type="terzine">
+                        <l n="1">Quando eccheggia il richiamo del corno<lb/></l>
+                        <l n="2">Luccicante fra le 
+                           <app>
+                              <rdg wit="#txt-1 #txt-2">bianche</rdg>
+                              <rdg wit="#txt-3">
+                                 <del rend="overstrike" hand="#pen2">bianche</del>
+                              </rdg>
+                              <note type="critical">L’intervento correttorio al v. 2, con la cassatura a matita dell’aggettivo "bianche" riferito a "betulle", 
+                                 è da ascriversi a un atteggiamento scrittorio di tipo sottrattivo. L’uso della matita rivela il terzo intervento autoriale (T1; #txt-3), 
+                                 dopo i primi due a inchiostro (Tb0 e Tb1; #txt-1 e #txt-3).</note>
+                           </app>
+                           betulle
+                           <lb/>
+                        </l>
+                        <l n="3">Nella rosea sera,<lb/></l>
+                     </lg>
+                  </lg>
+                  
+                  <lg n="2" type="stanza">
+                     <lg type="terzine">
+                        <l n="4">E fra le chiome bizzarre degli alberi<lb/></l>
+                        <l n="5">Le 
+                           <app>
+                              <rdg wit="#txt-1">prime</rdg>
+                              <rdg wit="#txt-2">
+                                 <del rend="overstrike" hand="#pen1">prime</del>
+                                 <add place="above" type="substition" hand="#pen1"> fredde</add>
+                              </rdg>
+                              <rdg wit="#txt-3 #txt-c">fredde</rdg>
+                              <note type="critical">Bertolucci cassa al v. 5, "prime" e aggiunge nell'interlinea superiore "fredde" (variante “sostitutiva");
+                                 questo intervento correttorio è il primo di tre che si possono rintracciare nel ms.
+                                 L'attività di revisione di tipo correttoria avviene con l’inchiostro nero.
+                                 Stessa tipologia di intervento può essere considerata la sostituzione al v. 7 di "Nel freddo azzurro"
+                                 con il verso "E la luna".</note>
+                           </app>
+                           stelle appaiono<lb/>
+                        </l>
+                        <l n="6">
+                           <app>
+                              <rdg wit="#txt-1">Nel freddo azzurro,</rdg>
+                              <rdg wit="#txt-2">
+                                 <del rend="overstrike" hand="#pen1">Nel freddo azzurro,</del>
+                                 <add place="inline" type="substition" hand="#pen1"> E la luna</add>
+                              </rdg>
+                              <rdg wit="#txt-3 #txt-c">E la luna,</rdg>
+                              <note type="critical">Bertolucci cassa al v. 7, "Nel freddo azzurro"  e aggiunge nella riga di scrittura "E la luna" (variante “sostitutiva");
+                                 questo intervento correttorio è il primo di tre che si possono rintracciare nel ms.
+                                 L'attività di revisione di tipo correttoria avviene con l’inchiostro nero.
+                                 Stessa tipologia di intervento può essere considerata la sostituzione al v. 5 di "prime" con "fredde".
+                              </note>
+                           </app>
+                           <lb/>
+                        </l>
+                     </lg>
+                  </lg>
+                  
+                  <lg n="3" type="stanza">
+                     <lg type="terzione">
+                        <l n="7">Ansanti giungono i cani<lb/></l>
+                        <l n="8">E
+                           <app>
+                              <rdg wit="#txt-1 #txt-3 #txt-c">già</rdg>
+                              <rdg wit="#txt-2">
+                           <retrace cause="unclear">g</retrace>ià
+                           <note type="critical">La -g- viene rivergata con lo stesso inchiostro del resto del ms.</note></rdg>
+                           </app>
+                           si odono
+                           <app>
+                              <rdg wit="#txt-2">
+                                 <add place="above" type="integration" hand="#pen1"> le prime</add>
+                                 
+                              </rdg>
+                              <rdg wit="#txt-3 #txt-c">le prime</rdg>
+                              <note type="critical">Le aggiunte nell’interlinea superiore, a integrazione del verso compiuto, 
+                                 presenti al v. 8 (le prime) e al v. 9 ("i primi"), sono varianti “integrative”, 
+                                 spie di un intervento redazionale su un testo 
+                                 che ha già assunto una prima stabilizzazione (T1; #txt-3).</note>
+                           </app>
+                           franche risate<lb/>
+                        </l>
+                        <l n="9">Ed 
+                           <app>
+                              <rdg wit="#txt-2">
+                                 <add place="above" type="integration" hand="#pen1"> i primi</add>
+                                 
+                              </rdg>
+                              <rdg wit="#txt-3 #txt-c"> i primi</rdg>
+                              <note type="critical">Le aggiunte nell’interlinea superiore, a integrazione del verso compiuto, 
+                                 presenti al v. 8 (le prime) e al v. 9 ("i primi"), sono varianti “integrative”, 
+                                 spie di un intervento redazionale su un testo 
+                                 che ha già assunto una prima stabilizzazione (T1; #txt-3).</note>
+                           </app>
+                           sommessi                           
+                           <app>
+                              <rdg wit="#txt-1 #txt-3 #txt-c">mormorii ... </rdg>
+                              <rdg wit="#txt-2">mormor
+                                 <retrace cause="unclear">i</retrace>i ...
+                                 <note type="critical">La prima -i- viene rivergata con lo stesso inchiostro del resto del ms.</note>
+                              </rdg> 
+                              </app>
+                           <lb/>
+                        </l>
+                     </lg>
+                  </lg>
+             
+               <ab> <date>18 Ottobre 1931 </date>
+                  <lb/>
+               </ab>
+         </div>
+         </body>
+      </text>
+   </TEI>

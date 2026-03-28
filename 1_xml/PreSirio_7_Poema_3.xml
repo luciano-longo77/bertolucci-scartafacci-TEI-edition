@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>VII. Poema (3)</title>
+                <author>Attilio Bertolucci</author>
+                <respStmt>
+                    <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                    <name>Luciano Longo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                    <name>Elena Pierazzo </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione editoriale a cura di </resp>
+                    <name>Rosa Casapullo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione critico-letteraria a cura di </resp>
+                    <name>Domenica Perrone.</name>
+                </respStmt>
+                
+                <sponsor>
+                    <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                    <address>
+                        <addrLine>Piazzetta Salerno, 12 </addrLine>
+                    </address> 
+                </sponsor>
+            </titleStmt>
+            
+            <extent>
+                <seg type="size">Filesize: 10 KB.</seg>
+                <seg type="format">XML TEI P5</seg>
+                <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+                <publisher>Luciano Longo</publisher>
+                <distributor>Università degli Studi di Palermo,</distributor>
+                <address>
+                    <addrLine>Piazzetta Salerno- 12, </addrLine>
+                </address>
+                <pubPlace> 
+                    <name>Palermo, </name>
+                </pubPlace>
+                <date>2015-2017</date>
+                
+                <availability status="restricted">
+                    <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                    <p>Le immagini possono essere consultate in modalità off-line. </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="critical" anchored="true">
+                    <p>La poesia "Poema" si presenta su un foglio di carta di quaderno a righe di cm 15x20; 
+                        la carta contiene una seconda poesia col titolo di "Poema" (incipit: "Un grido fermo"). 
+                        La poesia consta di vv. 6. L'incipit della poesia "Poema" è presente anche in "Come una rupe" (A1-Sprae).
+                    </p>
+                </note>
+                <note type="biographical" anchored="true">Negli anni in cui è possibile datare la poesia, A. Bertolucci vive a Parma e frequenta l'Università.</note>
+                <note type="contexual" anchored="true">
+                    I testi confluiti nella prima raccolta di Attilio Bertolucci, "Sirio" (Parma, 1929), 
+                    in parte riportano la data dei due mesi prima della stampa della raccolta, e in parte la data del 1928. 
+                    Invece, alcuni testi conservati nella Busta II, serie II, fascicolo 1 «Poesie inedite precedenti SIRIO» 
+                    recano la data 1927; essi permettono così di attestare direttamente, e non solo ricavabile da fonti indirette, 
+                    una laboriosità scrittoria fin dal 1927. I testi precedenti la pubblicazione di "Sirio", datati o databili prima del 1928-1929, e non confluiti in una raccolta, 
+                    esibiscono generalmente i temi e le caratteristiche già presenti in Sirio, come l’atmosfera tipicamente crepuscolare (cfr. "Caffè"), 
+                    e la caratterizzazione mitizzante dello spazio intorno a Parma e alla sua campagna (cfr. "Come una rupe"; "Te cerco, silenziosa acqua di Lete").
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>Au2- Spre</p>
+                <p>Foglio di carta libero a righe di cm 15x20, scritto su entrambi i lati. 
+                    Il manoscritto è vergato con inchiostro nero e riporta quattro poesie con lo stesso titolo: "Poema". 
+                    Il manoscritto non presenta elementi di datazione. I quattro testi di Au2-Sprae constano tutti di vv. 6. L’autografo è in pulito.</p>
+                <p>
+                    <table rows="2" cols="2">
+                        <head rend="center">Au2- Spre</head>
+                        <row>
+                            <cell role="label">c. 1r - 2</cell>
+                            <cell>Poema (incipit: Fredda estasi di pietre); </cell>
+                            <cell>Poema (incipit: Radura, chiara radura);</cell>
+                        </row>
+                        <row>
+                            <cell role="label">c. 1v</cell>
+                            <cell>Poema(incipit: Come una nera rupe);</cell>
+                            <cell>Poema (incipit: Un grido fermo).</cell>
+                        </row>
+                    </table>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+            <editorialDecl>
+                <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                    la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+                <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                    si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+                <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+                <correction>
+                    <p></p>
+                </correction>
+                <hyphenation>
+                    <p> </p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+                </normalization>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>.</change>
+            <change>Il file è stato creato nel <date>Settembre del 2016</date> da <name> Luciano Longo.</name>
+                con il software "Oxygen XML Editor®".</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nel
+                <list>
+                    <item>Settembre del 2016, poi nell'</item>
+                    <item>Ottobre del 2016, poi nel</item>
+                    <item>Novembre del 2016.</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="images/AuIn-2S.jpg" xml:id="i_txt-1"/>
+        <graphic url="images/AuIn-2S.jpg" xml:id="i_txt-c"/>
+    </facsimile>
+    
+    <text>
+        <front>
+            <div rend="witness">
+                <listWit>
+                    <witness xml:id="txt-c">Tc (Edizione critica);</witness>
+                    <witness xml:id="txt-1">tb0 (prima stesura del testo).</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <pb ed="txt-c" facs="#i_txt-c"/>
+            <pb ed="txt-1" facs="#i_txt-1"/>
+            
+            <div> 
+                <head>
+                    <!-- <fw type="sig" place="margin-topright"></fw> -->
+                    <supplied>c. 1v                        
+                        <note type="physical">L'autografo nella c. 1r presenta una numerazione (2); assente nel verso della carta.
+                            La carta contiene una seconda poesia col titolo di "Poema".</note>
+                    </supplied>
+                    <lb/>
+                </head>
+            </div>
+            <div>
+                <head rend="center">Poema
+                    <note type="metrical">La poesia è composta da due strofe di terzine.</note>
+                </head>
+                <lb/> 
+                
+                <lg type="stanza">
+                    <lg type="terzina">
+                        <l n="1">Come una nera rupe <note>cfr. A1-Sprae: "Come una rupe".</note><lb/></l>
+                        <l n="2">Alberi tonduti vicini<lb/></l>
+                        <l n="3">Essi soli nella pianura<lb/></l>
+                    </lg>
+                </lg>
+                
+                <lg type="stanza">
+                    <lg type="terzina">
+                        <l n="4">Un rosignolo poeta<lb/></l>
+                        <l n="5">s’adagia sul muschio<lb/></l>
+                        <l n="6">Del vostro capo nero.<lb/></l>
+                    </lg>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>
+

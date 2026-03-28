@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+       <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XV. Questo è il caro autunno…</title>
+                <author>Attilio Bertolucci</author>
+                <respStmt>
+                    <resp>Trascrizione, codifica, annotazioni ed edizione critica a cura di </resp>
+                    <name>Luciano Longo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione della codifica XML-TEI (P5) a cura di </resp>
+                    <name>Elena Pierazzo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione editoriale a cura di </resp>
+                    <name>Rosa Casapullo.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione critico-letteraria a cura di </resp>
+                    <name>Domenica Perrone.</name>
+                </respStmt>
+                
+                <sponsor>
+                    <name>Dipartimento di Scienze Umanistiche- Università degli Studi di Palermo.</name>
+                    <address>
+                        <addrLine>Piazzetta Salerno, 12 </addrLine>
+                    </address> 
+                </sponsor>
+            </titleStmt>
+            
+            <extent>
+                <seg type="size">Filesize: 14 KB.</seg>
+                <seg type="format">XML TEI P5</seg>
+                <seg type="location">offline</seg>
+            </extent>
+            <publicationStmt>
+                <publisher>Luciano Longo</publisher>
+                <distributor>Università degli Studi di Palermo,</distributor>
+                <address>
+                    <addrLine>Piazzetta Salerno- 12, </addrLine>
+                </address>
+                <pubPlace> 
+                    <name>Palermo, </name>
+                </pubPlace>
+                <date>2015-2017</date>
+                
+                <availability status="restricted">
+                    <p>Questa poesia è riproducibile solo a scopo dimostrativo.</p>
+                    <p>Le immagini possono essere consultate in modalità off-line. </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="critical" anchored="true">
+                    <p>Il manoscritto (AuIn11) è conservato presso l’Archivio di Stato di Parma, 
+                    "Archivio della Letteratura-Archivio Bertolucci" nella sezione 
+                    «Poesie inedite degli anni tra le due guerre e del primo dopoguerra», Busta II, fascicolo 4. </p>
+                    <p>Un numero cospicuo di autografi inediti sono collocabili tra il 1930 e il 1937; 
+                        il manoscritto AuIn11 è datato 1934 così come i manoscritti AuIn8, AuIn9 e AuIn12.
+                        Gli altri manoscritti che presentano una specifica data sono:
+                        AuIn1 e AuIn13 datati 1930; AuIn2, AuIn3 e AuIn4, 1931; 
+                        AuIn5 e AuIn6, 1932; AuIn7, 1933; AuIn8, AuIn9, AuIn11 e AuIn12, 1934; 
+                        AuIn9, AuIn13, AuIn14, AuIn16, AuIn17 e AuIn18, 1935; AuIn22 e AuIn23, 1936; AuIn27, 1937. 
+                    </p>
+                    <lb/>
+                </note>
+                <note type="biographical" anchored="true">Negli anni in cui è possibile inserire "Questo è il caro autunno…", 
+                    Bertolucci ha già pubblicato la prima raccolta di poesie, 
+                    "Sirio" (Minardi, Parma, 1929), e probabilmente ha già composto parte delle poesie 
+                    che confluiranno nella raccolta "Fuochi in Novembre" (Minardi, Parma, 1934). 
+                    Infatti il nucleo fondante della raccolta del 1934, verrà scritto dal poeta tra il 1932-1934 
+                    durante un periodo di malattia (pleurite). In questi anni Bertolucci si iscrive alla Facoltà di Giurisprudenza a Parma. 
+                    Nel 1935 si sposterà a Bologna alla Facoltà di Lettere.</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>AuIn11</p>
+                <p>Foglio di carta libero di cm 27,5x23, contiene il testo "Questo è il caro autunno…" 
+                    Il manoscritto, datato settembre 1934, è vergato con inchiostro nero ed è numerato con 11. La poesia consta di vv. 15. Il manoscritto è in pulito.</p> 
+                <!--
+            <sourceDesc>
+               <msDesc xml:lang="ita" xml:id="AuIn1">
+                  <msIdentifier>
+                     <country><name type="place">Italia</name></country>
+                     <region><name type="place">Emilia Romagna</name></region>
+                     <settlement><name type="place">Parma</name></settlement>
+                     <institution>Archivio di Stato</institution>
+                     <repository>Fondo Attilio Bertolucci</repository>
+                     <collection>Carte Attilio Bertolucci</collection>
+                     <idno>Busta II, fascicolo 4,11</idno>
+                     <msName>Poesie inedite degli anni tra le due guerre e del primo dopoguerra</msName>
+                     <altIdentifier>
+                        <idno>AuIn11</idno>
+                        <note>Sezione: Autografi inediti</note>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents class="#questo_è_il_caro_autunno">
+                     <summary>Foglio di carta libero di cm 27,5x2, contiene il testo di "Questo è il caro autunno…".  
+                  L’autografo datato settembre 1934, è vergato con inchiostro nero e presenta in alto a destra 
+                  il numero 10 vergato a matita. La poesia consta di vv. 15. .</summary>
+                     <msItem n="IV" class="##questo_è_il_caro_autunno">
+                        <locus>c. 1r</locus>
+                        <author cert="high" key="Att_Bert">Attilio Bertolucci</author>
+                        <title>Questo è il caro autunno...</title>
+                        <incipit>Questo è il caro autunno.</incipit>
+                        <explicit>Fitti e dolci come grappoli d’uva.</explicit>
+                        <textLang mainLang="ita">Italian</textLang>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="autografo">
+                        <supportDesc material="paper">
+                           <support>
+                              <p><material>foglio di carta bianca a righe
+                                 <date>Settembre 1934</date>
+                              </material>
+                              </p>
+                           </support>
+                           <extent>
+                              <dimensions scope="all" type="foglio" unit="cm">
+                                 <height>27,5</height>
+                                 <width>23</width>
+                              </dimensions>
+                           </extent>
+                           <condition>
+                              <p>L'autografo risulta danneggiato nel lembo inferiore</p></condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1" ruledLines="15">
+                           <p>Testo scritto su una colonna di 15 versi</p>
+                        </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scribe="Attilio_Bertolucci" script="handwritten" medium="black_ink_pen" scope="major">
+                        <p>Il testo si presenta con una scrittura calligrafica moderna con tratti chiari.</p>
+                        </handNote>
+                     </handDesc>
+                  </physDesc>
+                  <history>
+                     <origin>
+                        <p>Il testo probabilmente venne scritto nel 1934.</origDate>
+                        </p>
+                     </origin>
+                  </history>
+                  <additional>
+                     <surrogates>
+                        <p>L'autografo, riprodotto in formato jpeg, è consultabile presso l'Archivio di Stato di Parma.</p>
+                     </surrogates>
+                     <listBibl>
+                        <bibl n="4"></bibl>
+                     </listBibl>
+                  </additional>
+               </msDesc>
+            </sourceDesc>
+            -->
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Questo documento utilizza il sistema di codifica della TEI P5; la codifica dell'apparato critico avviene secondo 
+                    la metodologia "parallel segmentation" presentata da Versioning Machine®.</p>
+                <p>La DTD è costruita sulla base delle indicazioni della TEI P5 riguardante i testi poetici; 
+                    si utilizza il tagset riguardante il linking, figures, analysis, transcr., textcrit. </p>
+                <p>La numerazione dei versi non è presente nell'autografo; essa viene inserita come integrazione editoriale (ex: l n="1")</p>
+                <correction>
+                    <p></p>
+                </correction>
+                <hyphenation>
+                    <p> </p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è mantenuta la maiuscola all'inizio del capoverso; allo stesso modo si è conservato il sistema interpuntivo.</p>
+                </normalization>
+            </editorialDecl>
+            <projectDesc>
+                <p></p>
+            </projectDesc>            
+            <p>La trascrizione è in linea con le indicazione della TEI (P5) ed è conforme alla sintassi XML.</p>
+            <p>Il modello di marcatura dell’edizione digitale, è basato sulla TEI P5 adattato alle esigenze delle presente edizione. </p>
+            <refsDecl>
+                <p></p>
+            </refsDecl>
+           
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="pen1" medium="black_ink_1" scribe="Bertolucci"/>
+            </handNotes>
+            <langUsage>
+                <language ident="italiano">Lingua: Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>Gli interventi integrativi e correttivi sono a cura di <name>Luciano Longo</name>,
+                <date>2015</date>.</change>
+            <change>Il file è stato creato nel <date>Marzo del 2015</date> da <name> Luciano Longo.</name>
+                con il software "XML-Copy Editor®" e successivamente trattato con "Oxygen-XML Editor®"</change>
+            <change> La prima revisione del testo, a cura di <name>Luciano Longo,</name> è avvenuta nell'
+                <list>
+                    <item>Aprile del 2015, la successiva nel</item>
+                    <item>Maggio del 2015 poi nel</item>
+                    <item>Giugno del 2015 poi nel</item>
+                    <item>Luglio del 2015 poi nel</item>
+                    <item>Agosto del 2015 poi nel</item>
+                    <item>Settembre del 2015 poi nel</item>
+                    <item>Giugno del 2016 poi nel</item>
+                    <item>Luglio del 2016  poi nell'</item>
+                    <item>Ottobre del 2016 e infine nel</item>
+                    <item>Novembre del 2016.</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="images/AuIn_11.jpg" xml:id="i_txt-c"/>
+        <graphic url="images/AuIn_11.jpg" xml:id="i_txt-1"/>
+    </facsimile>
+    
+    <text>
+        <front>
+            <div rend="witness">
+                <listWit>
+                    <witness xml:id="txt-c">Tc, Edizione critica</witness>
+                    <witness xml:id="txt-1">Tb0, prima stesura del testo</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <pb ed="txt-c" facs="#i_txt-c"/>
+            <pb ed="txt-1" facs="#i_txt-1"/>
+            <div>
+                <head>              
+                    <fw type="sig" place="margin-topright">11
+                        <note type="physical">L'autografo è numerato in alto a destra a matita con l’arabico 11 redatto dal curatore dell'Archivio.</note>
+                    </fw>
+                    <lb/>
+                </head>
+            </div>
+            
+            <div>
+                <head rend="center">Questo è il caro autunno…</head>
+                <lb/>
+                <note type="metrical">La poesia si presenta in una unica strofa di 15 versi. </note>
+                <lg n="1" type="stanza">
+                    <l n="1">Questo è il caro autunno.<lb/></l>
+                    <l n="2">Una stradetta conosciamo<lb/></l>
+                    <l n="3">Da alberi alti nel fondo<lb/></l>
+                    <l n="4">Limitata.<lb/></l>
+                    <l n="5">A una svolta un’acqua limpida<lb/></l>
+                    <l n="6">Fa chinare gli occhi.<lb/></l>
+                    <l n="7">Scorre tra folta erba<lb/></l>
+                    <l n="8">Invita al riposo.<lb/></l>
+                    <l n="9">Così, seduti in silenzio, si stava.<lb/></l>
+                    <l n="10">Veniva la sera<lb/></l>
+                    <l n="11">Con una sua tonda lucerna<lb/></l>
+                    <l n="12">Ad ammonirci di tornare a casa.<lb/></l>
+                    <l n="13">Ora la stradetta era più buia<lb/></l>
+                    <l n="14">E i baci più fitti,<lb/></l>
+                    <l n="15">Fitti e dolci come grappoli d’uva.<lb/></l>
+                </lg> 
+                <ab>
+                    <app>
+                        <rdg wit="#txt-1"><hi rend="underline">settembre 1934</hi></rdg>
+                        <rdg wit="#txt-c">settembre 1934</rdg>
+                    </app>
+                    
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>
+
