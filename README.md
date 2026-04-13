@@ -25,9 +25,9 @@ La codifica utilizza TEI P5 per:
 - descrizione dei manoscritti (msDesc, physDesc, handNotes),
 - struttura dei testi poetici (lg, l),
 - rappresentazione dei fenomeni grafici e delle varianti add, del, gap, space,
-  app/rdg),
+  app/rdg,
 - criteri editoriali dichiarati nel teiHeader
-- uso di <rdg> senza <lem>.  
+- uso di rdg senza lem.  
 
 ## Responsabilità editoriali
 **Trascrizione e codifica:** a cura di Luciano Longo
