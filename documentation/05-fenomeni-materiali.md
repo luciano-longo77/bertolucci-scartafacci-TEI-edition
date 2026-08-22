@@ -1,3 +1,10 @@
+## Edizione scientifica digitale degli «Scartafacci» di Attilio Bertolucci
+
+*Edizione critico-genetica in TEI P5 degli autografi inediti di Attilio Bertolucci
+(1930–1940) conservati presso l'Archivio di Stato di Parma.*
+
+![TEI P5](https://img.shields.io/badge/TEI-P5-blue) ![Stato](https://img.shields.io/badge/stato-in%20reingegnerizzazione-orange) ![Licenza contenuti](https://img.shields.io/badge/contenuti-CC%20BY%204.0-green)
+
 # 5. Fenomeni materiali e incertezza
 
 Elementi per rendere lo spazio, le lacune, le integrazioni, l'incertezza e le
