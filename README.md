@@ -40,7 +40,7 @@ plurime, testi depennati, appunti d'autore).
 ## Contenuto del repository
 
 ```
-3_documentazione/     Documentazione tecnica e metodologica dell'edizione (PDF)
+3_documentazione/     Documentazione tecnica (Markdown) — vedi 3_documentazione/README.md
 README.md             Questo file
 ```
 
