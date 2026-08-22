@@ -40,8 +40,8 @@ plurime, testi depennati, appunti d'autore).
 ## Contenuto del repository
 
 ```
-3_documentazione/     Documentazione tecnica (Markdown) — vedi 3_documentazione/README.md
-README.md             Questo file
+documentation/     Documentazione tecnica (Markdown) — vedi documentation/README.md
+README.md          Questo file
 ```
 
 In corso di sviluppo (reingegnerizzazione, vedi [Stato](#stato-del-progetto)):
@@ -49,7 +49,6 @@ In corso di sviluppo (reingegnerizzazione, vedi [Stato](#stato-del-progetto)):
 ```
 schema/               ODD di progetto, schema RNG, regole Schematron
 header/               Header di corpus condiviso (teiCorpus)
-docs/                 Criteri di edizione, modello genetico, tassonomie, nota diritti
 specimen/             File TEI dimostrativi in forma redatta (senza testo protetto)
 analysis/             Statistiche delle varianti (senza testo)
 build/                Script di validazione, redazione e pubblicazione
@@ -70,8 +69,8 @@ build/                Script di validazione, redazione e pubblicazione
 
 Progetto **in reingegnerizzazione**: migrazione dal precedente modello *Versioning
 Machine* a un impianto critico-genetico con ODD di progetto e header di corpus
-unico. La documentazione tecnica in `3_documentazione/` descrive la fase precedente
-e resta il riferimento metodologico complessivo.
+unico. La documentazione tecnica in `documentation/` descrive il modello di codifica
+ed è il riferimento metodologico dell'edizione.
 
 ## Come citare
 
