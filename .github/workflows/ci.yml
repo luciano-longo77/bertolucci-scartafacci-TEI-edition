@@ -1,0 +1,96 @@
+name: Validazione TEI
+
+# Gate di qualità del MOTORE pubblico.
+# I testi integrali sono privati (fuori da questo repo) e si validano in locale con oXygen:
+# qui si controllano lo schema, lo Schematron e gli eventuali specimen pubblici redatti.
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ "schema/**", "header/**", "specimen/**", ".github/workflows/ci.yml" ]
+  pull_request:
+    paths: [ "schema/**", "header/**", "specimen/**", ".github/workflows/ci.yml" ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validazione:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Strumenti (xmllint, Java per jing/Saxon)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxml2-utils default-jre-headless wget unzip
+
+      # 1) Buona formazione di TUTTI gli XML tracciati (schema, odd, specimen, esempi)
+      - name: Buona formazione (well-formedness)
+        run: |
+          set -e
+          found=0
+          while IFS= read -r -d '' f; do
+            found=1
+            echo "· $f"
+            xmllint --noout "$f"
+          done < <(find schema header specimen -type f \( -name '*.xml' -o -name '*.sch' -o -name '*.odd' \) -print0 2>/dev/null)
+          [ "$found" = 1 ] && echo "XML ben formati." || echo "Nessun XML da controllare."
+
+      # 2) Grammatica: validazione contro l'RNG dei file TEI pubblici (header + specimen)
+      - name: Validazione RNG (jing)
+        run: |
+          set -e
+          if [ ! -f schema/bertolucci.rng ]; then
+            echo "::notice::schema/bertolucci.rng non presente: generarlo dall'ODD (vedi schema/README.md). Passo saltato."
+            exit 0
+          fi
+          # file TEI pubblici da validare: l'header di corpus e gli eventuali specimen redatti
+          mapfile -t TARGETS < <(ls header/*.xml specimen/*.xml 2>/dev/null || true)
+          if [ "${#TARGETS[@]}" = 0 ]; then
+            echo "::notice::Nessun file TEI pubblico da validare (i testi sono privati). Passo saltato."
+            exit 0
+          fi
+          wget -q https://github.com/relaxng/jing-trang/releases/download/V20220510/jing-20220510.zip
+          unzip -q jing-20220510.zip
+          JING="java -jar jing-20220510/bin/jing.jar"
+          for f in "${TARGETS[@]}"; do
+            echo "· RNG: $f"
+            $JING schema/bertolucci.rng "$f"
+          done
+          echo "File TEI conformi alla grammatica."
+
+      # 3) Integrità: Schematron ISO (XSLT2 con Saxon-HE) su header + specimen
+      - name: Validazione Schematron (Saxon-HE)
+        run: |
+          set -e
+          mapfile -t TARGETS < <(ls header/*.xml specimen/*.xml 2>/dev/null || true)
+          if [ "${#TARGETS[@]}" = 0 ]; then
+            echo "::notice::Nessun file TEI pubblico: Schematron non applicato. Passo saltato."
+            exit 0
+          fi
+          # Saxon-HE
+          wget -q https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/12.5/Saxon-HE-12.5.jar -O saxon.jar
+          # Pipeline ISO Schematron (skeleton XSLT2)
+          base=https://raw.githubusercontent.com/Schematron/schematron/master/trunk/schematron/code
+          for x in iso_dsdl_include.xsl iso_abstract_expand.xsl iso_svrl_for_xslt2.xsl; do
+            wget -q "$base/$x"
+          done
+          SAXON="java -jar saxon.jar"
+          # compila la .sch → XSLT di validazione
+          $SAXON -s:schema/bertolucci.isosch.sch -xsl:iso_dsdl_include.xsl    -o:_1.sch
+          $SAXON -s:_1.sch                        -xsl:iso_abstract_expand.xsl -o:_2.sch
+          $SAXON -s:_2.sch                        -xsl:iso_svrl_for_xslt2.xsl  -o:_validator.xsl
+          rc=0
+          for f in "${TARGETS[@]}"; do
+            echo "· Schematron: $f"
+            $SAXON -s:"$f" -xsl:_validator.xsl -o:_svrl.xml
+            # estrai le asserzioni fallite (role failed) e i report attivati
+            if grep -q 'svrl:failed-assert' _svrl.xml; then
+              echo "::error file=$f::Violazioni Schematron:"
+              xmllint --xpath "//*[local-name()='failed-assert']/*[local-name()='text']/text()" _svrl.xml || true
+              rc=1
+            fi
+          done
+          [ "$rc" = 0 ] && echo "File TEI conformi alle regole d'integrità." || exit 1
