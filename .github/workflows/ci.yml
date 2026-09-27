@@ -70,11 +70,11 @@ jobs:
             echo "::notice::Nessun file TEI pubblico: Schematron non applicato. Passo saltato."
             exit 0
           fi
-          # Saxon-HE
-          wget -q https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/12.5/Saxon-HE-12.5.jar -O saxon.jar
-          # Pipeline ISO Schematron (skeleton XSLT2)
+          # Saxon-HE 10.9: autosufficiente (le versioni 11/12 richiedono la libreria xmlresolver a parte)
+          wget -q https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/10.9/Saxon-HE-10.9.jar -O saxon.jar
+          # Pipeline ISO Schematron (skeleton XSLT2 + skeleton per Saxon, importato da iso_svrl_for_xslt2)
           base=https://raw.githubusercontent.com/Schematron/schematron/master/trunk/schematron/code
-          for x in iso_dsdl_include.xsl iso_abstract_expand.xsl iso_svrl_for_xslt2.xsl; do
+          for x in iso_dsdl_include.xsl iso_abstract_expand.xsl iso_svrl_for_xslt2.xsl iso_schematron_skeleton_for_saxon.xsl; do
             wget -q "$base/$x"
           done
           SAXON="java -jar saxon.jar"
