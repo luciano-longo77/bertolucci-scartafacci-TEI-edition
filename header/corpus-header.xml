@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Header di CORPUS condiviso (teiCorpus). Contiene UNA VOLTA i metadati comuni:
+  responsabilità, criteri editoriali, mani/medium (vocabolario controllato), lingua.
+  Le sigle dei testimoni/fasi restano nei singoli file (variano per componimento).
+  Modello: parallel-segmentation SENZA <lem> (statuto dell'edizione).
+-->
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+    <titleStmt>
+      <title>Gli «Scartafacci» di Attilio Bertolucci — Edizione critico-genetica digitale</title>
+      <title type="sub">Autografi inediti (1930–1940), Archivio di Stato di Parma</title>
+      <respStmt>
+        <resp>Trascrizione, codifica ed edizione critica</resp>
+        <name xml:id="LL">Luciano Longo</name>
+      </respStmt>
+    </titleStmt>
+    <publicationStmt>
+      <publisher>Luciano Longo</publisher>
+      <availability status="restricted">
+        <p>Il testo poetico di Attilio Bertolucci è protetto dal diritto d'autore (tutela fino al 2070)
+           ed è edito a stampa in <title>Il fuoco e la cenere</title> (Diabasis, 2014). Questo file è
+           il master privato dell'edizione: non è destinato alla distribuzione pubblica.</p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <p>I testimoni sono autografi conservati presso l'Archivio di Stato di Parma, «Archivio della
+         Letteratura – Archivio Bertolucci». La descrizione materiale del singolo testimone è nel
+         rispettivo &lt;msDesc&gt; di file.</p>
+    </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+    <variantEncoding method="parallel-segmentation" location="internal"/>
+    <editorialDecl>
+      <p>Apparato in <hi rend="italic">parallel-segmentation</hi> con più &lt;rdg&gt; e <hi rend="bold">senza
+         &lt;lem&gt;</hi>: le lezioni delle diverse fasi coesistono senza gerarchizzarle in un lemma. La lezione
+         critica è a sua volta un &lt;rdg&gt; (testimone <hi rend="italic">txt-c</hi>). L'ordine cronologico delle
+         fasi è espresso da <hi rend="italic">@varSeq</hi>.</p>
+      <normalization>
+        <p>Si conserva la maiuscola a inizio verso e il sistema interpuntivo dell'autografo.</p>
+      </normalization>
+      <interpretation>
+        <p>Le fasi sono distinte su base materiale (strumento scrittorio, inchiostro, topografia della
+           pagina) come dichiarato in &lt;handNotes&gt;.</p>
+      </interpretation>
+    </editorialDecl>
+  </encodingDesc>
+
+  <profileDesc>
+    <!-- Vocabolario controllato delle mani/mezzi scrittori -->
+    <handNotes>
+      <handNote xml:id="pen1" scribe="Bertolucci" medium="inchiostro-nero" script="handwritten">Penna a inchiostro nero.</handNote>
+      <handNote xml:id="pen2" scribe="Bertolucci" medium="matita-grigia" script="handwritten">Matita grigia; interventi tendenzialmente più tardi.</handNote>
+    </handNotes>
+    <langUsage>
+      <language ident="it">Italiano</language>
+    </langUsage>
+  </profileDesc>
+
+  <revisionDesc>
+    <change when="2026-08-23" who="#LL">Reingegnerizzazione: header di corpus unico; modello
+      parallel-segmentation senza lem con @varSeq; vocabolario controllato dei medium.</change>
+  </revisionDesc>
+</teiHeader>
