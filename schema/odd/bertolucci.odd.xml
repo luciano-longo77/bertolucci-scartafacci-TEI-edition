@@ -1,1 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng"
+            type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+  ODD di progetto — Edizione critico-genetica digitale degli «Scartafacci» di Attilio Bertolucci.
+  Personalizzazione di TEI P5. Da questo file si generano gli schemi (RNG) con oXygen o `roma`/`oddc`.
+  Non contiene testo poetico protetto: appartiene al motore pubblico dell'edizione.
+
+  Scelte di fondo (statuto dell'edizione):
+    · apparato in parallel-segmentation SENZA <lem> → l'elemento <lem> è ELIMINATO dallo schema;
+    · vocabolario controllato dei mezzi scrittori su handNote/@medium (valList chiusa);
+    · le regole relazionali (puntatori, sigle, lingua) sono in schema/bertolucci.isosch.sch.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:sch="http://purl.oclc.org/dsdl/schematron" xml:lang="it">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ODD di progetto — «Scartafacci» di Attilio Bertolucci (edizione critico-genetica digitale)</title>
+        <respStmt><resp>ideazione, codifica, personalizzazione</resp><name>Luciano Longo</name></respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Luciano Longo</publisher>
+        <availability status="free">
+          <p>Schema del motore pubblico. Non include testi poetici protetti né immagini dei manoscritti.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Personalizzazione di TEI P5 derivata dal file pilota <hi rend="italic">AuIn1</hi>
+           e dall'header di corpus condiviso.</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2026-09-27" who="LL">Prima stesura dell'ODD di progetto (Fase 1): moduli,
+        eliminazione di &lt;lem&gt;, valList chiusa per handNote/@medium.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Personalizzazione TEI P5 — apparato senza <gi>lem</gi></head>
+        <p>Questo ODD definisce lo schema <hi rend="italic">bertolucci</hi>. Le radici ammesse sono
+           <gi>teiCorpus</gi> (corpus assemblato), <gi>TEI</gi> (singolo componimento) e
+           <gi>teiHeader</gi> (il file condiviso <hi rend="italic">header/corpus-header.xml</hi>, che è
+           un frammento da includere nel <gi>teiCorpus</gi> ma dev'essere validabile anche da solo).</p>
+        <p>La divisione del lavoro fra i due schemi generati è la seguente. Lo schema
+           <hi rend="italic">RNG</hi> garantisce la struttura, l'assenza di <gi>lem</gi> (eliminato qui
+           sotto) e il vocabolario chiuso dei mezzi scrittori. Il file <hi rend="italic">Schematron</hi>
+           (<hi rend="italic">bertolucci.isosch.sch</hi>) garantisce l'integrità relazionale che lo schema
+           di grammatica non può esprimere: che le sigle di <att>wit</att> comincino con «#» e rimandino a
+           un <gi>witness</gi> dichiarato, che i puntatori delle mani e delle responsabilità si risolvano,
+           che la lingua sia dichiarata con il codice corretto.</p>
+
+        <schemaSpec ident="bertolucci" start="TEI teiCorpus teiHeader" prefix="tei_"
+                    docLang="it" targetLang="it">
+
+          <!-- Moduli TEI necessari all'edizione -->
+          <moduleRef key="tei"/>            <!-- infrastruttura, datatype -->
+          <moduleRef key="core"/>           <!-- l, note, hi, gap, supplied, space, date, title... -->
+          <moduleRef key="header"/>         <!-- teiHeader, handNotes/handNote, variantEncoding... -->
+          <moduleRef key="textstructure"/>  <!-- TEI, teiCorpus, text, front, body, div, head -->
+          <moduleRef key="verse"/>          <!-- lg, l -->
+          <moduleRef key="transcr"/>        <!-- add, del, retrace, subst, restore, handShift -->
+          <moduleRef key="textcrit"/>       <!-- app, rdg, rdgGrp, listWit, witness, variantEncoding -->
+          <moduleRef key="msdescription"/>  <!-- msDesc e discendenti -->
+          <moduleRef key="namesdates"/>     <!-- persName, placeName, author/@key, origPlace... -->
+          <moduleRef key="linking"/>        <!-- ab (colophon), seg, link -->
+
+          <!-- ===== STATUTO: l'apparato non gerarchizza in lemma ⇒ elimino <lem> ===== -->
+          <elementSpec ident="lem" module="textcrit" mode="delete"/>
+
+          <!-- ===== Vocabolario controllato dei mezzi scrittori (handNote/@medium) ===== -->
+          <elementSpec ident="handNote" module="header" mode="change">
+            <attList>
+              <attDef ident="medium" mode="change">
+                <desc versionDate="2026-09-27" xml:lang="it">Mezzo scrittorio della mano, da vocabolario chiuso.</desc>
+                <valList type="closed">
+                  <valItem ident="inchiostro-nero"><gloss>penna, inchiostro nero</gloss></valItem>
+                  <valItem ident="inchiostro-blu"><gloss>penna, inchiostro blu</gloss></valItem>
+                  <valItem ident="matita-grigia"><gloss>matita di grafite</gloss></valItem>
+                  <valItem ident="dattiloscritto"><gloss>macchina da scrivere</gloss></valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+
+        </schemaSpec>
+
+        <p>Il vocabolario dei mezzi è deliberatamente breve e chiuso: ogni nuovo mezzo attestato negli
+           autografi va aggiunto qui (e, in parallelo, nel <att>medium</att> ammesso dallo Schematron)
+           prima di usarlo, così che la validazione resti un vero filtro.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
 
