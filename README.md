@@ -3,7 +3,7 @@
 *Edizione critico-genetica in TEI P5 degli autografi inediti di Attilio Bertolucci
 (1930–1940) conservati presso l'Archivio di Stato di Parma.*
 
-![TEI P5](https://img.shields.io/badge/TEI-P5-blue) ![Stato](https://img.shields.io/badge/stato-in%20reingegnerizzazione-orange) ![Licenza contenuti](https://img.shields.io/badge/contenuti-CC%20BY%204.0-green)
+![TEI P5](https://img.shields.io/badge/TEI-P5-blue) ![Stato](https://img.shields.io/badge/stato-attiva-brightgreen) ![Validazione](https://img.shields.io/badge/validazione-ODD%20%2B%20Schematron-blue) ![Documentazione](https://img.shields.io/badge/documentazione-CC%20BY%204.0-green) ![Testi](https://img.shields.io/badge/testi-%C2%A9%20protetti-lightgrey)
 
 ## Descrizione
 
@@ -12,7 +12,7 @@ autografi poetici inediti di Attilio Bertolucci (1930–1940), con l'obiettivo d
 rappresentare non un testo fisso ma il **processo di scrittura**: le fasi
 redazionali, le correzioni, le stratificazioni della pagina. La codifica segue le
 *Guidelines* della **TEI P5** ed è governata da uno schema di progetto (ODD) con
-controlli di integrità automatici.
+controlli di integrità automatici (Schematron) in integrazione continua.
 
 ## Oggetto e corpus
 
@@ -26,33 +26,35 @@ plurime, testi depennati, appunti d'autore).
 
 - **Standard:** TEI P5 (moduli *Header, Manuscript Description, Verse, Transcription
   of Primary Sources, Critical Apparatus, Linking*).
-- **Impianto:** critico-genetico. Il testo a testo è la lezione critica stabilita
-  dal curatore; le lezioni rappresentano le **fasi elaborative** dell'autografo,
-  ordinate cronologicamente e ancorate alla fase su base materiale (strumento
-  scrittorio, inchiostro, topografia).
+- **Apparato:** *parallel-segmentation* con `<app>`/`<rdg>` **senza `<lem>`** (scelta
+  statutaria): le fasi coesistono senza gerarchizzarle in un lemma; la lezione
+  critica è a sua volta un `<rdg>` (`#txt-c`), ordinata insieme alle altre da `@varSeq`.
 - **Fenomeni codificati:** aggiunte, cassature, sostituzioni, rivergature, spazi
   bianchi, lacune materiali e incertezze grafiche (`add`, `del`, `subst`,
   `retrace`, `space`, `gap`, `supplied`, `unclear`).
-- **Governance:** schema di progetto in **ODD** con regole **Schematron** per
-  l'integrità dei riferimenti interni e i vocabolari controllati; validazione
-  automatica in integrazione continua.
+- **Governance:** header di corpus unico (`teiCorpus`), vocabolari controllati
+  (mani/`medium`), validazione via **ODD + Schematron** con CI. Vedi
+  [`documentation/00-convenzioni.md`](documentation/00-convenzioni.md) e
+  [`schema/README.md`](schema/README.md).
 
 ## Contenuto del repository
 
 ```
-documentation/     Documentazione tecnica (Markdown) — vedi documentation/README.md
-README.md          Questo file
+README.md             questo file
+.gitignore            esclude lo strato privato (testi, immagini)
+.github/workflows/    CI di validazione (well-formedness + RNG + Schematron)
+documentation/        documentazione tecnica — vedi documentation/README.md
+schema/               ODD di progetto, RNG, Schematron — vedi schema/README.md
+header/               header di corpus condiviso (teiCorpus)
+build/                strumenti (migrazione; redazione e statistiche in arrivo)
 ```
 
-In corso di sviluppo (reingegnerizzazione, vedi [Stato](#stato-del-progetto)):
+In programma: `specimen/` (file TEI dimostrativi redatti, senza testo protetto),
+`analysis/` (statistiche delle varianti), `CITATION.cff` + DOI.
 
-```
-schema/               ODD di progetto, schema RNG, regole Schematron
-header/               Header di corpus condiviso (teiCorpus)
-specimen/             File TEI dimostrativi in forma redatta (senza testo protetto)
-analysis/             Statistiche delle varianti (senza testo)
-build/                Script di validazione, redazione e pubblicazione
-```
+> **Due strati.** Questo repository è il **motore pubblico** (metodo, schema,
+> strumenti). I file TEI col **testo integrale** vivono in uno **strato privato**
+> separato e non sono distribuiti qui (vedi *Diritti*).
 
 ## Diritti e disponibilità
 
@@ -67,10 +69,11 @@ build/                Script di validazione, redazione e pubblicazione
 
 ## Stato del progetto
 
-Progetto **in reingegnerizzazione**: migrazione dal precedente modello *Versioning
-Machine* a un impianto critico-genetico con ODD di progetto e header di corpus
-unico. La documentazione tecnica in `documentation/` descrive il modello di codifica
-ed è il riferimento metodologico dell'edizione.
+Reingegnerizzazione dal precedente modello *Versioning Machine* **consolidata**:
+header di corpus unico, vocabolari controllati e schema di progetto (ODD) con
+Schematron e CI sono **attivi**. È in corso la **migrazione** dei file del corpus
+al nuovo modello (strato privato). La documentazione tecnica in `documentation/` è
+il riferimento metodologico dell'edizione.
 
 ## Come citare
 
