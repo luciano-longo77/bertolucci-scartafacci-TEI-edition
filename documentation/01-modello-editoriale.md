@@ -4,7 +4,7 @@
 *Edizione critico-genetica in TEI P5 degli autografi inediti di Attilio Bertolucci
 (1930–1940) conservati presso l'Archivio di Stato di Parma.*
 
-![TEI P5](https://img.shields.io/badge/TEI-P5-blue) ![Stato](https://img.shields.io/badge/stato-in%20reingegnerizzazione-orange) ![Licenza contenuti](https://img.shields.io/badge/contenuti-CC%20BY%204.0-green)
+![TEI P5](https://img.shields.io/badge/TEI-P5-blue) ![Stato](https://img.shields.io/badge/stato-attiva-brightgreen) ![Documentazione](https://img.shields.io/badge/documentazione-CC%20BY%204.0-green) ![Testi](https://img.shields.io/badge/testi-%C2%A9%20protetti-lightgrey)
 
 ## 1.1 Che cosa è l'edizione
 
@@ -19,21 +19,22 @@ le fasi, le correzioni, le alternative non risolte.
 
 ## 1.2 Le fasi elaborative
 
-Le campagne correttorie sono ricondotte a **fasi** identificate materialmente. Le
-sigle usate nell'apparato rimandano a questi momenti:
+Le campagne correttorie sono ricondotte a **fasi** identificate materialmente e
+dichiarate, in ciascun file, in `<front><listWit>` (ogni fase è un `<witness>`).
+Le sigle usate nell'apparato rimandano a questi momenti:
 
-| Sigla | Significato |
-|---|---|
-| `txt-c` | testo criticamente ricostruito dal curatore (Tc) |
-| `txt-1` | prima stesura (Tb0) |
-| `txt-2` | interventi successivi (Tb1) |
-| `txt-3`, `txt-4`… | fasi ulteriori (T1, T3…) |
+| `xml:id` | Sigla | Significato |
+|---|---|---|
+| `txt-c` | **Tc** | testo criticamente ricostruito dal curatore |
+| `txt-1` | **Tb0** | prima stesura (*base*) |
+| `txt-2` | **Tb1** | correzione successiva nella **stessa campagna** (stesso strumento) |
+| `txt-3`… | **T1**, **T2**… | campagne **distinte** e più tarde (es. la matita) |
 
-> **» In evoluzione.** Nella reingegnerizzazione le fasi saranno dichiarate una
-> sola volta a livello di corpus (in `<listChange>`) e richiamate dagli interventi
-> con `@change`/`@varSeq`, così da rendere l'ordine cronologico *estraibile
-> automaticamente*. La logica resta identica; cambia il punto in cui le fasi sono
-> dichiarate.
+**`xml:id` e sigla sono indipendenti.** L'`xml:id` è posizionale (`txt-1`, `txt-2`…
+in ordine di comparsa); la sigla esprime il senso genetico. Un testo con sole due
+fasi avrà `txt-1`=Tb0 e `txt-2`=**T1** (senza Tb1). La cronologia è resa
+*machine-actionable* da **`@varSeq`** sui `<rdg>` (interi crescenti). Regole
+normative in [00 – Convenzioni §1](00-convenzioni.md).
 
 ## 1.3 Criterio dell'apparato: nessun lemma
 
