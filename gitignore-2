@@ -1,0 +1,43 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  .gitignore — motore pubblico «Scartafacci» di Attilio Bertolucci
+#  Tiene fuori dal repo pubblico tutto ciò che è protetto o di lavoro.
+#  Regola d'oro: se contiene testo poetico integrale o immagini dei manoscritti,
+#  NON deve mai essere tracciato da Git.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# === STRATO PRIVATO: i testi integrali (protetti) ===========================
+texts/
+
+# === IMMAGINI DEI MANOSCRITTI (mai online) ==================================
+images/
+facsimile/
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+
+# === Validatore dell'ODD (file standard TEI, non fa parte dell'edizione) =====
+tei_odds.rng
+
+# === Pipeline Schematron generata in locale / strumenti scaricati ===========
+_*.sch
+_validator.xsl
+_svrl.xml
+*.jar
+
+# === File temporanei e di backup di oXygen / editor XML =====================
+*.bak
+*.tmp
+*~
+.oxygen/
+*.xpr.bak
+
+# === Sistema operativo ======================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Varie di lavoro ========================================================
+scratch/
+*.log
