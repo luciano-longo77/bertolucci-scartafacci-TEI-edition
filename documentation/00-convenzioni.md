@@ -33,11 +33,23 @@ Sigle **normative** (ogni file le dichiara in `<front><listWit>`; il numero di f
 |---|---|---|
 | `txt-c` | **Tc** | testo criticamente ricostruito |
 | `txt-1` | **Tb0** | prima stesura (*base*) |
-| `txt-2` | **Tb1** | interventi della stessa campagna |
-| `txt-3` | **T1** | intervento successivo, campagna distinta |
+| `txt-2` | **Tb1** | correzione successiva nella **stessa campagna** (stesso strumento) |
+| `txt-3` | **T1** | intervento di una campagna **distinta** e più tarda (es. matita) |
 
-Regola: `xml:id` sequenziali senza salti (`txt-c`, `txt-1`, `txt-2`…); `@varSeq` interi crescenti;
-`#txt-c` di norma senza `@varSeq`; lezioni identiche accorpate (`wit="#txt-c #txt-1"`).
+**`xml:id` e sigla sono indipendenti.** L'`xml:id` è **posizionale** (`txt-c`, poi `txt-1`, `txt-2`… in
+ordine di comparsa, senza salti); la **sigla** nel `<witness>` esprime il **senso genetico** e non è legata
+al numero. Un componimento con sole due fasi avrà `txt-1`=Tb0 e `txt-2`=**T1** (senza Tb1): **non** dare per
+scontato che `txt-2`≡Tb1.
+
+**Come crescono le sigle.** `Tb0, Tb1, Tb2…` = interventi successivi con lo **stesso strumento** della base
+(campagna a inchiostro); `T1, T2…` = campagne **distinte** e più tarde (es. la matita); `Tc` = testo critico.
+
+**Quando una correzione apre una fase.** Solo se **cambia la lezione** (cassature, aggiunte, sostituzioni
+sostanziali). Una correzione istantanea *a penna currente* che non altera il testo resta dentro la sua
+fase: una fase nuova deve avere un contenuto testuale reale, non un micro-fenomeno materiale.
+
+Regola tecnica: `@varSeq` interi crescenti; `#txt-c` di norma senza `@varSeq`; lezioni identiche accorpate
+(`wit="#txt-c #txt-1"`).
 
 ---
 
@@ -54,9 +66,14 @@ Regola: `xml:id` sequenziali senza salti (`txt-c`, `txt-1`, `txt-2`…); `@varSe
 `handNote/@medium` è a vocabolario **chiuso** (imposto dallo schema). → scheda
 [`03-mani-e-medium.md`](03-mani-e-medium.md).
 
-| `@medium` ammessi | Mani standard |
+| `@medium` ammessi | Mani standard (uso *tipico*) |
 |---|---|
-| `inchiostro-nero`, `inchiostro-blu`, `matita-grigia`, `dattiloscritto` | `#pen1` = `inchiostro-nero` (Tb0/Tb1) · `#pen2` = `matita-grigia` (T1) |
+| `inchiostro-nero`, `inchiostro-blu`, `matita-grigia`, `dattiloscritto` | `#pen1` = `inchiostro-nero` (fasi a inchiostro) · `#pen2` = `matita-grigia` (interventi a matita) |
+
+**Una mano, un mezzo.** Ogni `<handNote>` dichiara **un solo** `@medium`. Se in un autografo convivono più
+strumenti (inchiostro + matita), si dichiarano **più mani** (`#pen1`, `#pen2`), **mai** un `@medium`
+composito (es. `black_ink+pencil`). L'associazione mano→fase (`#pen1`→inchiostro, `#pen2`→matita) è
+*tipica*, non una legge: conta lo strumento osservato sull'autografo.
 
 > Aggiungere un mezzo = **due** modifiche coordinate: `valList` nell'ODD **e** `$medium-ammessi` nello
 > Schematron.
@@ -68,13 +85,27 @@ Regola: `xml:id` sequenziali senza salti (`txt-c`, `txt-1`, `txt-2`…); `@varSe
 Modulo `transcr`, sempre con `@hand`. → scheda [`05-fenomeni-materiali.md`](05-fenomeni-materiali.md).
 
 `<del>` · `<add>` · `<subst>` (**almeno un `del` e un `add`**) · `<retrace>` · `<gap>` ·
-`<supplied resp="#LL">` · `<space>`. Gli interventi stanno **dentro** i `<rdg>` delle fasi in cui avvengono.
+`<supplied resp="#LL">` · `<space>`. Gli interventi che **cambiano la lezione** stanno **dentro** i `<rdg>`
+delle fasi in cui avvengono.
+
+**Rivergature e fenomeni materiali che non cambiano la lezione.** Un ripasso di lettera (`<retrace>`) che
+non altera il testo **non è una variante** e **non va in apparato**: si marca **in linea** nel verso, con
+una `<note type="physical">`. Niente `<app>` con `<rdg>` identici solo per ospitare un ripasso.
+
+```xml
+<l n="11">Oh com<retrace rend="overwritten" hand="#pen1">e</retrace> è stata tua stagione breve
+   <note type="physical">La -e- è rivergata con lo stesso inchiostro del resto del ms.</note></l>
+```
+
+> Nota tecnica: su `<retrace>` usare `@hand` (chi), non `@change` — `@change` punta a un elemento
+> `<change>`, non a un testimone.
 
 ---
 
 ## 5. Note, lingua, struttura
 
-- **`<note>`/@type** raccomandati: `critical`, `physical`, `biographical` (assenza ammessa).
+- **`<note>`/@type** raccomandati: `critical`, `physical`, `biographical`, `metrical`, `context`
+  (assenza ammessa).
 - **Lingua**: `xml:lang="it"` sul `<TEI>`; `<language ident="it">` (codice `it`, non «italiano»).
 - **Struttura**: `<body>` › `<div type="poem">` › `<lg>` › `<l n="…">`; titolo in `<head>`, colophon in
   `<ab type="colophon">`. → scheda [`06-struttura-del-testo.md`](06-struttura-del-testo.md).
@@ -97,5 +128,5 @@ Modulo `transcr`, sempre con `@hand`. → scheda [`05-fenomeni-materiali.md`](05
 
 ---
 
-*Ultimo aggiornamento: 2026-09-27. Ogni modifica alle regole vincolanti va riportata insieme nell'ODD,
+*Ultimo aggiornamento: 2026-11-16. Ogni modifica alle regole vincolanti va riportata insieme nell'ODD,
 nello Schematron e in questa pagina.*
